@@ -11,8 +11,8 @@
 		<control type="panel" id="56">
 			<viewtype label="PosterGrid">icon</viewtype>
 			<visible>Container.Content(movies) | substring(container.folderpath,plugin://plugin.program.advanced.launcher)</visible>
-			<posx>520</posx>
-			<posy>132</posy>
+			<left>520</left>
+			<top>132</top>
 			<width>800</width>
 			<height>482</height>
 			<scrolltime>200</scrolltime>
@@ -30,8 +30,8 @@
 		<control type="panel" id="59">
 			<viewtype label="WideGrid">icon</viewtype>
 			<visible>Container.Content(tvshows) | substring(container.folderpath,plugin://plugin.program.advanced.launcher)</visible>
-			<posx>595</posx>
-			<posy>128</posy>
+			<left>595</left>
+			<top>128</top>
 			<width>800</width>
 			<height>485</height>
 			<scrolltime>200</scrolltime>
@@ -48,8 +48,8 @@
 		<control type="panel" id="62">
 			<viewtype label="SquareGrid">icon</viewtype>
 			<visible>!Container.Content(Seasons) + !Container.Content(Movies) + Window.IsVisible(Videos,Files) + !Container.Content(genres) | substring(container.folderpath,plugin://plugin.program.advanced.launcher) | Window.IsActive(1)</visible>
-			<posx>524</posx>
-			<posy>128</posy>
+			<left>524</left>
+			<top>128</top>
 			<width>800</width>
 			<height>482</height>
 			<scrolltime>200</scrolltime>
@@ -68,14 +68,14 @@
 		<!-- Info Panel -->
 		
 		<control type="group">
-			<posx>-36</posx>
-			<posy>-5</posy>
+			<left>-36</left>
+			<top>-5</top>
 			<visible>Container.Content(Movies) | Container.Content(TVShows) | SubString(Container.Folderpath,plugin://plugin.program.advanced.launcher) | Window.IsActive(1) | Window.IsVisible(Videos,Files)</visible>
 			<visible>Control.IsVisible(56) | Control.IsVisible(59) | Control.IsVisible(62)</visible>
 			<!-- FANART + BORDER -->
 			<control type="image">
-				<posx>78</posx>
-				<posy>137</posy>
+				<left>78</left>
+				<top>137</top>
 				<width>447</width>
 				<height>258</height>
 				<texture fallback="special://skin/extras/backgrounds/advancedlauncher.jpg" background="true" diffuse="info/fandiffuse.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -83,8 +83,8 @@
 				<aspectratio>scale</aspectratio>
 			</control>
 			<control type="image">
-				<posx>78</posx>
-				<posy>137</posy>
+				<left>78</left>
+				<top>137</top>
 				<width>447</width>
 				<height>258</height>
 				<texture>$INFO[ListItem.path]landscape.jpg</texture> 
@@ -93,8 +93,8 @@
 				<aspectratio>scale</aspectratio>
 			</control>
 			<control type="image">
-				<posx>53</posx>
-				<posy>112</posy>
+				<left>53</left>
+				<top>112</top>
 				<width>497</width>
 				<height>308</height>
 				<aspectratio>stretch</aspectratio>
@@ -103,8 +103,8 @@
 			</control>
 			<!-- GLOBAL TITLE -->
 			<control type="label">
-				<posx>80</posx>
-				<posy>77</posy>
+				<left>80</left>
+				<top>77</top>
 				<width>1120</width>
 				<height>94</height>
 				<aligny>top</aligny>
@@ -117,8 +117,8 @@
 			<!-- MOVIE INFO -->
 			<control type="label">
 			<visible>Container.Content(Movies) + !IsEmpty(ListItem.FileName)</visible>
-				<posx>80</posx>
-				<posy>406</posy>
+				<left>80</left>
+				<top>406</top>
 				<width>440</width>
 				<height>35</height>
 				<font>tvtitle3</font>
@@ -128,8 +128,8 @@
 			</control>
 			<control type="label">
 			<visible>Container.Content(Movies) + IsEmpty(ListItem.FileName)</visible>
-				<posx>80</posx>
-				<posy>406</posy>
+				<left>80</left>
+				<top>406</top>
 				<width>440</width>
 				<height>35</height>
 				<font>tvtitle3</font>
@@ -141,8 +141,8 @@
 			<!-- ADVANCED LAUNCHER INFO -->
 			<control type="label">
 			<visible>SubString(Container.Folderpath,plugin://plugin.program.advanced.launcher)</visible>
-				<posx>80</posx>
-				<posy>405</posy>
+				<left>80</left>
+				<top>405</top>
 				<width>440</width>
 				<height>35</height>
 				<font>tvtitle3</font>
@@ -152,8 +152,8 @@
 			</control>
 			<!-- GLOBAL PLOT FIELD -->
 			<control type="textbox">
-				<posx>80</posx>
-				<posy>440</posy>
+				<left>80</left>
+				<top>440</top>
 				<width>442</width>
 				<height>162</height>
 				<font>about</font>
@@ -165,8 +165,8 @@
 			</control>
 			<!-- ADDON PLOT FIELD -->
 			<control type="textbox">
-				<posx>80</posx>
-				<posy>440</posy>
+				<left>80</left>
+				<top>440</top>
 				<width>442</width>
 				<height>162</height>
 				<font>about</font>
@@ -178,8 +178,8 @@
 			</control>
 			<!-- IMDB TOP 250 & PERCENT PLAYED-->
 			<control type="grouplist">
-			<posx>80</posx>
-			<posy>610</posy>
+			<left>80</left>
+			<top>610</top>
 			<width>600</width>
 			<height>40</height>
 			<align>left</align>
@@ -228,14 +228,14 @@
 		<!-- Info Panel TV Logos Enabled-->
 		
 		<control type="group">
-			<posx>-36</posx>
-			<posy>59</posy>
+			<left>-36</left>
+			<top>59</top>
 			<visible>Container.Content(TVShows) + Skin.HasSetting(Logos)</visible>
 			<visible>Control.IsVisible(56) | Control.IsVisible(59) | Control.IsVisible(62)</visible>
 			<!-- LOGO -->
 			<control type="largeimage" id="44"> 
-				<posx>80</posx> 
-				<posy>-5</posy> 
+				<left>80</left> 
+				<top>-5</top> 
 				<width>166</width>
 				<height>64</height> 
 				<texture>$INFO[ListItem.path]logo.png</texture> 
@@ -247,8 +247,8 @@
 			<!-- FANART + BORDER -->
 			<!-- MOVIE INFO -->
 			<control type="label">
-				<posx>79</posx>
-				<posy>340</posy>
+				<left>79</left>
+				<top>340</top>
 				<width>448</width>
 				<height>35</height>
 				<font>tvtitle3</font>
@@ -262,8 +262,8 @@
 		<!-- Scroll Bar -->
 
 		<control type="scrollbar" id="71">
-			<posx>1264</posx>
-			<posy>136</posy>
+			<left>1264</left>
+			<top>136</top>
 			<width>8</width>
 			<height>450</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(62) + Control.HasFocus(71)</visible>
@@ -279,8 +279,8 @@
 		<!-- Scroll Bar -->
 
 		<control type="scrollbar" id="70">
-			<posx>1264</posx>
-			<posy>146</posy>
+			<left>1264</left>
+			<top>146</top>
 			<width>8</width>
 			<height>450</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(59) + Control.HasFocus(70)</visible>
@@ -296,8 +296,8 @@
 		<!-- Scroll Bar -->
 					
 		<control type="scrollbar" id="69">
-			<posx>1260</posx>
-			<posy>148</posy>
+			<left>1260</left>
+			<top>148</top>
 			<width>6</width>
 			<height>450</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(56) + Control.HasFocus(69)</visible>
@@ -315,8 +315,8 @@
 	<include name="SquarePanel">
 		<itemlayout width="120" height="120">
 			<control type="image">
-				<posx>6</posx>
-				<posy>6</posy>
+				<left>6</left>
+				<top>6</top>
 				<width>110</width>
 				<height>110</height>
 				<texture background="true" diffuse="square/squarematteNF.png">$INFO[ListItem.Icon]</texture>
@@ -325,8 +325,8 @@
 		</itemlayout>
 		<focusedlayout width="120" height="120">
 			<control type="image">
-				<posx>6</posx>
-				<posy>6</posy>
+				<left>6</left>
+				<top>6</top>
 				<width>110</width>
 				<height>110</height>
 				<texture background="true" diffuse="square/squarematteFO.png">$INFO[ListItem.Icon]</texture>
@@ -337,8 +337,8 @@
 				<aspectratio scalediffuse="false">stretch</aspectratio>
 			</control>
 			<control type="image">
-				<posx>-7</posx>
-				<posy>-7</posy>
+				<left>-7</left>
+				<top>-7</top>
 				<width>134</width>
 				<height>134</height>
 				<texture>grid/squareborder.png</texture>
@@ -352,8 +352,8 @@
 	<include name="TallPanel">
 		<itemlayout width="120" height="160">		
 			<control type="image">
-				<posx>16</posx>
-				<posy>6</posy>
+				<left>16</left>
+				<top>6</top>
 				<width>106</width>
 				<height>150</height>
 				<texture background="true" diffuse="grid/posterdiffuse.png">$INFO[ListItem.Icon]</texture>
@@ -361,8 +361,8 @@
 				<colordiffuse>FFFFFFFF</colordiffuse>
 			</control>
 			<control type="image">
-				<posx>16</posx>
-				<posy>6</posy>
+				<left>16</left>
+				<top>6</top>
 				<width>106</width>
 				<height>150</height>
 				<texture diffuse="grid/posterdiffuse.png">white.png</texture>
@@ -370,8 +370,8 @@
 				<colordiffuse>10FFFFFF</colordiffuse>
 			</control>
 			<control type="image">
-				<posy>133</posy>
-				<posx>100</posx>
+				<top>133</top>
+				<left>100</left>
 				<width>32</width>
 				<height>32</height>
 				<aspectratio>keep</aspectratio>
@@ -381,8 +381,8 @@
 		</itemlayout>
 		<focusedlayout width="176" height="220">
 			<control type="image">
-				<posx>15</posx>
-				<posy>6</posy>
+				<left>15</left>
+				<top>6</top>
 				<width>106</width>
 				<height>150</height>
 				<texture background="true" diffuse="grid/posterdiffuse.png">$INFO[ListItem.Icon]</texture>
@@ -393,8 +393,8 @@
 				<aspectratio scalediffuse="false">stretch</aspectratio>
 			</control>
 			<control type="image">
-				<posx>2</posx>
-				<posy>-6</posy>
+				<left>2</left>
+				<top>-6</top>
 				<width>132</width>
 				<height>174</height>
 				<texture>grid/posterborder.png</texture>
@@ -405,8 +405,8 @@
 				<aspectratio scalediffuse="false">stretch</aspectratio>
 			</control>
 			<control type="image">
-				<posy>120</posy>
-				<posx>77</posx>
+				<top>120</top>
+				<left>77</left>
 				<width>36</width>
 				<height>36</height>
 				<aspectratio>keep</aspectratio>
@@ -428,8 +428,8 @@
 	<include name="WidePanel">
 		<itemlayout width="340" height="70">
 					<control type="image">
-					  <posx>6</posx>
-					  <posy>6</posy>
+					  <left>6</left>
+					  <top>6</top>
 					  <width>569</width>
 					  <height>105</height>
 					  <texture>$INFO[listitem.actualicon]</texture>
@@ -438,8 +438,8 @@
 					  <visible>IsEmpty(ListItem.Thumb)</visible>
 				  </control>
 			<control type="image">
-				<posx>6</posx>
-				<posy>6</posy>
+				<left>6</left>
+				<top>6</top>
 				<width>569</width>
 				<height>105</height>
 				<texture background="true" diffuse="grid/widediffuse.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -449,8 +449,8 @@
 			</control>
 			<!--BANNER.JPG SETTING-->
 			<control type="image">
-				<posx>6</posx>
-				<posy>6</posy>
+				<left>6</left>
+				<top>6</top>
 				<width>285</width>
 			    <height>53</height>
 				<texture background="true" diffuse="banner/bannerdiff.png">$INFO[ListItem.Path]banner.jpg</texture>
@@ -460,8 +460,8 @@
 			</control>
 			<!--GAME POSTER-->
 			<control type="image">
-				<posx>6</posx>
-				<posy>6</posy>
+				<left>6</left>
+				<top>6</top>
 				<width>170</width>
 				<height>110</height>
 				<texture background="true" diffuse="grid/widediffuse.png">$INFO[ListItem.Thumb]</texture>
@@ -470,8 +470,8 @@
 				<visible>substring(container.folderpath,plugin://plugin.program.advanced.launcher)</visible>
 			</control>
 			<control type="image">
-				<posx>6</posx>
-				<posy>6</posy>
+				<left>6</left>
+				<top>6</top>
 				<width>170</width>
 				<height>110</height>
 				<texture background="true" diffuse="grid/widediffuse.png">$INFO[ListItem.Icon]</texture>
@@ -482,8 +482,8 @@
 		</itemlayout>
 		<focusedlayout width="350" height="80">
 			<control type="image">
-				<posx>6</posx>
-				<posy>6</posy>
+				<left>6</left>
+				<top>6</top>
 				<width>170</width>
 				<height>110</height>
 				<texture background="true" diffuse="grid/widefodiffuse.png">$INFO[ListItem.Icon]</texture>
@@ -495,8 +495,8 @@
 				 <visible>IsEmpty(ListItem.Thumb)</visible>
 			</control>
 			<control type="image">
-				<posx>6</posx>
-				<posy>6</posy>
+				<left>6</left>
+				<top>6</top>
 				<width>170</width>
 				<height>110</height>
 				<texture diffuse="grid/widefodiffuse.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -509,8 +509,8 @@
 			</control>
 			<!--BANNER.JPG SETTING-->
 			<control type="image">
-				<posx>6</posx>
-				<posy>6</posy>
+				<left>6</left>
+				<top>6</top>
 				<width>285</width>
 			    <height>53</height>
 				<texture background="true" diffuse="banner/bannerdiff.png">$INFO[ListItem.Path]banner.jpg</texture>
@@ -523,8 +523,8 @@
 			</control>
 			<!--GAME POSTER-->
 			<control type="image">
-				<posx>6</posx>
-				<posy>6</posy>
+				<left>6</left>
+				<top>6</top>
 				<width>170</width>
 				<height>110</height>
 				<texture diffuse="grid/widefodiffuse.png">$INFO[ListItem.Thumb]</texture>
@@ -536,8 +536,8 @@
 				<visible>substring(container.folderpath,plugin://plugin.program.advanced.launcher)</visible>
 			</control>
 			<control type="image">
-				<posx>6</posx>
-				<posy>6</posy>
+				<left>6</left>
+				<top>6</top>
 				<width>170</width>
 				<height>110</height>
 				<texture background="true" diffuse="grid/widefodiffuse.png">$INFO[ListItem.Icon]</texture>
@@ -549,8 +549,8 @@
 				<visible>Container.Content(Episodes) | Window.IsActive(pictures)</visible>
 			</control>
 					<control type="image">
-					  <posx>6</posx>
-					  <posy>6</posy>
+					  <left>6</left>
+					  <top>6</top>
 					  <width>170</width>
 					  <height>110</height>
 					  <texture>$INFO[listitem.actualicon]</texture>
@@ -564,8 +564,8 @@
 
 
 			<!--control type="image">
-				<posx>21</posx>
-				<posy>8</posy>
+				<left>21</left>
+				<top>8</top>
 				<width>440</width>
 				<height>104</height>
 				<texture>grid/wideborder.png</texture>

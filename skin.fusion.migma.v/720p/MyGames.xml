@@ -57,16 +57,16 @@
 			</control>
 		<control type="image">
 			<description>Section header image</description>
-			<posx>20</posx>
-			<posy>3</posy>
+			<left>20</left>
+			<top>3</top>
 			<width>35</width>
 			<height>35</height>
 			<aspectratio>keep</aspectratio>
 			<texture>icon_pictures.png</texture>
 		</control>
 		<control type="grouplist">
-			<posx>65</posx>
-			<posy>5</posy>
+			<left>65</left>
+			<top>5</top>
 			<width>1000</width>
 			<height>30</height>
 			<orientation>horizontal</orientation>
@@ -83,12 +83,12 @@
 			</control>
 		</control>
 		<control type="group">
-			<posx>-250</posx>
+			<left>-250</left>
 			<include>SideBladeLeft</include>
 				<control type="grouplist">
 				<description>Media Codec Flagging Images</description>
-				<posx>4</posx>
-				<posy>661</posy>
+				<left>4</left>
+				<top>661</top>
 				<width>600</width>
 				<align>left</align>
 				<itemgap>0</itemgap>

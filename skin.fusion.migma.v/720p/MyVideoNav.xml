@@ -9,8 +9,8 @@
 	<include>FusionStyles</include>
 
 	<control type="image">
-		<posx>0</posx>
-		<posy>53</posy>
+		<left>0</left>
+		<top>53</top>
 		<width>1280</width>
 		<height>720</height>
 		<texture background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -39,8 +39,8 @@
 	</control>
 
 	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1280</width>
 		<height>720</height>
 		<texture background="true">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -69,8 +69,8 @@
 	</control>
 
 	<control type="image">
-		<posx>0</posx>
-		<posy>53</posy>
+		<left>0</left>
+		<top>53</top>
 		<width>1280</width>
 		<height>720</height>
 		<texture background="true">$INFO[ListItem.Label,special://skin/extras/genre/video/fanart/,.jpg]</texture>
@@ -90,8 +90,8 @@
 	</control>
 	
 	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1280</width>
 		<height>720</height>
 		<texture background="true">$INFO[ListItem.Label,special://skin/extras/genre/video/fanart/,.jpg]</texture>
@@ -116,8 +116,8 @@
 	<animation effect="slide" start="0,0" end="0,260" time="700" delay="0" reversible="false" condition="Window.IsVisible(2003) | Window.IsVisible(146)">Conditional</animation>
 	<animation effect="slide" start="0,260" end="0,0" time="700" delay="0" reversible="false" condition="!Window.IsVisible(2003) + !Window.IsVisible(146)">Conditional</animation>
 	<control type="image">
-		<posx>0</posx>
-		<posy>654</posy>
+		<left>0</left>
+		<top>654</top>
 		<width>1280</width>
 		<height>70</height>
 		<aspectratio>stretch</aspectratio>
@@ -127,8 +127,8 @@
 		<visible>!Control.IsVisible(52) + !Control.IsVisible(53)</visible>
 	</control>
 	<control type="image">
-		<posx>0</posx>
-		<posy>715</posy>
+		<left>0</left>
+		<top>715</top>
 		<width>1280</width>
 		<height>5</height>
 		<aspectratio>stretch</aspectratio>
@@ -139,8 +139,8 @@
 		<animation effect="slide" start="0,0" end="0,15" delay="0" time="600" reversable="false">WindowClose</animation>
 	</control>
 	<control type="image">
-		<posx>0</posx>
-		<posy>715</posy>
+		<left>0</left>
+		<top>715</top>
 		<width>1280</width>
 		<height>5</height>
 		<aspectratio>stretch</aspectratio>
@@ -152,8 +152,8 @@
 		<animation effect="slide" start="0,0" end="0,15" delay="0" time="600" reversable="false">WindowClose</animation>
 	</control>
 	<control type="image">
-		<posx>0</posx>
-		<posy>654</posy>
+		<left>0</left>
+		<top>654</top>
 		<width>1280</width>
 		<height>1</height>
 		<aspectratio>stretch</aspectratio>
@@ -165,8 +165,8 @@
 
 	<control type="grouplist">
 		<description>Media Codec Flagging Images</description>
-		<posx>4</posx>
-		<posy>661</posy>
+		<left>4</left>
+		<top>661</top>
 		<width>600</width>
 		<align>left</align>
 		<itemgap>0</itemgap>
@@ -234,12 +234,12 @@
 	<include>InfoOpenClose</include>
 	<include>ContextFade</include>
 <visible>Container.Content(Seasons) + stringcompare(Container.ViewMode,SeasonWrap) + !Skin.HasSetting(Logos)</visible>
-	<posx>190</posx>
-	<posy>138</posy>
+	<left>190</left>
+	<top>138</top>
 	<animation effect="slide" end="0,-90" time="250" tween="circle" easing="inout" condition="Container.Content(Seasons)">Conditional</animation>
 		<control type="image">
-			<posx>22</posx>
-			<posy>-17</posy>
+			<left>22</left>
+			<top>-17</top>
 			<width>854</width>
 			<height>481</height>
 			<aspectratio>stretch</aspectratio>
@@ -247,8 +247,8 @@
 			<texture background="true" diffuse="infowrap/fanartdiffuse.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
 		</control>
 		<control type="multiimage">
-			<posx>22</posx>
-			<posy>-17</posy>
+			<left>22</left>
+			<top>-17</top>
 			<width>854</width>
 			<height>482</height>
 			<timeperimage>4000</timeperimage>
@@ -261,16 +261,16 @@
 			<imagepath background="true" diffuse="infowrap/fanartdiffuse.png">$INFO[ListItem.path,,extrafanart/]</imagepath>
 		</control>
 		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<width>899</width>
 			<height>338</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>infowrap/fanartborder.png</texture>
 		</control>
 		<control type="image">
-			<posx>205</posx>
-			<posy>310</posy>
+			<left>205</left>
+			<top>310</top>
 			<width>35</width>
 			<height>35</height>
 			<aspectratio>keep</aspectratio>
@@ -283,12 +283,12 @@
 	<include>InfoOpenClose</include>
 	<include>ContextFade</include>
 <visible>Container.Content(Seasons) + stringcompare(Container.ViewMode,SeasonWrap) + Skin.HasSetting(Logos)</visible>
-	<posx>190</posx>
-	<posy>186</posy>
+	<left>190</left>
+	<top>186</top>
 	<animation effect="slide" end="0,-140" time="250" tween="circle" easing="inout" condition="Container.Content(Seasons)">Conditional</animation>
 		<control type="image">
-			<posx>22</posx>
-			<posy>-17</posy>
+			<left>22</left>
+			<top>-17</top>
 			<width>854</width>
 			<height>482</height>
 			<aspectratio>stretch</aspectratio>
@@ -297,8 +297,8 @@
 		</control>
 		<control type="multiimage">
 			<effect type="fade" start="0" end="100" delay="500" time="300" reversible="true" />
-			<posx>22</posx>
-			<posy>-17</posy>
+			<left>22</left>
+			<top>-17</top>
 			<width>854</width>
 			<height>482</height>
 			<timeperimage>4000</timeperimage>
@@ -311,16 +311,16 @@
 			<imagepath background="true" diffuse="infowrap/fanartdiffuse.png">$INFO[ListItem.path,,extrafanart/]</imagepath>
 		</control>
 		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<width>899</width>
 			<height>338</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>infowrap/fanartborder.png</texture>
 		</control>
 		<control type="image">
-			<posx>205</posx>
-			<posy>310</posy>
+			<left>205</left>
+			<top>310</top>
 			<width>35</width>
 			<height>35</height>
 			<aspectratio>keep</aspectratio>
@@ -333,12 +333,12 @@
 	<include>InfoOpenClose</include>
 	<include>ContextFade</include>
 <visible>Container.Content(TVShows) + stringcompare(Container.ViewMode,infowrap) + !Skin.HasSetting(Logos)</visible>
-	<posx>190</posx>
-	<posy>138</posy>
+	<left>190</left>
+	<top>138</top>
 	<animation effect="slide" end="0,-90" time="250" tween="circle" easing="inout" condition="Container.Content(Seasons) + !Skin.HasSetting(Logos)">Conditional</animation>
 		<control type="image">
-			<posx>22</posx>
-			<posy>-17</posy>
+			<left>22</left>
+			<top>-17</top>
 			<width>854</width>
 			<height>482</height>
 			<aspectratio>stretch</aspectratio>
@@ -346,16 +346,16 @@
 			<texture background="true" diffuse="infowrap/fanartdiffuse.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
 		</control>
 		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<width>899</width>
 			<height>338</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>infowrap/fanartborder.png</texture>
 		</control>
 		<control type="image">
-			<posx>205</posx>
-			<posy>310</posy>
+			<left>205</left>
+			<top>310</top>
 			<width>35</width>
 			<height>35</height>
 			<aspectratio>keep</aspectratio>
@@ -369,12 +369,12 @@
 	<include>InfoOpenClose</include>
 	<include>ContextFade</include>
 <visible>Container.Content(TVShows) + stringcompare(Container.ViewMode,infowrap) + Skin.HasSetting(Logos)</visible>
-	<posx>190</posx>
-	<posy>186</posy>
+	<left>190</left>
+	<top>186</top>
 	<animation effect="slide" end="0,-140" time="250" tween="circle" easing="inout" condition="Container.Content(Seasons) + Skin.HasSetting(Logos)">Conditional</animation>
 		<control type="image">
-			<posx>22</posx>
-			<posy>-17</posy>
+			<left>22</left>
+			<top>-17</top>
 			<width>854</width>
 			<height>482</height>
 			<aspectratio>stretch</aspectratio>
@@ -382,16 +382,16 @@
 			<texture background="true" diffuse="infowrap/fanartdiffuse.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
 		</control>
 		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<width>899</width>
 			<height>338</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>infowrap/fanartborder.png</texture>
 		</control>
 		<control type="image">
-			<posx>205</posx>
-			<posy>310</posy>
+			<left>205</left>
+			<top>310</top>
 			<width>35</width>
 			<height>35</height>
 			<aspectratio>keep</aspectratio>
@@ -409,7 +409,7 @@
 </control>
 
 <control type="group">
-	<posy>-53</posy>
+	<top>-53</top>
 	<visible>Skin.HasSetting(HideNavBar)</visible>
 	<animation effect="slide" start="0,0" end="0,53" time="250" condition="Control.HasFocus(300)">Conditional</animation>
 	<include>DropDownBar</include>

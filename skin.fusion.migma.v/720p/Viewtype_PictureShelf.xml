@@ -6,8 +6,8 @@
 			<visible>Container.Content(Episodes)</visible>
 			<include>Keyboard</include>
 		<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>1280</width>
 				<height>720</height>
 				<aspectratio>keep</aspectratio>
@@ -16,10 +16,10 @@
 				<visible>Control.IsVisible(545)</visible>
 		</control>						
 		<control type="group">
-			<posy>-5</posy>
+			<top>-5</top>
 			<control type="image">
-				<posx>-5</posx>
-				<posy>120r</posy>
+				<left>-5</left>
+				<top>120r</top>
 				<width>1280</width>
 				<height>159</height>
 				<aspectratio>stretch</aspectratio>
@@ -35,8 +35,8 @@
 			</control>
 			<!--
 			<control type="image">
-				<posx>0</posx>
-				<posy>195r</posy>
+				<left>0</left>
+				<top>195r</top>
 				<width>1280</width>
 				<height>195</height>
 				<aspectratio>stretch</aspectratio>
@@ -51,8 +51,8 @@
 			</control>
 
 			<control type="image">
-				<posx>0</posx>
-				<posy>195r</posy>
+				<left>0</left>
+				<top>195r</top>
 				<width>1280</width>
 				<height>195</height>
 				<aspectratio>stretch</aspectratio>
@@ -67,8 +67,8 @@
 			</control>
 			-->			
 			<control type="label">
-				<posx>183</posx>
-				<posy>50r</posy>
+				<left>183</left>
+				<top>50r</top>
 				<width>914</width>
 				<height>35</height>
 				<font>movietitle3</font>
@@ -82,8 +82,8 @@
 						
 			<control type="wraplist" id="545">
 			<visible>!Container.Content(Episodes)</visible>
-				<posx>-160</posx>
-				<posy>380</posy>
+				<left>-160</left>
+				<top>380</top>
 				<width>1600</width>
 				<height>500</height>
 				<onleft>545</onleft>
@@ -106,8 +106,8 @@
 			<include>ContextFade2</include>
 				<itemlayout height="240" width="150">
 					<control type="image">
-						<posx>2</posx>
-						<posy>244</posy>
+						<left>2</left>
+						<top>244</top>
 						<width>110</width>
 						<height>110</height>
 						<bordersize>3</bordersize>
@@ -117,8 +117,8 @@
 					</control>
 
 					<control type="image">
-						<posx>-8</posx>
-						<posy>238</posy>
+						<left>-8</left>
+						<top>238</top>
 						<width>130</width>
 						<height>15</height>
 						<bordersize>3</bordersize>
@@ -128,8 +128,8 @@
 					</control>	
 			
 					<control type="image">
-						<posx>2</posx>
-						<posy>138</posy>
+						<left>2</left>
+						<top>138</top>
 						<width>110</width>
 						<height>110</height>
 						<bordersize>3</bordersize>
@@ -141,8 +141,8 @@
 				
 				<focusedlayout height="240" width="150">
 					<control type="image">
-						<posx>0</posx>
-						<posy>264</posy>
+						<left>0</left>
+						<top>264</top>
 						<width>110</width>
 						<height>110</height>
 						<bordersize>2</bordersize>
@@ -153,8 +153,8 @@
 					</control>
 
 					<control type="image">
-						<posx>-8</posx>
-						<posy>248</posy>
+						<left>-8</left>
+						<top>248</top>
 						<width>130</width>
 						<height>15</height>
 						<bordersize>3</bordersize>
@@ -165,8 +165,8 @@
 					</control>
 					
 					<control type="image">
-						<posx>0</posx>
-						<posy>135</posy>
+						<left>0</left>
+						<top>135</top>
 						<width>110</width>
 						<height>110</height>
 						<bordersize>2</bordersize>
@@ -177,8 +177,8 @@
 				</focusedlayout>
 			</control>
 		<control type="scrollbar" id="547">
-			<posx>0</posx>
-			<posy>65r</posy>
+			<left>0</left>
+			<top>65r</top>
 			<width>1280</width>
 			<height>2</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(545) + Control.HasFocus(547)</visible>

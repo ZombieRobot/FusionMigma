@@ -26,8 +26,8 @@
 				<visible>Window.IsActive(2) | Window.IsActive(24) | Window.IsActive(25) | Window.IsActive(501)  | Window.IsActive(502) | Window.IsActive(40)</visible>
 				<visible>!Skin.HasSetting(HideIcon)</visible>
 				<visible>!Container.Content(genres) + !Container.Content(years)</visible>
-				<posx>64</posx>
-				<posy>90</posy>
+				<left>64</left>
+				<top>90</top>
 				<width>1152</width>
 				<height>460</height>
 				<onleft>515</onleft>
@@ -41,8 +41,8 @@
 				<preloaditems>2</preloaditems>
 				<itemlayout height="224" width="192">
 					<control type="image">
-						<posx>14</posx>
-						<posy>179</posy>
+						<left>14</left>
+						<top>179</top>
 						<width>164</width>
 						<height>164</height>
 						<texture background="true" flipy="true" diffuse="poster/posterreflectdiffuse.png">$INFO[ListItem.Icon]</texture>
@@ -55,8 +55,8 @@
 						</animation>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>179</posy>
+						<left>14</left>
+						<top>179</top>
 						<width>164</width>
 						<height>164</height>
 						<texture background="true" flipy="true" diffuse="poster/posterreflectdiffuse.png">$INFO[ListItem.Icon]</texture>
@@ -68,8 +68,8 @@
 						</animation>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>164</width>
 						<height>164</height>
 						<texture background="true" diffuse="poster/posterdiffusesmall.png">$INFO[ListItem.Icon]</texture>
@@ -79,8 +79,8 @@
 					</control>
 					<!-- STUDIO ICON -->
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>129</width>
 						<height>129</height>
 						<texture background="true" fallback="flagging/studios/default.png" diffuse="poster/posterdiffusesmall.png">$INFO[ListItem.label,flagging/studios/,.png]</texture>
@@ -92,8 +92,8 @@
 				
 				<focusedlayout height="224" width="192">
 					<control type="image">
-						<posx>14</posx>
-						<posy>10</posy>
+						<left>14</left>
+						<top>10</top>
 						<width>164</width>
 						<height>164</height>
 						<texture diffuse="icon/fodiffuse.png">$INFO[ListItem.Icon]</texture>
@@ -103,8 +103,8 @@
 					</control>
 					<!-- STUDIO ICON -->
 					<control type="image">
-						<posx>14</posx>
-						<posy>10</posy>
+						<left>14</left>
+						<top>10</top>
 						<width>129</width>
 						<height>129</height>
 						<texture fallback="flagging/studios/default.png" diffuse="icon/fodiffuse.png">$INFO[ListItem.label,flagging/studios/,.png]</texture>
@@ -113,8 +113,8 @@
 						<visible>Container.Content(studios)</visible>
 					</control>
 					<control type="image">
-						<posx>29</posx>
-						<posy>26</posy>
+						<left>29</left>
+						<top>26</top>
 						<width>133</width>
 						<height>133</height>
 						<texture>icon/foborder.png</texture>
@@ -127,8 +127,8 @@
 						</animation>
 					</control>
 					<control type="image">
-						<posx>29</posx>
-						<posy>26</posy>
+						<left>29</left>
+						<top>26</top>
 						<width>133</width>
 						<height>133</height>
 						<texture>icon/foborder.png</texture>
@@ -145,8 +145,8 @@
 			<control type="panel" id="517">
 				<visible>Container.Content(Movies) | Container.Content(TVShows) | Container.Content(Seasons)</visible>
 				<visible>!Skin.HasSetting(HideIcon)</visible>
-				<posx>178</posx>
-				<posy>120</posy>
+				<left>178</left>
+				<top>120</top>
 				<width>951</width>
 				<height>460</height>
 				<onleft>300</onleft>
@@ -159,8 +159,8 @@
 				<pagecontrol>518</pagecontrol>
 				<itemlayout height="224" width="133">
 					<control type="image">
-						<posx>14</posx>
-						<posy>179</posy>
+						<left>14</left>
+						<top>179</top>
 						<width>108</width>
 						<height>164</height>
 						<texture background="true" flipy="true" diffuse="poster/posterreflectdiffuse.png">$INFO[ListItem.Icon]</texture>
@@ -168,8 +168,8 @@
 						<aspectratio scalediffuse="false">scale</aspectratio>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>108</width>
 						<height>164</height>
 						<texture background="true" diffuse="poster/posterdiffusesmall.png">$INFO[ListItem.Icon]</texture>
@@ -177,8 +177,8 @@
 						<aspectratio scalediffuse="false">scale</aspectratio>
 					</control>
 					<control type="image">
-						<posy>157</posy>
-						<posx>97</posx>
+						<top>157</top>
+						<left>97</left>
 						<width>36</width>
 						<height>60</height>
 						<aspectratio>keep</aspectratio>
@@ -191,11 +191,11 @@
 				<focusedlayout height="224" width="133">
 					<!--control type="group">
 						<include>wallpopupanim</include>
-						<posy>-14</posy>
+						<top>-14</top>
 						<visible>Container(517).Column(0) | Container(517).Column(1) | Container(517).Column(2) | Container(170).Column(3) | Container(517).Column(4)</visible>
 						<control type="image">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width>568</width>
 							<height>187</height>
 							<texture border="10">whitepanel2.png</texture>
@@ -208,8 +208,8 @@
 						</control>
 
 						<control type="label">
-							<posx>-40</posx>
-							<posy>10</posy>
+							<left>-40</left>
+							<top>10</top>
 							<width>280</width>
 							<label>$INFO[ListItem.Title]</label>
 							<font>homemenu3caps</font>
@@ -222,8 +222,8 @@
 						</control>
 						
 						<control type="label">
-							<posx>-40</posx>
-							<posy>42.5</posy>
+							<left>-40</left>
+							<top>42.5</top>
 							<width>280</width>
 							<label>$INFO[ListItem.Year]$INFO[ListItem.Duration, • , Minutes]</label>
 							<font>about</font>
@@ -236,8 +236,8 @@
 						</control>
 
 						<control type="label">
-							<posx>-40</posx>
-							<posy>42.5</posy>
+							<left>-40</left>
+							<top>42.5</top>
 							<width>280</width>
 							<label>movie collection</label>
 							<font>about</font>
@@ -250,8 +250,8 @@
 						</control>
 
 						<control type="textbox">
-							<posx>-40</posx>
-							<posy>77</posy>
+							<left>-40</left>
+							<top>77</top>
 							<width>600</width>
 							<height>120</height>
 							<align>justify</align>
@@ -265,8 +265,8 @@
 						</control>
 					</control-->
 					<control type="image">
-						<posx>14</posx>
-						<posy>10</posy>
+						<left>14</left>
+						<top>10</top>
 						<width>108</width>
 						<height>164</height>
 						<texture background="true" diffuse="icon/fodiffuse.png">$INFO[ListItem.Icon]</texture>
@@ -274,8 +274,8 @@
 						<animation effect="zoom" end="135" center="auto" tween="back" easing="out" time="250">focus</animation>
 					</control>
 					<control type="image">
-						<posx>15</posx>
-						<posy>19.5</posy>
+						<left>15</left>
+						<top>19.5</top>
 						<width>106</width>
 						<height>144</height>
 						<texture>icon/posterfo.png</texture>
@@ -287,8 +287,8 @@
 						</animation>
 					</control>
 					<control type="image">
-						<posy>182</posy>
-						<posx>120</posx>
+						<top>182</top>
+						<left>120</left>
 						<width>36</width>
 						<height>36</height>
 						<aspectratio>keep</aspectratio>
@@ -309,8 +309,8 @@
 
 			<control type="panel" id="519">
 
-				<posx>168</posx>
-				<posy>115</posy>
+				<left>168</left>
+				<top>115</top>
 				<width>946</width>
 				<height>470</height>
 				<onleft>300</onleft>
@@ -328,8 +328,8 @@
 				<pagecontrol>520</pagecontrol>
 				<itemlayout height="230" width="310">
 					<control type="image">
-						<posx>14</posx>
-						<posy>180</posy>
+						<left>14</left>
+						<top>180</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" flipy="true" diffuse="icon/episodereflectdiffuse.png">$INFO[ListItem.Icon]</texture>
@@ -338,8 +338,8 @@
 						<visible>Container.Content(Episodes)</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" diffuse="icon/episodediffuse.png">$INFO[ListItem.Icon]</texture>
@@ -348,8 +348,8 @@
 						<visible>Container.Content(Episodes)</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>180</posy>
+						<left>14</left>
+						<top>180</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" flipy="true" diffuse="icon/episodereflectdiffuse.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -358,8 +358,8 @@
 						<visible>Container.Content(Movies)</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>180</posy>
+						<left>14</left>
+						<top>180</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" flipy="true" diffuse="icon/episodereflectdiffuse.png">$INFO[ListItem.path]landscape.jpg</texture>
@@ -368,8 +368,8 @@
 						<visible>Container.Content(Movies)</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>180</posy>
+						<left>14</left>
+						<top>180</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" flipy="true" diffuse="icon/episodereflectdiffuse.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -378,8 +378,8 @@
 						<visible>Container.Content(TVShows) + !Skin.HasSetting(Landscape.jpg)</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>180</posy>
+						<left>14</left>
+						<top>180</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" flipy="true" diffuse="icon/episodereflectdiffuse.png">$INFO[ListItem.Path]landscape.jpg</texture>
@@ -388,8 +388,8 @@
 						<visible>Container.Content(TVShows) + Skin.HasSetting(Landscape.jpg)</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" diffuse="icon/episodediffuse.png" fallback="nofanart.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -399,8 +399,8 @@
 						<visible>!IsEmpty(ListItem.Property(Fanart_Image))</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" diffuse="icon/episodediffuse.png">$INFO[ListItem.Path]landscape.jpg</texture>
@@ -410,8 +410,8 @@
 						<visible>!IsEmpty(ListItem.Property(Fanart_Image))</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" diffuse="icon/episodediffuse.png" fallback="nofanart.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -422,8 +422,8 @@
 					</control>
 					<!--LANDSCAPE.JPG SETTING-->
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" diffuse="icon/episodediffuse.png" fallback="nofanart.png">$INFO[ListItem.Path]landscape.jpg</texture>
@@ -433,8 +433,8 @@
 						<visible>!IsEmpty(ListItem.Property(Fanart_Image))</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" diffuse="icon/episodediffuse.png" fallback="nofanart.png">$INFO[ListItem.Thumb]</texture>
@@ -445,8 +445,8 @@
 					</control>
 
 					<control type="image">
-						<posy>157</posy>
-						<posx>285</posx>
+						<top>157</top>
+						<left>285</left>
 						<width>36</width>
 						<height>60</height>
 						<aspectratio>keep</aspectratio>
@@ -458,8 +458,8 @@
 				
 				<focusedlayout height="230" width="310">
 					<control type="image">
-						<posx>14</posx>
-						<posy>15</posy>
+						<left>14</left>
+						<top>15</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" diffuse="icon/episodediffusefo.png">$INFO[ListItem.Icon]</texture>
@@ -468,8 +468,8 @@
 						<visible>Container.Content(Episodes)</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>15</posy>
+						<left>14</left>
+						<top>15</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" diffuse="icon/episodediffusefo.png" fallback="nofanart.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -479,8 +479,8 @@
 						<visible>!IsEmpty(ListItem.Property(Fanart_Image))</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>15</posy>
+						<left>14</left>
+						<top>15</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" diffuse="icon/episodediffusefo.png">$INFO[ListItem.path]landscape.jpg</texture>
@@ -490,8 +490,8 @@
 						<visible>!IsEmpty(ListItem.Property(Fanart_Image))</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>15</posy>
+						<left>14</left>
+						<top>15</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" diffuse="icon/episodediffusefo.png" fallback="nofanart.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -502,8 +502,8 @@
 					</control>
 					<!--LANDSCAPE.JPG SETTING-->
 					<control type="image">
-						<posx>14</posx>
-						<posy>15</posy>
+						<left>14</left>
+						<top>15</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" diffuse="icon/episodediffusefo.png" fallback="nofanart.png">$INFO[ListItem.Path]landscape.jpg</texture>
@@ -513,8 +513,8 @@
 						<visible>!IsEmpty(ListItem.Property(Fanart_Image))</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>15</posy>
+						<left>14</left>
+						<top>15</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" diffuse="icon/episodediffusefo.png" fallback="nofanart.png">$INFO[ListItem.Thumb]</texture>
@@ -525,8 +525,8 @@
 					</control>
 
 					<control type="image">
-						<posx>43.5</posx>
-						<posy>22</posy>
+						<left>43.5</left>
+						<top>22</top>
 						<width>236</width>
 						<height>150</height>
 						<texture>icon/episodeborder.png</texture>
@@ -539,8 +539,8 @@
 					</control>
 		
 					<control type="image">
-						<posy>182</posy>
-						<posx>280</posx>
+						<top>182</top>
+						<left>280</left>
 						<width>36</width>
 						<height>36</height>
 						<aspectratio>keep</aspectratio>
@@ -566,8 +566,8 @@
 				<visible>!substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
 				<visible>!substring(container.folderpath,plugin://plugin.video.apple.movie.trailers.lite)</visible>
 				<visible>!Skin.HasSetting(HideWideIcon2)</visible>
-				<posx>160</posx>
-				<posy>87</posy>
+				<left>160</left>
+				<top>87</top>
 				<width>949</width>
 				<height>494</height>
 				<onleft>300</onleft>
@@ -580,8 +580,8 @@
 				<pagecontrol>522</pagecontrol>
 				<itemlayout height="120" width="188">
 					<control type="image">
-						<posx>14</posx>
-						<posy>108</posy>
+						<left>14</left>
+						<top>108</top>
 						<width>174</width>
 						<height>93</height>
 						<texture background="true" flipy="true" diffuse="icon/episodereflectdiffuse.png">$INFO[ListItem.Icon]</texture>
@@ -590,8 +590,8 @@
 						<visible>Container.Content(Episodes)</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>174</width>
 						<height>93</height>
 						<texture background="true" diffuse="icon/episodediffuse.png">$INFO[ListItem.Icon]</texture>
@@ -600,8 +600,8 @@
 						<visible>Container.Content(Episodes)</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>108</posy>
+						<left>14</left>
+						<top>108</top>
 						<width>174</width>
 						<height>93</height>
 						<texture background="true" flipy="true" diffuse="icon/episodereflectdiffuse.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -610,8 +610,8 @@
 						<visible>Container.Content(Movies)</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>108</posy>
+						<left>14</left>
+						<top>108</top>
 						<width>174</width>
 						<height>93</height>
 						<texture background="true" flipy="true" diffuse="icon/episodereflectdiffuse.png">$INFO[ListItem.Path]landscape.jpg</texture>
@@ -620,8 +620,8 @@
 						<visible>Container.Content(Movies)</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>108</posy>
+						<left>14</left>
+						<top>108</top>
 						<width>174</width>
 						<height>93</height>
 						<texture background="true" flipy="true" diffuse="icon/episodereflectdiffuse.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -631,8 +631,8 @@
 					</control>
 					<!--LANDSCAPE.JPG SETTING-->
 					<control type="image">
-						<posx>14</posx>
-						<posy>108</posy>
+						<left>14</left>
+						<top>108</top>
 						<width>174</width>
 						<height>93</height>
 						<texture background="true" flipy="true" diffuse="icon/episodereflectdiffuse.png">$INFO[ListItem.Path]landscape.jpg</texture>
@@ -641,8 +641,8 @@
 						<visible>Container.Content(TVShows) + Skin.HasSetting(Landscape.jpg)</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>174</width>
 						<height>93</height>
 						<texture background="true" diffuse="icon/episodediffuse.png" fallback="nofanart.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -652,8 +652,8 @@
 						<visible>!IsEmpty(ListItem.Property(Fanart_Image))</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>174</width>
 						<height>93</height>
 						<texture background="true" diffuse="icon/episodediffuse.png">$INFO[ListItem.Path]landscape.jpg</texture>
@@ -663,8 +663,8 @@
 						<visible>!IsEmpty(ListItem.Property(Fanart_Image))</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>174</width>
 						<height>93</height>
 						<texture background="true" diffuse="icon/episodediffuse.png" fallback="nofanart.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -674,8 +674,8 @@
 						<visible>!IsEmpty(ListItem.Property(Fanart_Image))</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>174</width>
 						<height>93</height>
 						<texture background="true" diffuse="icon/episodediffuse.png" fallback="nofanart.png">$INFO[ListItem.Path]landscape.jpg</texture>
@@ -685,8 +685,8 @@
 						<visible>!IsEmpty(ListItem.Property(Fanart_Image))</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>174</width>
 						<height>93</height>
 						<texture background="true" diffuse="icon/episodediffuse.png" fallback="nofanart.png">$INFO[ListItem.Thumb]</texture>
@@ -697,8 +697,8 @@
 					</control>
 
 					<control type="image">
-						<posy>89</posy>
-						<posx>170</posx>
+						<top>89</top>
+						<left>170</left>
 						<width>27</width>
 						<height>45</height>
 						<aspectratio>keep</aspectratio>
@@ -710,8 +710,8 @@
 				
 				<focusedlayout height="120" width="188">
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>174</width>
 						<height>93</height>
 						<texture background="true" diffuse="icon/episodediffusefo.png">$INFO[ListItem.Icon]</texture>
@@ -720,8 +720,8 @@
 						<visible>Container.Content(Episodes)</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>174</width>
 						<height>93</height>
 						<texture background="true" diffuse="icon/episodediffusefo.png" fallback="nofanart.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -731,8 +731,8 @@
 						<visible>!IsEmpty(ListItem.Property(Fanart_Image))</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>174</width>
 						<height>93</height>
 						<texture background="true" diffuse="icon/episodediffusefo.png">$INFO[ListItem.Path]landscape.jpg</texture>
@@ -742,8 +742,8 @@
 						<visible>!IsEmpty(ListItem.Property(Fanart_Image))</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>174</width>
 						<height>93</height>
 						<texture background="true" diffuse="icon/episodediffusefo.png" fallback="nofanart.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -753,8 +753,8 @@
 						<visible>!IsEmpty(ListItem.Property(Fanart_Image))</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>174</width>
 						<height>93</height>
 						<texture background="true" diffuse="icon/episodediffusefo.png" fallback="nofanart.png">$INFO[ListItem.Path]landscape.jpg</texture>
@@ -764,8 +764,8 @@
 						<visible>!IsEmpty(ListItem.Property(Fanart_Image))</visible>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>174</width>
 						<height>93</height>
 						<texture background="true" diffuse="icon/episodediffusefo.png" fallback="nofanart.png">$INFO[ListItem.Thumb]</texture>
@@ -776,8 +776,8 @@
 					</control>
 					
 					<control type="image">
-						<posx>42</posx>
-						<posy>24</posy>
+						<left>42</left>
+						<top>24</top>
 						<width>118</width>
 						<height>72</height>
 						<texture>icon/episodeborder.png</texture>
@@ -790,8 +790,8 @@
 					</control>
 					
 					<control type="image">
-						<posy>89</posy>
-						<posx>170</posx>
+						<top>89</top>
+						<left>170</left>
 						<width>27</width>
 						<height>27</height>
 						<aspectratio>keep</aspectratio>
@@ -815,8 +815,8 @@
 <!--
 			<control type="panel" id="523">
 				<visible>Window.IsVisible(24)</visible>
-				<posx>168</posx>
-				<posy>115</posy>
+				<left>168</left>
+				<top>115</top>
 				<width>945</width>
 				<height>470</height>
 				<onleft>300</onleft>
@@ -828,8 +828,8 @@
 				<pagecontrol>520</pagecontrol>
 				<itemlayout height="230" width="310">
 					<control type="image">
-						<posx>14</posx>
-						<posy>180</posy>
+						<left>14</left>
+						<top>180</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" flipy="true" diffuse="icon/episodereflectdiffuse.png">$INFO[ListItem.Icon]</texture>
@@ -837,8 +837,8 @@
 						<aspectratio scalediffuse="false">scale</aspectratio>
 					</control>
 					<control type="image">
-						<posx>14</posx>
-						<posy>14</posy>
+						<left>14</left>
+						<top>14</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" diffuse="icon/episodediffuse.png">$INFO[ListItem.Icon]</texture>
@@ -846,8 +846,8 @@
 						<aspectratio scalediffuse="false">scale</aspectratio>
 					</control>
 					<control type="image">
-						<posy>165</posy>
-						<posx>265</posx>
+						<top>165</top>
+						<left>265</left>
 						<width min="30" max="30">auto</width>
 						<height>35</height>
 						<aspectratio>keep</aspectratio>
@@ -855,8 +855,8 @@
 						<visible>stringcompare(ListItem.Overlay,OverlayWatched.png)</visible>
 					</control>
 					<control type="image">
-						<posy>165</posy>
-						<posx>260</posx>
+						<top>165</top>
+						<left>260</left>
 						<width min="41" max="41">auto</width>
 						<height>35</height>
 						<aspectratio>keep</aspectratio>
@@ -867,8 +867,8 @@
 				
 				<focusedlayout height="230" width="310">
 					<control type="image">
-						<posx>14</posx>
-						<posy>15</posy>
+						<left>14</left>
+						<top>15</top>
 						<width>294</width>
 						<height>165</height>
 						<texture background="true" diffuse="icon/episodediffusefo.png">$INFO[ListItem.Icon]</texture>
@@ -877,8 +877,8 @@
 					</control>
 
 					<control type="image">
-						<posx>43.5</posx>
-						<posy>22</posy>
+						<left>43.5</left>
+						<top>22</top>
 						<width>236</width>
 						<height>150</height>
 						<texture>icon/episodeborder.png</texture>
@@ -896,15 +896,15 @@
 <visible>Control.IsVisible(515) | Control.IsVisible(517) | Control.IsVisible(519) | Control.IsVisible(521)</visible>
 		<animation effect="slide" start="0,0" end="0,15" time="0" delay="0" reversible="false" condition="Control.IsVisible(521)">Conditional</animation>
 		<control type="grouplist">
-			<posx>0</posx>
-			<posy>550</posy>
+			<left>0</left>
+			<top>550</top>
 			<width>1280</width>
 			<height>40</height>
 			<align>center</align>
 			<orientation>horizontal</orientation>
 			<visible>!Container.Content(Episodes) + Container.Content(Artists) + [StringCompare(Container.Viewmode,icon) | StringCompare(Container.Viewmode,wideicon) | StringCompare(Container.Viewmode,wideicon2)]</visible>
 			<control type="label">
-				<posx>0</posx>
+				<left>0</left>
 				<width min="29" max="900">auto</width>
 				<height>36</height>
 				<font>movietitle3</font>
@@ -914,15 +914,15 @@
 			</control>
 		</control>
 		<control type="grouplist">
-			<posx>0</posx>
-			<posy>572</posy>
+			<left>0</left>
+			<top>572</top>
 			<width>1280</width>
 			<height>40</height>
 			<align>center</align>
 			<orientation>horizontal</orientation>
 			<visible>!Container.Content(Episodes) + !Container.Content(Artists) + [StringCompare(Container.Viewmode,icon) | StringCompare(Container.Viewmode,wideicon) | StringCompare(Container.Viewmode,wideicon2)]</visible>
 			<control type="label">
-				<posx>0</posx>
+				<left>0</left>
 				<width min="29" max="900">auto</width>
 				<height>36</height>
 				<font>movietitle3</font>
@@ -934,15 +934,15 @@
 		</control>
 		
 		<control type="grouplist">
-			<posx>0</posx>
-			<posy>568</posy>
+			<left>0</left>
+			<top>568</top>
 			<width>1280</width>
 			<height>40</height>
 			<align>center</align>
 			<orientation>horizontal</orientation>
 			<visible>Container.Content(Episodes)</visible>
 			<control type="label">
-				<posx>0</posx>
+				<left>0</left>
 				<width min="29" max="900">auto</width>
 				<height>36</height>
 				<font>movietitle3</font>
@@ -953,16 +953,16 @@
 			 <include>MovieHDFlagsPoster</include>
 		</control>
 		<control type="grouplist">
-			<posx>0</posx>
-			<posy>605</posy>
+			<left>0</left>
+			<top>605</top>
 			<width>1280</width>
 			<height>40</height>
 			<align>center</align>
 			<orientation>horizontal</orientation>
 			<visible>!Window.IsActive(535)</visible>
 			<control type="label">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>aired</font>
@@ -979,8 +979,8 @@
 				<visible>!Container.Content(Episodes)</visible>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>aired</font>
@@ -997,8 +997,8 @@
 				<visible>!Container.Content(Episodes)</visible>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>aired</font>
@@ -1018,8 +1018,8 @@
 			<include condition="Skin.HasSetting(UseIMDBRating)">IMDB</include>			
 		</control>
 			<control type="label">
-				<posx>183</posx>
-				<posy>605</posy>
+				<left>183</left>
+				<top>605</top>
 				<width>914</width>
 				<height>35</height>
 				<font>aired</font>
@@ -1032,8 +1032,8 @@
 				<visible>!IsEmpty(ListItem.foldername)</visible>
 			</control>
 		<control type="grouplist">
-			<posx>0</posx>
-			<posy>611</posy>
+			<left>0</left>
+			<top>611</top>
 			<width>1280</width>
 			<height>60</height>
 			<align>center</align>
@@ -1041,8 +1041,8 @@
 			<visible>!Window.IsActive(535)</visible>
 
 			<control type="label">
-				<posx>183</posx>
-				<posy>608</posy>
+				<left>183</left>
+				<top>608</top>
 				<width min="29" max="900">auto</width>
 				<height>28</height>
 				<font>tvtitle3</font>
@@ -1055,8 +1055,8 @@
 				<visible>!IsEmpty(ListItem.foldername)</visible>
 			</control>
 			<control type="image">
-				<posy>10</posy>
-				<posx>0</posx>
+				<top>10</top>
+				<left>0</left>
 				<width min="30" max="30">auto</width>
 				<height>35</height>
 				<aspectratio>keep</aspectratio>
@@ -1066,8 +1066,8 @@
 				<visible>Container.Content(Episodes)</visible>
 			</control>
 			<control type="image">
-				<posy>10</posy>
-				<posx>0</posx>
+				<top>10</top>
+				<left>0</left>
 				<width min="41" max="41">auto</width>
 				<height>35</height>
 				<aspectratio>keep</aspectratio>
@@ -1078,8 +1078,8 @@
 		</control>
 
 			<control type="label">
-				<posx>183</posx>
-				<posy>605</posy>
+				<left>183</left>
+				<top>605</top>
 				<width>914</width>
 				<height>35</height>
 				<font>aired</font>
@@ -1091,8 +1091,8 @@
 				<visible>StringCompare(Container.Viewmode,icon)</visible>
 			</control>
 			<control type="label">
-				<posx>260</posx>
-				<posy>602</posy>
+				<left>260</left>
+				<top>602</top>
 				<width>762</width>
 				<height>35</height>
 				<font>aired</font>
@@ -1106,8 +1106,8 @@
 			</control>
 			<!-- ARTIST INFO -->
 			<control type="grouplist">
-				<posx>8</posx>
-				<posy>581</posy>
+				<left>8</left>
+				<top>581</top>
 				<align>center</align>
 				<orientation>horizontal</orientation>
 				<control type="label">
@@ -1163,8 +1163,8 @@
 				</control>
 			</control>
 			<control type="label">
-				<posx>183</posx>
-				<posy>600</posy>
+				<left>183</left>
+				<top>600</top>
 				<width>914</width>
 				<height>35</height>
 				<font>aired</font>
@@ -1176,8 +1176,8 @@
 				<visible>Container.Content(Albums)</visible>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>604</posy>
+				<left>0</left>
+				<top>604</top>
 				<width>1280</width>
 				<height>35</height>
 				<font>aired</font>
@@ -1191,8 +1191,8 @@
 				<visible>!ListItem.IsFolder</visible>
 			</control>
 			<control type="label">
-				<posx>240</posx>
-				<posy>614</posy>
+				<left>240</left>
+				<top>614</top>
 				<width>800</width>
 				<height>35</height>
 				<font>aired</font>
@@ -1205,8 +1205,8 @@
 </control>
 	
 		<control type="scrollbar" id="516">
-			<posx>0</posx>
-			<posy>649</posy>
+			<left>0</left>
+			<top>649</top>
 			<width>1280</width>
 			<height>5</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(515) + Control.HasFocus(516)</visible>
@@ -1220,8 +1220,8 @@
 			<animation effect="fade" start="0" end="100" time="400" condition="Control.HasFocus(580)">Conditional</animation>
 		</control>		
 		<control type="scrollbar" id="518">
-			<posx>1117</posx>
-			<posy>155</posy>
+			<left>1117</left>
+			<top>155</top>
 			<width>5</width>
 			<height>350</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(517) + Control.HasFocus(518)</visible>
@@ -1234,8 +1234,8 @@
 			<animation effect="fade" start="0" end="100" time="400" condition="Control.HasFocus(518)">Conditional</animation>
 		</control>
 		<control type="scrollbar" id="520">
-			<posx>1120</posx>
-			<posy>155</posy>
+			<left>1120</left>
+			<top>155</top>
 			<width>5</width>
 			<height>350</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(519) + Control.HasFocus(520)</visible>
@@ -1248,8 +1248,8 @@
 			<animation effect="fade" start="0" end="100" time="400" condition="Control.HasFocus(520)">Conditional</animation>
 		</control>	
 		<control type="scrollbar" id="522">
-			<posx>1120</posx>
-			<posy>112</posy>
+			<left>1120</left>
+			<top>112</top>
 			<width>5</width>
 			<height>425</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(521) + Control.HasFocus(522)</visible>
@@ -1262,8 +1262,8 @@
 			<animation effect="fade" start="0" end="100" time="400" condition="Control.HasFocus(522)">Conditional</animation>
 		</control>	
 		<control type="scrollbar" id="524">
-			<posx>1120</posx>
-			<posy>112</posy>
+			<left>1120</left>
+			<top>112</top>
 			<width>5</width>
 			<height>425</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(523) + Control.HasFocus(524)</visible>

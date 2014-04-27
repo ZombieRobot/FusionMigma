@@ -5,16 +5,16 @@
 <controls>
 	
  	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1280</width>
 		<height>720</height>
 		<aspectratio>stretch</aspectratio>
 		<texture>Home/bg2.png</texture>
 	</control>	
 	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1280</width>
 		<height>720</height>
 		<aspectratio>stretch</aspectratio>
@@ -22,8 +22,8 @@
 		<colordiffuse>73FFFFFF</colordiffuse>
 	</control>  
 	<control type="image">
-		<posx>110</posx>
-		<posy>130</posy>
+		<left>110</left>
+		<top>130</top>
 		<width>1072</width>
 		<height>496</height>
 		<aspectratio>stretch</aspectratio>
@@ -37,8 +37,8 @@
 		</animation>
 	</control>  
 	<control type="image">
-		<posx>110</posx>
-		<posy>130</posy>
+		<left>110</left>
+		<top>130</top>
 		<width>1072</width>
 		<height>496</height>
 		<aspectratio>stretch</aspectratio>
@@ -52,8 +52,8 @@
 		</animation>
 	</control> 
 	<control type="image">
-		<posx>130</posx>
-		<posy>230</posy>
+		<left>130</left>
+		<top>230</top>
 		<width>1030</width>
 		<height>253</height>
 		<aspectratio>stretch</aspectratio>
@@ -68,8 +68,8 @@
 	</control> 	
 	<control type="textbox" id="2">
       <description>My first text box control</description>
-      <posx>130</posx>
-      <posy>145</posy>
+      <left>130</left>
+      <top>145</top>
       <width>1032</width>
       <height>476</height>
       <font>about</font>

@@ -4,8 +4,8 @@
 
 <coordinates>
   <system>1</system>
-  <posx>100</posx>
-  <posy>80</posy>
+  <left>100</left>
+  <top>80</top>
 </coordinates>
 
 <controls>
@@ -15,8 +15,8 @@
 
  <control type="textbox" id="5">
    <description>Textarea</description>
-   <posx>10</posx>
-   <posy>40</posy>
+   <left>10</left>
+   <top>40</top>
    <width>520</width>
    <height>382</height>
    <font>Small</font>

@@ -11,8 +11,8 @@
 		
 		<control type="fixedlist" id="709">
 			<viewtype label="Banners">list</viewtype>
-			<posx>62</posx>
-			<posy>110</posy>
+			<left>62</left>
+			<top>110</top>
 			<width>585</width>
 			<height>502</height>
 			<scrolltime>275</scrolltime>
@@ -30,8 +30,8 @@
 			<visible>!Skin.HasSetting(HideBanners)</visible>
 			<itemlayout width="585" height="178">
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width>577</width>
 					<height>149</height>
 					<texture border="12">whitepanel2.png</texture>
@@ -39,8 +39,8 @@
 					<aspectratio>stretch</aspectratio>
 				</control>
 				<control type="image">
-					<posx>4</posx>
-					<posy>4</posy>
+					<left>4</left>
+					<top>4</top>
 					<width>569</width>
 					<height>105</height>
 					<visible>!Skin.HasSetting(Banner.jpg)</visible>
@@ -49,8 +49,8 @@
 				</control>
 				<!-- BANNER.JPG SETTING -->
 				<control type="image">
-					<posx>4</posx>
-					<posy>4</posy>
+					<left>4</left>
+					<top>4</top>
 					<width>569</width>
 					<height>105</height>
 					<visible>Skin.HasSetting(Banner.jpg)</visible>
@@ -59,8 +59,8 @@
 				</control>
 
 				<control type="label">
-					<posx>10</posx>
-					<posy>97</posy>
+					<left>10</left>
+					<top>97</top>
 					<width>633</width>
 					<height>60</height>
 					<align>left</align>
@@ -73,8 +73,8 @@
 			
 			<focusedlayout width="585" height="178">
 				<control type="image">
-					<posx>145</posx>
-					<posy>27</posy>
+					<left>145</left>
+					<top>27</top>
 					<width>285</width>
 					<height>100</height>
 					<texture>banner/bannerfo.png</texture>
@@ -87,8 +87,8 @@
 						</animation>
 				</control>			
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width>577</width>
 					<height>149</height>
 					<texture border="12">whitepanel2.png</texture>
@@ -99,8 +99,8 @@
 						</animation>
 				</control>
 				<control type="image">
-					<posx>4</posx>
-					<posy>4</posy>
+					<left>4</left>
+					<top>4</top>
 					<width>569</width>
 					<height>105</height>
 					<visible>!Skin.HasSetting(Banner.jpg)</visible>
@@ -112,8 +112,8 @@
 				</control>
 				<!-- BANNER.JPG SETTING -->
 				<control type="image">
-					<posx>4</posx>
-					<posy>4</posy>
+					<left>4</left>
+					<top>4</top>
 					<width>569</width>
 					<height>105</height>
 					<visible>Skin.HasSetting(Banner.jpg)</visible>
@@ -124,8 +124,8 @@
 						</animation>
 				</control>
 				<control type="label">
-					<posx>10</posx>
-					<posy>97</posy>
+					<left>10</left>
+					<top>97</top>
 					<width>633</width>
 					<height>60</height>
 					<align>left</align>
@@ -135,8 +135,8 @@
 					<selectedcolor>taskbar</selectedcolor>
 				</control>	
 					<control type="image">
-						<posy>25</posy>
-						<posx>880</posx>
+						<top>25</top>
+						<left>880</left>
 						<width>30</width>
 						<height>35</height>
 						<aspectratio>keep</aspectratio>
@@ -148,8 +148,8 @@
 						<visible>Skin.HasSetting(WatchedOverlays)</visible>
 					</control>
 					<control type="image">
-						<posy>25</posy>
-						<posx>880</posx>
+						<top>25</top>
+						<left>880</left>
 						<width>41</width>
 						<height>35</height>
 						<aspectratio>keep</aspectratio>
@@ -167,8 +167,8 @@
 		<control type="group">
 			<visible>Control.IsVisible(709)</visible>
 				<control type="image">
-					<posx>650</posx>
-					<posy>110</posy>
+					<left>650</left>
+					<top>110</top>
 					<width>576</width>
 					<height>505</height>
 					<aspectratio>stretch</aspectratio>
@@ -176,8 +176,8 @@
 					<colordiffuse>ffffffff</colordiffuse>
 				</control>
 				<control type="image">
-					<posx>654</posx>
-					<posy>114</posy>
+					<left>654</left>
+					<top>114</top>
 					<width>568</width>
 					<height>319</height>
 					<aspectratio>stretch</aspectratio>
@@ -185,8 +185,8 @@
 					<texture diffuse="banner/fandiff.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
 				</control>
 				<control type="image">
-					<posx>654</posx>
-					<posy>433</posy>
+					<left>654</left>
+					<top>433</top>
 					<width>568</width>
 					<height>36</height>
 					<aspectratio>stretch</aspectratio>
@@ -194,8 +194,8 @@
 					<colordiffuse>35ffffff</colordiffuse>
 				</control>
 				<control type="label">
-					<posx>670</posx>
-					<posy>433</posy>
+					<left>670</left>
+					<top>433</top>
 					<width>365</width>
 					<height>35</height>
 					<font>about</font>
@@ -208,8 +208,8 @@
 				</control>
 				<control type="image">
 					<description>Rating Info</description>
-					<posx>1050</posx>
-					<posy>371</posy>
+					<left>1050</left>
+					<top>371</top>
 					<width>165</width>
 					<height>165</height>
 					<info>ListItem.StarRating</info>
@@ -217,8 +217,8 @@
 					<visible>!IsEmpty(ListItem.foldername) + !substring(Container.Listitem.Label,..,left)</visible>
 				</control>
 				<control type="textbox">
-					<posx>670</posx>
-					<posy>482</posy>
+					<left>670</left>
+					<top>482</top>
 					<width>536</width>
 					<height>121</height>
 					<align>justify</align>
@@ -231,8 +231,8 @@
 		<!-- Scroll Bar -->
 
 		<control type="scrollbar" id="710">
-			<posx>1240</posx>
-			<posy>130</posy>
+			<left>1240</left>
+			<top>130</top>
 			<width>5</width>
 			<height>450</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(709) + Control.HasFocus(710)</visible>

@@ -4,18 +4,18 @@
   
 <coordinates>
   <system>1</system>
-  <posx>0</posx>
-  <posy>0</posy>
+  <left>0</left>
+  <top>0</top>
 </coordinates>
   
 <controls>
 <control type="group">  
-	<posx>340</posx>
-	<posy>200</posy> 
+	<left>340</left>
+	<top>200</top> 
 	
  	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>600</width>
 		<height>384</height>
 		<texture>black.png</texture>
@@ -27,8 +27,8 @@
 
 	<control type="label">
 		<description>Header</description>
-		<posx>20</posx>
-		<posy>10</posy>
+		<left>20</left>
+		<top>10</top>
 		<align>left</align>
 		<font>heading</font>
 		<label>Select a Visualization Preset</label>
@@ -39,8 +39,8 @@
 	
   <control type="list" id="2">
     <description>Preset List</description>
-	  <posx>10</posx>
-	  <posy>43</posy>
+	  <left>10</left>
+	  <top>43</top>
       <width>580</width>
 	  <height>330</height>
 	  <onleft>-</onleft>
@@ -49,7 +49,7 @@
 	  <ondown>2</ondown>
 	  <itemlayout height="30">
 		  <control type="label">
-			  <posx>10</posx>
+			  <left>10</left>
 			  <width>585</width>
         	  <height>30</height>
         	  <textcolor>FF707070</textcolor>
@@ -65,7 +65,7 @@
 			  <texture>button2fo.png</texture>
 		  </control>
 		  <control type="label">
-			  <posx>10</posx>
+			  <left>10</left>
 			  <width>560</width>
 			  <height>30</height>
         	  <textcolor>White</textcolor>

@@ -14,8 +14,8 @@
 			</animation>
 			<control type="panel" id="560">
 				<viewtype label="Wall">icon</viewtype>
-				<posx>1</posx>
-				<posy>54</posy>
+				<left>1</left>
+				<top>54</top>
 				<width>1416</width>
 				<height>667</height>
 				<scrolltime>350</scrolltime>
@@ -34,8 +34,8 @@
 			<!-- Scroll Bar -->
 
 			<control type="scrollbar" id="71">
-				<posx>320</posx>
-				<posy>17r</posy>
+				<left>320</left>
+				<top>17r</top>
 				<width>640</width>
 				<height>6</height>
 				<texturesliderbackground>scroll/scrollbg.png</texturesliderbackground>
@@ -48,8 +48,8 @@
 				<visible>Control.IsVisible(560)</visible>
 			</control>	
 			<control type="label">
-				<posx>975</posx>
-				<posy>33r</posy>
+				<left>975</left>
+				<top>33r</top>
 				<width>300</width>
 				<height>35</height>
 				<font>about</font>
@@ -61,8 +61,8 @@
 				<visible>Control.IsVisible(560)</visible>
 			</control>
 			<control type="label">
-				<posx>307</posx>
-				<posy>33r</posy>
+				<left>307</left>
+				<top>33r</top>
 				<width>300</width>
 				<height>35</height>
 				<font>about</font>
@@ -81,8 +81,8 @@
 		<itemlayout width="142" height="213">
 
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>142</width>
 				<height>213</height>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
@@ -91,8 +91,8 @@
 			</control>
 
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>142</width>
 				<height>213</height>
 				<texture>wall/posteroverlay.png</texture>
@@ -107,8 +107,8 @@
 				<include>wallpopupanim</include>
 				<visible>Container(560).Column(0) | Container(560).Column(1) | Container(560).Column(2) | Container(560).Column(3) | Container(560).Column(4)</visible>
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width>142</width>
 					<height>213</height>
 					<texture>wall/popupbg.png</texture>
@@ -120,8 +120,8 @@
 				</control>
 
 				<control type="label">
-					<posx>0</posx>
-					<posy>10</posy>
+					<left>0</left>
+					<top>10</top>
 					<width>280</width>
 					<label>$INFO[ListItem.Title]</label>
 					<font>homemenu3caps</font>
@@ -133,8 +133,8 @@
 					<visible>!IsEmpty(ListItem.Title)</visible>					
 				</control>
 				<control type="label">
-					<posx>0</posx>
-					<posy>10</posy>
+					<left>0</left>
+					<top>10</top>
 					<width>280</width>
 					<label>$INFO[ListItem.Title]</label>
 					<font>homemenu3caps</font>
@@ -146,8 +146,8 @@
 					<visible>!IsEmpty(ListItem.Title)</visible>					
 				</control>
 				<control type="label">
-					<posx>0</posx>
-					<posy>42.5</posy>
+					<left>0</left>
+					<top>42.5</top>
 					<width>280</width>
 					<label>$INFO[ListItem.Year]$INFO[ListItem.Duration, • , Minutes]</label>
 					<font>about</font>
@@ -160,8 +160,8 @@
 				</control>
 
 				<control type="label">
-					<posx>0</posx>
-					<posy>42.5</posy>
+					<left>0</left>
+					<top>42.5</top>
 					<width>280</width>
 					<label>movie collection</label>
 					<font>about</font>
@@ -174,8 +174,8 @@
 				</control>
 
 				<control type="textbox">
-					<posx>0</posx>
-					<posy>77</posy>
+					<left>0</left>
+					<top>77</top>
 					<width>280</width>
 					<height>120</height>
 					<align>justify</align>
@@ -194,8 +194,8 @@
 				<visible>Container(560).Column(5) | Container(560).Column(6) | Container(560).Column(7) | Container(560).Column(8)</visible>
 
 				<control type="image">
-					<posx>-40</posx>
-					<posy>0</posy>
+					<left>-40</left>
+					<top>0</top>
 					<width>142</width>
 					<height>213</height>
 					<texture>wall/popupbg.png</texture>
@@ -207,8 +207,8 @@
 				</control>
 
 				<control type="label">
-					<posx>0</posx>
-					<posy>10</posy>
+					<left>0</left>
+					<top>10</top>
 					<width>280</width>
 					<label>$INFO[ListItem.Title]</label>
 					<font>homemenu3caps</font>
@@ -221,8 +221,8 @@
 				</control>
 				
 				<control type="label">
-					<posx>0</posx>
-					<posy>10</posy>
+					<left>0</left>
+					<top>10</top>
 					<width>280</width>
 					<label>$INFO[ListItem.Title]</label>
 					<font>homemenu3caps</font>
@@ -235,8 +235,8 @@
 				</control>
 				
 				<control type="label">
-					<posx>0</posx>
-					<posy>42.5</posy>
+					<left>0</left>
+					<top>42.5</top>
 					<width>280</width>
 					<label>$INFO[ListItem.Year]$INFO[ListItem.Duration, • , Minutes]</label>
 					<font>about</font>
@@ -249,8 +249,8 @@
 				</control>
 
 				<control type="label">
-					<posx>0</posx>
-					<posy>42.5</posy>
+					<left>0</left>
+					<top>42.5</top>
 					<width>280</width>
 					<label>Movie Collection</label>
 					<font>about</font>
@@ -263,8 +263,8 @@
 				</control>
 
 				<control type="textbox">
-					<posx>0</posx>
-					<posy>77</posy>
+					<left>0</left>
+					<top>77</top>
 					<width>280</width>
 					<height>120</height>
 					<align>justify</align>
@@ -281,8 +281,8 @@
 			<control type="group">
 				<include>wallanim</include>
 				<control type="image">
-					<posx>0</posx>
-					<posy>9</posy>
+					<left>0</left>
+					<top>9</top>
 					<width>142</width>
 					<height>193</height>
 					<texture>wall/postershadow.png</texture>
@@ -294,8 +294,8 @@
 				</control>
 
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width>144</width>
 					<height>213</height>
 					<texture>white.png</texture>
@@ -308,8 +308,8 @@
 				</control>
 
 				<control type="image">
-					<posx>1</posx>
-					<posy>0</posy>
+					<left>1</left>
+					<top>0</top>
 					<width>142</width>
 					<height>213</height>
 					<texture background="true">$INFO[ListItem.Icon]</texture>

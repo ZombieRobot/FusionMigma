@@ -4,8 +4,8 @@
   
 <coordinates>
   <system>1</system>
-  <posx>0</posx>
-  <posy>0</posy>
+  <left>0</left>
+  <top>0</top>
 </coordinates>
   
 <controls>
@@ -16,12 +16,12 @@
   </control>
 
 	 <control type="group" id="1">
-               <posx>100</posx>
-               <posy>-45</posy>
+               <left>100</left>
+               <top>-45</top>
 			   <visible>Window.IsVisible(0)</visible>
                 <control type="button" id="2">
-                    <posx>64</posx>
-                    <posy>44</posy>
+                    <left>64</left>
+                    <top>44</top>
                     <description>Previous</description>
                     <height>55</height>
                     <width>55</width>
@@ -36,8 +36,8 @@
                     <ondown>-</ondown>
                 </control>
                 <control type="button" id="3">
-                    <posx>110</posx>
-                    <posy>44</posy>
+                    <left>110</left>
+                    <top>44</top>
                     <description>Rewind</description>
                     <height>55</height>
                     <width>55</width>
@@ -53,8 +53,8 @@
                 </control>
                 <control type="togglebutton" id="4">
                     <description>Play</description>
-                    <posx>155</posx>
-                    <posy>38</posy>
+                    <left>155</left>
+                    <top>38</top>
                     <height>68</height>
                     <width>68</width>
                     <texturefocus>osdold/pausefo.png</texturefocus>
@@ -70,8 +70,8 @@
                     <onright>5</onright>
                 </control>
                 <control type="button" id="5">
-                    <posx>213</posx>
-                    <posy>44</posy>
+                    <left>213</left>
+                    <top>44</top>
                     <description>Fast Forward</description>
                     <height>55</height>
                     <width>55</width>
@@ -86,8 +86,8 @@
                     <ondown>-</ondown>
                 </control>
                 <control type="button" id="6">
-                    <posx>259</posx>
-                    <posy>44</posy>
+                    <left>259</left>
+                    <top>44</top>
                     <description>Next</description>
                     <height>55</height>
                     <width>55</width>
@@ -103,12 +103,12 @@
                 </control>
             </control>
 			 <control type="group" id="1">
-               <posx>450</posx>
-               <posy>615</posy>
+               <left>450</left>
+               <top>615</top>
 			   <visible>!Window.IsVisible(0)</visible>
                 <control type="button" id="2">
-                    <posx>64</posx>
-                    <posy>44</posy>
+                    <left>64</left>
+                    <top>44</top>
                     <description>Previous</description>
                     <height>55</height>
                     <width>55</width>
@@ -123,8 +123,8 @@
                     <ondown>-</ondown>
                 </control>
                 <control type="button" id="3">
-                    <posx>110</posx>
-                    <posy>44</posy>
+                    <left>110</left>
+                    <top>44</top>
                     <description>Rewind</description>
                     <height>55</height>
                     <width>55</width>
@@ -140,8 +140,8 @@
                 </control>
                 <control type="togglebutton" id="4">
                     <description>Play</description>
-                    <posx>155</posx>
-                    <posy>38</posy>
+                    <left>155</left>
+                    <top>38</top>
                     <height>68</height>
                     <width>68</width>
                     <texturefocus>osdold/pausefo.png</texturefocus>
@@ -157,8 +157,8 @@
                     <onright>5</onright>
                 </control>
                 <control type="button" id="5">
-                    <posx>213</posx>
-                    <posy>44</posy>
+                    <left>213</left>
+                    <top>44</top>
                     <description>Fast Forward</description>
                     <height>55</height>
                     <width>55</width>
@@ -173,8 +173,8 @@
                     <ondown>6</ondown>
                 </control>
                 <control type="button" id="6">
-                    <posx>259</posx>
-                    <posy>44</posy>
+                    <left>259</left>
+                    <top>44</top>
                     <description>Next</description>
                     <height>55</height>
                     <width>55</width>

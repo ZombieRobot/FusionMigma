@@ -3,8 +3,8 @@
     <allowoverlay>yes</allowoverlay>
     <coordinates>
         <system>1</system>
-        <posx>0</posx>
-        <posy>0</posy>
+        <left>0</left>
+        <top>0</top>
     </coordinates>
     <controls>
 	
@@ -12,8 +12,8 @@
             <animation effect="slide" start="0,760" end="0,0" time="450" delay="0" reversible="false">WindowOpen</animation>
             <animation effect="slide" start="0,0" end="0,760" time="450" delay="0" reversible="false">WindowClose</animation>
             <control type="image">
-                <posx>0</posx>
-                <posy>654</posy>
+                <left>0</left>
+                <top>654</top>
                 <width>1280</width>
                 <height>70</height>
                 <aspectratio>stretch</aspectratio>
@@ -23,8 +23,8 @@
                 <visible>!Control.IsVisible(52) + !Control.IsVisible(53)</visible>
             </control>
             <control type="image">
-                <posx>0</posx>
-                <posy>654</posy>
+                <left>0</left>
+                <top>654</top>
                 <width>1280</width>
                 <height>1</height>
                 <aspectratio>stretch</aspectratio>
@@ -35,8 +35,8 @@
         </control>
         <control type="grouplist">
             <description>Media Codec Flagging Images</description>
-            <posx>678</posx>
-            <posy>664</posy>
+            <left>678</left>
+            <top>664</top>
             <width>600</width>
             <align>right</align>
             <itemgap>0</itemgap>
@@ -48,7 +48,7 @@
         </control>
 		
         <control type="group">
-            <posy>-30</posy>
+            <top>-30</top>
             <animation effect="slide" start="0,760" end="0,0" time="450" delay="0" reversible="false">WindowOpen</animation>
             <animation effect="slide" start="0,0" end="0,760" time="450" delay="0" reversible="false">WindowClose</animation>
             <animation type="Conditional" condition="Window.IsVisible(126) | Window.IsVisible(2000)">
@@ -57,11 +57,11 @@
 			
 			<!-- separators -->
 			<control type="group">
-				<posx>100</posx>
-				<posy>10</posy>
+				<left>100</left>
+				<top>10</top>
 				<control type="image">
-					<posx>230</posx>
-					<posy>145</posy>
+					<left>230</left>
+					<top>145</top>
 					<width>548</width>
 					<height>240</height>
 					<aspectratio>stretch</aspectratio>
@@ -69,8 +69,8 @@
 					<colordiffuse>20FFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posx>230</posx>
-					<posy>145</posy>
+					<left>230</left>
+					<top>145</top>
 					<width>548</width>
 					<height>1</height>
 					<aspectratio>stretch</aspectratio>
@@ -78,8 +78,8 @@
 					<colordiffuse>20FFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posx>230</posx>
-					<posy>205</posy>
+					<left>230</left>
+					<top>205</top>
 					<width>548</width>
 					<height>1</height>
 					<aspectratio>stretch</aspectratio>
@@ -87,8 +87,8 @@
 					<colordiffuse>20FFFFFF</colordiffuse>
 				</control>				
 				<control type="image">
-					<posx>230</posx>
-					<posy>265</posy>
+					<left>230</left>
+					<top>265</top>
 					<width>548</width>
 					<height>1</height>
 					<aspectratio>stretch</aspectratio>
@@ -96,8 +96,8 @@
 					<colordiffuse>20FFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posx>230</posx>
-					<posy>325</posy>
+					<left>230</left>
+					<top>325</top>
 					<width>548</width>
 					<height>1</height>
 					<aspectratio>stretch</aspectratio>
@@ -105,8 +105,8 @@
 					<colordiffuse>20FFFFFF</colordiffuse>
 				</control>				
 				<control type="image">
-					<posx>230</posx>
-					<posy>385</posy>
+					<left>230</left>
+					<top>385</top>
 					<width>548</width>
 					<height>1</height>
 					<aspectratio>stretch</aspectratio>
@@ -117,11 +117,11 @@
 			
 			<!-- POSTER/COVER -->
 			<control type="group">
-				<posx>880</posx>
-				<posy>0</posy>
+				<left>880</left>
+				<top>0</top>
 				<control type="image">
-					<posx>-26</posx>
-					<posy>58</posy>
+					<left>-26</left>
+					<top>58</top>
 					<width>426</width>
 					<height>626</height>
 					<aspectratio>stretch</aspectratio>
@@ -129,8 +129,8 @@
 					<visible>!Skin.HasSetting(HideNavBar)</visible>
 				</control>
 				<control type="image">
-					<posx>-26</posx>
-					<posy>57</posy>
+					<left>-26</left>
+					<top>57</top>
 					<width>426</width>
 					<height>627</height>
 					<aspectratio>stretch</aspectratio>
@@ -138,8 +138,8 @@
 					<visible>Skin.HasSetting(HideNavBar)</visible>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>84</posy>
+					<left>0</left>
+					<top>84</top>
 					<width>400</width>
 					<height>600</height>
 					<aspectratio>keep</aspectratio>
@@ -150,8 +150,8 @@
 			<!-- TITLE-->
 			<control type="label" id="20">
 				<description>Title</description>
-				<posx>20</posx>
-				<posy>91</posy>
+				<left>20</left>
+				<top>91</top>
 				<width>838</width>
 				<font>infobar</font>
 				<label>[UPPERCASE]$INFO[ListItem.Title][/UPPERCASE]</label>
@@ -162,11 +162,11 @@
 			
 			<!-- FANART/TRAILER -->	
             <control type="group">
-                <posx>0</posx>
-                <posy>9</posy>
+                <left>0</left>
+                <top>9</top>
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>147</posy>
+                    <left>0</left>
+                    <top>147</top>
                     <width>438</width>
                     <height>251</height>
                     <aspectratio>stretch</aspectratio>
@@ -175,8 +175,8 @@
                     <animation effect="fade" start="100" end="0" time="600">Hidden</animation>
                 </control>
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>146</posy>
+                    <left>0</left>
+                    <top>146</top>
                     <width>880</width>
                     <height>1</height>
                     <aspectratio>keep</aspectratio>
@@ -185,8 +185,8 @@
                     <animation effect="fade" start="100" end="0" time="600">Hidden</animation>
                 </control>
 				<control type="image">
-                    <posx>0</posx>
-                    <posy>387</posy>
+                    <left>0</left>
+                    <top>387</top>
                     <width>880</width>
                     <height>1</height>
                     <aspectratio>keep</aspectratio>
@@ -196,8 +196,8 @@
                 </control>
 				<!-- game fanart -->
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>147</posy>
+                    <left>0</left>
+                    <top>147</top>
                     <width>427</width>
                     <height>240</height>
                     <aspectratio>stretch</aspectratio>
@@ -207,8 +207,8 @@
 				
                 <!--TRAILER-->
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>147</posy>
+                    <left>0</left>
+                    <top>147</top>
                     <width>427</width>
                     <height>240</height>
                     <aspectratio>stretch</aspectratio>
@@ -219,8 +219,8 @@
                 </control>
                 <control type="videowindow">
                     <description>video</description>
-                    <posx>0</posx>
-                    <posy>147</posy>
+                    <left>0</left>
+                    <top>147</top>
                     <width>427</width>
                     <height>240</height>
                     <aspectratio>scale</aspectratio>
@@ -232,8 +232,8 @@
 
 			<!-- INFO Games-->
 			<control type="group">
-				<posx>108</posx>
-				<posy>8</posy>				
+				<left>108</left>
+				<top>8</top>				
 
 				
 				
@@ -241,8 +241,8 @@
                 
 				<control type="label" id="20">
 					<description>Studio</description>
-					<posx>330</posx>
-					<posy>269</posy>
+					<left>330</left>
+					<top>269</top>
 					<width>368</width>
 					<font>homemenu3</font>
 					<label>31580</label>
@@ -250,8 +250,8 @@
 				</control>
 				<control type="label" id="20">
 					<description>Studio Label</description>
-					<posx>330</posx>
-					<posy>295</posy>
+					<left>330</left>
+					<top>295</top>
 					<width>430</width>
 					<scrollsuffix> / </scrollsuffix>
 					<font>homemenu3</font>
@@ -261,8 +261,8 @@
 				</control>
 				<control type="label" id="20">
 					<description>Genre</description>
-					<posx>330</posx>
-					<posy>329</posy>
+					<left>330</left>
+					<top>329</top>
 					<width>368</width>
 					<font>homemenu3</font>
 					<label>31581</label>
@@ -270,8 +270,8 @@
 				</control>
 				<control type="label" id="20">
 					<description>Genre Label</description>
-					<posx>330</posx>
-					<posy>354</posy>
+					<left>330</left>
+					<top>354</top>
 					<width>430</width>
 					<scrollsuffix> / </scrollsuffix>
 					<font>homemenu3</font>
@@ -281,8 +281,8 @@
 				</control>
 				<control type="grouplist" id="17">
 					<description>Dynamical Spacing</description>
-					<posx>330</posx>
-					<posy>356</posy>
+					<left>330</left>
+					<top>356</top>
 					<width>430</width>
 					<height>300</height>
 					<itemgap>0</itemgap>
@@ -290,19 +290,19 @@
 				</control>
 			</control>
 			<control type="group">
-				<posx>108</posx>
-				<posy>8</posy>		
+				<left>108</left>
+				<top>8</top>		
 			</control>
 			
 			<!-- Games Info -->
 			<control type="group">
-				<posx>108</posx>
-				<posy>8</posy>				
+				<left>108</left>
+				<top>8</top>				
 				
 				<control type="label" id="20">
 					<description>System</description>
-					<posx>330</posx>
-					<posy>150</posy>
+					<left>330</left>
+					<top>150</top>
 					<width>368</width>
 					<font>homemenu3</font>
 					<label>31582</label>
@@ -310,8 +310,8 @@
 				</control>
 				<control type="label" id="20">
 					<description>System Label</description>
-					<posx>330</posx>
-					<posy>175</posy>
+					<left>330</left>
+					<top>175</top>
 					<width>430</width>
 					<scrollsuffix> / </scrollsuffix>
 					<font>homemenu3</font>
@@ -321,8 +321,8 @@
 				</control>
 				<control type="label" id="20">
 					<description>Year</description>
-					<posx>330</posx>
-					<posy>210</posy>
+					<left>330</left>
+					<top>210</top>
 					<width>368</width>
 					<font>homemenu3</font>
 					<label>31583</label>
@@ -330,8 +330,8 @@
 				</control>
 				<control type="label" id="20">
 					<description>Year Label</description>
-					<posx>330</posx>
-					<posy>234</posy>
+					<left>330</left>
+					<top>234</top>
 					<width>430</width>
 					<scrollsuffix> / </scrollsuffix>
 					<font>homemenu3</font>
@@ -345,8 +345,8 @@
 				<control type="label">
 					<description>NO EXTRA INFO AVAILABLE</description>
 					<visible>IsEmpty(ListItem.OriginalTitle) + IsEmpty(ListItem.Rating) + IsEmpty(ListItem.Writer) + IsEmpty(ListItem.Director) + IsEmpty(ListItem.Premiered)</visible>
-					<posx>438</posx>
-					<posy>255</posy>
+					<left>438</left>
+					<top>255</top>
 					<width>430</width>
 					<align>center</align>
 					<font>breadcrumb</font>
@@ -357,8 +357,8 @@
             <!--BUTTONS-->
             <control type="grouplist" id="1">
 			<defaultcontrol>1</defaultcontrol>
-                <posx>8</posx>
-                <posy>420</posy>
+                <left>8</left>
+                <top>420</top>
                 <width>185</width>
                 <height>254</height>
                 <itemgap>2</itemgap>
@@ -549,13 +549,13 @@
 			
 			
             <control type="group">
-                <posy>15</posy>
+                <top>15</top>
 				
 				<!-- PLOT -->
                 <control type="textbox" id="4">
                     <description>Plot</description>
-                    <posx>155</posx>
-                    <posy>400</posy>
+                    <left>155</left>
+                    <top>400</top>
                     <width>696</width>
                     <height>240</height>
                     <spinposx>500</spinposx>
@@ -582,8 +582,8 @@
 			<!-- STUDIO LOGOS -->
 			<control type="image" id="43">
 				<description>Studio Images</description>
-				<posx>4</posx>
-				<posy>684</posy>
+				<left>4</left>
+				<top>684</top>
 				<width>100</width>
 				<height>67</height>
 				<aspectratio>keep</aspectratio>

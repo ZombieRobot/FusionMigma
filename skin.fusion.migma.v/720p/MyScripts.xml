@@ -10,8 +10,8 @@
   </control>
   
 	<control type="grouplist" id="9000">
-		<posx>10</posx>
-		<posy>40</posy>
+		<left>10</left>
+		<top>40</top>
 		<width>150</width>
     <height>480</height>
 		<itemgap>2</itemgap>

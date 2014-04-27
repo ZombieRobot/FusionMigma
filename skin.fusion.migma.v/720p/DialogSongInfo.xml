@@ -12,11 +12,11 @@
 		<controls>
 		
 		<control type="group">
-			<posy>60</posy>
+			<top>60</top>
 
 			<control type="image">
-					<posx>314</posx>
-					<posy>174</posy>
+					<left>314</left>
+					<top>174</top>
 					<width>652</width>
 					<height>192</height>
 					<texture border="12">whitepanel.png</texture>
@@ -24,16 +24,16 @@
 					<colordiffuse>33ffffff</colordiffuse>
 			</control>
 			<control type="image">
-					<posx>320</posx>
-					<posy>180</posy>
+					<left>320</left>
+					<top>180</top>
 					<width>640</width>
 					<height>180</height>
 					<texture border="12">whitepanel2.png</texture>
 					<aspectratio>stretch</aspectratio>
 			</control>
 			<control type="image">
-					<posx>497</posx>
-					<posy>300</posy>
+					<left>497</left>
+					<top>300</top>
 					<width>230</width>
 					<height>48</height>
 					<texture border="12">grey4.png</texture>
@@ -41,8 +41,8 @@
 					<colordiffuse>e0ffffff</colordiffuse>
 			</control>
 				<control type="image">
-					<posx>506</posx>
-					<posy>310</posy>
+					<left>506</left>
+					<top>310</top>
 					<width>28</width>
 					<height>28</height>
 					<aspectratio>stretch</aspectratio>
@@ -50,15 +50,15 @@
 					<colordiffuse>f8ffffff</colordiffuse>							
 				</control>	
 			<control type="image">
-					<posx>530</posx>
-					<posy>247</posy>
+					<left>530</left>
+					<top>247</top>
 					<width>160</width>
 					<height>160</height>
 					<info>ListItem.StarRating</info>
 			</control>
 				<control type="image">
-					<posx>689</posx>
-					<posy>310</posy>
+					<left>689</left>
+					<top>310</top>
 					<width>28</width>
 					<height>28</height>
 					<aspectratio>stretch</aspectratio>
@@ -66,19 +66,19 @@
 					<colordiffuse>f8ffffff</colordiffuse>							
 				</control>
 					<control type="image">
-						<posx>331</posx>
-						<posy>190</posy>
+						<left>331</left>
+						<top>190</top>
 						<width>160</width>
 						<height>160</height>
 						<aspectratio scalediffuse="false">scale</aspectratio>
 						<texture fallback="noalbum.png">$INFO[ListItem.Thumb]</texture>
 					</control>
 		<control type="group">
-			<posx>162</posx>
-			<posy>16</posy>
+			<left>162</left>
+			<top>16</top>
 			<control type="label">
-					<posx>340</posx>
-					<posy>200</posy>
+					<left>340</left>
+					<top>200</top>
 					<width>445</width>
 					<label>[UPPERCASE]$INFO[ListItem.Title][/UPPERCASE]</label>
 					<font>movietitle6</font>
@@ -87,8 +87,8 @@
 					<scroll>true</scroll>
 			</control>
 			<control type="label">
-					<posx>340</posx>
-					<posy>231</posy>
+					<left>340</left>
+					<top>231</top>
 					<width>510</width>
 					<label>[B]$INFO[ListItem.Artist][/B]</label>
 					<font>about</font>
@@ -97,8 +97,8 @@
 					<scroll>true</scroll>
 			</control>
 			<control type="label">
-					<posx>340</posx>
-					<posy>258</posy>
+					<left>340</left>
+					<top>258</top>
 					<width>360</width>
 					<label>$INFO[ListItem.Album]</label>
 					<font>about</font>

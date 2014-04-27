@@ -4,8 +4,8 @@
 
 <coordinates>
   <system>1</system>
-  <posx>0</posx>
-  <posy>0</posy>
+  <left>0</left>
+  <top>0</top>
 </coordinates>
 
 <controls>
@@ -21,8 +21,8 @@
   
 			<control type="image">
 				<description>background image</description>
-				<posx>240</posx>
-				<posy>140</posy>
+				<left>240</left>
+				<top>140</top>
 				<width>800</width>
 				<height>280</height>
 				<texture border="12">whitepanel.png</texture>
@@ -31,8 +31,8 @@
 			</control>
 			<control type="image">
 				<description>background image</description>
-				<posx>246</posx>
-				<posy>146</posy>
+				<left>246</left>
+				<top>146</top>
 				<width>788</width>
 				<height>268</height>
 				<texture border="12">whitepanel2.png</texture>
@@ -41,8 +41,8 @@
 			</control> 
 			<control type="image">
 				<description>background image</description>
-				<posx>255</posx>
-				<posy>190</posy>
+				<left>255</left>
+				<top>190</top>
 				<width>770</width>
 				<height>1</height>
 				<texture>black.png</texture>
@@ -52,48 +52,30 @@
   
 	<control type="label" id="1">
 		<description>Heading</description>
-		<posx>0</posx>
-		<posy>156</posy>
+		<left>0</left>
+		<top>156</top>
 		<font>movietitle4</font>
 		<textcolor>movietitle</textcolor>
 		<align>center</align>
     	<width>1280</width>
 	</control>
   
-	<control type="label" id="2">
-		<description>Line 1</description>
-		<posx>0</posx>
-		<posy>220</posy>
+	<control type="textbox" id="9">
+		<description>text</description>
+		<left>0</left>
+		<top>220</top>
+		<width>1280</width>
+		<height>100</height>
+		<align>center</align>
+		<label>-</label>
 		<font>tvtitle</font>
 		<textcolor>movietitle2</textcolor>
-		<align>center</align>
-    	<width>1280</width>
+		<autoscroll time="3000" delay="4000" repeat="5000">true</autoscroll>
 	</control>
-	
-	<control type="label" id="3">
-		<description>Line 2</description>
-		<posx>0</posx>
-		<posy>270</posy>
-		<font>tvtitle</font>
-		<textcolor>movietitle2</textcolor>
-		<align>center</align>
-    	<width>1280</width>
-	</control>
-	
-	<control type="label" id="4">
-		<description>Line 3</description>
-		<posx>0</posx>
-		<posy>320</posy>
-		<font>tvtitle</font>
-		<textcolor>movietitle2</textcolor>
-		<align>center</align>
-    	<width>1280</width>
-	</control>
- 
 	<control type="button" id="10">
 		<description>OK Button</description>
-		<posx>555</posx>		
-		<posy>350</posy>
+		<left>555</left>		
+		<top>350</top>
 		<label>$LOCALIZE[186]</label>
 		<width>170</width>
 		<height>40</height>	

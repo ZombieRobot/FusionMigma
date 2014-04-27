@@ -25,8 +25,8 @@
 		
 			
 			<control type="panel" id="581">
-				<posx>144</posx>
-				<posy>125</posy>
+				<left>144</left>
+				<top>125</top>
 				<width>1008</width>
 				<height>545</height>
 				<onleft>581</onleft>
@@ -42,8 +42,8 @@
 				<visible>!Skin.HasSetting(HideIcon3)</visible>
 				<itemlayout height="270" width="144">
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>143</width>
 						<height>208</height>
 						<texture>poster/postershadow.png</texture>
@@ -56,8 +56,8 @@
 						</animation>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>125</width>
 						<height>190</height>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
@@ -73,8 +73,8 @@
 				<focusedlayout height="264" width="144">
 
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>141</width>
 						<height>206</height>
 						<texture border="12">whitepanel2.png</texture>
@@ -89,8 +89,8 @@
 					</control>
 
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>125</width>
 						<height>190</height>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
@@ -104,8 +104,8 @@
 				
 
 			<control type="label">
-				<posx>0</posx>
-				<posy>192</posy>
+				<left>0</left>
+				<top>192</top>
 				<width>1280</width>
 				<height>38</height>
 				<font>recent</font>
@@ -116,8 +116,8 @@
 			</control>
 			<control type="image">
                 <description>Rating Info</description>
-                <posx>-14</posx>
-                <posy>155</posy>
+                <left>-14</left>
+                <top>155</top>
                 <width>165</width>
                 <height>165</height>
                 <info>ListItem.StarRating</info>
@@ -126,8 +126,8 @@
 				<visible>!IsEmpty(ListItem.foldername) + !substring(Container.Listitem.Label,..,left)</visible>				
             </control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>217</posy>
+				<left>0</left>
+				<top>217</top>
 				<width>1280</width>
 				<height>35</height>
 				<font>aired</font>
@@ -141,8 +141,8 @@
 				<visible>!ListItem.IsFolder</visible>
 			</control>		
 			<control type="label">
-				<posx>60</posx>
-				<posy>192</posy>
+				<left>60</left>
+				<top>192</top>
 				<width>1280</width>
 				<height>38</height>
 				<font>recent</font>
@@ -154,8 +154,8 @@
 			</control>
 			<control type="image">
                 <description>Rating Info</description>
-                <posx>-21</posx>
-                <posy>155</posy>
+                <left>-21</left>
+                <top>155</top>
                 <width>165</width>
                 <height>165</height>
                 <info>ListItem.StarRating</info>
@@ -164,8 +164,8 @@
 				<visible>!IsEmpty(ListItem.foldername) + !substring(Container.Listitem.Label,..,left)</visible>				
             </control>
 			<control type="label">
-				<posx>60</posx>
-				<posy>217</posy>
+				<left>60</left>
+				<top>217</top>
 				<width>1280</width>
 				<height>35</height>
 				<font>aired</font>
@@ -178,8 +178,8 @@
 				<visible>Control.IsVisible(581) + IsEmpty(ListItem.foldername)</visible>
 			</control>			
 			<control type="label">
-				<posx>125</posx>
-				<posy>192</posy>
+				<left>125</left>
+				<top>192</top>
 				<width>1280</width>
 				<height>38</height>
 				<font>recent</font>
@@ -191,8 +191,8 @@
 			</control>	
 			<control type="image">
                 <description>Rating Info</description>
-                <posx>-26</posx>
-                <posy>155</posy>
+                <left>-26</left>
+                <top>155</top>
                 <width>165</width>
                 <height>165</height>
                 <info>ListItem.StarRating</info>
@@ -201,8 +201,8 @@
 				<visible>!IsEmpty(ListItem.foldername) + !substring(Container.Listitem.Label,..,left)</visible>				
             </control>
 			<control type="label">
-				<posx>125</posx>
-				<posy>217</posy>
+				<left>125</left>
+				<top>217</top>
 				<width>1280</width>
 				<height>35</height>
 				<font>aired</font>
@@ -222,8 +222,8 @@
 <visible>Control.IsVisible(581)</visible>
 
 				<control type="image">
-					<posx>90</posx>
-					<posy>338</posy>
+					<left>90</left>
+					<top>338</top>
 					<width>34</width>
 					<height>34</height>
 					<aspectratio>stretch</aspectratio>
@@ -233,8 +233,8 @@
 
 
 				<control type="image">
-					<posx>1154</posx>
-					<posy>338</posy>
+					<left>1154</left>
+					<top>338</top>
 					<width>34</width>
 					<height>34</height>
 					<aspectratio>stretch</aspectratio>
@@ -244,8 +244,8 @@
 </control>
 	
 		<control type="scrollbar" id="582">
-			<posx>0</posx>
-			<posy>649</posy>
+			<left>0</left>
+			<top>649</top>
 			<width>1280</width>
 			<height>5</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(581) + Control.HasFocus(582)</visible>

@@ -4,8 +4,8 @@
   
 <coordinates>
   <system>1</system>
-  <posx>100</posx>
-  <posy>80</posy>
+  <left>100</left>
+  <top>80</top>
 </coordinates>
   
 <controls>
@@ -18,16 +18,16 @@
   
 	<control type="label" id="2">
 		<description>Settings</description>
-		<posx>10</posx>
-		<posy>40</posy>
+		<left>10</left>
+		<top>40</top>
 		<width>500</width>
 		<align>left</align>
 	</control>
   
   <control type="grouplist" id="5">
     <description>Control Area</description>
-    <posx>10</posx>
-    <posy>72</posy>
+    <left>10</left>
+    <top>72</top>
     <width>500</width>
     <height>300</height>
     <itemgap>2</itemgap>

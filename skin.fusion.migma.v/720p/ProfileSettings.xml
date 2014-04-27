@@ -4,8 +4,8 @@
 
 <coordinates>
   <system>1</system>
-  <posx>0</posx>
-  <posy>0</posy>
+  <left>0</left>
+  <top>0</top>
 </coordinates>
 
 <controls>
@@ -13,13 +13,13 @@
 
   
 	<control type="group"> 
-	  <posx>296</posx>
-	  <posy>80</posy>
+	  <left>296</left>
+	  <top>80</top>
 	  <animation effect="fade" start="10" end="100" time="150">WindowOpen</animation>	  
 		<control type="image">
 			<description>background image</description>
-			<posx>8</posx>
-			<posy>-6</posy>
+			<left>8</left>
+			<top>-6</top>
 			<width>684</width>
 			<height>582</height>
 			<aspectratio>stretch</aspectratio>
@@ -29,8 +29,8 @@
 			
 		<control type="image">
 			<description>background image</description>
-			<posx>14</posx>
-			<posy>0</posy>
+			<left>14</left>
+			<top>0</top>
 			<width>672</width>
 			<height>570</height>
 			<aspectratio>stretch</aspectratio>
@@ -39,8 +39,8 @@
 		</control>
 		<control type="label">
 			<description>header label</description>
-			<posx>20</posx>
-			<posy>18</posy>
+			<left>20</left>
+			<top>18</top>
 			<width>660</width>
 			<height>30</height>
 			<font>heading</font>
@@ -51,8 +51,8 @@
 		</control>
 		<control type="image" id="2">
 			<description>profile image</description>
-			<posx>20</posx>
-			<posy>70</posy>
+			<left>20</left>
+			<top>70</top>
 			<width>150</width>
 			<height>150</height>
 			<align>left</align>
@@ -63,8 +63,8 @@
 		</control>
 		<control type="label">
 			<description>profile name label</description>
-			<posx>200</posx>
-			<posy>70</posy>
+			<left>200</left>
+			<top>70</top>
 			<width>460</width>
 			<align>left</align>
 			<font>recent</font>
@@ -73,8 +73,8 @@
 		</control>
 		<control type="label" id="1000">
 			<description>profile name Value</description>
-			<posx>200</posx>
-			<posy>95</posy>
+			<left>200</left>
+			<top>95</top>
 			<width>460</width>
 			<align>left</align>
 			<font>recent</font>
@@ -82,8 +82,8 @@
 		</control>
 		<control type="label">
 			<description>profile directory label</description>
-			<posx>200</posx>
-			<posy>155</posy>
+			<left>200</left>
+			<top>155</top>
 			<width>460</width>
 			<align>left</align>
 			<font>recent</font>
@@ -92,8 +92,8 @@
 		</control>
 		<control type="label" id="1001">
 			<description>profile directory Value</description>
-			<posx>200</posx>
-			<posy>180</posy>
+			<left>200</left>
+			<top>180</top>
 			<width>460</width>
 			<align>left</align>
 			<font>recent</font>
@@ -101,8 +101,8 @@
 		</control>
 		<control type="grouplist" id="5">
 			<description>control area</description>
-			<posx>20</posx>
-			<posy>240</posy>
+			<left>20</left>
+			<top>240</top>
 			<width>660</width>
 			<height>240</height>
 			<itemgap>-1</itemgap>
@@ -114,8 +114,8 @@
 		</control>
 		<control type="button" id="7">
 			<description>Default Button</description>
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<height>40</height>
 			<font>recent</font>
 			<align>left</align>
@@ -140,8 +140,8 @@
 		</control>
 		<control type="spincontrolex" id="9">
 			<description>Default SpinControlex</description>
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<height>40</height>
 			<font>recent</font>
 			<textoffsetx>20</textoffsetx>
@@ -159,8 +159,8 @@
 		</control>
 		<control type="button" id="28">
 			<description>Ok Button</description>
-			<posx>145</posx>
-			<posy>500</posy>
+			<left>145</left>
+			<top>500</top>
 			<width>200</width>
 			<onleft>29</onleft>
 			<onright>29</onright>
@@ -184,8 +184,8 @@
 		</control>
 		<control type="button" id="29">
 			<description>Ok Button</description>
-			<posx>355</posx>
-			<posy>500</posy>
+			<left>355</left>
+			<top>500</top>
 			<width>200</width>
 			<onleft>28</onleft>
 			<onright>28</onright>

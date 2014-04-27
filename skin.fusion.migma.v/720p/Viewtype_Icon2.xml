@@ -19,8 +19,8 @@
 		</animation>
 			
 			<control type="panel" id="579">
-				<posx>67</posx>
-				<posy>112</posy>
+				<left>67</left>
+				<top>112</top>
 				<width>1142</width>
 				<height>460</height>
 				<onleft>579</onleft>
@@ -36,8 +36,8 @@
 				<visible>!Container.Content(genres) + !Container.Content(studios) + !Container.Content(years)</visible>
 				<itemlayout height="144" width="144">
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>146</width>
 						<height>142</height>
 						<texture>poster/postershadow.png</texture>
@@ -49,8 +49,8 @@
 						</animation>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>128</width>
 						<height>128</height>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
@@ -62,8 +62,8 @@
 				<focusedlayout height="144" width="144">
 
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>144</width>
 						<height>144</height>
 						<texture border="12">whitepanel2.png</texture>
@@ -78,8 +78,8 @@
 					</control>
 
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>128</width>
 						<height>128</height>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
@@ -97,15 +97,15 @@
 <visible>Control.IsVisible(579)</visible>
 
 		<control type="grouplist">
-			<posx>0</posx>
-			<posy>585</posy>
+			<left>0</left>
+			<top>585</top>
 			<width>1280</width>
 			<height>40</height>
 			<align>center</align>
 			<orientation>horizontal</orientation>
 			<visible>!Container.Content(Artists)</visible>
 			<control type="label">
-				<posx>0</posx>
+				<left>0</left>
 				<width min="29" max="900">auto</width>
 				<height>36</height>
 				<font>movietitle3</font>
@@ -116,15 +116,15 @@
 			 <include>MovieHDFlagsPoster</include>
 		</control>
 		<control type="grouplist">
-			<posx>0</posx>
-			<posy>582</posy>
+			<left>0</left>
+			<top>582</top>
 			<width>1280</width>
 			<height>40</height>
 			<align>center</align>
 			<orientation>horizontal</orientation>
 			<visible>Container.Content(Artists)</visible>
 			<control type="label">
-				<posx>0</posx>
+				<left>0</left>
 				<width min="29" max="900">auto</width>
 				<height>36</height>
 				<font>movietitle3</font>
@@ -135,15 +135,15 @@
 		</control>
 
 		<control type="grouplist">
-			<posx>0</posx>
-			<posy>571</posy>
+			<left>0</left>
+			<top>571</top>
 			<width>1280</width>
 			<height>40</height>
 			<align>center</align>
 			<orientation>horizontal</orientation>
 			<visible>Container.Content(Episodes)</visible>
 			<control type="label">
-				<posx>0</posx>
+				<left>0</left>
 				<width min="29" max="900">auto</width>
 				<height>36</height>
 				<font>movietitle3</font>
@@ -154,16 +154,16 @@
 			 <include>MovieHDFlagsPoster</include>
 		</control>
 		<control type="grouplist">
-			<posx>0</posx>
-			<posy>615</posy>
+			<left>0</left>
+			<top>615</top>
 			<width>1280</width>
 			<height>40</height>
 			<align>center</align>
 			<orientation>horizontal</orientation>
 			<visible>!Window.IsActive(535)</visible>
 			<control type="label">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>aired</font>
@@ -179,8 +179,8 @@
 				<visible>!Container.Content(Episodes)</visible>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>aired</font>
@@ -196,8 +196,8 @@
 				<visible>!Container.Content(Episodes)</visible>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>aired</font>
@@ -217,8 +217,8 @@
 	
 		</control>
 			<control type="label">
-				<posx>183</posx>
-				<posy>615</posy>
+				<left>183</left>
+				<top>615</top>
 				<width>914</width>
 				<height>35</height>
 				<font>aired</font>
@@ -231,8 +231,8 @@
 				<visible>!IsEmpty(ListItem.foldername)</visible>
 			</control>
 		<control type="grouplist">
-			<posx>0</posx>
-			<posy>611</posy>
+			<left>0</left>
+			<top>611</top>
 			<width>1280</width>
 			<height>60</height>
 			<align>center</align>
@@ -240,8 +240,8 @@
 			<visible>!Window.IsActive(535)</visible>
 
 			<control type="label">
-				<posx>183</posx>
-				<posy>608</posy>
+				<left>183</left>
+				<top>608</top>
 				<width min="29" max="900">auto</width>
 				<height>28</height>
 				<font>tvtitle3</font>
@@ -254,8 +254,8 @@
 				<visible>!IsEmpty(ListItem.foldername)</visible>
 			</control>
 			<control type="image">
-				<posy>10</posy>
-				<posx>0</posx>
+				<top>10</top>
+				<left>0</left>
 				<width min="30" max="30">auto</width>
 				<height>35</height>
 				<aspectratio>keep</aspectratio>
@@ -265,8 +265,8 @@
 				<visible>Container.Content(Episodes)</visible>
 			</control>
 			<control type="image">
-				<posy>10</posy>
-				<posx>0</posx>
+				<top>10</top>
+				<left>0</left>
 				<width min="41" max="41">auto</width>
 				<height>35</height>
 				<aspectratio>keep</aspectratio>
@@ -276,8 +276,8 @@
 			</control>	
 		</control>
 			<control type="label">
-				<posx>183</posx>
-				<posy>633</posy>
+				<left>183</left>
+				<top>633</top>
 				<width>914</width>
 				<height>35</height>
 				<font>aired</font>
@@ -290,8 +290,8 @@
 				<visible>!IsEmpty(ListItem.foldername)</visible>
 			</control>
 			<control type="label">
-				<posx>183</posx>
-				<posy>615</posy>
+				<left>183</left>
+				<top>615</top>
 				<width>914</width>
 				<height>35</height>
 				<font>aired</font>
@@ -303,8 +303,8 @@
 				<visible>StringCompare(Container.Viewmode,icon)</visible>
 			</control>
 			<control type="label">
-				<posx>240</posx>
-				<posy>614</posy>
+				<left>240</left>
+				<top>614</top>
 				<width>800</width>
 				<height>35</height>
 				<font>aired</font>
@@ -315,8 +315,8 @@
 				<label>[UPPERCASE]$INFO[ListItem.Property(Artist_Style)][/UPPERCASE]</label>
 			</control>
 			<control type="label">
-				<posx>183</posx>
-				<posy>615</posy>
+				<left>183</left>
+				<top>615</top>
 				<width>914</width>
 				<height>35</height>
 				<font>aired</font>
@@ -328,8 +328,8 @@
 				<visible>Container.Content(Albums)</visible>
 			</control>	
 			<control type="label">
-				<posx>240</posx>
-				<posy>614</posy>
+				<left>240</left>
+				<top>614</top>
 				<width>800</width>
 				<height>35</height>
 				<font>aired</font>
@@ -343,8 +343,8 @@
 </control>
 	
 		<control type="scrollbar" id="580">
-			<posx>0</posx>
-			<posy>649</posy>
+			<left>0</left>
+			<top>649</top>
 			<width>1280</width>
 			<height>5</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(579) + Control.HasFocus(580)</visible>

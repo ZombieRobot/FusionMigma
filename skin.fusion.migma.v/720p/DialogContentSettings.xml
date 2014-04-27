@@ -2,8 +2,8 @@
 	<defaultcontrol always="true">3</defaultcontrol>
 	<coordinates>
 		<system>1</system>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 	</coordinates>
 		<animation type="WindowOpen" reversible="false">
 			<effect type="fade" start="0" end="100" time="350" delay="0" />
@@ -16,16 +16,16 @@
 	<controls>
 
 		<control type="image">
-			<posx>180</posx>
-			<posy>111</posy>			
+			<left>180</left>
+			<top>111</top>			
 			<width>942</width>
 			<height>482</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>dialog/setcontentbg.png</texture>
 		</control>
 				<control type="image">
-					<posx>211</posx>
-					<posy>147</posy>
+					<left>211</left>
+					<top>147</top>
 					<width>689</width>
 					<height>37</height>
 					<aspectratio>stretch</aspectratio>
@@ -34,8 +34,8 @@
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posx>211</posx>
-					<posy>147</posy>
+					<left>211</left>
+					<top>147</top>
 					<width>689</width>
 					<height>37</height>
 					<aspectratio>stretch</aspectratio>
@@ -43,8 +43,8 @@
 					<colordiffuse>AFFFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posx>211</posx>
-					<posy>325</posy>
+					<left>211</left>
+					<top>325</top>
 					<width>689</width>
 					<height>37</height>
 					<aspectratio>stretch</aspectratio>
@@ -52,8 +52,8 @@
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posx>211</posx>
-					<posy>362</posy>
+					<left>211</left>
+					<top>362</top>
 					<width>689</width>
 					<height>37</height>
 					<aspectratio>stretch</aspectratio>
@@ -61,8 +61,8 @@
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posx>211</posx>
-					<posy>399</posy>
+					<left>211</left>
+					<top>399</top>
 					<width>689</width>
 					<height>37</height>
 					<aspectratio>stretch</aspectratio>
@@ -70,8 +70,8 @@
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posx>211</posx>
-					<posy>436</posy>
+					<left>211</left>
+					<top>436</top>
 					<width>689</width>
 					<height>37</height>
 					<aspectratio>stretch</aspectratio>
@@ -79,8 +79,8 @@
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posx>211</posx>
-					<posy>473</posy>
+					<left>211</left>
+					<top>473</top>
 					<width>689</width>
 					<height>37</height>
 					<aspectratio>stretch</aspectratio>
@@ -88,8 +88,8 @@
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posx>211</posx>
-					<posy>510</posy>
+					<left>211</left>
+					<top>510</top>
 					<width>689</width>
 					<height>37</height>
 					<aspectratio>stretch</aspectratio>
@@ -97,8 +97,8 @@
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 		<control type="image">
-			<posx>911</posx>
-			<posy>382</posy>			
+			<left>911</left>
+			<top>382</top>			
 			<width>171</width>
 			<height>171</height>
 			<aspectratio>stretch</aspectratio>
@@ -107,8 +107,8 @@
 		</control>
 		<control type="image">
 			<description>Large Icon Image</description>
-			<posx>922</posx>
-			<posy>393</posy>
+			<left>922</left>
+			<top>393</top>
 			<width>150</width>
 			<height>150</height>
 			<info>ListItem.Icon</info>
@@ -119,8 +119,8 @@
 	<control type="group" id="9002">
 		<control type="spincontrolex" id="3">
 			<description>Content Picker</description>
-			<posx>211</posx>
-			<posy>145</posy>
+			<left>211</left>
+			<top>145</top>
 			<width>703</width>
 			<height>37</height>
 			<font>recent</font>
@@ -139,8 +139,8 @@
 			<pulseonselect>false</pulseonselect>
 		</control>
 		<control type="label">
-			<posx>34</posx>
-			<posy>113</posy>
+			<left>34</left>
+			<top>113</top>
 			<width>556</width>
 			<height>40</height>
 			<align>left</align>
@@ -149,8 +149,8 @@
 			<label>[B]$LOCALIZE[31060][/B]</label>
 		</control>
 		<control type="label">
-			<posx>227</posx>
-			<posy>322</posy>
+			<left>227</left>
+			<top>322</top>
 			<width>556</width>
 			<height>40</height>
 			<align>left</align>
@@ -160,8 +160,8 @@
 		</control>
 		
 		<control type="list" id="4">
-			<posx>211</posx>
-			<posy>183</posy>
+			<left>211</left>
+			<top>183</top>
 			<width>689</width>
 			<height>148</height>
 			<onup>3</onup>
@@ -173,7 +173,7 @@
 
 			<itemlayout height="40">
 				<control type="label">
-					<posx>15</posx>
+					<left>15</left>
 					<width>556</width>
 					<height>35</height>
 					<font>recent</font>
@@ -185,8 +185,8 @@
 			</itemlayout>
 			<focusedlayout height="40">
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width>689</width>
 					<height>37</height>
 					<texture>list/smalllistfo.png</texture>
@@ -195,7 +195,7 @@
 					<animation effect="fade" start="100" end="50" time="0" condition="!Control.HasFocus(4)">Conditional</animation>
 				</control>
 				<control type="label">
-					<posx>15</posx>
+					<left>15</left>
 					<width>556</width>
 					<height>35</height>
 					<font>recent</font>
@@ -209,8 +209,8 @@
 
 		<control type="grouplist" id="5">
 			<description>control area</description>
-			<posx>211</posx>
-			<posy>361</posy>
+			<left>211</left>
+			<top>361</top>
 			<width>690</width>
 			<height>220</height>
 			<itemgap>0</itemgap>
@@ -241,8 +241,8 @@
 	</control>	
 		
  		<control type="group" id="9001">
-			<posx>916</posx>
-			<posy>170</posy>
+			<left>916</left>
+			<top>170</top>
 			<control type="button" id="6">
 				<description>Settings Button</description>
    				<label>$LOCALIZE[5]</label>
@@ -266,7 +266,7 @@
 			</control>
 			<control type="button" id="28">
 				<description>OK Button</description>
-				<posy>55</posy>
+				<top>55</top>
 				<label>$LOCALIZE[186]</label>
 				<width>160</width>
 				<height>37</height>		
@@ -288,7 +288,7 @@
 			</control>
 			<control type="button" id="29">
 				<description>Cancel Button</description>
-				<posy>110</posy>
+				<top>110</top>
 				<label>$LOCALIZE[222]</label>
 				<width>160</width>
 				<height>37</height>		

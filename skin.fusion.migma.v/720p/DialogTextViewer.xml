@@ -3,8 +3,8 @@
 
 	<coordinates>
 		<system>1</system>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 	</coordinates>
 	
 	<controls>
@@ -12,8 +12,8 @@
 		
 		<control type="label" id="1">
 		  <description>Heading Label</description>
-		  <posx>120</posx>
-		  <posy>80</posy>
+		  <left>120</left>
+		  <top>80</top>
 		  <label>$LOCALIZE[13406]</label>
 		  <font>movietitle4</font>
 		  <textcolor>white</textcolor>
@@ -22,13 +22,13 @@
 		</control>
 		
 		<control type="group">
-			<posx>0</posx>
-			<posy>33</posy>
+			<left>0</left>
+			<top>33</top>
 	
 		<control type="textbox" id="5">
 			<description>textarea</description>
-			<posx>120</posx>
-			<posy>90</posy>
+			<left>120</left>
+			<top>90</top>
 			<width>1000</width>
 			<height>574</height>
 			
@@ -40,8 +40,8 @@
 		</control>
 	
 		<control type="scrollbar" id="78">
-			<posx>100</posx>
-			<posy>88</posy>
+			<left>100</left>
+			<top>88</top>
 			<width>8</width>
 			<height>575</height>
 			<visible allowhiddenfocus="true">true</visible>

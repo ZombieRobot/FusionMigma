@@ -4,16 +4,16 @@
 	<controls>
 		<control type="visualisation" id="2">
 			<description>visualisation</description>
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<width>1280</width>
 			<height>720</height>
 			<aspectratio>stretch</aspectratio>
 		</control>
 		<include>cdwall-musicvisualisation</include>
 		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<width>1280</width>
 			<height>720</height>
 			<texture>$INFO[MusicPlayer.Property(Fanart_Image)]</texture>
@@ -23,8 +23,8 @@
 			<visible>!Skin.HasSetting(Artistslideshow) + !Skin.HasSetting(CDWallNoVisualisation)</visible>
 		</control>
 		<control type="multiimage">
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<width>1280</width>
 			<height>720</height>
 			<imagepath>$INFO[Window.Property(ArtistSlideshow)]</imagepath>
@@ -41,12 +41,12 @@
 			<visible>Skin.HasSetting(Artistslideshow)</visible>
 		</control>
 		 <control type="group">
-			<posx>-35</posx>
-			<posy>-15</posy>
+			<left>-35</left>
+			<top>-15</top>
 			<visible>Player.HasAudio + Skin.HasSetting(CDWallNoVisualisation)</visible>
 			<control type="multiimage">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -57,8 +57,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>150</posx>
-				<posy>0</posy>
+				<left>150</left>
+				<top>0</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -69,8 +69,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>300</posx>
-				<posy>0</posy>
+				<left>300</left>
+				<top>0</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -81,8 +81,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>450</posx>
-				<posy>0</posy>
+				<left>450</left>
+				<top>0</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -93,8 +93,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>600</posx>
-				<posy>0</posy>
+				<left>600</left>
+				<top>0</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -105,8 +105,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>750</posx>
-				<posy>0</posy>
+				<left>750</left>
+				<top>0</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -117,8 +117,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>900</posx>
-				<posy>0</posy>
+				<left>900</left>
+				<top>0</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -129,8 +129,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>1050</posx>
-				<posy>0</posy>
+				<left>1050</left>
+				<top>0</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -141,8 +141,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>1200</posx>
-				<posy>0</posy>
+				<left>1200</left>
+				<top>0</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -153,8 +153,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>0</posx>
-				<posy>150</posy>
+				<left>0</left>
+				<top>150</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -165,8 +165,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>150</posx>
-				<posy>150</posy>
+				<left>150</left>
+				<top>150</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -177,8 +177,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>300</posx>
-				<posy>150</posy>
+				<left>300</left>
+				<top>150</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -189,8 +189,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>450</posx>
-				<posy>150</posy>
+				<left>450</left>
+				<top>150</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -201,8 +201,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>600</posx>
-				<posy>150</posy>
+				<left>600</left>
+				<top>150</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -213,8 +213,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>750</posx>
-				<posy>150</posy>
+				<left>750</left>
+				<top>150</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -225,8 +225,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>900</posx>
-				<posy>150</posy>
+				<left>900</left>
+				<top>150</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -237,8 +237,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>1050</posx>
-				<posy>150</posy>
+				<left>1050</left>
+				<top>150</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -249,8 +249,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>1200</posx>
-				<posy>150</posy>
+				<left>1200</left>
+				<top>150</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -261,8 +261,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>0</posx>
-				<posy>300</posy>
+				<left>0</left>
+				<top>300</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -273,8 +273,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>150</posx>
-				<posy>300</posy>
+				<left>150</left>
+				<top>300</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -285,8 +285,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>300</posx>
-				<posy>300</posy>
+				<left>300</left>
+				<top>300</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -297,8 +297,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>450</posx>
-				<posy>300</posy>
+				<left>450</left>
+				<top>300</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -309,8 +309,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>600</posx>
-				<posy>300</posy>
+				<left>600</left>
+				<top>300</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -321,8 +321,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>750</posx>
-				<posy>300</posy>
+				<left>750</left>
+				<top>300</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -333,8 +333,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>900</posx>
-				<posy>300</posy>
+				<left>900</left>
+				<top>300</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -345,8 +345,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>1050</posx>
-				<posy>300</posy>
+				<left>1050</left>
+				<top>300</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -357,8 +357,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>1200</posx>
-				<posy>300</posy>
+				<left>1200</left>
+				<top>300</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -369,8 +369,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>0</posx>
-				<posy>450</posy>
+				<left>0</left>
+				<top>450</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -381,8 +381,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>150</posx>
-				<posy>450</posy>
+				<left>150</left>
+				<top>450</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -393,8 +393,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>300</posx>
-				<posy>450</posy>
+				<left>300</left>
+				<top>450</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -405,8 +405,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>450</posx>
-				<posy>450</posy>
+				<left>450</left>
+				<top>450</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -417,8 +417,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>600</posx>
-				<posy>450</posy>
+				<left>600</left>
+				<top>450</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -429,8 +429,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>750</posx>
-				<posy>450</posy>
+				<left>750</left>
+				<top>450</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -441,8 +441,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>900</posx>
-				<posy>450</posy>
+				<left>900</left>
+				<top>450</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -453,8 +453,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>1050</posx>
-				<posy>450</posy>
+				<left>1050</left>
+				<top>450</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -465,8 +465,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>1200</posx>
-				<posy>450</posy>
+				<left>1200</left>
+				<top>450</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -477,8 +477,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>0</posx>
-				<posy>600</posy>
+				<left>0</left>
+				<top>600</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -489,8 +489,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>150</posx>
-				<posy>600</posy>
+				<left>150</left>
+				<top>600</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -501,8 +501,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>300</posx>
-				<posy>600</posy>
+				<left>300</left>
+				<top>600</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -513,8 +513,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>450</posx>
-				<posy>600</posy>
+				<left>450</left>
+				<top>600</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -525,8 +525,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>600</posx>
-				<posy>600</posy>
+				<left>600</left>
+				<top>600</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -537,8 +537,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>750</posx>
-				<posy>600</posy>
+				<left>750</left>
+				<top>600</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -549,8 +549,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>900</posx>
-				<posy>600</posy>
+				<left>900</left>
+				<top>600</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -561,8 +561,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>1050</posx>
-				<posy>600</posy>
+				<left>1050</left>
+				<top>600</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -573,8 +573,8 @@
 				<randomize>true</randomize>
 			</control>
 			<control type="multiimage">
-				<posx>1200</posx>
-				<posy>600</posy>
+				<left>1200</left>
+				<top>600</top>
 				<width>150</width>
 				<height>150</height>
 				<aspectratio>stretch</aspectratio>
@@ -586,8 +586,8 @@
 			</control>
 		</control>
 		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<width>1280</width>
 			<height>720</height>
 			<texture background="true">cdwall-grid.png</texture>
@@ -607,8 +607,8 @@
 
 				<!-- BACKGROUND -->
 				<control type="image">
-					<posx>0</posx>
-					<posy>-35</posy>
+					<left>0</left>
+					<top>-35</top>
 					<width>1280</width>
 					<height>100</height>
 					<texture flipy="true">osd/infobg.png</texture>
@@ -616,8 +616,8 @@
 					<aspectratio>stretch</aspectratio>
 				</control>	
 				<control type="image">
-					<posx>0</posx>
-					<posy>-35</posy>
+					<left>0</left>
+					<top>-35</top>
 					<width>1280</width>
 					<height>100</height>
 					<texture flipy="true">osd/musicbg.png</texture>
@@ -625,15 +625,15 @@
 					<aspectratio>stretch</aspectratio>
 				</control>	
 				<control type="grouplist">
-					<posx>12</posx>
-					<posy>30</posy>
+					<left>12</left>
+					<top>30</top>
 					<width>1280</width>
 					<height>40</height>
 					<align>left</align>
 					<orientation>horizontal</orientation>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="29" max="900">auto</width>
 						<height>30</height>
 						<label>[B]CODEC[/B]</label>
@@ -643,8 +643,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="29" max="900">auto</width>
 						<height>27</height>
 						<label>$INFO[MusicPlayer.Codec]</label>
@@ -654,8 +654,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="29" max="900">auto</width>
 						<height>30</height>
 						<label>[B]BITRATE[/B]</label>
@@ -665,8 +665,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="29" max="900">auto</width>
 						<height>27</height>
 						<label>$INFO[MusicPlayer.BitRate]KB/s</label>
@@ -676,8 +676,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="29" max="900">auto</width>
 						<height>30</height>
 						<label>[B]SAMPLERATE[/B]</label>
@@ -687,8 +687,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="29" max="900">auto</width>
 						<height>27</height>
 						<label>$INFO[MusicPlayer.SampleRate]KHZ</label>
@@ -698,8 +698,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="29" max="900">auto</width>
 						<height>30</height>
 						<label>[B]CHANNELS[/B]</label>
@@ -709,8 +709,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="29" max="900">auto</width>
 						<height>27</height>
 						<label>$INFO[MusicPlayer.Channels]</label>
@@ -721,15 +721,15 @@
 					</control>
 				</control>
 				<control type="grouplist">
-					<posx>-12</posx>
-					<posy>30</posy>
+					<left>-12</left>
+					<top>30</top>
 					<width>1280</width>
 					<height>40</height>
 					<align>right</align>
 					<orientation>horizontal</orientation>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="29" max="900">auto</width>
 						<height>30</height>
 						<label>[B]TRACK[/B]</label>
@@ -739,8 +739,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="900">auto</width>
 						<height>27</height>
 						<label>$INFO[MusicPlayer.PlaylistPosition]</label>
@@ -750,8 +750,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="900">auto</width>
 						<height>30</height>
 						<label>[B]OF[/B]</label>
@@ -761,8 +761,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="900">auto</width>
 						<height>27</height>
 						<label>$INFO[MusicPlayer.PlaylistLength]</label>
@@ -773,15 +773,15 @@
 					</control>
 				</control>
 				<control type="grouplist">
-					<posx>12</posx>
-					<posy>5</posy>
+					<left>12</left>
+					<top>5</top>
 					<width>1280</width>
 					<height>40</height>
 					<align>left</align>
 					<orientation>horizontal</orientation>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="29" max="100">auto</width>
 						<height>30</height>
 						<label>[B]NEXT[/B]</label>
@@ -791,8 +791,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="29" max="1210">auto</width>
 						<height>27</height>
 						<label>[UPPERCASE]$INFO[MusicPlayer.offset(1).Artist,, - ]$INFO[MusicPlayer.offset(1).Title][/UPPERCASE]</label>
@@ -814,13 +814,13 @@
 
 				<!-- BOTTOM INFO -->
 				<control type="group">
-					<posx>0</posx>
-					<posy>145r</posy>
+					<left>0</left>
+					<top>145r</top>
 				
 					<!-- BACKGROUND -->
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>1280</width>
 						<height>250</height>
 						<texture>osd/infobg.png</texture>
@@ -828,8 +828,8 @@
 						<aspectratio>stretch</aspectratio>
 					</control>	
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>1280</width>
 						<height>250</height>
 						<texture>osd/musicbg.png</texture>
@@ -843,14 +843,14 @@
 					
 						<!-- TITLE -->
 						<control type="grouplist">
-							<posx>300</posx>
-							<posy>15</posy>
+							<left>300</left>
+							<top>15</top>
 							<width>946</width><!-- 685 -->
 							<itemgap>0</itemgap>
 							<orientation>horizontal</orientation>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width min="5" max="946">auto</width>
 								<font>movietitle6</font>
 								<label>[UPPERCASE]$INFO[MusicPlayer.Title][/UPPERCASE]</label>
@@ -862,14 +862,14 @@
 							
 						<!-- MUSIC INFO -->
 						<control type="grouplist">
-							<posx>300</posx>
-							<posy>45</posy>
+							<left>300</left>
+							<top>45</top>
 							<width>946</width>
 							<itemgap>0</itemgap>
 							<orientation>horizontal</orientation>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width min="0" max="946">auto</width>
 								<font>aired</font>
 								<label>[UPPERCASE]$INFO[MusicPlayer.Artist,[COLOR=movietitleb2]Music by [/COLOR],][/UPPERCASE]</label>
@@ -879,14 +879,14 @@
 							</control>
 						</control>
 						<control type="grouplist">
-							<posx>300</posx>
-							<posy>65</posy>
+							<left>300</left>
+							<top>65</top>
 							<width>946</width>
 							<itemgap>0</itemgap>
 							<orientation>horizontal</orientation>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width min="0" max="100">auto</width>
 								<font>aired</font>
 								<label>[UPPERCASE]$INFO[MusicPlayer.Year][/UPPERCASE]</label>
@@ -895,8 +895,8 @@
 								<scroll>false</scroll>
 							</control>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width min="0" max="30">auto</width>
 								<font>aired</font>
 								<label>[UPPERCASE] • [/UPPERCASE]</label>
@@ -906,8 +906,8 @@
 								<visible>!IsEmpty(MusicPlayer.Year) + !IsEmpty(MusicPlayer.Album)</visible>
 							</control>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width min="0" max="730">auto</width>
 								<font>aired</font>
 								<label>[UPPERCASE]$INFO[MusicPlayer.Album][/UPPERCASE]</label>
@@ -916,8 +916,8 @@
 								<scroll>false</scroll>
 							</control>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width min="0" max="30">auto</width>
 								<font>aired</font>
 								<label>[UPPERCASE] • [/UPPERCASE]</label>
@@ -927,8 +927,8 @@
 								<visible>!IsEmpty(MusicPlayer.Genre) + [!IsEmpty(MusicPlayer.Year) | !IsEmpty(MusicPlayer.Album)]</visible>
 							</control>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width min="0" max="300">auto</width>
 								<font>aired</font>
 								<label>[UPPERCASE]$INFO[MusicPlayer.Genre][/UPPERCASE]</label>
@@ -946,14 +946,14 @@
 					
 						<!-- TITLE -->
 						<control type="grouplist">
-							<posx>360</posx>
-							<posy>15</posy>
+							<left>360</left>
+							<top>15</top>
 							<width>886</width>
 							<itemgap>0</itemgap>
 							<orientation>horizontal</orientation>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width min="5" max="886">auto</width>
 								<font>movietitle6</font>
 								<label>[UPPERCASE]$INFO[MusicPlayer.Title][/UPPERCASE]</label>
@@ -965,14 +965,14 @@
 							
 						<!-- MUSIC INFO -->
 						<control type="grouplist">
-							<posx>360</posx>
-							<posy>45</posy>
+							<left>360</left>
+							<top>45</top>
 							<width>886</width>
 							<itemgap>0</itemgap>
 							<orientation>horizontal</orientation>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width min="0" max="886">auto</width>
 								<font>aired</font>
 								<label>[UPPERCASE]$INFO[MusicPlayer.Artist,[COLOR=movietitleb2]Music by [/COLOR],][/UPPERCASE]</label>
@@ -982,14 +982,14 @@
 							</control>
 						</control>
 						<control type="grouplist">
-							<posx>360</posx>
-							<posy>65</posy>
+							<left>360</left>
+							<top>65</top>
 							<width>886</width>
 							<itemgap>0</itemgap>
 							<orientation>horizontal</orientation>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width min="0" max="100">auto</width>
 								<font>aired</font>
 								<label>[UPPERCASE]$INFO[MusicPlayer.Year][/UPPERCASE]</label>
@@ -998,8 +998,8 @@
 								<scroll>false</scroll>
 							</control>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width min="0" max="30">auto</width>
 								<font>aired</font>
 								<label>[UPPERCASE] • [/UPPERCASE]</label>
@@ -1009,8 +1009,8 @@
 								<visible>!IsEmpty(MusicPlayer.Year) + !IsEmpty(MusicPlayer.Album)</visible>
 							</control>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width min="0" max="670">auto</width>
 								<font>aired</font>
 								<label>[UPPERCASE]$INFO[MusicPlayer.Album][/UPPERCASE]</label>
@@ -1019,8 +1019,8 @@
 								<scroll>false</scroll>
 							</control>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width min="0" max="30">auto</width>
 								<font>aired</font>
 								<label>[UPPERCASE] • [/UPPERCASE]</label>
@@ -1030,8 +1030,8 @@
 								<visible>!IsEmpty(MusicPlayer.Genre) + [!IsEmpty(MusicPlayer.Year) | !IsEmpty(MusicPlayer.Album)]</visible>
 							</control>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width min="0" max="300">auto</width>
 								<font>aired</font>
 								<label>[UPPERCASE]$INFO[MusicPlayer.Genre][/UPPERCASE]</label>
@@ -1048,8 +1048,8 @@
 
 				<!-- Z-BAR -->
 				<control type="image">
-					<posx>0</posx>
-					<posy>715</posy>
+					<left>0</left>
+					<top>715</top>
 					<width>1280</width>
 					<height>5</height>
 					<aspectratio>stretch</aspectratio>
@@ -1060,8 +1060,8 @@
 					<animation effect="slide" start="0,0" end="0,15" delay="0" time="600" reversable="false">WindowClose</animation>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>715</posy>
+					<left>0</left>
+					<top>715</top>
 					<width>1280</width>
 					<height>5</height>
 					<aspectratio>stretch</aspectratio>
@@ -1076,8 +1076,8 @@
 				<!-- PROGRESS BAR -->
 				<control type="progress" id="23">
 					<visible>!Skin.HasSetting(UseCDArt)</visible>
-					<posx>300</posx>
-					<posy>41r</posy>
+					<left>300</left>
+					<top>41r</top>
 					<width>946</width>
 					<height>4</height>
 					<info>Player.Progress</info>
@@ -1089,8 +1089,8 @@
 				</control>
 				<control type="progress" id="23">
 					<visible>Skin.HasSetting(UseCDArt)</visible>
-					<posx>360</posx>
-					<posy>41r</posy>
+					<left>360</left>
+					<top>41r</top>
 					<width>886</width>
 					<height>4</height>
 					<info>Player.Progress</info>
@@ -1103,7 +1103,7 @@
 
 				<!-- TIMINGS -->
 				<control type="group">
-					<posy>34r</posy>
+					<top>34r</top>
 			
 					<!-- POSITION TIME -->
 					<control type="group">
@@ -1111,8 +1111,8 @@
 
 						<!-- POSITION TIME -->
 						<control type="label">
-							<posx>300</posx>
-							<posy>0</posy>
+							<left>300</left>
+							<top>0</top>
 							<width min="50" max="250">auto</width>
 							<height>25</height>
 							<label>[B]$INFO[VideoPlayer.Time][/B]</label>
@@ -1124,13 +1124,13 @@
 
 					<!-- FINISH TIME -->
 	<!-- 				<control type="grouplist">
-						<posx>380</posx>
+						<left>380</left>
 						<width>300</width>
 						<orientation>horizontal</orientation>
 						<align>center</align>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width min="5" max="250">auto</width>
 							<height>25</height>
 							<label>[B][UPPERCASE]The End[/UPPERCASE][/B]</label>
@@ -1139,8 +1139,8 @@
 							<align>left</align>
 						</control>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width min="5" max="250">auto</width>
 							<height>25</height>
 							<label>[B]$INFO[Player.FinishTime][/B]</label>
@@ -1153,8 +1153,8 @@
 
 					<!-- RUNTIME TIME -->
 					<control type="label">
-						<posx>34r</posx>
-						<posy>0</posy>
+						<left>34r</left>
+						<top>0</top>
 						<align>right</align>
 						<width>250</width>
 						<height>25</height>
@@ -1170,11 +1170,11 @@
 						<!-- PAUSED -->
 						<control type="group">
 							<visible>Player.Paused</visible>
-							<posx>600</posx>
+							<left>600</left>
 							<width>346</width>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width>300</width>
 								<height>25</height>
 								<label>[B][UPPERCASE]Paused[/UPPERCASE][/B]</label>
@@ -1186,11 +1186,11 @@
 						<!-- REWIND -->
 						<control type="group">
 							<visible>Player.Rewinding2x</visible>
-							<posx>600</posx>
+							<left>600</left>
 							<width>346</width>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width>300</width>
 								<height>25</height>
 								<label>[B][UPPERCASE]Rewind 2x[/UPPERCASE][/B]</label>
@@ -1201,11 +1201,11 @@
 						</control>
 						<control type="group">
 							<visible>Player.Rewinding4x</visible>
-							<posx>600</posx>
+							<left>600</left>
 							<width>346</width>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width>300</width>
 								<height>25</height>
 								<label>[B][UPPERCASE]Rewind 4x[/UPPERCASE][/B]</label>
@@ -1216,11 +1216,11 @@
 						</control>
 						<control type="group">
 							<visible>Player.Rewinding8x</visible>
-							<posx>600</posx>
+							<left>600</left>
 							<width>346</width>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width>300</width>
 								<height>25</height>
 								<label>[B][UPPERCASE]Rewind 8x[/UPPERCASE][/B]</label>
@@ -1231,11 +1231,11 @@
 						</control>
 						<control type="group">
 							<visible>Player.Rewinding16x</visible>
-							<posx>600</posx>
+							<left>600</left>
 							<width>346</width>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width>300</width>
 								<height>25</height>
 								<label>[B][UPPERCASE]Rewind 16x[/UPPERCASE][/B]</label>
@@ -1246,11 +1246,11 @@
 						</control>
 						<control type="group">
 							<visible>Player.Rewinding32x</visible>
-							<posx>600</posx>
+							<left>600</left>
 							<width>346</width>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width>300</width>
 								<height>25</height>
 								<label>[B][UPPERCASE]Rewind 32x[/UPPERCASE][/B]</label>
@@ -1263,11 +1263,11 @@
 						<!-- FORWARD -->
 						<control type="group">
 							<visible>Player.Forwarding2x</visible>
-							<posx>600</posx>
+							<left>600</left>
 							<width>346</width>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width>300</width>
 								<height>25</height>
 								<label>[B][UPPERCASE]Forward 2x[/UPPERCASE][/B]</label>
@@ -1278,11 +1278,11 @@
 						</control>
 						<control type="group">
 							<visible>Player.Forwarding4x</visible>
-							<posx>600</posx>
+							<left>600</left>
 							<width>346</width>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width>300</width>
 								<height>25</height>
 								<label>[B][UPPERCASE]Forward 4x[/UPPERCASE][/B]</label>
@@ -1293,11 +1293,11 @@
 						</control>
 						<control type="group">
 							<visible>Player.Forwarding8x</visible>
-							<posx>600</posx>
+							<left>600</left>
 							<width>346</width>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width>300</width>
 								<height>25</height>
 								<label>[B][UPPERCASE]Forward 8x[/UPPERCASE][/B]</label>
@@ -1308,11 +1308,11 @@
 						</control>
 						<control type="group">
 							<visible>Player.Forwarding16x</visible>
-							<posx>600</posx>
+							<left>600</left>
 							<width>346</width>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width>300</width>
 								<height>25</height>
 								<label>[B][UPPERCASE]Forward 16x[/UPPERCASE][/B]</label>
@@ -1323,11 +1323,11 @@
 						</control>
 						<control type="group">
 							<visible>Player.Forwarding32x</visible>
-							<posx>600</posx>
+							<left>600</left>
 							<width>346</width>
 							<control type="label">
-								<posx>0</posx>
-								<posy>0</posy>
+								<left>0</left>
+								<top>0</top>
 								<width>300</width>
 								<height>25</height>
 								<label>[B][UPPERCASE]Forward 32x[/UPPERCASE][/B]</label>
@@ -1344,21 +1344,21 @@
 				<!-- COVER + CDART -->
 				<control type="group">
 					<animation effect="fade" start="100" end="0" delay="100" time="300" reversable="false">WindowClose</animation>
-					<posx>29</posx>
-					<posy>311r</posy>
+					<left>29</left>
+					<top>311r</top>
 
 					<!-- CDART -->
 					<control type="group">
 						<visible>Skin.HasSetting(UseCDArt)</visible>
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
  						<animation effect="slide" start="-100" end="0" delay="500" time="1000" reversable="false" tween="cubic" easing="out">WindowOpen</animation>
 						
 						<control type="image">
 							<animation effect="fade" start="0" end="100" delay="0" time="900" reversable="false">WindowOpen</animation>
 							<description>Disc</description>
-							<posx>100</posx>
-							<posy>74</posy>
+							<left>100</left>
+							<top>74</top>
 							<width>216</width>
 							<height>216</height>
 							<texture fallback="DefaultCD.png">$INFO[Player.FolderPath]cdart.png</texture>
@@ -1370,8 +1370,8 @@
 					<!-- COVER -->
 					<control type="group">
 						<control type="image">
-							<posx>11</posx>
-							<posy>71</posy>
+							<left>11</left>
+							<top>71</top>
 							<width>220</width>
 							<height>220</height>
 							<aspectratio scalediffuse="false">scale</aspectratio>
@@ -1379,16 +1379,16 @@
 							<texture background="true" diffuse="poster/posterdiffuse.png">$INFO[MusicPlayer.Cover]</texture>
 						</control>					
 						<control type="image">
-							<posx>-19</posx>
-							<posy>41</posy>
+							<left>-19</left>
+							<top>41</top>
 							<width>280</width>
 							<height>280</height>
 							<aspectratio>stretch</aspectratio>
 							<texture>list/albumborder.png</texture>
 						</control>
 						<control type="image">
-							<posx>-26</posx>
-							<posy>280</posy>
+							<left>-26</left>
+							<top>280</top>
 							<width>287</width>
 							<height>52</height>
 							<aspectratio>stretch</aspectratio>
@@ -1398,11 +1398,11 @@
 	
 					<!-- INDICATORS -->
 					<control type="group">
-                        <posx>11</posx>
-                        <posy>71</posy>
+                        <left>11</left>
+                        <top>71</top>
                         <control type="image">
-                            <posx>0</posx>
-                            <posy>0</posy>
+                            <left>0</left>
+                            <top>0</top>
                             <width>220</width>
                             <height>220</height>
                             <texture>osd/paused-overlay.png</texture>
@@ -1412,8 +1412,8 @@
 							<colordiffuse>66FFFFFF</colordiffuse>
                         </control>
                         <control type="image">
-                            <posx>0</posx>
-                            <posy>0</posy>
+                            <left>0</left>
+                            <top>0</top>
                             <width>220</width>
                             <height>220</height>
                             <texture>osd/ff-overlay.png</texture>
@@ -1423,8 +1423,8 @@
 							<colordiffuse>66FFFFFF</colordiffuse>
 						</control>
                         <control type="image">
-                            <posx>0</posx>
-                            <posy>0</posy>
+                            <left>0</left>
+                            <top>0</top>
                             <width>220</width>
                             <height>220</height>
                             <texture>osd/rw-overlay.png</texture>
@@ -1463,8 +1463,8 @@
                 <animation effect="slide" start="0,0" end="0,190" delay="0" time="400" reversable="false">WindowClose</animation>
 
 				<control type="image">
-					<posx>0</posx>
-					<posy>170r</posy>
+					<left>0</left>
+					<top>170r</top>
 					<width>1280</width>
 					<height>320</height>
 					<texture>osdold/infobg.png</texture>
@@ -1474,8 +1474,8 @@
 
                 <control type="image">
                     <description>Background</description>
-                    <posx>0</posx>
-                    <posy>170r</posy>
+                    <left>0</left>
+                    <top>170r</top>
                     <width>1280</width>
                     <height>1</height>
                     <texture>white.png</texture>
@@ -1484,8 +1484,8 @@
                 </control>
 				
 				<control type="image">
-					<posx>40</posx>
-					<posy>120r</posy>
+					<left>40</left>
+					<top>120r</top>
 					<width>1200</width>
 					<height>122</height>
 					<aspectratio>keep</aspectratio>
@@ -1494,8 +1494,8 @@
 				</control>
 				
 				<control type="progress" id="23">
-					<posx>95</posx>
-					<posy>62r</posy>
+					<left>95</left>
+					<top>62r</top>
 					<width>820</width>
 					<height>10</height> <!-- 4 -->
 					<info>Player.Progress</info>
@@ -1507,17 +1507,17 @@
 				</control>
 				
                 <control type="group">
-                    <posy>34</posy>
+                    <top>34</top>
 					
 					<!-- Cover and paused/plaing/etc indicators -->
                     <control type="group">
-                        <posx>317r</posx>
-						<posy>255r</posy>
+                        <left>317r</left>
+						<top>255r</top>
                         <animation effect="slide" start="-200,0" end="0,0" time="700" delay="300" reversable="false" tween="sine" easing="out">WindowOpen</animation>
                         <animation effect="slide" start="0,0" end="-200,0" delay="0" time="400" reversable="false">WindowClose</animation>
                         <control type="image">
-                            <posx>0</posx>
-                            <posy>0</posy>
+                            <left>0</left>
+                            <top>0</top>
                             <width>220</width>
                             <height>220</height>
                             <texture>$INFO[MusicPlayer.Cover]</texture>
@@ -1525,8 +1525,8 @@
                         </control>
                         <control type="image">
                             <description>paused indicator</description>
-                            <posx>0</posx>
-                            <posy>0</posy>
+                            <left>0</left>
+                            <top>0</top>
                             <width>220</width>
                             <height>220</height>
                             <texture>osdold/paused-overlay.png</texture>
@@ -1538,8 +1538,8 @@
                         </control>
                         <control type="image">
                             <description>rewind indicator</description>
-                            <posx>0</posx>
-                            <posy>0</posy>
+                            <left>0</left>
+                            <top>0</top>
                             <width>220</width>
                             <height>220</height>
                             <texture>osdold/ff-overlay.png</texture>
@@ -1551,8 +1551,8 @@
                         </control>
                         <control type="image">
                             <description>fast forward indicator</description>
-                            <posx>0</posx>
-                            <posy>0</posy>
+                            <left>0</left>
+                            <top>0</top>
                             <width>220</width>
                             <height>220</height>
                             <texture>osdold/rw-overlay.png</texture>
@@ -1563,8 +1563,8 @@
                             </animation>
                         </control>
 						<control type="image">
-                            <posx>-30</posx>
-                            <posy>-30</posy>
+                            <left>-30</left>
+                            <top>-30</top>
 							<width>280</width>
 							<height>280</height>
 							<aspectratio scalediffuse="false">stretch</aspectratio>
@@ -1575,8 +1575,8 @@
 
 					<!-- song title -->
 					<control type="label">
-						<posx>95</posx>
-						<posy>95r</posy>
+						<left>95</left>
+						<top>95r</top>
 						<width>950</width>
 						<label>[B][UPPERCASE]$INFO[MusicPlayer.Title][/UPPERCASE][/B]</label>
 						<font>duration</font>
@@ -1585,8 +1585,8 @@
 					
 					<!-- Song time/duration -->
 					<control type="label">
-						<posx>95</posx>
-						<posy>50r</posy>
+						<left>95</left>
+						<top>50r</top>
 						<width>500</width>
 						<label>[B][UPPERCASE]$INFO[MusicPlayer.Time][/UPPERCASE] / [COLOR=gray]$INFO[MusicPlayer.Duration][/COLOR][/B]</label>
 						<font>duration</font>
@@ -1595,12 +1595,12 @@
 					
 					<!-- FINISH TIME -->
 					<control type="grouplist">
-						<posx>745</posx>
-						<posy>50r</posy>
+						<left>745</left>
+						<top>50r</top>
 						<orientation>horizontal</orientation>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width min="50" max="250">auto</width>
 							<height>25</height>
 							<label>[B][UPPERCASE]FINISHES:[/UPPERCASE][/B]</label>
@@ -1609,8 +1609,8 @@
 							<align>left</align>
 						</control>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width min="50" max="250">auto</width>
 							<height>25</height>
 							<label>[B]$INFO[Player.FinishTime][/B]</label>
@@ -1622,8 +1622,8 @@
 
 					<!-- Year / Album Label -->
 					<control type="label">
-						<posx>95</posx>
-						<posy>135r</posy>
+						<left>95</left>
+						<top>135r</top>
 						<width>820</width>
 						<font>about</font>
 						<label>$INFO[MusicPlayer.Year] • [COLOR=white]$INFO[MusicPlayer.Album][/COLOR] • $INFO[MusicPlayer.Genre]</label>
@@ -1633,8 +1633,8 @@
 					</control>
 					<!-- Artist Label -->
 					<control type="label">
-						<posx>95</posx>
-						<posy>160r</posy>
+						<left>95</left>
+						<top>160r</top>
 						<width>820</width>
 						<font>about</font>
 						<label>[B]$INFO[MusicPlayer.Artist][/B]</label>
@@ -1650,8 +1650,8 @@
             <control type="group">
                 <control type="image">
                     <description>Background</description>
-                    <posx>0</posx>
-                    <posy>-173</posy>
+                    <left>0</left>
+                    <top>-173</top>
                     <width>1280</width>
                     <height>238</height>
                     <texture>black.png</texture>
@@ -1660,8 +1660,8 @@
                 </control>
                 <control type="image">
                     <description>Background</description>
-                    <posx>0</posx>
-                    <posy>64</posy>
+                    <left>0</left>
+                    <top>64</top>
                     <width>1280</width>
                     <height>1</height>
                     <texture>white.png</texture>
@@ -1669,15 +1669,15 @@
                     <colordiffuse>34FFFFFF</colordiffuse>
                 </control>
                 <control type="grouplist">
-                    <posx>12</posx>
-                    <posy>30</posy>
+                    <left>12</left>
+                    <top>30</top>
                     <width>1280</width>
                     <height>40</height>
                     <align>left</align>
                     <orientation>horizontal</orientation>
                     <control type="label">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width min="29" max="900">auto</width>
                         <height>30</height>
                         <label>[B]CODEC[/B]</label>
@@ -1687,8 +1687,8 @@
                         <scroll>false</scroll>
                     </control>
                     <control type="label">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width min="29" max="900">auto</width>
                         <height>27</height>
                         <label>$INFO[MusicPlayer.Codec]</label>
@@ -1698,8 +1698,8 @@
                         <scroll>false</scroll>
                     </control>
                     <control type="label">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width min="29" max="900">auto</width>
                         <height>30</height>
                         <label>[B]BITRATE[/B]</label>
@@ -1709,8 +1709,8 @@
                         <scroll>false</scroll>
                     </control>
                     <control type="label">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width min="29" max="900">auto</width>
                         <height>27</height>
                         <label>$INFO[MusicPlayer.BitRate]KB/s</label>
@@ -1721,15 +1721,15 @@
                     </control>
                 </control>
                 <control type="grouplist">
-                    <posx>12</posx>
-                    <posy>5</posy>
+                    <left>12</left>
+                    <top>5</top>
                     <width>1280</width>
                     <height>40</height>
                     <align>left</align>
                     <orientation>horizontal</orientation>
                     <control type="label">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width min="29" max="900">auto</width>
                         <height>30</height>
                         <label>[B]SAMPLERATE[/B]</label>
@@ -1739,8 +1739,8 @@
                         <scroll>false</scroll>
                     </control>
                     <control type="label">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width min="29" max="900">auto</width>
                         <height>27</height>
                         <label>$INFO[MusicPlayer.SampleRate]KHZ</label>
@@ -1750,8 +1750,8 @@
                         <scroll>false</scroll>
                     </control>
                     <control type="label">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width min="29" max="900">auto</width>
                         <height>30</height>
                         <label>[B]CHANNELS[/B]</label>
@@ -1761,8 +1761,8 @@
                         <scroll>false</scroll>
                     </control>
                     <control type="label">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width min="29" max="900">auto</width>
                         <height>27</height>
                         <label>$INFO[MusicPlayer.Channels]</label>
@@ -1773,15 +1773,15 @@
                     </control>
                 </control>
                 <control type="grouplist">
-                    <posx>-12</posx>
-                    <posy>30</posy>
+                    <left>-12</left>
+                    <top>30</top>
                     <width>1280</width>
                     <height>40</height>
                     <align>right</align>
                     <orientation>horizontal</orientation>
                     <control type="label">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width min="29" max="900">auto</width>
                         <height>30</height>
                         <label>[B]TRACK[/B]</label>
@@ -1791,8 +1791,8 @@
                         <scroll>false</scroll>
                     </control>
                     <control type="label">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width min="29" max="900">auto</width>
                         <height>27</height>
                         <label>$INFO[musicplayer.Playlistposition]$INFO[musicplayer.Playlistlength, OF ]</label>
@@ -1803,15 +1803,15 @@
                     </control>
                 </control>
                 <control type="grouplist">
-                    <posx>-12</posx>
-                    <posy>5</posy>
+                    <left>-12</left>
+                    <top>5</top>
                     <width>1280</width>
                     <height>40</height>
                     <align>right</align>
                     <orientation>horizontal</orientation>
                     <control type="label">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width min="29" max="900">auto</width>
                         <height>30</height>
                         <label>[B]NEXT[/B]</label>
@@ -1821,8 +1821,8 @@
                         <scroll>false</scroll>
                     </control>
                     <control type="label">
-                        <posx>0</posx>
-                        <posy>0</posy>
+                        <left>0</left>
+                        <top>0</top>
                         <width min="29" max="375">auto</width>
                         <height>27</height>
                         <label>[UPPERCASE]$INFO[MusicPlayer.offset(1).Artist,, - ]$INFO[MusicPlayer.offset(1).Title][/UPPERCASE]</label>
@@ -1836,8 +1836,8 @@
         </control>
 		<!-- MUSIC LOGO -->
 					<control type="image">
-						<posx>1035</posx>
-						<posy>580</posy>
+						<left>1035</left>
+						<top>580</top>
 						<width>200</width>
 						<height>78</height> 
 						<align>left</align>
@@ -1849,8 +1849,8 @@
 					</control>
 		<!-- MUSIC LOGO -->
 					<control type="image">
-						<posx>780</posx>
-						<posy>550</posy>
+						<left>780</left>
+						<top>550</top>
 						<width>150</width>
 						<height>58</height> 
 						<align>left</align>
@@ -1861,8 +1861,8 @@
 						<animation>effect="slide" start="0" end="100" time="600"</animation>
 					</control>
 		<control type="button" id="999">
-			<posx>-10</posx>
-			<posy>-10</posy>
+			<left>-10</left>
+			<top>-10</top>
 			<width>1</width>
 			<height>1</height>
 			<onfocus>RunScript(script.artistslideshow)</onfocus>

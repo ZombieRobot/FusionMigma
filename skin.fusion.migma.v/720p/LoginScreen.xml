@@ -4,8 +4,8 @@
   
 <controls>
   	 <control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1280</width>
 		<height>720</height>
 		<aspectratio>stretch</aspectratio>
@@ -13,8 +13,8 @@
 		<colordiffuse>FFCCCCCF</colordiffuse>
 	</control>
 	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1280</width>
 		<height>720</height>
 		<aspectratio>stretch</aspectratio>
@@ -32,8 +32,8 @@
 			<effect type="slide" start="0,500" end="0,0" time="450" delay="0" tween="back" easing="out" />
 		</animation>
 			<control type="label">
-				<posx>0</posx>
-				<posy>320</posy>
+				<left>0</left>
+				<top>320</top>
 				<width>1280</width>
 				<height>35</height>
 				<font>movietitlebig</font>
@@ -44,8 +44,8 @@
 				<label>[UPPERCASE]welcome to fusion [/UPPERCASE]</label>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>145</posy>
+				<left>0</left>
+				<top>145</top>
 				<width>1280</width>
 				<height>35</height>
 				<font>movietitle3</font>
@@ -56,8 +56,8 @@
 				<label>[UPPERCASE]welcome to fusion[/UPPERCASE]</label>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>465</posy>
+				<left>0</left>
+				<top>465</top>
 				<width>1280</width>
 				<height>35</height>
 				<font>heading</font>
@@ -68,13 +68,13 @@
 				<label>[UPPERCASE]please login to your xbmc profile[/UPPERCASE]</label>
 			</control>
 	<control type="group"> 
-	  <posx>296</posx>
-	  <posy>185</posy>
+	  <left>296</left>
+	  <top>185</top>
 	  <animation effect="fade" start="10" end="100" time="150">WindowOpen</animation>	  
 		<control type="image">
 			<description>background image</description>
-			<posx>8</posx>
-			<posy>-6</posy>
+			<left>8</left>
+			<top>-6</top>
 			<width>684</width>
 			<height>292</height>
 			<aspectratio>stretch</aspectratio>
@@ -84,8 +84,8 @@
 			
 		<control type="image">
 			<description>background image</description>
-			<posx>14</posx>
-			<posy>0</posy>
+			<left>14</left>
+			<top>0</top>
 			<width>672</width>
 			<height>280</height>
 			<aspectratio>stretch</aspectratio>
@@ -95,8 +95,8 @@
   
 	<control type="list" id="52">
 		<description>Login Wraplist</description>
-		<posx>285</posx>
-		<posy>50</posy>
+		<left>285</left>
+		<top>50</top>
 		<width>393</width>
 		<height>500</height>
     	<onup>52</onup>
@@ -108,7 +108,7 @@
 		<scrolltime>200</scrolltime>
 		<itemlayout height="39">
 		<control type="label">
-			<posx>30</posx>
+			<left>30</left>
 			<width>650</width>
 			<height>39</height>
 			<font>recent</font>
@@ -118,13 +118,13 @@
 		</itemlayout>
 		<focusedlayout height="39">
 		<control type="image">
-			<posy>-1</posy>
+			<top>-1</top>
 			<width>660</width>
 			<height>39</height>
 			<texture>list/smalllistfo.png</texture>
 		</control>	
 		<control type="label">
-			<posx>30</posx>
+			<left>30</left>
 			<width>650</width>
 			<height>39</height>
 			<font>recent</font>
@@ -134,8 +134,8 @@
 		</focusedlayout>
 	</control>
  				  <control type="image">
-					  <posx>26</posx>
-					  <posy>12</posy>
+					  <left>26</left>
+					  <top>12</top>
 					  <width>256</width>
 					  <height>256</height>
 					  <texture>grey.png</texture>
@@ -143,8 +143,8 @@
 					  <fadetime>300</fadetime>
 				  </control> 
  				  <control type="image">
-					  <posx>26</posx>
-					  <posy>12</posy>
+					  <left>26</left>
+					  <top>12</top>
 					  <width>256</width>
 					  <height>256</height>
 					  <texture>$INFO[listitem.thumb]</texture>
@@ -153,8 +153,8 @@
 				  </control> 
 <!-- </control>  -->
 	<control type="label">
-		<posx>1000</posx>
-		<posy>628</posy>
+		<left>1000</left>
+		<top>628</top>
 		<width>300</width>
 		<height>35</height>
 		<font>small2</font>
@@ -171,8 +171,8 @@
 				</animation>
 	</control>
 	<control type="image">
-		<posx>1080</posx>
-		<posy>660</posy>
+		<left>1080</left>
+		<top>660</top>
 		<width>200</width>
 		<height>40</height>
 		<aspectratio>keep</aspectratio>
@@ -187,8 +187,8 @@
 	</control>
 	
 	<control type="image">
-		<posx>0</posx>
-		<posy>620</posy>
+		<left>0</left>
+		<top>620</top>
 		<width>269</width>
 		<height>89</height>
 		<aspectratio>keep</aspectratio>

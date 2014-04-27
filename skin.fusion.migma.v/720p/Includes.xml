@@ -74,8 +74,8 @@
 				<animation effect="slide" start="-300,0" end="0,0" delay="600" time="300"  reversible="false" condition="Window.IsActive(0)">conditional</animation>
 				<include>recentlyaddedextranavanimation</include>
 		<control type="image">
-				<posx>18</posx>
-				<posy>143r</posy>
+				<left>18</left>
+				<top>143r</top>
 				<width>226</width>
 				<height>130</height>
 				<aspectratio>stretch</aspectratio>
@@ -84,8 +84,8 @@
 				<visible>Player.HasVideo</visible>
 		</control>
 		<control type="image">
-				<posx>23</posx>
-				<posy>139r</posy>
+				<left>23</left>
+				<top>139r</top>
 				<width>216</width>
 				<height>122</height>
 				<aspectratio>stretch</aspectratio>
@@ -94,8 +94,8 @@
 				<visible>Player.HasVideo</visible>
 		</control>
 		<control type="videowindow" id="1">
-				<posx>23</posx>
-				<posy>139r</posy>
+				<left>23</left>
+				<top>139r</top>
 				<width>216</width>
 				<height>122</height>
 				<aspectratio>scale</aspectratio>
@@ -104,8 +104,8 @@
 		</control>
 		<control type="label">
 				<description>Song Title</description>
-				<posx>256</posx>
-				<posy>87r</posy>
+				<left>256</left>
+				<top>87r</top>
 				<width>248</width>
 				<label>$INFO[VideoPlayer.Title]</label>
 				<align>left</align>
@@ -120,8 +120,8 @@
 		</control>
 		<control type="label">
 				<description>Artist and Album Labels</description>
-				<posx>256</posx>
-				<posy>61r</posy>
+				<left>256</left>
+				<top>61r</top>
 				<width>248</width>
 				<label>$INFO[VideoPlayer.TVShowTitle]</label>
 				<align>left</align>
@@ -136,8 +136,8 @@
 		</control>
 		<control type="label">
 				<description>Artist and Album Labels</description>
-				<posx>256</posx>
-				<posy>61r</posy>
+				<left>256</left>
+				<top>61r</top>
 				<width>248</width>
 				<label>$INFO[VideoPlayer.Genre]</label>
 				<scroll>false</scroll>
@@ -153,8 +153,8 @@
 		</control>			
 		<control type="label">
 				<description>Artist and Album Labels</description>
-				<posx>256</posx>
-				<posy>38r</posy>
+				<left>256</left>
+				<top>38r</top>
 				<width>248</width>
 				<label>$INFO[VideoPlayer.Year]</label>
 				<align>left</align>
@@ -180,8 +180,8 @@
 				<control type="image">
   					<visible>Skin.HasSetting(UseCDArt)</visible>
 				      <description>Disc</description>
-				      <posx>70</posx>
-				      <posy>134r</posy>
+				      <left>70</left>
+				      <top>134r</top>
 				      <width>118</width>
 				      <height>118</height>
 				      <texture fallback="DefaultCD.png">$INFO[Player.FolderPath]cdart.png</texture>
@@ -191,8 +191,8 @@
 				</control>
 				<control type="image">
 					<description>Album Thumb</description>
-					<posx>15</posx>
-					<posy>140r</posy>
+					<left>15</left>
+					<top>140r</top>
 					<width>130</width>
 					<height>130</height>
 					<texture>$INFO[MusicPlayer.Cover]</texture>
@@ -206,8 +206,8 @@
 			<include>recentlyaddedextranavanimation</include>
 			<control type="label">
 					<description>Song Title</description>
-					<posx>160</posx>
-					<posy>82r</posy>
+					<left>160</left>
+					<top>82r</top>
 					<width>334</width>
 					<label>$INFO[MusicPlayer.Title]</label>
 					<align>left</align>
@@ -223,8 +223,8 @@
 			</control>
 			<control type="label">
 					<description>Song Title</description>
-					<posx>160</posx>
-					<posy>82r</posy>
+					<left>160</left>
+					<top>82r</top>
 					<width>600</width>
 					<label>$INFO[MusicPlayer.Title]</label>
 					<align>left</align>
@@ -240,8 +240,8 @@
 			</control>
 			<control type="label">
 					<description>Artist Label</description>
-					<posx>160</posx>
-					<posy>57r</posy>
+					<left>160</left>
+					<top>57r</top>
 					<width>334</width>
 					<label>$INFO[MusicPlayer.Artist]</label>
 					<align>left</align>
@@ -256,8 +256,8 @@
 			</control>
 			<control type="label">
 					<description>\Album Label</description>
-					<posx>160</posx>
-					<posy>36r</posy>
+					<left>160</left>
+					<top>36r</top>
 					<width>334</width>
 					<label>$INFO[MusicPlayer.Album]</label>
 					<align>left</align>
@@ -276,8 +276,8 @@
 			<include>recentlyaddedextranavanimation</include>
 			<control type="label">
 					<description>Song Title</description>
-					<posx>200</posx>
-					<posy>82r</posy>
+					<left>200</left>
+					<top>82r</top>
 					<width>294</width>
 					<label>$INFO[MusicPlayer.Title]</label>
 					<align>left</align>
@@ -293,8 +293,8 @@
 			</control>
 			<control type="label">
 					<description>Song Title</description>
-					<posx>200</posx>
-					<posy>82r</posy>
+					<left>200</left>
+					<top>82r</top>
 					<width>600</width>
 					<label>$INFO[MusicPlayer.Title]</label>
 					<align>left</align>
@@ -310,8 +310,8 @@
 			</control>
 			<control type="label">
 					<description>Artist Label</description>
-					<posx>200</posx>
-					<posy>57r</posy>
+					<left>200</left>
+					<top>57r</top>
 					<width>292</width>
 					<label>$INFO[MusicPlayer.Artist]</label>
 					<align>left</align>
@@ -326,8 +326,8 @@
 			</control>
 			<control type="label">
 					<description>\Album Label</description>
-					<posx>200</posx>
-					<posy>36r</posy>
+					<left>200</left>
+					<top>36r</top>
 					<width>292</width>
 					<label>$INFO[MusicPlayer.Album]</label>
 					<align>left</align>
@@ -354,8 +354,8 @@
 			<animation effect="zoom" start="100" end="125" time="400" center="700,500" tween="circle" easing="out" condition="Window.IsVisible(106) | Window.IsVisible(100)">Conditional</animation>
 			<include>recentlyaddedextranavanimation</include>
 		<control type="image">
-				<posx>6</posx>
-				<posy>61r</posy>
+				<left>6</left>
+				<top>61r</top>
 				<width>91</width>
 				<height>52</height>
 				<aspectratio>stretch</aspectratio>
@@ -364,8 +364,8 @@
 				<visible>Player.HasVideo</visible>
 		</control>
 		<control type="image">
-				<posx>7</posx>
-				<posy>60r</posy>
+				<left>7</left>
+				<top>60r</top>
 				<width>89</width>
 				<height>50</height>
 				<aspectratio>stretch</aspectratio>
@@ -374,8 +374,8 @@
 				<visible>Player.HasVideo</visible>
 		</control>		
 		<control type="videowindow" id="1">
-				<posx>7</posx>
-				<posy>60r</posy>
+				<left>7</left>
+				<top>60r</top>
 				<width>89</width>
 				<height>50</height>
 				<aspectratio>scale</aspectratio>
@@ -385,8 +385,8 @@
 		</control>
 		<control type="label">
 				<description>Song Title</description>
-				<posx>105</posx>
-				<posy>62r</posy>
+				<left>105</left>
+				<top>62r</top>
 				<width>640</width>
 				<label>$INFO[VideoPlayer.Title]</label>
 				<align>left</align>
@@ -402,8 +402,8 @@
 		</control>
 		<control type="label">
 				<description>Artist and Album Labels</description>
-				<posx>105</posx>
-				<posy>37r</posy>
+				<left>105</left>
+				<top>37r</top>
 				<width>640</width>
 				<label>$INFO[VideoPlayer.TVShowTitle,, • ]$INFO[VideoPlayer.Year]$INFO[VideoPlayer.Genre, • ,]</label>
 				<align>left</align>
@@ -431,8 +431,8 @@
 			<include>recentlyaddedextranavanimation</include>
 			<control type="image">
 					<description>Album Thumb</description>
-					<posx>12</posx>
-					<posy>60r</posy>
+					<left>12</left>
+					<top>60r</top>
 					<width>50</width>
 					<height>50</height>
 					<texture diffuse="infowrap/albumdiffuse.png">$INFO[MusicPlayer.Cover]</texture>
@@ -443,8 +443,8 @@
 		</control>
 		<control type="label">
 				<description>Song Title</description>
-				<posx>70</posx>
-				<posy>62r</posy>
+				<left>70</left>
+				<top>62r</top>
 				<width>640</width>
 				<label>$INFO[MusicPlayer.Title]</label>
 				<align>left</align>
@@ -460,8 +460,8 @@
 		</control>
 		<control type="label">
 				<description>Artist and Album Labels</description>
-				<posx>70</posx>
-				<posy>37r</posy>
+				<left>70</left>
+				<top>37r</top>
 				<width>640</width>
 				<label>$INFO[MusicPlayer.Artist,, • ]$INFO[MusicPlayer.Album]</label>
 				<align>left</align>
@@ -479,8 +479,8 @@
 
 			<include name="MovieHDFlags">
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<height>39</height>
 					<width>75</width>
 					<aspectratio>keep</aspectratio>
@@ -494,8 +494,8 @@
 					<animation effect="fade" start="100" end="0" time="50" delay="0" >WindowClose</animation>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<height>39</height>
 					<width>75</width>
 					<aspectratio>keep</aspectratio>
@@ -511,8 +511,8 @@
 			
 			<include name="MovieHDFlagsListView">
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<height>39</height>
 					<width>75</width>
 					<aspectratio>keep</aspectratio>
@@ -522,8 +522,8 @@
 					<visible>!Skin.HasSetting(HideSD)</visible>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<height>39</height>
 					<width>75</width>
 					<aspectratio>keep</aspectratio>
@@ -534,8 +534,8 @@
 			</include>
 			<include name="MovieHDFlagsListViewFocus">
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<height>39</height>
 					<width>75</width>
 					<aspectratio>keep</aspectratio>
@@ -545,8 +545,8 @@
 					<visible>!Skin.HasSetting(HideSD)</visible>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<height>39</height>
 					<width>75</width>
 					<aspectratio>keep</aspectratio>
@@ -557,8 +557,8 @@
 			</include>
 			<include name="MovieHDFlagsPoster">
 				<control type="image">
-					<posx>0</posx>
-					<posy>-5</posy>
+					<left>0</left>
+					<top>-5</top>
 					<height>34</height>
 					<width>70</width>
 					<aspectratio>keep</aspectratio>
@@ -568,8 +568,8 @@
 					<visible>!Skin.HasSetting(HideSD)</visible>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>-5</posy>
+					<left>0</left>
+					<top>-5</top>
 					<height>34</height>
 					<width>70</width>
 					<aspectratio>keep</aspectratio>
@@ -581,8 +581,8 @@
 
 			<include name="MovieHDFlagsDialog">
 				<control type="image">
-					<posx>0</posx>
-					<posy>-5</posy>
+					<left>0</left>
+					<top>-5</top>
 					<height>34</height>
 					<width>70</width>
 					<aspectratio>keep</aspectratio>
@@ -592,8 +592,8 @@
 					<visible>!Skin.HasSetting(HideSD)</visible>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>-5</posy>
+					<left>0</left>
+					<top>-5</top>
 					<height>34</height>
 					<width>70</width>
 					<aspectratio>keep</aspectratio>
@@ -606,8 +606,8 @@
 
 			<include name="MovieHDFlagsBigFan">
 				<control type="image">
-					<posx>0</posx>
-					<posy>5</posy>
+					<left>0</left>
+					<top>5</top>
 					<height>26</height>
 					<width>60</width>
 					<aspectratio>keep</aspectratio>
@@ -617,8 +617,8 @@
 					<visible>!Skin.HasSetting(HideSD)</visible>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>5</posy>
+					<left>0</left>
+					<top>5</top>
 					<height>26</height>
 					<width>60</width>
 					<aspectratio>keep</aspectratio>
@@ -629,8 +629,8 @@
 			</include>
 			<include name="MovieHDFlagsPosterShelf">
 				<control type="image">
-					<posx>-5</posx>
-					<posy>0</posy>
+					<left>-5</left>
+					<top>0</top>
 					<height>26</height>
 					<width>60</width>
 					<aspectratio>keep</aspectratio>
@@ -640,8 +640,8 @@
 					<visible>!Skin.HasSetting(HideSD)</visible>
 				</control>
 				<control type="image">
-					<posx>-5</posx>
-					<posy>0</posy>
+					<left>-5</left>
+					<top>0</top>
 					<height>26</height>
 					<width>60</width>
 					<aspectratio>keep</aspectratio>
@@ -652,8 +652,8 @@
 			</include>			
 			<include name="MovieHDFlagsBigList">
 				<control type="image">
-					<posx>0</posx>
-					<posy>4</posy>
+					<left>0</left>
+					<top>4</top>
 					<height>34</height>
 					<width>37</width>
 					<aspectratio>keep</aspectratio>
@@ -662,8 +662,8 @@
 					<visible>IntegerGreaterThan(ListItem.videoresolution,719)</visible>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>4</posy>
+					<left>0</left>
+					<top>4</top>
 					<height>34</height>
 					<width>37</width>
 					<aspectratio>keep</aspectratio>
@@ -676,8 +676,8 @@
 
 			<include name="MovieHDFlagsLowList">
 				<control type="image">
-					<posx>0</posx>
-					<posy>4</posy>
+					<left>0</left>
+					<top>4</top>
 					<height>24</height>
 					<width>28</width>
 					<aspectratio>keep</aspectratio>
@@ -686,8 +686,8 @@
 					<visible>IntegerGreaterThan(ListItem.videoresolution,719)</visible>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>4</posy>
+					<left>0</left>
+					<top>4</top>
 					<height>24</height>
 					<width>28</width>
 					<aspectratio>keep</aspectratio>
@@ -700,8 +700,8 @@
 			
 			<include name="MovieHDFlagsBigListFo">
 				<control type="image">
-					<posx>0</posx>
-					<posy>4</posy>
+					<left>0</left>
+					<top>4</top>
 					<height>34</height>
 					<width>37</width>
 					<aspectratio>keep</aspectratio>
@@ -710,8 +710,8 @@
 					<visible>IntegerGreaterThan(ListItem.videoresolution,719)</visible>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>4</posy>
+					<left>0</left>
+					<top>4</top>
 					<height>34</height>
 					<width>37</width>
 					<aspectratio>keep</aspectratio>
@@ -724,8 +724,8 @@
 		
 			<include name="MovieHDFlagsLowListFo">
 				<control type="image">
-					<posx>0</posx>
-					<posy>4</posy>
+					<left>0</left>
+					<top>4</top>
 					<height>24</height>
 					<width>28</width>
 					<aspectratio>keep</aspectratio>
@@ -734,8 +734,8 @@
 					<visible>IntegerGreaterThan(ListItem.videoresolution,719)</visible>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>4</posy>
+					<left>0</left>
+					<top>4</top>
 					<height>24</height>
 					<width>28</width>
 					<aspectratio>keep</aspectratio>
@@ -749,8 +749,8 @@
 	<include name="MPAA">
 			<control type="label">
 				<description>G Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>aired</font>
@@ -763,8 +763,8 @@
 			</control>
 			<control type="label">
 				<description>PG Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>aired</font>
@@ -777,8 +777,8 @@
 			</control>
 			<control type="label">
 				<description>PG-13 Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>aired</font>
@@ -791,8 +791,8 @@
 			</control>
 			<control type="label">
 				<description>R Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>aired</font>
@@ -805,8 +805,8 @@
 			</control>
 			<control type="label">
 				<description>NC-17 Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>aired</font>
@@ -819,8 +819,8 @@
 			</control>	
 			<control type="label">
 				<description>Unrated label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>aired</font>
@@ -836,8 +836,8 @@
 	<include name="MPAA2">
 			<control type="label">
 				<description>G Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>homemenu3</font>
@@ -850,8 +850,8 @@
 			</control>
 			<control type="label">
 				<description>PG Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>homemenu3</font>
@@ -864,8 +864,8 @@
 			</control>
 			<control type="label">
 				<description>PG-13 Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>homemenu3</font>
@@ -878,8 +878,8 @@
 			</control>
 			<control type="label">
 				<description>R Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>homemenu3</font>
@@ -892,8 +892,8 @@
 			</control>
 			<control type="label">
 				<description>NC-17 Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>homemenu3</font>
@@ -906,8 +906,8 @@
 			</control>	
 			<control type="label">
 				<description>Unrated label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>homemenu3</font>
@@ -923,8 +923,8 @@
 	<include name="MPAABIGLIST">
 			<control type="label">
 				<description>G Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -937,8 +937,8 @@
 			</control>
 			<control type="label">
 				<description>PG Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -951,8 +951,8 @@
 			</control>
 			<control type="label">
 				<description>PG-13 Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -965,8 +965,8 @@
 			</control>
 			<control type="label">
 				<description>R Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -979,8 +979,8 @@
 			</control>
 			<control type="label">
 				<description>NC-17 Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -993,8 +993,8 @@
 			</control>	
 			<control type="label">
 				<description>Unrated label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -1010,8 +1010,8 @@
 	<include name="MPAALOWLIST">
 			<control type="label">
 				<description>G Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -1024,8 +1024,8 @@
 			</control>
 			<control type="label">
 				<description>PG Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -1038,8 +1038,8 @@
 			</control>
 			<control type="label">
 				<description>PG-13 Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -1052,8 +1052,8 @@
 			</control>
 			<control type="label">
 				<description>R Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -1066,8 +1066,8 @@
 			</control>
 			<control type="label">
 				<description>NC-17 Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -1080,8 +1080,8 @@
 			</control>	
 			<control type="label">
 				<description>Unrated label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -1097,8 +1097,8 @@
 	<include name="MPAABIGLISTFO">
 			<control type="label">
 				<description>G Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -1111,8 +1111,8 @@
 			</control>
 			<control type="label">
 				<description>PG Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -1125,8 +1125,8 @@
 			</control>
 			<control type="label">
 				<description>PG-13 Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -1139,8 +1139,8 @@
 			</control>
 			<control type="label">
 				<description>R Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -1153,8 +1153,8 @@
 			</control>
 			<control type="label">
 				<description>NC-17 Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -1167,8 +1167,8 @@
 			</control>	
 			<control type="label">
 				<description>Unrated label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -1184,8 +1184,8 @@
 	<include name="MPAAEP2">
 			<control type="label">
 				<description>G Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>homemenu3</font>
@@ -1198,8 +1198,8 @@
 			</control>
 			<control type="label">
 				<description>PG Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>homemenu3</font>
@@ -1212,8 +1212,8 @@
 			</control>
 			<control type="label">
 				<description>PG-13 Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>homemenu3</font>
@@ -1226,8 +1226,8 @@
 			</control>
 			<control type="label">
 				<description>R Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>homemenu3</font>
@@ -1240,8 +1240,8 @@
 			</control>
 			<control type="label">
 				<description>NC-17 Rating label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>homemenu3</font>
@@ -1254,8 +1254,8 @@
 			</control>	
 			<control type="label">
 				<description>Unrated label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>homemenu3</font>
@@ -1283,8 +1283,8 @@
 
 	<include name="Background">
 		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<width>1280</width>
 			<height>720</height>
 			<aspectratio>stretch</aspectratio>
@@ -1292,8 +1292,8 @@
 			<colordiffuse>FFCCCCCF</colordiffuse>
 		</control>
 		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<width>1280</width>
 			<height>720</height>
 			<aspectratio>stretch</aspectratio>
@@ -1312,8 +1312,8 @@
 				<effect type="fade" start="0" end="100" time="650" delay="0" />
 			</animation>	
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>1280</width>
 				<height>720</height>
 				<aspectratio>stretch</aspectratio>
@@ -1323,8 +1323,8 @@
 				<visible>!substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
 			</control>
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>1280</width>
 				<height>720</height>
 				<aspectratio>stretch</aspectratio>
@@ -1334,8 +1334,8 @@
 				<visible>!substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
 			</control>
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>1280</width>
 				<height>720</height>
 				<aspectratio>stretch</aspectratio>
@@ -1345,8 +1345,8 @@
 				<visible>!substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
 			</control>	
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>1280</width>
 				<height>720</height>
 				<aspectratio>stretch</aspectratio>
@@ -1356,8 +1356,8 @@
 				<visible>!substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
 			</control>
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>1280</width>
 				<height>720</height>
 				<aspectratio>stretch</aspectratio>
@@ -1367,8 +1367,8 @@
 				<visible>!substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
 			</control>
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>1280</width>
 				<height>720</height>
 				<aspectratio>stretch</aspectratio>
@@ -1378,8 +1378,8 @@
 				<visible>!substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
 			</control>
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>1280</width>
 				<height>720</height>
 				<aspectratio>stretch</aspectratio>
@@ -1389,8 +1389,8 @@
 				<visible>!substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
 			</control>
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>1280</width>
 				<height>720</height>
 				<aspectratio>stretch</aspectratio>
@@ -1400,8 +1400,8 @@
 				<visible>!substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
 			</control>
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>1280</width>
 				<height>720</height>
 				<aspectratio>stretch</aspectratio>
@@ -1411,8 +1411,8 @@
 				<visible>!substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
 			</control>
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>1280</width>
 				<height>720</height>
 				<aspectratio>stretch</aspectratio>
@@ -1422,8 +1422,8 @@
 				<visible>!substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
 			</control>
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>1280</width>
 				<height>720</height>
 				<aspectratio>stretch</aspectratio>
@@ -1433,8 +1433,8 @@
 				<visible>!substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
 			</control>
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>1280</width>
 				<height>720</height>
 				<aspectratio>stretch</aspectratio>
@@ -1444,8 +1444,8 @@
 				<visible>!substring(container.folderpath,plugin://plugin.video.xbmcflicks)</visible>
 			</control>
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>1280</width>
 				<height>720</height>
 				<aspectratio>stretch</aspectratio>
@@ -1456,8 +1456,8 @@
 			</control>
 			
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>1280</width>
 				<height>720</height>
 				<texture>overlays/netflix.png</texture>
@@ -1470,8 +1470,8 @@
 	
 	<include name="IMDB">
 			<control type="label">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>aired</font>
@@ -1488,8 +1488,8 @@
 
 	<include name="IMDB2">
 			<control type="label">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>homemenu3</font>
@@ -1506,8 +1506,8 @@
 
 	<include name="IMDBBIGLIST">
 			<control type="label">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -1521,8 +1521,8 @@
 	
 	<include name="IMDBLOWLIST">
 			<control type="label">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -1536,8 +1536,8 @@
 	
 	<include name="IMDBBIGLISTFO">
 			<control type="label">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>movietitle2</font>
@@ -1551,8 +1551,8 @@
 
 	<include name="IMDBEP2">
 			<control type="label">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>homemenu3</font>
@@ -1569,18 +1569,18 @@
 			<visible>Container.Scrolling + [StringCompare(Container.SortMethod,$LOCALIZE[551]) | StringCompare(Container.SortMethod,$LOCALIZE[561]) | StringCompare(Container.SortMethod,$LOCALIZE[558]) | StringCompare(Container.SortMethod,$LOCALIZE[557]) | StringCompare(Container.SortMethod,$LOCALIZE[556]) | StringCompare(Container.SortMethod,$LOCALIZE[566])]</visible>
 			<animation effect="fade" start="0" end="100" time="100">Visible</animation>
 			<animation effect="fade" start="100" end="0" delay="500" time="300">Hidden</animation>
-			<posx>540</posx>
-			<posy>260</posy>
+			<left>540</left>
+			<top>260</top>
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>200</width>
 				<height>200</height>
 				<texture>scrollpopup.png</texture>
 			</control>
 			<control type="label">
-				<posx>60</posx>
-				<posy>60</posy>
+				<left>60</left>
+				<top>60</top>
 				<width>80</width>
 				<height>80</height>
 				<align>center</align>
@@ -1594,18 +1594,18 @@
 			<visible>Container.Scrolling + StringCompare(Container.SortMethod,$LOCALIZE[562])</visible>
 			<animation effect="fade" start="0" end="100" time="100">Visible</animation>
 			<animation effect="fade" start="100" end="0" delay="500" time="300">Hidden</animation>
-			<posx>450</posx>
-			<posy>260</posy>
+			<left>450</left>
+			<top>260</top>
 			<control type="image">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>384</width>
 				<height>200</height>
 				<texture>scrollpopupyear.png</texture>
 			</control>
 			<control type="label">
-				<posx>133</posx>
-				<posy>60</posy>
+				<left>133</left>
+				<top>60</top>
 				<width>120</width>
 				<height>80</height>
 				<align>center</align>

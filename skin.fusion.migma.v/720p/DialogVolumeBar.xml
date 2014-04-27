@@ -6,8 +6,8 @@
 
 	<control type="group">   
 		<control type="image">
-			<posx>270r</posx>
-			<posy>0</posy>
+			<left>270r</left>
+			<top>0</top>
 			<width>144</width>
 			<height>53</height>
 			<aspectratio>stretch</aspectratio>
@@ -16,8 +16,8 @@
 			<visible>!Window.IsVisible(2005) + !Window.IsVisible(2006)</visible>
 		</control> 
 		<control type="image">
-			<posx>270r</posx>
-			<posy>0</posy>
+			<left>270r</left>
+			<top>0</top>
 			<width>144</width>
 			<height>53</height>
 			<aspectratio>stretch</aspectratio>
@@ -26,8 +26,8 @@
 			<visible>!Window.IsVisible(2005) + !Window.IsVisible(2006)</visible>
 		</control>	
 		<control type="image">
-			<posx>260r</posx>
-			<posy>12</posy>
+			<left>260r</left>
+			<top>12</top>
 			<width>35</width>
 			<height>31</height>
 			<aspectratio>keep</aspectratio>
@@ -38,8 +38,8 @@
 		</control> 
 		<control type="label">
 			<description>DB Label</description>
-			<posx>135r</posx>
-			<posy>11</posy>
+			<left>135r</left>
+			<top>11</top>
 			<width>80</width>
 			<label>$INFO[player.volume]</label>
 			<font>volume</font>
@@ -54,8 +54,8 @@
 	
 	<control type="group">   
 		<control type="image">
-			<posx>348r</posx>
-			<posy>-1</posy>
+			<left>348r</left>
+			<top>-1</top>
 			<width>448</width>
 			<height>31</height>
 			<aspectratio>stretch</aspectratio>
@@ -73,8 +73,8 @@
 		</control> 
 		
 		<!--control type="image">
-			<posx>240r</posx>
-			<posy>6</posy>
+			<left>240r</left>
+			<top>6</top>
 			<width>24</width>
 			<height>20</height>
 			<aspectratio>stretch</aspectratio>
@@ -93,8 +93,8 @@
 		
 		<control type="label">
 			<description>Volume Label</description>
-			<posx>15r</posx>
-			<posy>-2</posy>
+			<left>15r</left>
+			<top>-2</top>
 			<width>150</width>
 			<height>35</height>
 			<label>31654</label>
@@ -115,8 +115,8 @@
 		
 		<control type="progress" id="1">
 			<description>Progressbar</description>
-			<posx>242r</posx>
-			<posy>5</posy>
+			<left>242r</left>
+			<top>5</top>
 			<width>145</width>
 			<height>18</height>
 			<info>Player.Volume</info>

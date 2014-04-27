@@ -8,14 +8,14 @@
 		<include>Keyboard</include>
 		<control type="group">
 			<visible>Control.IsVisible(502)</visible>
-			<posx>0</posx>
-			<posy>40</posy>
+			<left>0</left>
+			<top>40</top>
 		<control type="group">
 			<control type="wraplist" id="502">
 				<visible>Container.Content(Movies) | Container.Content(TVShows) | Container.Content(Seasons) | substring(container.folderpath,plugin://plugin.program.advanced.launcher)</visible>
 				<visible>!Skin.HasSetting(HidePosterWrap2)</visible>
-				<posx>-165</posx>
-				<posy>40</posy>
+				<left>-165</left>
+				<top>40</top>
 				<width>1600</width>
 				<height>560</height>
 				<onleft>57</onleft>
@@ -29,8 +29,8 @@
 				<orientation>horizontal</orientation>
 				<itemlayout height="430" width="270">
 					<control type="label">
-					  <posx>8</posx>
-					  <posy>42</posy>
+					  <left>8</left>
+					  <top>42</top>
 					  <width>243</width>
 					  <height>35</height>
 					  <font>big2</font>
@@ -45,8 +45,8 @@
 					  <visible>!Skin.HasSetting(HideLabelWrapViews)</visible>
 				  	</control>
 					<control type="image">
-						<posx>-15</posx>
-						<posy>49</posy>
+						<left>-15</left>
+						<top>49</top>
 						<width>283</width>
 						<height>405</height>
 						<aspectratio>stretch</aspectratio>
@@ -54,16 +54,16 @@
 						<texture background="true">poster/postershadow.png</texture>
 					</control>
 					<control type="image">
-						<posx>2</posx>
-						<posy>65</posy>
+						<left>2</left>
+						<top>65</top>
 						<width>249</width>
 						<height>372</height>
 						<aspectratio>stretch</aspectratio>
 						<texture background="true">$INFO[ListItem.Icon]</texture>
 					</control>
 					<control type="image">
-						<posy>412</posy>
-						<posx>200</posx>
+						<top>412</top>
+						<left>200</left>
 						<width>36</width>
 						<height>60</height>
 						<aspectratio>keep</aspectratio>
@@ -78,8 +78,8 @@
 					<control type="group">
 						<visible>Control.HasFocus(502) + Skin.HasSetting(nodiscart)</visible>
 						<control type="image">
-							<posx>-38</posx>
-							<posy>74</posy>
+							<left>-38</left>
+							<top>74</top>
 							<width>350</width>
 							<height>350</height>
 							<aligny>center</aligny>
@@ -100,11 +100,11 @@
 						</control>
 					</control>
 <control type="group">
-	<posy>25</posy>
-	<posx>16</posx>
+	<top>25</top>
+	<left>16</left>
 		<control type="image">
-			<posx>188</posx>
-			<posy>25</posy>
+			<left>188</left>
+			<top>25</top>
 			<width>178</width>
 			<height>336</height>
 			<aspectratio>stretch</aspectratio>
@@ -123,8 +123,8 @@
 		</control>
 
 		<control type="image">
-			<posx>15</posx>
-			<posy>30</posy>
+			<left>15</left>
+			<top>30</top>
 			<width>102</width>
 			<height>202</height>
 			<aspectratio>stretch</aspectratio>
@@ -142,8 +142,8 @@
 			</animation>
 		</control>		
 		<control type="image">
-			<posx>15</posx>
-			<posy>125</posy>
+			<left>15</left>
+			<top>125</top>
 			<width>102</width>
 			<height>202</height>
 			<aspectratio>stretch</aspectratio>
@@ -161,8 +161,8 @@
 			</animation>
 		</control>
 		<control type="image">
-			<posx>15</posx>
-			<posy>220</posy>
+			<left>15</left>
+			<top>220</top>
 			<width>102</width>
 			<height>202</height>
 			<aspectratio>stretch</aspectratio>
@@ -182,8 +182,8 @@
 		</control>
 
 					<control type="image">
-						<posx>-8</posx>
-						<posy>58</posy>
+						<left>-8</left>
+						<top>58</top>
 						<width>265</width>
 						<height>386</height>
 						<aspectratio>stretch</aspectratio>
@@ -196,8 +196,8 @@
 						<visible>!Control.HasFocus(300) + !Control.HasFocus(67)</visible>
 					</control>
 					<control type="image">
-						<posx>-15</posx>
-						<posy>49</posy>
+						<left>-15</left>
+						<top>49</top>
 						<width>283</width>
 						<height>405</height>
 						<aspectratio>stretch</aspectratio>
@@ -205,8 +205,8 @@
 						<texture background="true">poster/postershadow.png</texture>
 					</control>										
 					<control type="image">
-						<posx>0</posx>
-						<posy>65</posy>
+						<left>0</left>
+						<top>65</top>
 						<width>249</width>
 						<height>372</height>
 						<aspectratio>stretch</aspectratio>
@@ -216,8 +216,8 @@
 					</control>
 
 					<control type="image">
-						<posy>408</posy>
-						<posx>210</posx>
+						<top>408</top>
+						<left>210</left>
 						<width>48</width>
 						<height>48</height>
 						<aspectratio>keep</aspectratio>
@@ -242,8 +242,8 @@
 			<visible>Control.IsVisible(502) + Window.IsVisible(VideoFiles)</visible>
 			<animation effect="slide" start="0,0" end="65,-65" time="250" condition="Control.HasFocus(67) | Control.HasFocus(300)">conditional</animation>
 			<control type="label">
-				<posx>30</posx>
-				<posy>530</posy>
+				<left>30</left>
+				<top>530</top>
 				<width>1220</width>
 				<height>35</height>
 				<font>rss</font>
@@ -256,19 +256,19 @@
 			</control>
 		</control>
 		<control type="group">
-			<posy>0</posy>
-			<posx>5</posx>
+			<top>0</top>
+			<left>5</left>
 			<visible>[Control.IsVisible(502) + !Window.IsVisible(VideoFiles)] + Container.Content(Movies) | Container.Content(TVShows) | Container.Content(Seasons) | substring(container.folderpath,plugin://plugin.program.advanced.launcher)</visible>
 			<animation effect="slide" start="0,0" end="25,-32" time="200" condition="Control.HasFocus(67) | Control.HasFocus(300)">conditional</animation>
 		<control type="grouplist">
-			<posx>80</posx>
-			<posy>517</posy>
+			<left>80</left>
+			<top>517</top>
 			<width>1280</width>
 			<height>40</height>
 			<align>left</align>
 			<orientation>horizontal</orientation>
 			<control type="label">
-				<posx>0</posx>
+				<left>0</left>
 				<width min="29" max="1050">auto</width>
 				<height>38</height>
 				<font>movietitle6</font>
@@ -279,15 +279,15 @@
 			 <include>MovieHDFlagsPoster</include>
 		</control>
 		<control type="grouplist">
-			<posx>80</posx>
-			<posy>550</posy>
+			<left>80</left>
+			<top>550</top>
 			<width>1280</width>
 			<height>40</height>
 			<align>left</align>
 			<orientation>horizontal</orientation>
 			<control type="label">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>aired</font>
@@ -302,8 +302,8 @@
 			<include condition="Skin.HasSetting(UseIMDBRating)">IMDB</include>			
 
 			<control type="label">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="900">auto</width>
 				<height>35</height>
 				<font>aired</font>
@@ -317,8 +317,8 @@
 		</control>
 
 			<control type="label">
-				<posx>80</posx>
-				<posy>550</posy>
+				<left>80</left>
+				<top>550</top>
 				<width>1280</width>
 				<height>35</height>
 				<font>aired</font>
@@ -334,8 +334,8 @@
 	</control>
 	         <!-- LOGO -->
 			<control type="image"> 
-				<posx>1065</posx> 
-				<posy>570</posy> 
+				<left>1065</left> 
+				<top>570</top> 
 				<width>200</width>
 				<height>78</height> 
 				<texture>$INFO[ListItem.path]logo.png</texture> 
@@ -344,8 +344,8 @@
 				<visible>Control.IsVisible(502) + Skin.HasSetting(Logos)</visible>
 			</control>
 		<control type="scrollbar" id="67">
-			<posx>0</posx>
-			<posy>649</posy>
+			<left>0</left>
+			<top>649</top>
 			<width>1280</width>
 			<height>5</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(502) + Control.HasFocus(67)</visible>

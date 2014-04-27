@@ -4,17 +4,17 @@
   
 <coordinates>
   <system>1</system>
-  <posx>0</posx>
-  <posy>0</posy>
+  <left>0</left>
+  <top>0</top>
 </coordinates>
   
 <controls>
  <control type="group">  
-	<posx>340</posx>
-	<posy>150</posy>    
+	<left>340</left>
+	<top>150</top>    
 	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>600</width>
 		<height>45</height>
 		<texture>black.png</texture>
@@ -26,8 +26,8 @@
   
 	<control type="label" id="10">
 		<description>Heading</description>
-		<posx>20</posx>
-		<posy>8</posy>
+		<left>20</left>
+		<top>8</top>
 		
 		<align>left</align>
 		<font>heading</font>
@@ -37,8 +37,8 @@
 	</control>
   <control type="label" id="12">
     <description>Label</description>
-    <posx>580</posx>
-    <posy>8</posy>
+    <left>580</left>
+    <top>8</top>
     
 	<font>button</font>
 	<textcolor>ffd0d0d0</textcolor>
@@ -47,8 +47,8 @@
   </control>
   <control type="slider" id="11">
     <description>Slider</description>
-    <posx>170</posx>
-    <posy>15</posy>
+    <left>170</left>
+    <top>15</top>
     <height>17</height>
     <width>200</width>
     <texturefocus>ButtonInputFo.png</texturefocus>

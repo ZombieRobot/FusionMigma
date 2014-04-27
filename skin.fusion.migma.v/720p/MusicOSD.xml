@@ -13,13 +13,13 @@
 
 				<!-- BOTTOM INFO -->
 				<control type="group">
-					<posx>0</posx>
-					<posy>123r</posy>
+					<left>0</left>
+					<top>123r</top>
 				
 					<!-- BACKGROUND -->
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>1280</width>
 						<height>250</height>
 						<texture>osd/infobg.png</texture>
@@ -27,8 +27,8 @@
 						<aspectratio>stretch</aspectratio>
 					</control>	
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>1280</width>
 						<height>250</height>
 						<texture>osd/musicbg.png</texture>
@@ -38,14 +38,14 @@
 
 					<!-- TITLE -->
 					<control type="grouplist">
-						<posx>300</posx>
-						<posy>15</posy>
+						<left>300</left>
+						<top>15</top>
 						<width>695</width>
 						<itemgap>0</itemgap>
 						<orientation>horizontal</orientation>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width min="5" max="695">auto</width>
 							<font>movietitle6</font>
 							<label>[UPPERCASE]$INFO[MusicPlayer.Title][/UPPERCASE]</label>
@@ -57,14 +57,14 @@
 						
 					<!-- MUSIC INFO -->
 					<control type="grouplist">
-						<posx>300</posx>
-						<posy>45</posy>
+						<left>300</left>
+						<top>45</top>
 						<width>685</width>
 						<itemgap>0</itemgap>
 						<orientation>horizontal</orientation>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width min="0" max="685">auto</width>
 							<font>aired</font>
 							<label>[UPPERCASE]$INFO[MusicPlayer.Artist,[COLOR=movietitleb2]Music by [/COLOR],][/UPPERCASE]</label>
@@ -79,8 +79,8 @@
 
 				<!-- Z-BAR -->
 				<control type="image">
-					<posx>0</posx>
-					<posy>715</posy>
+					<left>0</left>
+					<top>715</top>
 					<width>1280</width>
 					<height>5</height>
 					<aspectratio>stretch</aspectratio>
@@ -91,8 +91,8 @@
 					<animation effect="slide" start="0,0" end="0,15" delay="0" time="600" reversable="false">WindowClose</animation>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>715</posy>
+					<left>0</left>
+					<top>715</top>
 					<width>1280</width>
 					<height>5</height>
 					<aspectratio>stretch</aspectratio>
@@ -106,8 +106,8 @@
 		
 				<!-- PROGRESS BAR -->
 				<control type="progress" id="23">
-					<posx>300</posx>
-					<posy>41r</posy>
+					<left>300</left>
+					<top>41r</top>
 					<width>946</width>
 					<height>4</height>
 					<info>Player.Progress</info>
@@ -120,12 +120,12 @@
 
 				<!-- TIMINGS -->
 				<control type="group">
-					<posy>34r</posy>
+					<top>34r</top>
 
 					<!-- POSITION TIME -->
 					<control type="label">
-						<posx>300</posx>
-						<posy>0</posy>
+						<left>300</left>
+						<top>0</top>
 						<width min="50" max="250">auto</width>
 						<height>25</height>
 						<label>[B]$INFO[VideoPlayer.Time][/B]</label>
@@ -136,13 +136,13 @@
 		
 					<!-- FINISH TIME -->
 	<!-- 				<control type="grouplist">
-						<posx>380</posx>
+						<left>380</left>
 						<width>300</width>
 						<orientation>horizontal</orientation>
 						<align>center</align>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width min="5" max="250">auto</width>
 							<height>25</height>
 							<label>[B][UPPERCASE]The End[/UPPERCASE][/B]</label>
@@ -151,8 +151,8 @@
 							<align>left</align>
 						</control>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width min="5" max="250">auto</width>
 							<height>25</height>
 							<label>[B]$INFO[Player.FinishTime][/B]</label>
@@ -165,8 +165,8 @@
 
 					<!-- RUNTIME TIME -->
 					<control type="label">
-						<posx>34r</posx>
-						<posy>0</posy>
+						<left>34r</left>
+						<top>0</top>
 						<align>right</align>
 						<width>250</width>
 						<height>25</height>
@@ -179,11 +179,11 @@
 					<!-- REWIND -->
 					<control type="group">
 						<visible>Player.Rewinding2x</visible>
-						<posx>600</posx>
+						<left>600</left>
 						<width>346</width>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width>300</width>
 							<height>25</height>
 							<label>[B][UPPERCASE]Rewind 2x[/UPPERCASE][/B]</label>
@@ -194,11 +194,11 @@
 					</control>
 					<control type="group">
 						<visible>Player.Rewinding4x</visible>
-						<posx>600</posx>
+						<left>600</left>
 						<width>346</width>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width>300</width>
 							<height>25</height>
 							<label>[B][UPPERCASE]Rewind 4x[/UPPERCASE][/B]</label>
@@ -209,11 +209,11 @@
 					</control>
 					<control type="group">
 						<visible>Player.Rewinding8x</visible>
-						<posx>600</posx>
+						<left>600</left>
 						<width>346</width>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width>300</width>
 							<height>25</height>
 							<label>[B][UPPERCASE]Rewind 8x[/UPPERCASE][/B]</label>
@@ -224,11 +224,11 @@
 					</control>
 					<control type="group">
 						<visible>Player.Rewinding16x</visible>
-						<posx>600</posx>
+						<left>600</left>
 						<width>346</width>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width>300</width>
 							<height>25</height>
 							<label>[B][UPPERCASE]Rewind 16x[/UPPERCASE][/B]</label>
@@ -239,11 +239,11 @@
 					</control>
 					<control type="group">
 						<visible>Player.Rewinding32x</visible>
-						<posx>600</posx>
+						<left>600</left>
 						<width>346</width>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width>300</width>
 							<height>25</height>
 							<label>[B][UPPERCASE]Rewind 32x[/UPPERCASE][/B]</label>
@@ -256,11 +256,11 @@
 					<!-- FORWARD -->
 					<control type="group">
 						<visible>Player.Forwarding2x</visible>
-						<posx>600</posx>
+						<left>600</left>
 						<width>346</width>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width>300</width>
 							<height>25</height>
 							<label>[B][UPPERCASE]Forward 2x[/UPPERCASE][/B]</label>
@@ -271,11 +271,11 @@
 					</control>
 					<control type="group">
 						<visible>Player.Forwarding4x</visible>
-						<posx>600</posx>
+						<left>600</left>
 						<width>346</width>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width>300</width>
 							<height>25</height>
 							<label>[B][UPPERCASE]Forward 4x[/UPPERCASE][/B]</label>
@@ -286,11 +286,11 @@
 					</control>
 					<control type="group">
 						<visible>Player.Forwarding8x</visible>
-						<posx>600</posx>
+						<left>600</left>
 						<width>346</width>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width>300</width>
 							<height>25</height>
 							<label>[B][UPPERCASE]Forward 8x[/UPPERCASE][/B]</label>
@@ -301,11 +301,11 @@
 					</control>
 					<control type="group">
 						<visible>Player.Forwarding16x</visible>
-						<posx>600</posx>
+						<left>600</left>
 						<width>346</width>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width>300</width>
 							<height>25</height>
 							<label>[B][UPPERCASE]Forward 16x[/UPPERCASE][/B]</label>
@@ -316,11 +316,11 @@
 					</control>
 					<control type="group">
 						<visible>Player.Forwarding32x</visible>
-						<posx>600</posx>
+						<left>600</left>
 						<width>346</width>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width>300</width>
 							<height>25</height>
 							<label>[B][UPPERCASE]Forward 32x[/UPPERCASE][/B]</label>
@@ -337,20 +337,20 @@
 				<!-- COVER + CDART -->
 				<control type="group">
 					<animation effect="fade" start="100" end="0" delay="100" time="300" reversable="false">WindowClose</animation>
-					<posx>29</posx>
-					<posy>311r</posy>
+					<left>29</left>
+					<top>311r</top>
 
 					<!-- CDART disabled -->
 					<control type="group">
 						<visible>false</visible>
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
  						<animation effect="slide" start="-100" end="0" delay="500" time="1000" reversable="false" tween="cubic" easing="out">WindowOpen</animation>
 						<control type="image">
 						  <animation effect="fade" start="0" end="100" delay="0" time="900" reversable="false">WindowOpen</animation>
 						  <description>Disc</description>
-						  <posx>100</posx>
-						  <posy>74</posy>
+						  <left>100</left>
+						  <top>74</top>
 						  <width>216</width>
 						  <height>216</height>
 						  <texture fallback="DefaultCD.png">$INFO[Player.FolderPath]cdart.png</texture>
@@ -362,8 +362,8 @@
 					<!-- COVER -->
 					<control type="group">
 						<control type="image">
-							<posx>11</posx>
-							<posy>71</posy>
+							<left>11</left>
+							<top>71</top>
 							<width>220</width>
 							<height>220</height>
 							<aspectratio scalediffuse="false">scale</aspectratio>
@@ -371,16 +371,16 @@
 							<texture background="true" diffuse="poster/posterdiffuse.png">$INFO[MusicPlayer.Cover]</texture>
 						</control>					
 						<control type="image">
-							<posx>-19</posx>
-							<posy>41</posy>
+							<left>-19</left>
+							<top>41</top>
 							<width>280</width>
 							<height>280</height>
 							<aspectratio>stretch</aspectratio>
 							<texture>list/albumborder.png</texture>
 						</control>
 						<control type="image">
-							<posx>-26</posx>
-							<posy>280</posy>
+							<left>-26</left>
+							<top>280</top>
 							<width>287</width>
 							<height>52</height>
 							<aspectratio>stretch</aspectratio>
@@ -390,11 +390,11 @@
 	
 					<!-- INDICATORS -->
 					<control type="group">
-                        <posx>11</posx>
-                        <posy>71</posy>
+                        <left>11</left>
+                        <top>71</top>
                         <control type="image">
-                            <posx>0</posx>
-                            <posy>0</posy>
+                            <left>0</left>
+                            <top>0</top>
                             <width>220</width>
                             <height>220</height>
                             <texture>osd/paused-overlay.png</texture>
@@ -404,8 +404,8 @@
 							<colordiffuse>66FFFFFF</colordiffuse>
                         </control>
                         <control type="image">
-                            <posx>0</posx>
-                            <posy>0</posy>
+                            <left>0</left>
+                            <top>0</top>
                             <width>220</width>
                             <height>220</height>
                             <texture>osd/ff-overlay.png</texture>
@@ -415,8 +415,8 @@
 							<colordiffuse>66FFFFFF</colordiffuse>
 						</control>
                         <control type="image">
-                            <posx>0</posx>
-                            <posy>0</posy>
+                            <left>0</left>
+                            <top>0</top>
                             <width>220</width>
                             <height>220</height>
                             <texture>osd/rw-overlay.png</texture>
@@ -431,11 +431,11 @@
 
 				<!-- CONTROL BUTTONS-->
 			<control type="group">
-				<posx>339r</posx>
-				<posy>153r</posy>	
+				<left>339r</left>
+				<top>153r</top>	
 				<control type="button" id="2">
-					<posx>13</posx>
-					<posy>44</posy>		
+					<left>13</left>
+					<top>44</top>		
 					<description>Previous</description>
 					<height>55</height>
 					<width>55</width>
@@ -450,8 +450,8 @@
 					<ondown>1</ondown>
 				</control>
 				<control type="button" id="3">
-					<posx>59</posx>
-					<posy>44</posy>		
+					<left>59</left>
+					<top>44</top>		
 					<description>Rewind</description>
 					<height>55</height>
 					<width>55</width>
@@ -467,8 +467,8 @@
 				</control>
 				<control type="togglebutton" id="4">
 					<description>Play</description>
-					<posx>102</posx>
-					<posy>38</posy>
+					<left>102</left>
+					<top>38</top>
 					<height>68</height>
 					<width>68</width>
 					<texturefocus>osd/playfo.png</texturefocus>
@@ -485,8 +485,8 @@
 				</control>
 				<control type="button" id="7">
 					<description>Stop</description>
-					<posx>157</posx>
-					<posy>38</posy>
+					<left>157</left>
+					<top>38</top>
 					<height>68</height>
 					<width>68</width>
 					<texturefocus>osd/stopfo.png</texturefocus>
@@ -499,8 +499,8 @@
 					<onright>5</onright>
 				</control>
 				<control type="button" id="5">
-					<posx>213</posx>
-					<posy>44</posy>		
+					<left>213</left>
+					<top>44</top>		
 					<description>Fast Forward</description>
 					<height>55</height>
 					<width>55</width>
@@ -515,8 +515,8 @@
 					<ondown>1</ondown>
 				</control>
 				<control type="button" id="6">
-					<posx>259</posx>
-					<posy>44</posy>		
+					<left>259</left>
+					<top>44</top>		
 					<description>Next</description>
 					<height>55</height>
 					<width>55</width>
@@ -535,8 +535,8 @@
 				<!-- EXTRA BUTTONS -->
 				<control type="grouplist" id="1">
 					<visible>!Player.Forwarding + !Player.Rewinding</visible>
-					<posx>300</posx>
-					<posy>36r</posy>
+					<left>300</left>
+					<top>36r</top>
 					<width>946</width>
 					<height>30</height>
 					<itemgap>0</itemgap>
@@ -608,8 +608,8 @@
             <animation effect="slide" start="0,0" end="0,130" delay="0" time="400" reversable="false">WindowClose</animation>
             <visible>Skin.HasSetting(oldosdmusic)</visible>
             <control type="image">
-                <posx>40</posx>
-                <posy>120r</posy>
+                <left>40</left>
+                <top>120r</top>
                 <width>1200</width>
                 <height>122</height>
                 <aspectratio>keep</aspectratio>
@@ -618,8 +618,8 @@
             </control>
 			
             <control type="progress" id="23">
-                <posx>95</posx>
-                <posy>62r</posy>
+                <left>95</left>
+                <top>62r</top>
                 <width>820</width>
                 <height>10</height> <!-- 4 -->
                 <info>Player.Progress</info>
@@ -631,8 +631,8 @@
             </control>
 			
             <control type="label">
-                <posx>95</posx>
-                <posy>95r</posy>
+                <left>95</left>
+                <top>95r</top>
                 <width>950</width>
                 <label>[B][UPPERCASE]$INFO[MusicPlayer.Title][/UPPERCASE][/B]</label>
                 <font>duration</font>
@@ -640,8 +640,8 @@
             </control>
 			
 			<control type="label">
-				<posx>95</posx>
-				<posy>50r</posy>
+				<left>95</left>
+				<top>50r</top>
 				<width>500</width>
 				<label>[B][UPPERCASE]$INFO[MusicPlayer.Time][/UPPERCASE] / [COLOR=gray]$INFO[MusicPlayer.Duration][/COLOR][/B]</label>
 				<font>duration</font>
@@ -650,12 +650,12 @@
 			
 			<!-- FINISH TIME -->
 			<control type="grouplist">
-				<posx>745</posx>
-				<posy>50r</posy>
+				<left>745</left>
+				<top>50r</top>
 				<orientation>horizontal</orientation>
 				<control type="label">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width min="50" max="250">auto</width>
 					<height>25</height>
 					<label>[B][UPPERCASE]FINISHES:[/UPPERCASE][/B]</label>
@@ -664,8 +664,8 @@
 					<align>left</align>
 				</control>
 				<control type="label">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width min="50" max="250">auto</width>
 					<height>25</height>
 					<label>[B]$INFO[Player.FinishTime][/B]</label>
@@ -676,11 +676,11 @@
 			</control>
 			
             <control type="group">
-                <posx>395r</posx>
-                <posy>130r</posy>
+                <left>395r</left>
+                <top>130r</top>
                 <control type="button" id="2">
-                    <posx>55</posx>
-                    <posy>40</posy>
+                    <left>55</left>
+                    <top>40</top>
                     <description>Previous</description>
                     <height>64</height>
                     <width>64</width>
@@ -694,8 +694,8 @@
                     <ondown>2</ondown>
                 </control>
                 <control type="button" id="3">
-                    <posx>105</posx>
-                    <posy>40</posy>
+                    <left>105</left>
+                    <top>40</top>
                     <description>Rewind</description>
                     <height>64</height>
                     <width>64</width>
@@ -710,8 +710,8 @@
                 </control>
                 <control type="togglebutton" id="4">
                     <description>Play</description>
-                    <posx>155</posx>
-                    <posy>38</posy>
+                    <left>155</left>
+                    <top>38</top>
                     <height>68</height>
                     <width>68</width>
                     <texturefocus>osdold/pausefo.png</texturefocus>
@@ -726,8 +726,8 @@
                     <onright>5</onright>
                 </control>
                 <control type="button" id="5">
-                    <posx>210</posx>
-                    <posy>40</posy>
+                    <left>210</left>
+                    <top>40</top>
                     <description>Fast Forward</description>
                     <height>64</height>
                     <width>64</width>
@@ -741,8 +741,8 @@
                     <ondown>6</ondown>
                 </control>
                 <control type="button" id="6">
-                    <posx>260</posx>
-                    <posy>40</posy>
+                    <left>260</left>
+                    <top>40</top>
                     <description>Next</description>
                     <height>64</height>
                     <width>64</width>
@@ -758,8 +758,8 @@
             </control>
 			
             <control type="grouplist" id="1">
-                <posx>410</posx>
-                <posy>140r</posy>
+                <left>410</left>
+                <top>140r</top>
                 <width>780</width>
                 <height>40</height>
                 <itemgap>20</itemgap>

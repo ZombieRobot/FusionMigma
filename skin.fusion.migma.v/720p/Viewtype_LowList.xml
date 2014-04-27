@@ -5,8 +5,8 @@
 			<animation effect="fade" start="100" end="0" time="500" delay="0" reversible="false" condition="Window.IsVisible(2003) | Window.IsVisible(146)">Conditional</animation>
 			<animation effect="fade" start="0" end="100" time="500" delay="0" reversible="false" condition="!Window.IsVisible(2003) + !Window.IsVisible(146)">Conditional</animation>
 		<control type="image">
-			<posx>0</posx>
-			<posy>53</posy>
+			<left>0</left>
+			<top>53</top>
 			<width>1280</width>
 			<height>720</height>
 			<aspectratio>stretch</aspectratio>
@@ -16,8 +16,8 @@
 			<visible>Control.IsVisible(707)</visible>
 		</control>
 		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<width>1280</width>
 			<height>720</height>
 			<aspectratio>stretch</aspectratio>
@@ -28,7 +28,7 @@
 		</control>
 		</control>
 		<control type="group">
-			<posy>-32</posy>	
+			<top>-32</top>	
 			<include>AddSource</include>
 			<include>Keyboard</include>
 			<animation type="WindowOpen" reversible="false">
@@ -43,8 +43,8 @@
 			<animation effect="fade" start="0" end="100" time="500" delay="0" reversible="false" condition="!Window.IsVisible(2003) + !Window.IsVisible(146)">Conditional</animation>
 			<include>ContextFade</include>
 			<control type="image">
-				<posx>0</posx>
-				<posy>494</posy>
+				<left>0</left>
+				<top>494</top>
 				<width>1280</width>
 				<height>192</height>
 				<aspectratio>stretch</aspectratio>
@@ -53,8 +53,8 @@
 				<visible>Control.IsVisible(707)</visible>
 			</control>
 			<control type="image">
-				<posx>-25</posx>
-				<posy>493</posy>
+				<left>-25</left>
+				<top>493</top>
 				<width>1280</width>
 				<height>1</height>
 				<aspectratio>stretch</aspectratio>
@@ -68,8 +68,8 @@
 				<control type="group">
 					<visible>!Window.IsVisible(24)</visible>				
 					<control type="image">
-						<posy>494</posy>
-						<posx>185</posx>
+						<top>494</top>
+						<left>185</left>
 						<width>1</width>
 						<height>192</height>
 						<aspectratio>stretch</aspectratio>
@@ -78,8 +78,8 @@
 					</control>
 
 					<control type="image">
-						<posy>494</posy>
-						<posx>765</posx>
+						<top>494</top>
+						<left>765</left>
 						<width>1</width>
 						<height>192</height>
 						<aspectratio>stretch</aspectratio>
@@ -88,8 +88,8 @@
 					</control>
 
 					<control type="image">
-						<posy>494</posy>
-						<posx>850</posx>
+						<top>494</top>
+						<left>850</left>
 						<width>1</width>
 						<height>192</height>
 						<aspectratio>stretch</aspectratio>
@@ -98,8 +98,8 @@
 					</control>
 
 					<control type="image">
-						<posy>494</posy>
-						<posx>905</posx>
+						<top>494</top>
+						<left>905</left>
 						<width>1</width>
 						<height>192</height>
 						<aspectratio>stretch</aspectratio>
@@ -108,8 +108,8 @@
 					</control>
 
 					<control type="image">
-						<posy>494</posy>
-						<posx>951</posx>
+						<top>494</top>
+						<left>951</left>
 						<width>1</width>
 						<height>192</height>
 						<aspectratio>stretch</aspectratio>
@@ -122,8 +122,8 @@
 				<control type="group">
 					<visible>Window.IsVisible(24)</visible>				
 					<control type="image">
-						<posy>556</posy>
-						<posx>70</posx>
+						<top>556</top>
+						<left>70</left>
 						<width>1</width>
 						<height>130</height>
 						<aspectratio>stretch</aspectratio>
@@ -132,8 +132,8 @@
 					</control>
 
 					<control type="image">
-						<posy>556</posy>
-						<posx>1145</posx>
+						<top>556</top>
+						<left>1145</left>
 						<width>1</width>
 						<height>130</height>
 						<aspectratio>stretch</aspectratio>
@@ -145,8 +145,8 @@
 
 			</control>
 			<control type="list" id="707">
-				<posx>0</posx>
-				<posy>494</posy>
+				<left>0</left>
+				<top>494</top>
 				<width>1280</width>
 				<height>192</height>
 				<onleft>300</onleft>
@@ -173,7 +173,7 @@
 						<colordiffuse>28ffffff</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>0</posy>
+						<top>0</top>
 						<width>1280</width>
 						<height>32</height>
 						<aspectratio>stretch</aspectratio>
@@ -183,8 +183,8 @@
 						<visible>Container.Content(Movies) | Container.Content(Episodes)</visible>
 					</control>	  
 					<control type="image">
-						<posy>8</posy>
-						<posx>145</posx>
+						<top>8</top>
+						<left>145</left>
 						<width>25</width>
 						<height>18</height>
 						<aspectratio>keep</aspectratio>
@@ -193,8 +193,8 @@
 						<visible>Container.Content(Movies) | Container.Content(Episodes)</visible>
 					</control>
 					<control type="label">
-						<posy>0</posy>
-						<posx>970</posx>
+						<top>0</top>
+						<left>970</left>
 						<width>618</width>
 						<height>32</height>
 						<label>MOVIE COLLECTION</label>
@@ -208,8 +208,8 @@
 					</control>
 
 					<control type="label">
-						<posy>0</posy>
-						<posx>140</posx>
+						<top>0</top>
+						<left>140</left>
 						<width>200</width>
 						<height>32</height>
 						<textcolor>e7c0c0c0</textcolor>
@@ -219,8 +219,8 @@
 					</control>
 					
 					<control type="label">
-						<posy>0</posy>
-						<posx>195</posx>
+						<top>0</top>
+						<left>195</left>
 						<width>618</width>
 						<height>32</height>
 						<info>ListItem.Label</info>
@@ -233,8 +233,8 @@
 					</control>
 					
 					<control type="label">
-						<posy>0</posy>
-						<posx>843</posx>
+						<top>0</top>
+						<left>843</left>
 						<width>200</width>
 						<height>32</height>
 						<textcolor>e7c0c0c0</textcolor>
@@ -246,8 +246,8 @@
 					</control>
 					
 					<control type="image">
-						<posy>3</posy>
-						<posx>863</posx>
+						<top>3</top>
+						<left>863</left>
 						<width>30</width>
 						<height>35</height>
 						<aspectratio>keep</aspectratio>
@@ -259,15 +259,15 @@
 					</control>
 					
 					<control type="group">
-						<posy>0</posy> 
-						<posx>915</posx>
+						<top>0</top> 
+						<left>915</left>
 						<include>MovieHDFlagsLowListFo</include>
 					</control>
 					
 					<control type="image">
 						<description>Rating Info</description>
-						<posx>954</posx>
-						<posy>-63</posy>
+						<left>954</left>
+						<top>-63</top>
 						<width>165</width>
 						<height>165</height>
 						<info>ListItem.StarRating</info>
@@ -278,8 +278,8 @@
 					</control>
 					
 					<control type="label">
-						<posy>0</posy>
-						<posx>1134</posx>
+						<top>0</top>
+						<left>1134</left>
 						<width>200</width>
 						<height>32</height>
 						<textcolor>e7c0c0c0</textcolor>
@@ -295,7 +295,7 @@
 
 				<focusedlayout height="32">
 					<control type="image">
-						<posy>0</posy>
+						<top>0</top>
 						<width>1280</width>
 						<height>32</height>
 						<aspectratio>stretch</aspectratio>
@@ -306,8 +306,8 @@
 					</control>
 					
 					<control type="image">
-						<posy>8</posy>
-						<posx>145</posx>
+						<top>8</top>
+						<left>145</left>
 						<width>25</width>
 						<height>18</height>
 						<aspectratio>keep</aspectratio>
@@ -318,8 +318,8 @@
 					</control>
 					
 					<control type="label">
-						<posy>0</posy>
-						<posx>970</posx>
+						<top>0</top>
+						<left>970</left>
 						<width>618</width>
 						<height>32</height>
 						<label>MOVIE COLLECTION</label>
@@ -333,8 +333,8 @@
 					</control>
 								  
 					<control type="label">
-						<posy>0</posy>
-						<posx>140</posx>
+						<top>0</top>
+						<left>140</left>
 						<width>200</width>
 						<height>32</height>
 						<textcolor>white</textcolor>
@@ -346,8 +346,8 @@
 					</control>
 										
 					<control type="label">
-						<posy>0</posy>
-						<posx>96</posx>
+						<top>0</top>
+						<left>96</left>
 						<width>1020</width>
 						<height>32</height>
 						<info>ListItem.Label</info>
@@ -360,8 +360,8 @@
 					</control>	
 					
 					<control type="label">
-						<posy>0</posy>
-						<posx>843</posx>
+						<top>0</top>
+						<left>843</left>
 						<width>200</width>
 						<height>32</height>
 						<textcolor>white</textcolor>
@@ -378,8 +378,8 @@
 					</control>
 							
 					<control type="image">
-						<posy>3</posy>
-						<posx>863</posx>
+						<top>3</top>
+						<left>863</left>
 						<width>30</width>
 						<height>35</height>
 						<aspectratio>keep</aspectratio>
@@ -392,16 +392,16 @@
 					</control>
 					
 					<control type="group">
-						<posy>0</posy> 
-						<posx>915</posx>
+						<top>0</top> 
+						<left>915</left>
 						<include>MovieHDFlagsLowListFo</include> 
 						<include>listfocusfade</include>
 					</control>
 										
 					<control type="image">
 						<description>Rating Info</description>
-						<posx>954</posx>
-						<posy>-63</posy>
+						<left>954</left>
+						<top>-63</top>
 						<width>165</width>
 						<height>165</height>
 						<info>ListItem.StarRating</info>
@@ -413,8 +413,8 @@
 					</control>
 
 					<control type="label">
-						<posy>0</posy>
-						<posx>195</posx>
+						<top>0</top>
+						<left>195</left>
 						<width>618</width>
 						<height>32</height>
 						<info>ListItem.Label</info>
@@ -428,8 +428,8 @@
 					</control>
 					
 					<control type="label">
-						<posy>0</posy>
-						<posx>1134</posx>
+						<top>0</top>
+						<left>1134</left>
 						<width>200</width>
 						<height>32</height>
 						<textcolor>white</textcolor>
@@ -444,11 +444,11 @@
 			</control>
 
 	<control type="group">
-			<posx>0</posx>
-			<posy>382</posy>
+			<left>0</left>
+			<top>382</top>
 		<control type="image">
-			<posx>0</posx>
-			<posy>111.5</posy>
+			<left>0</left>
+			<top>111.5</top>
 			<width>126</width>
 			<height>192</height>
 			<aspectratio>stretch</aspectratio>
@@ -457,8 +457,8 @@
 		</control>
 
 		<control type="image">
-			<posx>0</posx>
-			<posy>111.5</posy>
+			<left>0</left>
+			<top>111.5</top>
 			<width>126</width>
 			<height>192</height>
 			<fadetime>275</fadetime>
@@ -470,8 +470,8 @@
 			<!-- Scroll Bar -->
 
 			<control type="scrollbar" id="708">
-				<posx>1266</posx>
-				<posy>496</posy>
+				<left>1266</left>
+				<top>496</top>
 				<width>6</width>
 				<height>188</height>
 				<texturesliderbackground>white2.png</texturesliderbackground>

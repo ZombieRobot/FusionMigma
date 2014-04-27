@@ -9,14 +9,14 @@
 		<animation effect="fade" start="100" end="15" time="600" condition="Window.IsVisible(139)">Conditional</animation>
 		<control type="group">
 			<visible>Control.IsVisible(653)</visible>	
-			<posx>0</posx>
-			<posy>80</posy>
+			<left>0</left>
+			<top>80</top>
 		<control type="group">
 			<control type="fixedlist" id="653">
 				<visible>!Container.Content(Songs)</visible>
 				<visible>!Skin.HasSetting(HideCoverFix2)</visible>
-				<posx>-150</posx>
-				<posy>40</posy>
+				<left>-150</left>
+				<top>40</top>
 				<width>1700</width>
 				<height>560</height>
 				<onleft>653</onleft>
@@ -30,8 +30,8 @@
 				<orientation>horizontal</orientation>
 				<itemlayout height="430" width="335">
 					<control type="label">
-					  <posx>40</posx>
-					  <posy>42</posy>
+					  <left>40</left>
+					  <top>42</top>
 					  <width>275</width>
 					  <height>35</height>
 					  <font>big2</font>
@@ -42,8 +42,8 @@
 					   <visible>!Skin.HasSetting(HideLabelWrapViewsMusic)</visible>
 				  	</control>
 					<control type="image">
-						<posx>-18</posx>
-						<posy>52</posy>
+						<left>-18</left>
+						<top>52</top>
 						<width>353</width>
 						<height>339</height>
 						<aspectratio>stretch</aspectratio>
@@ -51,16 +51,16 @@
 						<texture background="true">poster/postershadow.png</texture>
 					</control>
 					<control type="image">
-						<posx>2</posx>
-						<posy>65</posy>
+						<left>2</left>
+						<top>65</top>
 						<width>312</width>
 						<height>312</height>
 						<aspectratio>stretch</aspectratio>
 						<texture background="true" fallback="noalbum.png">$INFO[ListItem.Thumb]</texture>
 					</control>
 					<control type="image">
-						<posx>2</posx>
-						<posy>65</posy>
+						<left>2</left>
+						<top>65</top>
 						<width>312</width>
 						<height>312</height>
 						<aspectratio>stretch</aspectratio>
@@ -71,8 +71,8 @@
 						
 				<focusedlayout height="310" width="335">
 					<control type="image">
-						<posx>-67</posx>
-						<posy>-2</posy>
+						<left>-67</left>
+						<top>-2</top>
 						<width>446</width>
 						<height>446</height>
 						<aspectratio>stretch</aspectratio>
@@ -85,8 +85,8 @@
 						<visible>!Control.IsVisible(601) + !Control.HasFocus(300)</visible>
 					</control>
 					<control type="image">
-						<posx>-18</posx>
-						<posy>52</posy>
+						<left>-18</left>
+						<top>52</top>
 						<width>353</width>
 						<height>339</height>
 						<aspectratio>stretch</aspectratio>
@@ -94,8 +94,8 @@
 						<texture background="true">poster/postershadow.png</texture>
 					</control>								
 					<control type="image">
-						<posx>0</posx>
-						<posy>65</posy>
+						<left>0</left>
+						<top>65</top>
 						<width>312</width>
 						<height>312</height>
 						<aspectratio>stretch</aspectratio>
@@ -104,8 +104,8 @@
 						<animation reversible="false" effect="zoom" start="135" end="100" center="auto" time="250">unfocus</animation>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>65</posy>
+						<left>0</left>
+						<top>65</top>
 						<width>312</width>
 						<height>312</height>
 						<aspectratio>stretch</aspectratio>
@@ -119,8 +119,8 @@
 		</control>
 	<!-- MUSIC LOGO -->
 	<control type="image">
-		<posx>920</posx>
-		<posy>430</posy>
+		<left>920</left>
+		<top>430</top>
 		<width>335</width>
 		<height>130</height>
 		<texture background="true">$INFO[Skin.String(MusicFolder)]$INFO[Container.FolderName,,/logo.png]</texture>
@@ -130,18 +130,18 @@
 	</control>
 
 	<control type="group">
-			<posy>0</posy>
+			<top>0</top>
 			<visible>Control.IsVisible(653)</visible>
 			<animation effect="slide" start="0,0" end="65,-65" time="250" condition="Control.HasFocus(601) | Control.HasFocus(300)">conditional</animation>	
 		<control type="grouplist">
-			<posx>125</posx>
-			<posy>488</posy>
+			<left>125</left>
+			<top>488</top>
 			<width>1280</width>
 			<height>40</height>
 			<align>left</align>
 			<orientation>horizontal</orientation>
 			<control type="label">
-				<posx>0</posx>
+				<left>0</left>
 				<width min="29" max="800">auto</width>
 				<height>38</height>
 				<font>movietitle6</font>
@@ -151,8 +151,8 @@
 			</control>
 		</control>
 		<control type="label">
-			<posx>125</posx>
-			<posy>518</posy>
+			<left>125</left>
+			<top>518</top>
 			<width>914</width>
 			<height>35</height>
 			<font>aired</font>
@@ -165,8 +165,8 @@
 		</control>						
 	</control>
 			<control type="label">
-				<posx>125</posx>
-				<posy>518</posy>
+				<left>125</left>
+				<top>518</top>
 				<width>1000</width>
 				<height>35</height>
 				<font>aired</font>
@@ -181,8 +181,8 @@
 			</control>
 	</control>
 		<control type="scrollbar" id="601">
-			<posx>0</posx>
-			<posy>649</posy>
+			<left>0</left>
+			<top>649</top>
 			<width>1280</width>
 			<height>5</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(653) + Control.HasFocus(601)</visible>

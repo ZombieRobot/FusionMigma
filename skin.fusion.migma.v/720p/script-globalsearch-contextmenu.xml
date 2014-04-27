@@ -4,32 +4,32 @@
 	<animation effect="fade" time="300">WindowClose</animation>
 	<coordinates>
 		<system>1</system>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 	</coordinates>
 	<controls>
 		<control type="image" id="997">
-			<posx>0</posx>
-			<posy>-30</posy>
+			<left>0</left>
+			<top>-30</top>
 			<width>360</width>
 			<height>30</height>
 			<texture border="20,19,20,0">DialogContextTop.png</texture>
 		</control>
 		<control type="image" id="998">
-			<posx>8</posx>
-			<posy>0</posy>
+			<left>8</left>
+			<top>0</top>
 			<width>360</width>
 			<texture border="30,0,30,0">DialogContextMiddle.png</texture>
 		</control>
 		<control type="image" id="999">
-			<posx>0</posx>
+			<left>0</left>
 			<width>360</width>
 			<height>25</height>
 			<texture border="20,0,19,20">DialogContextBottom.png</texture>
 		</control>
 		<control type="button" id="1001">
-			<posx>20</posx>
-			<posy>0</posy>
+			<left>20</left>
+			<top>0</top>
 			<width>320</width>
 			<height>38</height>
 			<font>font-20</font>
@@ -44,8 +44,8 @@
 			<ondown>1002</ondown>
 		</control>
 		<control type="button" id="1002">
-			<posx>20</posx>
-			<posy>0</posy>
+			<left>20</left>
+			<top>0</top>
 			<width>320</width>
 			<height>38</height>
 			<font>font-20</font>
@@ -60,8 +60,8 @@
 			<ondown>1003</ondown>
 		</control>
 		<control type="button" id="1003">
-			<posx>20</posx>
-			<posy>0</posy>
+			<left>20</left>
+			<top>0</top>
 			<width>320</width>
 			<height>38</height>
 			<font>font-20</font>

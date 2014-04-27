@@ -4,12 +4,12 @@
   <controls>
     <control type="group">
 	<visible>!Window.IsVisible(10140)</visible>
-      <posx>240</posx>
-      <posy>-17</posy>
+      <left>240</left>
+      <top>-17</top>
       <control type="image">
         <description>Background Image</description>
-        <posx>0</posx>
-        <posy>20</posy>
+        <left>0</left>
+        <top>20</top>
         <width>1000</width>
         <height>370</height>
         <texture border="12">whitepanel.png</texture>
@@ -18,8 +18,8 @@
       </control>
       <control type="image">
         <description>Background Image</description>
-        <posx>6</posx>
-        <posy>26</posy>
+        <left>6</left>
+        <top>26</top>
         <width>988</width>
         <height>358</height>
         <texture border="12">whitepanel2.png</texture>
@@ -29,8 +29,8 @@
 	  
 	   <control type="image">
         <description>Background Image</description>
-        <posx>-200</posx>
-        <posy>20</posy>
+        <left>-200</left>
+        <top>20</top>
         <width>210</width>
         <height>370</height>
         <texture border="12">whitepanel.png</texture>
@@ -39,8 +39,8 @@
       </control>
       <control type="image">
         <description>Background Image</description>
-        <posx>-194</posx>
-        <posy>26</posy>
+        <left>-194</left>
+        <top>26</top>
         <width>198</width>
         <height>358</height>
         <texture border="12">whitepanel2.png</texture>
@@ -50,8 +50,8 @@
       <!-- ** Required ** Do not change <id> or <type> -->
       <control type="label" id="300">
         <description>textarea</description>
-        <posx>445</posx>
-        <posy>45</posy>
+        <left>445</left>
+        <top>45</top>
         <width>190</width>
         <height>22</height>
         <font>heading_subscript</font>
@@ -60,8 +60,8 @@
       </control>
       <control type="label" id="301">
         <description>textarea</description>
-        <posx>520</posx>
-        <posy>45</posy>
+        <left>520</left>
+        <top>45</top>
         <width>140</width>
         <height>22</height>
         <font>heading_subscript</font>
@@ -69,16 +69,16 @@
       </control>
       <control type="label">
         <description>XBMC Subtitle Header</description>
-        <posx>27</posx>
-        <posy>36</posy>
+        <left>27</left>
+        <top>36</top>
         <width>963</width>
         <label>Choose a subtitle</label>
         <font>heading_subscript</font>
         <textcolor>ff404040</textcolor>
       </control>
       <control type="image">
-        <posx>18</posx>
-        <posy>71</posy>
+        <left>18</left>
+        <top>71</top>
         <width>963</width>
         <height>40</height>
         <texture>grey2.png</texture>
@@ -87,15 +87,15 @@
       </control>
       <control type="image" id="110">
         <description>Subtitle Icon</description>
-        <posx>400</posx>
-        <posy>67</posy>
+        <left>400</left>
+        <top>67</top>
         <width>150</width>
         <height>50</height>
       </control>
       <control type="label" id="100">
         <description>textarea</description>
-        <posx>30</posx>
-        <posy>111</posy>
+        <left>30</left>
+        <top>111</top>
         <width>963</width>
         <height>40</height>
         <font>heading_subscript</font>
@@ -103,8 +103,8 @@
         <aligny>center</aligny>
       </control>
       <control type="image">
-        <posx>18</posx>
-        <posy>151</posy>
+        <left>18</left>
+        <top>151</top>
         <width>963</width>
         <height>1</height>
         <texture>black.png</texture>
@@ -113,8 +113,8 @@
       </control>
 	  <!-- ** Required ** Do not change <id> or <type> -->
       <control type="list" id="150">
-        <posx>-194</posx>
-        <posy>71</posy>
+        <left>-194</left>
+        <top>71</top>
         <width>200</width>
         <height>220</height>
         <onleft>120</onleft>
@@ -126,8 +126,8 @@
         <scrolltime>200</scrolltime>
         <itemlayout height="38">
           <control type="label">
-            <posx>12</posx>
-            <posy>-6</posy>
+            <left>12</left>
+            <top>-6</top>
             <width>240</width>
             <height>48</height>
 			<font>heading_subscript</font>
@@ -136,16 +136,16 @@
             <info>ListItem.Label</info>
           </control>
           <control type="image">
-            <posx>105</posx>
-            <posy>10</posy>
+            <left>105</left>
+            <top>10</top>
             <width>34</width>
             <height>14</height>
             <texture>xbmcsubs/icon_sync.png</texture>
             <visible>ListItem.property(sync)</visible>
           </control>
           <control type="label">
-            <posx>147</posx>
-            <posy>-6</posy>
+            <left>147</left>
+            <top>-6</top>
             <width>689</width>
             <height>48</height>
 			<font>heading_subscript</font>
@@ -156,8 +156,8 @@
         </itemlayout>
         <focusedlayout height="38">
           <control type="image">
-            <posx>5</posx>
-            <posy>0</posy>
+            <left>5</left>
+            <top>0</top>
             <width>188</width>
             <height>38</height>
             <texture>grey2.png</texture>
@@ -166,8 +166,8 @@
             <visible>Control.HasFocus(150)</visible>
           </control>
           <control type="label">
-            <posx>12</posx>
-            <posy>-6</posy>
+            <left>12</left>
+            <top>-6</top>
             <width>240</width>
             <height>48</height>
 			<font>heading_subscript</font>
@@ -177,16 +177,16 @@
             <info>ListItem.Label</info>
           </control>
           <control type="image">
-            <posx>105</posx>
-            <posy>10</posy>
+            <left>105</left>
+            <top>10</top>
             <width>34</width>
             <height>14</height>
             <texture>xbmcsubs/icon_sync.png</texture>
             <visible>ListItem.property(sync)</visible>
           </control>
           <control type="label">
-            <posx>147</posx>
-            <posy>-6</posy>
+            <left>147</left>
+            <top>-6</top>
             <width>689</width>
             <height>48</height>
 			<font>heading_subscript</font>
@@ -199,8 +199,8 @@
       </control>
       <!-- ** Required ** Do not change <id> or <type> -->
       <control type="list" id="120">
-        <posx>18</posx>
-        <posy>151</posy>
+        <left>18</left>
+        <top>151</top>
         <width>963</width>
         <height>220</height>
         <onleft>150</onleft>
@@ -212,8 +212,8 @@
         <scrolltime>200</scrolltime>
         <itemlayout height="38">
           <control type="label">
-            <posx>12</posx>
-            <posy>-6</posy>
+            <left>12</left>
+            <top>-6</top>
             <width>240</width>
             <height>48</height>
 			<font>heading_subscript</font>
@@ -223,16 +223,16 @@
             <info>ListItem.Label</info>
           </control>
           <control type="image">
-            <posx>105</posx>
-            <posy>10</posy>
+            <left>105</left>
+            <top>10</top>
             <width>34</width>
             <height>14</height>
             <texture>xbmcsubs/icon_sync.png</texture>
             <visible>ListItem.property(sync)</visible>
           </control>
           <control type="label">
-            <posx>147</posx>
-            <posy>-6</posy>
+            <left>147</left>
+            <top>-6</top>
             <width>689</width>
             <height>48</height>
 			<font>heading_subscript</font>
@@ -244,8 +244,8 @@
         </itemlayout>
         <focusedlayout height="38">
           <control type="image">
-            <posx>0</posx>
-            <posy>0</posy>
+            <left>0</left>
+            <top>0</top>
             <width>963</width>
             <height>38</height>
             <texture>grey2.png</texture>
@@ -254,8 +254,8 @@
             <visible>Control.HasFocus(120)</visible>
           </control>
           <control type="label">
-            <posx>12</posx>
-            <posy>-6</posy>
+            <left>12</left>
+            <top>-6</top>
             <width>240</width>
             <height>48</height>
 			<font>heading_subscript</font>
@@ -265,16 +265,16 @@
             <info>ListItem.Label</info>
           </control>
           <control type="image">
-            <posx>105</posx>
-            <posy>10</posy>
+            <left>105</left>
+            <top>10</top>
             <width>34</width>
             <height>14</height>
             <texture>xbmcsubs/icon_sync.png</texture>
             <visible>ListItem.property(sync)</visible>
           </control>
           <control type="label">
-            <posx>147</posx>
-            <posy>-6</posy>
+            <left>147</left>
+            <top>-6</top>
             <width>689</width>
             <height>48</height>
 			<font>heading_subscript</font>
@@ -286,12 +286,12 @@
         </focusedlayout>
       </control>
       <control type="group">
-        <posx>956</posx>
-        <posy>12</posy>
+        <left>956</left>
+        <top>12</top>
 		
 		<control type="scrollbar" id="121">
-			<posx>50</posx>
-			<posy>20</posy>
+			<left>50</left>
+			<top>20</top>
 			<width>5</width>
 			<height>350</height>
 			<texturesliderbackground>white2.png</texturesliderbackground>
@@ -307,25 +307,41 @@
     </control>
     <control type="group" id="111">
 	<visible>!Window.IsVisible(10140)</visible>
-      <posx>158</posx>
-      <posy>-17</posy>
+      <left>158</left>
+      <top>-17</top>
       <control type="image" id="404">
         <description>Local Subtitle Indicator</description>
-        <posx>691</posx>
-        <posy>30</posy>
+        <left>691</left>
+        <top>30</top>
         <width>40</width>
         <height>40</height>
         <texture>xbmcsubs/attention.png</texture>
       </control>
       <control type="label">
         <description>Local Subtitle Text</description>
-        <posx>733</posx>
-        <posy>36</posy>
+        <left>733</left>
+        <top>36</top>
         <font>heading_subscript</font>
         <textcolor>ff858585</textcolor>
         <width>250</width>
         <label>$LOCALIZE[SCRIPT655]</label>
       </control>
     </control>
+	<control type="button" id="160">
+		<description>Manual search button</description>
+		<left>925</left>
+		<top>640</top>
+		<width>200</width>
+		<height>40</height>
+		<onleft>120</onleft>
+		<onright>120</onright>
+		<onup>150</onup>
+		<ondown>150</ondown>
+		<label>$LOCALIZE[24120]</label>
+		<font>heading_subscript</font>
+		<textcolor>ff858585</textcolor>
+		<focusedcolor>white</focusedcolor>
+		<align>center</align>
+	</control>
   </controls>
 </window>

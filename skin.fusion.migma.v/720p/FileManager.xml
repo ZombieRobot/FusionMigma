@@ -4,8 +4,8 @@
   
 <controls>
 	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1280</width>
 		<height>720</height>
 		<aspectratio>stretch</aspectratio>
@@ -13,8 +13,8 @@
 		<colordiffuse>FFCCCCCF</colordiffuse>
 	</control>
 	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1280</width>
 		<height>720</height>
 		<aspectratio>stretch</aspectratio>
@@ -27,8 +27,8 @@
 <!-- Left -->
 
 	<control type="image">
-		<posx>105</posx>
-		<posy>130</posy>
+		<left>105</left>
+		<top>130</top>
 		<width>507</width>
 		<height>494</height>
 		<aspectratio>stretch</aspectratio>
@@ -36,11 +36,11 @@
 	</control>
 
   <control type="group">
-    <posx>109</posx>
-    <posy>135</posy>
+    <left>109</left>
+    <top>135</top>
     <control type="label" id="101">
       <description>Header Label</description>
-      <posx>15</posx>
+      <left>15</left>
       <width>420</width>
       <height>45</height>
       <align>left</align>
@@ -51,8 +51,8 @@
 	
     <control type="list" id="20">
       <description>Left File List</description>
-      <posx>0</posx>
-      <posy>48</posy>
+      <left>0</left>
+      <top>48</top>
       <width>499</width>
       <height>436</height>
       <onleft>21</onleft>
@@ -63,16 +63,16 @@
       <itemlayout height="44" width="320">
 
         <control type="image">
-          <posx>8</posx>
-          <posy>5</posy>
+          <left>8</left>
+          <top>5</top>
           <width>32</width>
           <height>32</height>
           <info>ListItem.Icon</info>
           <aspectratio aligny="left">keep</aspectratio>
         </control>
         <control type="label">
-          <posx>50</posx>
-		  <posy>-1</posy>
+          <left>50</left>
+		  <top>-1</top>
           <width>280</width>
           <height>44</height>
           <align>left</align>
@@ -82,8 +82,8 @@
           <scroll>false</scroll>
         </control>
         <control type="label">
-          <posx>488</posx>
-		  <posy>-1</posy>
+          <left>488</left>
+		  <top>-1</top>
           <width>280</width>
           <height>44</height>
           <align>right</align>
@@ -102,16 +102,16 @@
           <visible>Control.HasFocus(20)</visible>
         </control>
         <control type="image">
-          <posx>8</posx>
-          <posy>5</posy>
+          <left>8</left>
+          <top>5</top>
           <width>32</width>
           <height>32</height>
           <info>ListItem.Icon</info>
           <aspectratio aligny="left">keep</aspectratio>
         </control>
         <control type="label">
-          <posx>50</posx>
-		  <posy>-1</posy>
+          <left>50</left>
+		  <top>-1</top>
           <width>280</width>
           <height>44</height>
           <align>left</align>
@@ -121,8 +121,8 @@
           <scroll>false</scroll>
         </control>
         <control type="label">
-          <posx>488</posx>
-		  <posy>-1</posy>
+          <left>488</left>
+		  <top>-1</top>
           <width>280</width>
           <height>44</height>
           <align>right</align>
@@ -136,11 +136,11 @@
   </control>
 
 	<control type="group">
-		<posx>580</posx>
-		<posy>620</posy>
+		<left>580</left>
+		<top>620</top>
     <control type="label" id="12">
       <description>Footer Label</description>
-      <posx>15</posx>
+      <left>15</left>
       <width>320</width>
       <height>45</height>
       <align>right</align>
@@ -151,19 +151,19 @@
 <!-- Right -->
 
 	<control type="image">
-		<posx>705</posx>
-		<posy>130</posy>
+		<left>705</left>
+		<top>130</top>
 		<width>507</width>
 		<height>494</height>
 		<aspectratio>stretch</aspectratio>
 		<texture>filemanager/bg.png</texture>
 	</control>
   <control type="group">
-    <posx>709</posx>
-    <posy>135</posy>
+    <left>709</left>
+    <top>135</top>
     <control type="label" id="102">
       <description>Header Label</description>
-      <posx>15</posx>
+      <left>15</left>
       <width>420</width>
       <height>45</height>
       <align>left</align>
@@ -174,8 +174,8 @@
 	
     <control type="list" id="21">
       <description>Left File List</description>
-      <posx>0</posx>
-      <posy>48</posy>
+      <left>0</left>
+      <top>48</top>
       <width>499</width>
       <height>436</height>
       <onleft>20</onleft>
@@ -186,16 +186,16 @@
       <itemlayout height="44" width="320">
 
         <control type="image">
-          <posx>8</posx>
-          <posy>5</posy>
+          <left>8</left>
+          <top>5</top>
           <width>32</width>
           <height>32</height>
           <info>ListItem.Icon</info>
           <aspectratio aligny="left">keep</aspectratio>
         </control>
         <control type="label">
-          <posx>50</posx>
-		  <posy>-1</posy>
+          <left>50</left>
+		  <top>-1</top>
           <width>280</width>
           <height>44</height>
           <align>left</align>
@@ -205,8 +205,8 @@
           <scroll>false</scroll>
         </control>
         <control type="label">
-          <posx>488</posx>
-		  <posy>-1</posy>
+          <left>488</left>
+		  <top>-1</top>
           <width>280</width>
           <height>44</height>
           <align>right</align>
@@ -225,16 +225,16 @@
           <visible>Control.HasFocus(21)</visible>
         </control>
         <control type="image">
-          <posx>8</posx>
-          <posy>5</posy>
+          <left>8</left>
+          <top>5</top>
           <width>32</width>
           <height>32</height>
           <info>ListItem.Icon</info>
           <aspectratio aligny="left">keep</aspectratio>
         </control>
         <control type="label">
-          <posx>50</posx>
-		  <posy>-1</posy>
+          <left>50</left>
+		  <top>-1</top>
           <width>280</width>
           <height>44</height>
           <align>left</align>
@@ -244,8 +244,8 @@
           <scroll>false</scroll>
         </control>
         <control type="label">
-          <posx>488</posx>
-		  <posy>-1</posy>
+          <left>488</left>
+		  <top>-1</top>
           <width>280</width>
           <height>44</height>
           <align>right</align>
@@ -260,11 +260,11 @@
 
     
 	<control type="group">
-		<posx>1180</posx>
-		<posy>620</posy>
+		<left>1180</left>
+		<top>620</top>
     <control type="label" id="13">
       <description>Footer Label</description>
-      <posx>15</posx>
+      <left>15</left>
       <width>320</width>
       <height>45</height>
       <align>right</align>

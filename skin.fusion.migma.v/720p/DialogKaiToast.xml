@@ -4,16 +4,16 @@
   
 <coordinates>
   <system>1</system>
-  <posx>0</posx>
-  <posy>0</posy>
+  <left>0</left>
+  <top>0</top>
 </coordinates>
 
 <controls>
 <control type="group"> 
 <visible>!Window.IsVisible(2005) + !Window.IsVisible(2006)</visible>  
   <control type="image">
-	  <posx>128r</posx>
-	  <posy>0</posy>
+	  <left>128r</left>
+	  <top>0</top>
 	  <width>288</width>
 	  <height>53</height>
 	  <aspectratio>stretch</aspectratio>
@@ -37,8 +37,8 @@
 	  </animation>
   </control>
   <control type="image">
-	  <posx>125r</posx>
-	  <posy>0</posy>
+	  <left>125r</left>
+	  <top>0</top>
 	  <width>288</width>
 	  <height>53</height>
 	  <aspectratio>stretch</aspectratio>
@@ -62,8 +62,8 @@
 	  </animation>
   </control>
   <control type="image">
-	  <posx>407r</posx>
-	  <posy>6</posy>
+	  <left>407r</left>
+	  <top>6</top>
 	  <width>40</width>
 	  <height>40</height>
 	  <aspectratio>stretch</aspectratio>
@@ -77,8 +77,8 @@
   </control>
   <control type="label" id="401">
     <description>heading</description>
-    <posx>360r</posx>
-    <posy>0</posy>
+    <left>360r</left>
+    <top>0</top>
     <width>238</width>
 	<font>listdetail3</font>
 	<textcolor>taskbar</textcolor>
@@ -92,8 +92,8 @@
 
   <control type="label" id="402">
     <description>Line 1</description>
-    <posx>360r</posx>
-    <posy>22</posy>
+    <left>360r</left>
+    <top>22</top>
     <width>220</width>
 	<font>listdetail3</font>
 	<textcolor>ampm</textcolor>
@@ -111,8 +111,8 @@
 <control type="group">  
 <visible>Window.IsVisible(2005) | Window.IsVisible(2006)</visible> 
 	<control type="image">
-		<posx>348r</posx>
-		<posy>-1</posy>
+		<left>348r</left>
+		<top>-1</top>
 		<width>448</width>
 		<height>65</height>
 		<aspectratio>stretch</aspectratio>
@@ -129,8 +129,8 @@
 	</control> 
 		
 	<control type="label" id="401">
-		<posx>15r</posx>
-		<posy>1</posy>
+		<left>15r</left>
+		<top>1</top>
 		<width>150</width>
 		<height>35</height>
 		<font>musicinfo</font>
@@ -146,8 +146,8 @@
 		</animation>
 	</control>
 	<control type="label" id="402">
-		<posx>15r</posx>
-		<posy>26</posy>
+		<left>15r</left>
+		<top>26</top>
 		<width>800</width>
 		<height>35</height>
 		<scroll>false</scroll>

@@ -5,16 +5,16 @@
 	<controls>
 
 		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<width>1280</width>
 			<height>720</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>Home/bg2.png</texture>
 		</control>	
 		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<width>1280</width>
 			<height>720</height>
 			<aspectratio>stretch</aspectratio>
@@ -27,8 +27,8 @@
 		<control type="group">
 			<!-- <visible>!Control.IsVisible(9502)</visible> -->
 			<control type="image">
-				<posx>110</posx>
-				<posy>130</posy>
+				<left>110</left>
+				<top>130</top>
 				<width>1072</width>
 				<height>496</height>
 				<aspectratio>stretch</aspectratio>
@@ -42,8 +42,8 @@
 				</animation>
 			</control>  
 			<control type="image">
-				<posx>110</posx>
-				<posy>130</posy>
+				<left>110</left>
+				<top>130</top>
 				<width>1072</width>
 				<height>496</height>
 				<aspectratio>stretch</aspectratio>
@@ -59,8 +59,8 @@
 			</control> 
 
 			<control type="panel" id="9500">
-				<posx>130</posx>
-				<posy>150</posy>
+				<left>130</left>
+				<top>150</top>
 				<width>1055</width>
 				<height>510</height>
 				<onleft>9500</onleft>
@@ -78,8 +78,8 @@
 				</animation>
 				<itemlayout height="255" width="175">
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>158</width>
 						<height>157</height>
 						<fadetime>400</fadetime>
@@ -88,8 +88,8 @@
 						<colordiffuse>DDFFFFFF</colordiffuse>
 					</control>	
 					<control type="label">
-						<posx>79</posx>
-						<posy>165</posy>
+						<left>79</left>
+						<top>165</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -100,24 +100,24 @@
 				</itemlayout>
 				<focusedlayout>
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>158</width>
 						<height>157</height>
 						<aspectratio>stretch</aspectratio>
 						<texture>settings/catbg.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>168</posy>
+						<left>0</left>
+						<top>168</top>
 						<width>160</width>
 						<height>32</height>
 						<aspectratio>stretch</aspectratio>
 						<texture>settings/catfo.png</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>158</width>
 						<height>157</height>
 						<fadetime>400</fadetime>
@@ -126,8 +126,8 @@
 						<colordiffuse>FFFFFFFF</colordiffuse>
 					</control>	
 					<control type="label">
-						<posx>79</posx>
-						<posy>165</posy>
+						<left>79</left>
+						<top>165</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -178,8 +178,8 @@
 			<animation effect="slide" start="0,0" end="0,100" delay="0" time="600" reversable="false">WindowClose</animation>
 
 			<control type="image">
-				<posx>0</posx>
-				<posy>654</posy>
+				<left>0</left>
+				<top>654</top>
 				<width>1280</width>
 				<height>70</height>
 				<aspectratio>stretch</aspectratio>
@@ -188,8 +188,8 @@
 				<visible>!Control.IsVisible(52) + !Control.IsVisible(53)</visible>
 			</control>
 			<control type="image">
-				<posx>0</posx>
-				<posy>715</posy>
+				<left>0</left>
+				<top>715</top>
 				<width>1280</width>
 				<height>5</height>
 				<aspectratio>stretch</aspectratio>
@@ -203,8 +203,8 @@
 				<animation effect="slide" start="0,0" end="0,15" delay="0" time="600" reversable="false">WindowClose</animation>
 			</control>
 			<control type="image">
-				<posx>0</posx>
-				<posy>715</posy>
+				<left>0</left>
+				<top>715</top>
 				<width>1280</width>
 				<height>5</height>
 				<aspectratio>stretch</aspectratio>
@@ -219,8 +219,8 @@
 				<animation effect="slide" start="0,0" end="0,15" delay="0" time="600" reversable="false">WindowClose</animation>
 			</control>
 			<control type="image">
-				<posx>0</posx>
-				<posy>654</posy>
+				<left>0</left>
+				<top>654</top>
 				<width>1280</width>
 				<height>1</height>
 				<aspectratio>stretch</aspectratio>

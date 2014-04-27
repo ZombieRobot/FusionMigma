@@ -4,15 +4,15 @@
   
 <coordinates>
   <system>1</system>
-  <posx>0</posx>
-  <posy>0</posy>
+  <left>0</left>
+  <top>0</top>
 </coordinates>
   
 <controls>
 
 <control type="image">
-	<posx>0</posx>
-	<posy>218</posy>
+	<left>0</left>
+	<top>218</top>
 	<width>1280</width>
 	<height>235</height>
 	<texture>dialog/shutdownbg.png</texture>
@@ -28,8 +28,8 @@
 </control> 
 			<control type="label" id="3100">
 				<description>Label control</description>
-				<posx>315</posx>
-				<posy>370</posy>
+				<left>315</left>
+				<top>370</top>
 				<width>650</width>
 				<height>35</height>
 				<align>center</align>
@@ -51,8 +51,8 @@
 				<effect type="fade" start="100" end="0" time="80" />
 			</animation>			
 			<control type="grouplist">
-				<posx>320</posx>
-				<posy>260</posy>
+				<left>320</left>
+				<top>260</top>
 				<width>640</width>
 				<itemgap>20</itemgap>
 				<align>center</align>
@@ -76,8 +76,8 @@
 
 					<control type="button" id="15">
 						<description>Shutdown button</description>
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>115</width>
 						<height>119</height>
 						<texturefocus>-</texturefocus>
@@ -93,8 +93,8 @@
 					</control>
 					<control type="image">
 						<description>Shutdown focus image</description>
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>115</width>
 						<height>119</height>
 						<texture>dialog/shutdownfo.png</texture>

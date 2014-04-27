@@ -11,8 +11,8 @@
 		<include>Keyboard</include>
 		<control type="list" id="602">
 			<viewtype label="SongList">list</viewtype>
-			<posx>585</posx>
-			<posy>125</posy>
+			<left>585</left>
+			<top>125</top>
 			<width>900</width>
 			<height>453</height>
 			<scrolltime>200</scrolltime>
@@ -27,8 +27,8 @@
 			<itemlayout width="633" height="56">
 					<control type="label">
 					<!--Track # Greater than 10-->
-						  <posy>0</posy>
-						  <posx>0</posx>
+						  <top>0</top>
+						  <left>0</left>
 						  <width>652</width>
 						  <height>40</height>
 						  <textcolor>9bffffff</textcolor>
@@ -40,8 +40,8 @@
 					</control>
 					<control type="label">
 					<!--Track # Less than 10-->
-						  <posy>0</posy>
-						  <posx>0</posx>
+						  <top>0</top>
+						  <left>0</left>
 						  <width>652</width>
 						  <height>40</height>
 						  <textcolor>9bffffff</textcolor>
@@ -53,8 +53,8 @@
 					</control>
 					
 				<control type="label">
-					<posx>50</posx>
-					<posy>0</posy>
+					<left>50</left>
+					<top>0</top>
 					<width>633</width>
 					<height>40</height>
 					<align>left</align>
@@ -67,8 +67,8 @@
 
 					<control type="label">
 					<!--Duration-->
-						  <posy>0</posy>
-						  <posx>672</posx>
+						  <top>0</top>
+						  <left>672</left>
 						  <width>200</width>
 						  <height>39</height>
 						  <textcolor>9bffffff</textcolor>
@@ -82,8 +82,8 @@
 			<focusedlayout width="633" height="56">
 			
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>708</width>
 						<height>58</height>
 						<aspectratio scalediffuse="false">scale</aspectratio>
@@ -96,8 +96,8 @@
 							
 					<control type="label">
 					<!--Track # Greater than 10-->
-						  <posy>0</posy>
-						  <posx>0</posx>
+						  <top>0</top>
+						  <left>0</left>
 						  <width>652</width>
 						  <height>40</height>
 						  <textcolor>ffffffff</textcolor>
@@ -110,8 +110,8 @@
 					
 					<control type="label">
 					<!--Track # Less than 10-->
-						  <posy>0</posy>
-						  <posx>0</posx>
+						  <top>0</top>
+						  <left>0</left>
 						  <width>652</width>
 						  <height>40</height>
 						  <textcolor>ffffffff</textcolor>
@@ -123,8 +123,8 @@
 					</control>
 					
 					<control type="label">
-						<posx>50</posx>
-						<posy>0</posy>
+						<left>50</left>
+						<top>0</top>
 						<width>633</width>
 						<height>40</height>
 						<align>left</align>
@@ -136,8 +136,8 @@
 					
 					<control type="label">
 					<!--Duration-->
-						  <posy>0</posy>
-						  <posx>672</posx>
+						  <top>0</top>
+						  <left>672</left>
 						  <width>200</width>
 						  <height>39</height>
 						  <textcolor>ffffffff</textcolor>
@@ -157,24 +157,24 @@
 					<animation effect="rotate" end="-360" center="auto" time="5000" loop="true" reversible="false" condition="StringCompare(ListItem.Album,MusicPlayer.Album)">Conditional</animation>
 						<visible>Skin.HasSetting(UseCDArt)</visible>
 						<description>Disc</description>
-						<posx>136</posx>
-						<posy>70</posy>
+						<left>136</left>
+						<top>70</top>
 						<width>410</width>
 						<height>410</height>
 						<texture>$INFO[ListItem.Path]cdart.png</texture>
 						<aspectratio align="bottom">keep</aspectratio>
 					</control>
 					<control type="image">
-						<posx>118</posx>
-						<posy>118</posy>
+						<left>118</left>
+						<top>118</top>
 						<width>446</width>
 						<height>446</height>
 						<aspectratio scalediffuse="false">scale</aspectratio>
 						<texture border="12">whitepanel2.png</texture>
 					</control>
 					<control type="image">
-						<posx>130</posx>
-						<posy>130</posy>
+						<left>130</left>
+						<top>130</top>
 						<width>422</width>
 						<height>422</height>
 						<aspectratio scalediffuse="false">scale</aspectratio>
@@ -183,18 +183,18 @@
 				</control>
 			
 		<control type="group">
-			<posy>80</posy>
+			<top>80</top>
 			<visible>Control.IsVisible(602)</visible>
 			
 		<control type="grouplist">
-			<posx>125</posx>
-			<posy>488</posy>
+			<left>125</left>
+			<top>488</top>
 			<width>1280</width>
 			<height>40</height>
 			<align>left</align>
 			<orientation>horizontal</orientation>
 			<control type="label">
-				<posx>0</posx>
+				<left>0</left>
 				<width min="29" max="1050">auto</width>
 				<height>38</height>
 				<font>movietitle6</font>
@@ -204,8 +204,8 @@
 			</control>
 		</control>
 		<control type="label">
-			<posx>125</posx>
-			<posy>518</posy>
+			<left>125</left>
+			<top>518</top>
 			<width>914</width>
 			<height>35</height>
 			<font>aired</font>
@@ -221,8 +221,8 @@
 		<!-- Scroll Bar -->
 
 		<control type="scrollbar" id="603">
-			<posx>1280</posx>
-			<posy>130</posy>
+			<left>1280</left>
+			<top>130</top>
 			<width>6</width>
 			<height>420</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(602) + Control.HasFocus(603)</visible>

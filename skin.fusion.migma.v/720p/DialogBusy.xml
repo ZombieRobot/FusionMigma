@@ -4,16 +4,16 @@
   
 <coordinates>
   <system>1</system>
-  <posx>0</posx>
-  <posy>0</posy>
+  <left>0</left>
+  <top>0</top>
 </coordinates>
         
 <controls>
 <control type="group">
 	<visible>!Window.IsVisible(2005)</visible>
   <control type="image">
-	  <posx>128r</posx>
-	  <posy>0</posy>
+	  <left>128r</left>
+	  <top>0</top>
 	  <width>288</width>
 	  <height>53</height>
 	  <aspectratio>stretch</aspectratio>
@@ -37,8 +37,8 @@
 	  </animation>
   </control>
   <control type="image">
-	  <posx>128r</posx>
-	  <posy>0</posy>
+	  <left>128r</left>
+	  <top>0</top>
 	  <width>288</width>
 	  <height>53</height>
 	  <aspectratio>stretch</aspectratio>
@@ -62,8 +62,8 @@
 	  </animation>
   </control>
   <control type="multiimage">
-	  <posx>405r</posx>
-	  <posy>8</posy>
+	  <left>405r</left>
+	  <top>8</top>
 	  <width>38</width>
 	  <height>38</height>
 	  <imagepath>nav/busy/</imagepath>
@@ -79,8 +79,8 @@
   </control>  
     <control type="label">
     <description>Busy Label</description>
-    <posx>355r</posx>
-    <posy>10</posy>
+    <left>355r</left>
+    <top>10</top>
     <width>238</width>
 	<font>tvtitle2</font>
 	<textcolor>taskbar</textcolor>

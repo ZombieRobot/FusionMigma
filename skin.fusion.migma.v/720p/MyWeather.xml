@@ -6,15 +6,15 @@
 
 	<control type="spincontrol" id="3">
 			<description>weather location select</description>
-			<posx>0</posx>
-			<posy>-100</posy>
+			<left>0</left>
+			<top>-100</top>
 			<width>10</width>
 			<height>10</height>
 	</control>
 	<control type="button" id="50">
 			<description>select location</description>
-			<posx>520</posx>
-			<posy>-500</posy>
+			<left>520</left>
+			<top>-500</top>
 			<width>29</width>
 			<height>9</height>
 			<visible>true</visible>
@@ -29,16 +29,16 @@
 
 
  	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1280</width>
 		<height>720</height>
 		<aspectratio>stretch</aspectratio>
 		<texture>Home/bg2.png</texture>
 	</control>
 	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1280</width>
 		<height>720</height>
 		<aspectratio>stretch</aspectratio>
@@ -47,8 +47,8 @@
 	</control>	
 <!--
  	<control type="image">
-		<posx>0</posx>
-		<posy>40</posy>
+		<left>0</left>
+		<top>40</top>
 		<width>1280</width>
 		<height>720</height>
 		<aspectratio>stretch</aspectratio>
@@ -64,8 +64,8 @@
 -->	
 	
 <control type="group">	
-	<posx>-8</posx>
-	<posy>55</posy>
+	<left>-8</left>
+	<top>55</top>
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="350" delay="0" />
 		</animation>
@@ -74,16 +74,16 @@
 			<effect type="slide" start="0,750" end="0,0" time="750" delay="250" tween="back" easing="out" />
 		</animation>
  	<control type="image">
-		<posx>160</posx>
-		<posy>65</posy>
+		<left>160</left>
+		<top>65</top>
 		<width>992</width>
 		<height>506</height>
 		<aspectratio>stretch</aspectratio>
 		<texture>weather/wbg.png</texture>
 	</control> 
  	<control type="image">
-		<posx>160</posx>
-		<posy>65</posy>
+		<left>160</left>
+		<top>65</top>
 		<width>992</width>
 		<height>506</height>
 		<aspectratio>stretch</aspectratio>
@@ -92,8 +92,8 @@
 	</control> 
 	<control type="label">
 		<description>current date</description>
-		<posx>200</posx>
-		<posy>103</posy>
+		<left>200</left>
+		<top>103</top>
 		<width>446</width>
 		<height>30</height>
 		<font>infobar</font>
@@ -104,8 +104,8 @@
 	</control>
 	<control type="image">
 		<description>current weather icon</description>
-		<posx>230</posx>
-		<posy>140</posy>
+		<left>230</left>
+		<top>140</top>
 		<height>164</height>
 		<width>164</width>
 		<texture>$INFO[Window.Property(Current.ConditionIcon)]</texture>
@@ -113,8 +113,8 @@
 	</control>
 	<control type="label">
 		<description>current temp value</description>
-		<posx>415</posx>
-		<posy>195</posy>
+		<left>415</left>
+		<top>195</top>
 		<width>300</width>
 		<height>30</height>
 		<font>weatherlarge</font>
@@ -125,8 +125,8 @@
 	</control>	
 	<control type="label">
 		<description>conditions label</description>
-		<posx>415</posx>
-		<posy>260</posy>
+		<left>415</left>
+		<top>260</top>
 		<width>250</width>
 		<info>Window.Property(Day0.Outlook)</info>
 		<font>context</font>
@@ -135,11 +135,11 @@
 	</control>	
 	
 <control type="group">
-	<posx>65</posx>	
+	<left>65</left>	
 	<control type="label">
 		<description>current feels like label</description>
-		<posx>300</posx>
-		<posy>330</posy>
+		<left>300</left>
+		<top>330</top>
 		<width>300</width>
 		<height>30</height>
 		<font>listdetail2</font>
@@ -150,8 +150,8 @@
 	</control>
 	<control type="label">
 		<description>current feels like value</description>
-		<posx>325</posx>
-		<posy>330</posy>
+		<left>325</left>
+		<top>330</top>
 		<width>300</width>
 		<height>30</height>
 		<font>listdetail2</font>
@@ -162,8 +162,8 @@
 	</control>
 	<control type="label">
 		<description>current dew label</description>
-		<posx>300</posx>
-		<posy>370</posy>
+		<left>300</left>
+		<top>370</top>
 		<width>300</width>
 		<height>30</height>
 		<font>listdetail2</font>
@@ -174,8 +174,8 @@
 	</control>
 	<control type="label">
 		<description>current dew value</description>
-		<posx>325</posx>
-		<posy>370</posy>
+		<left>325</left>
+		<top>370</top>
 		<width>300</width>
 		<height>30</height>
 		<font>listdetail2</font>
@@ -186,8 +186,8 @@
 	</control>
 	<control type="label">
 		<description>current humidity label</description>
-		<posx>300</posx>
-		<posy>410</posy>
+		<left>300</left>
+		<top>410</top>
 		<width>300</width>
 		<height>30</height>
 		<font>listdetail2</font>
@@ -198,8 +198,8 @@
 	</control>
 	<control type="label">
 		<description>current humidity value</description>
-		<posx>325</posx>
-		<posy>410</posy>
+		<left>325</left>
+		<top>410</top>
 		<width>300</width>
 		<height>30</height>
 		<font>listdetail2</font>
@@ -210,8 +210,8 @@
 	</control>
 	<control type="label">
 		<description>current uv label</description>
-		<posx>300</posx>
-		<posy>450</posy>
+		<left>300</left>
+		<top>450</top>
 		<width>300</width>
 		<height>30</height>
 		<font>listdetail2</font>
@@ -222,8 +222,8 @@
 	</control>
 	<control type="label">
 		<description>current uv value</description>
-		<posx>325</posx>
-		<posy>450</posy>
+		<left>325</left>
+		<top>450</top>
 		<width>300</width>
 		<height>30</height>
 		<font>listdetail2</font>
@@ -234,8 +234,8 @@
 	</control>
 	<control type="label">
 		<description>current wind label</description>
-		<posx>300</posx>
-		<posy>490</posy>
+		<left>300</left>
+		<top>490</top>
 		<width>300</width>
 		<height>30</height>
 		<font>listdetail2</font>
@@ -246,8 +246,8 @@
 	</control>
 	<control type="label">
 		<description>current wind value</description>
-		<posx>325</posx>
-		<posy>490</posy>
+		<left>325</left>
+		<top>490</top>
 		<width>300</width>
 		<height>30</height>
 		<font>listdetail2</font>
@@ -259,12 +259,12 @@
 </control>
 
 						<control type="group">
-								<posx>590</posx>
-								<posy>40</posy>
+								<left>590</left>
+								<top>40</top>
 								<control type="label">
 										<description>day label</description>
-										<posx>78</posx>
-										<posy>57</posy>
+										<left>78</left>
+										<top>57</top>
 										<width>212</width>
 										<label>[UPPERCASE]$INFO[Window(Weather).Property(Day0.Title)][/UPPERCASE]</label>
 										<font>tvplot</font>
@@ -273,8 +273,8 @@
 								</control>
 								<control type="image">
 										<description>current weather icon</description>
-										<posx>135</posx>
-										<posy>98</posy>
+										<left>135</left>
+										<top>98</top>
 										<height>100</height>
 										<width>100</width>
 										<texture>$INFO[Window.Property(Day0.OutlookIcon)]</texture>
@@ -283,8 +283,8 @@
 								</control>
 								<control type="label">
 										<description>high label</description>
-										<posx>70</posx>
-										<posy>203</posy>
+										<left>70</left>
+										<top>203</top>
 										<width>120</width>
 										<height>30</height>
 										<font>aired</font>
@@ -296,8 +296,8 @@
 								</control>
 								<control type="label" id="32">
 										<description>high value</description>
-										<posx>100</posx>
-										<posy>228</posy>
+										<left>100</left>
+										<top>228</top>
 										<width>300</width>
 										<height>30</height>
 										<font>movietitle4</font>
@@ -308,8 +308,8 @@
 								</control>
 								<control type="label">
 										<description>low label</description>
-										<posx>255</posx>
-										<posy>203</posy>
+										<left>255</left>
+										<top>203</top>
 										<width>120</width>
 										<height>30</height>
 										<font>aired</font>
@@ -321,8 +321,8 @@
 								</control>
 								<control type="label" id="32">
 										<description>low value</description>
-										<posx>200</posx>
-										<posy>228</posy>
+										<left>200</left>
+										<top>228</top>
 										<width>300</width>
 										<height>30</height>
 										<font>movietitle4</font>
@@ -333,8 +333,8 @@
 								</control>
 								<control type="label">
 										<description>conditions label</description>
-										<posx>85</posx>
-										<posy>77</posy>
+										<left>85</left>
+										<top>77</top>
 										<width>200</width>
 										<info>Window.Property(Day0.Outlook)</info>
 										<font>condition</font>
@@ -344,12 +344,12 @@
 						</control>
 
 						<control type="group">
-								<posx>825</posx>
-								<posy>40</posy>
+								<left>825</left>
+								<top>40</top>
 								<control type="label">
 										<description>day label</description>
-										<posx>78</posx>
-										<posy>57</posy>
+										<left>78</left>
+										<top>57</top>
 										<width>212</width>
 										<label>[UPPERCASE]$INFO[Window(Weather).Property(Day1.Title)][/UPPERCASE]</label>
 										<font>tvplot</font>
@@ -358,8 +358,8 @@
 								</control>
 								<control type="image">
 										<description>current weather icon</description>
-										<posx>135</posx>
-										<posy>98</posy>
+										<left>135</left>
+										<top>98</top>
 										<height>100</height>
 										<width>100</width>
 										<texture>$INFO[Window.Property(Day1.OutlookIcon)]</texture>
@@ -368,8 +368,8 @@
 								</control>
 								<control type="label">
 										<description>high label</description>
-										<posx>70</posx>
-										<posy>203</posy>
+										<left>70</left>
+										<top>203</top>
 										<width>120</width>
 										<height>30</height>
 										<font>aired</font>
@@ -381,8 +381,8 @@
 								</control>
 								<control type="label" id="32">
 										<description>high value</description>
-										<posx>100</posx>
-										<posy>228</posy>
+										<left>100</left>
+										<top>228</top>
 										<width>300</width>
 										<height>30</height>
 										<font>movietitle4</font>
@@ -393,8 +393,8 @@
 								</control>
 								<control type="label">
 										<description>low label</description>
-										<posx>255</posx>
-										<posy>203</posy>
+										<left>255</left>
+										<top>203</top>
 										<width>120</width>
 										<height>30</height>
 										<font>aired</font>
@@ -406,8 +406,8 @@
 								</control>
 								<control type="label" id="32">
 										<description>low value</description>
-										<posx>200</posx>
-										<posy>228</posy>
+										<left>200</left>
+										<top>228</top>
 										<width>300</width>
 										<height>30</height>
 										<font>movietitle4</font>
@@ -418,8 +418,8 @@
 								</control>
 								<control type="label">
 										<description>conditions label</description>
-										<posx>85</posx>
-										<posy>77</posy>
+										<left>85</left>
+										<top>77</top>
 										<width>200</width>
 										<info>Window.Property(Day1.Outlook)</info>
 										<font>condition</font>
@@ -430,12 +430,12 @@
 						
 						
 						<control type="group">
-								<posx>590</posx>
-								<posy>267</posy>
+								<left>590</left>
+								<top>267</top>
 								<control type="label">
 										<description>day label</description>
-										<posx>78</posx>
-										<posy>57</posy>
+										<left>78</left>
+										<top>57</top>
 										<width>212</width>
 										<label>[UPPERCASE]$INFO[Window(Weather).Property(Day2.Title)][/UPPERCASE]</label>
 										<font>tvplot</font>
@@ -444,8 +444,8 @@
 								</control>
 								<control type="image">
 										<description>current weather icon</description>
-										<posx>135</posx>
-										<posy>98</posy>
+										<left>135</left>
+										<top>98</top>
 										<height>100</height>
 										<width>100</width>
 										<texture>$INFO[Window.Property(Day2.OutlookIcon)]</texture>
@@ -454,8 +454,8 @@
 								</control>
 								<control type="label">
 										<description>high label</description>
-										<posx>70</posx>
-										<posy>203</posy>
+										<left>70</left>
+										<top>203</top>
 										<width>120</width>
 										<height>30</height>
 										<font>aired</font>
@@ -467,8 +467,8 @@
 								</control>
 								<control type="label" id="32">
 										<description>high value</description>
-										<posx>100</posx>
-										<posy>228</posy>
+										<left>100</left>
+										<top>228</top>
 										<width>300</width>
 										<height>30</height>
 										<font>movietitle4</font>
@@ -479,8 +479,8 @@
 								</control>
 								<control type="label">
 										<description>low label</description>
-										<posx>255</posx>
-										<posy>203</posy>
+										<left>255</left>
+										<top>203</top>
 										<width>120</width>
 										<height>30</height>
 										<font>aired</font>
@@ -492,8 +492,8 @@
 								</control>
 								<control type="label" id="32">
 										<description>low value</description>
-										<posx>200</posx>
-										<posy>228</posy>
+										<left>200</left>
+										<top>228</top>
 										<width>300</width>
 										<height>30</height>
 										<font>movietitle4</font>
@@ -504,8 +504,8 @@
 								</control>
 								<control type="label">
 										<description>conditions label</description>
-										<posx>85</posx>
-										<posy>77</posy>
+										<left>85</left>
+										<top>77</top>
 										<width>200</width>
 										<info>Window.Property(Day2.Outlook)</info>
 										<font>condition</font>
@@ -515,12 +515,12 @@
 						</control>
 						
 						<control type="group">
-								<posx>825</posx>
-								<posy>267</posy>
+								<left>825</left>
+								<top>267</top>
 								<control type="label">
 										<description>day label</description>
-										<posx>78</posx>
-										<posy>57</posy>
+										<left>78</left>
+										<top>57</top>
 										<width>212</width>
 										<label>[UPPERCASE]$INFO[Window(Weather).Property(Day3.Title)][/UPPERCASE]</label>
 										<font>tvplot</font>
@@ -529,8 +529,8 @@
 								</control>
 								<control type="image">
 										<description>current weather icon</description>
-										<posx>135</posx>
-										<posy>98</posy>
+										<left>135</left>
+										<top>98</top>
 										<height>100</height>
 										<width>100</width>
 										<texture>$INFO[Window.Property(Day3.OutlookIcon)]</texture>
@@ -539,8 +539,8 @@
 								</control>
 								<control type="label">
 										<description>high label</description>
-										<posx>70</posx>
-										<posy>203</posy>
+										<left>70</left>
+										<top>203</top>
 										<width>120</width>
 										<height>30</height>
 										<font>aired</font>
@@ -552,8 +552,8 @@
 								</control>
 								<control type="label" id="32">
 										<description>high value</description>
-										<posx>100</posx>
-										<posy>228</posy>
+										<left>100</left>
+										<top>228</top>
 										<width>300</width>
 										<height>30</height>
 										<font>movietitle4</font>
@@ -564,8 +564,8 @@
 								</control>
 								<control type="label">
 										<description>low label</description>
-										<posx>255</posx>
-										<posy>203</posy>
+										<left>255</left>
+										<top>203</top>
 										<width>120</width>
 										<height>30</height>
 										<font>aired</font>
@@ -577,8 +577,8 @@
 								</control>
 								<control type="label" id="32">
 										<description>low value</description>
-										<posx>200</posx>
-										<posy>228</posy>
+										<left>200</left>
+										<top>228</top>
 										<width>300</width>
 										<height>30</height>
 										<font>movietitle4</font>
@@ -589,8 +589,8 @@
 								</control>
 								<control type="label">
 										<description>conditions label</description>
-										<posx>85</posx>
-										<posy>77</posy>
+										<left>85</left>
+										<top>77</top>
 										<width>200</width>
 										<info>Window.Property(Day3.Outlook)</info>
 										<font>condition</font>
@@ -604,8 +604,8 @@
 	<animation effect="slide" start="0,100" end="0,0" time="500" delay="200" reversable="false">WindowOpen</animation>
 	<animation effect="slide" start="0,0" end="0,100" delay="0" time="600" reversable="false">WindowClose</animation>
 	<control type="image">
-		<posx>0</posx>
-		<posy>654</posy>
+		<left>0</left>
+		<top>654</top>
 		<width>1280</width>
 		<height>70</height>
 		<aspectratio>stretch</aspectratio>
@@ -614,8 +614,8 @@
 		<visible>!Control.IsVisible(52) + !Control.IsVisible(53)</visible>
 	</control>
 	<control type="image">
-		<posx>0</posx>
-		<posy>715</posy>
+		<left>0</left>
+		<top>715</top>
 		<width>1280</width>
 		<height>5</height>
 		<aspectratio>stretch</aspectratio>
@@ -626,8 +626,8 @@
 		<animation effect="slide" start="0,0" end="0,15" delay="0" time="600" reversable="false">WindowClose</animation>
 	</control>
 	<control type="image">
-		<posx>0</posx>
-		<posy>715</posy>
+		<left>0</left>
+		<top>715</top>
 		<width>1280</width>
 		<height>5</height>
 		<aspectratio>stretch</aspectratio>
@@ -639,8 +639,8 @@
 		<animation effect="slide" start="0,0" end="0,15" delay="0" time="600" reversable="false">WindowClose</animation>
 	</control>
 	<control type="image">
-		<posx>0</posx>
-		<posy>654</posy>
+		<left>0</left>
+		<top>654</top>
 		<width>1280</width>
 		<height>1</height>
 		<aspectratio>stretch</aspectratio>

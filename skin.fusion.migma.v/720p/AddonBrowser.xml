@@ -5,16 +5,16 @@
   
 <controls>
  	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1280</width>
 		<height>720</height>
 		<aspectratio>stretch</aspectratio>
 		<texture>Home/bg2.png</texture>
 	</control>	
 	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1280</width>
 		<height>720</height>
 		<aspectratio>stretch</aspectratio>
@@ -28,8 +28,8 @@
 	<animation effect="slide" start="0,100" end="0,0" time="500" delay="200" reversable="false">WindowOpen</animation>
 	<animation effect="slide" start="0,0" end="0,100" delay="0" time="600" reversable="false">WindowClose</animation>
 	<control type="image">
-		<posx>0</posx>
-		<posy>654</posy>
+		<left>0</left>
+		<top>654</top>
 		<width>1280</width>
 		<height>70</height>
 		<aspectratio>stretch</aspectratio>
@@ -38,8 +38,8 @@
 		<visible>!Control.IsVisible(52) + !Control.IsVisible(53)</visible>
 	</control>
 	<control type="image">
-		<posx>0</posx>
-		<posy>715</posy>
+		<left>0</left>
+		<top>715</top>
 		<width>1280</width>
 		<height>5</height>
 		<aspectratio>stretch</aspectratio>
@@ -50,8 +50,8 @@
 		<animation effect="slide" start="0,0" end="0,15" delay="0" time="600" reversable="false">WindowClose</animation>
 	</control>
 	<control type="image">
-		<posx>0</posx>
-		<posy>715</posy>
+		<left>0</left>
+		<top>715</top>
 		<width>1280</width>
 		<height>5</height>
 		<aspectratio>stretch</aspectratio>
@@ -63,8 +63,8 @@
 		<animation effect="slide" start="0,0" end="0,15" delay="0" time="600" reversable="false">WindowClose</animation>
 	</control>
 	<control type="image">
-		<posx>0</posx>
-		<posy>654</posy>
+		<left>0</left>
+		<top>654</top>
 		<width>1280</width>
 		<height>1</height>
 		<aspectratio>stretch</aspectratio>
@@ -81,7 +81,7 @@
 <include>ProgramsItems</include>
 
 <control type="group">
-	<posy>-53</posy>
+	<top>-53</top>
 	<visible>Skin.HasSetting(HideNavBar)</visible>
 	<animation effect="slide" start="0,0" end="0,53" time="250" condition="Control.HasFocus(300)">conditional</animation>
 	<include>DropDownBar</include>

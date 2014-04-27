@@ -4,15 +4,15 @@
   
 <coordinates>
   <system>1</system>
-  <posx>0</posx>
-  <posy>0</posy>
+  <left>0</left>
+  <top>0</top>
 </coordinates>
 
 <controls>
 
   <control type="image">
-	  <posx>128r</posx>
-	  <posy>0</posy>
+	  <left>128r</left>
+	  <top>0</top>
 	  <width>288</width>
 	  <height>53</height>
 	  <aspectratio>stretch</aspectratio>
@@ -36,8 +36,8 @@
 	  </animation>
   </control>
   <control type="image">
-	  <posx>128r</posx>
-	  <posy>0</posy>
+	  <left>128r</left>
+	  <top>0</top>
 	  <width>288</width>
 	  <height>53</height>
 	  <aspectratio>stretch</aspectratio>
@@ -61,8 +61,8 @@
 	  </animation>
   </control>
   <control type="image">
-	  <posx>407r</posx>
-	  <posy>6</posy>
+	  <left>407r</left>
+	  <top>6</top>
 	  <width>40</width>
 	  <height>40</height>
 	  <aspectratio>stretch</aspectratio>
@@ -76,8 +76,8 @@
   </control>
   <control type="label" id="401">
     <description>Header Label</description>
-    <posx>360r</posx>
-    <posy>0</posy>
+    <left>360r</left>
+    <top>0</top>
     <width>238</width>
 	<font>listdetail3</font>
 	<textcolor>taskbar</textcolor>
@@ -92,8 +92,8 @@
 
   <control type="label" id="402">
     <description>Path Label</description>
-    <posx>360r</posx>
-    <posy>22</posy>
+    <left>360r</left>
+    <top>22</top>
     <width>220</width>
     
 	<font>listdetail3</font>

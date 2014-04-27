@@ -5,10 +5,10 @@
 			<include>recentlyaddedextranavanimation</include>
 			<animation effect="slide" end="-270" time="500" tween="cubic" delay="400" condition="Container(3010).ListItem.Property(Trailer)">Conditional</animation>
 			<animation effect="slide" end="270" time="500" tween="cubic" delay="200" condition="!Container(3010).ListItem.Property(Trailer)">Conditional</animation>
-			<posx>270</posx>
+			<left>270</left>
 			<control type="image">
-				<posx>1827</posx>
-				<posy>454r</posy>
+				<left>1827</left>
+				<top>454r</top>
 				<width>40</width>
 				<height>40</height>
 				<aspectratio>stretch</aspectratio>
@@ -17,8 +17,8 @@
 				<visible>Skin.HasSetting(recentlyaddednavmovietraileron) + Control.HasFocus(3010) + Container(3010).ListItem.Property(Trailer)</visible>			
 			</control>	
 			<control type="label">
-				<posx>2035</posx>
-				<posy>451r</posy>
+				<left>2035</left>
+				<top>451r</top>
 				<width>250</width>
 				<height>32</height>
 				<font>recent</font>
@@ -29,11 +29,11 @@
 			</control>
 		</control>
 		<control type="group">
-			<posy>24</posy>
+			<top>24</top>
 			<include>recentlyaddedextranavanimation</include>		
 			<control type="image">
-				<posx>1307</posx>
-				<posy>451r</posy>
+				<left>1307</left>
+				<top>451r</top>
 				<width>32</width>
 				<height>32</height>
 				<aspectratio>stretch</aspectratio>
@@ -53,8 +53,8 @@
 			</control>	
 	<!-- recently added movies text -->	
 			<control type="label">
-				<posx>1347</posx>
-				<posy>451r</posy>
+				<left>1347</left>
+				<top>451r</top>
 				<width>250</width>
 				<height>32</height>
 				<font>recent</font>
@@ -74,8 +74,8 @@
 				<visible>Control.HasFocus(3012)</visible>	
 			</control>
 			<control type="label">
-				<posx>1347</posx>
-				<posy>451r</posy>
+				<left>1347</left>
+				<top>451r</top>
 				<width>250</width>
 				<height>32</height>
 				<font>recent</font>
@@ -96,8 +96,8 @@
 			</control>
 			
 			<control type="image">
-				<posx>1307</posx>
-				<posy>288</posy>
+				<left>1307</left>
+				<top>288</top>
 				<width>729</width>
 				<height>410</height>
 				<texture background="true" diffuse="Home/extras/featureddifuse.png">black.png</texture>
@@ -105,8 +105,8 @@
 				<aspectratio>stretch</aspectratio>
 			</control>
 			<control type="image">
-				<posx>1307</posx>
-				<posy>288</posy>
+				<left>1307</left>
+				<top>288</top>
 				<width>729</width>
 				<height>410</height>
 				<texture background="true"  fallback="nofanart2.png" diffuse="Home/extras/featureddifuse.png" >$INFO[Container(3012).ListItem.Property(Fanart)]</texture>
@@ -114,8 +114,8 @@
 				<visible>Control.HasFocus(3012) + Skin.HasSetting(recentlyaddednavfanart)</visible>
 			</control>
 			<control type="image">
-				<posx>1307</posx>
-				<posy>288</posy>
+				<left>1307</left>
+				<top>288</top>
 				<width>729</width>
 				<height>410</height>
 				<texture background="true"  fallback="nofanart2.png" diffuse="Home/extras/featureddifuse.png" >$INFO[Container(3012).ListItem.Property(TVShowFanart)]</texture>
@@ -123,8 +123,8 @@
 				<visible>Control.HasFocus(3012) + !Skin.HasSetting(recentlyaddednavfanart)</visible>
 			</control>	
 			<control type="image">
-				<posx>1307</posx>
-				<posy>288</posy>
+				<left>1307</left>
+				<top>288</top>
 				<width>729</width>
 				<height>410</height>
 				<texture background="true"  fallback="noposter2.png" diffuse="Home/extras/featureddifuse.png" >$INFO[Container(3010).ListItem.Property(Fanart)]</texture>
@@ -132,8 +132,8 @@
 				<visible>Control.HasFocus(3010)</visible>
 			</control>
 			<control type="image">
-				<posx>1307</posx>
-				<posy>575</posy>
+				<left>1307</left>
+				<top>575</top>
 				<width>729</width>
 				<height>95</height>
 				<aspectratio>stretch</aspectratio>
@@ -146,8 +146,8 @@
 <!--Plot tv shows recently added extra nav-->			
 			<control type="textbox">
 				<description>Plot TV Shows</description>
-				<posx>1320</posx>
-				<posy>581</posy>
+				<left>1320</left>
+				<top>581</top>
 				<height>84</height>
 				<width>700</width>
 				<font>homemenu3</font>
@@ -160,8 +160,8 @@
 <!--Plot movies recently added extra nav-->				
 			<control type="textbox">
 				<description>Plot Movies</description>
-				<posx>1320</posx>
-				<posy>581</posy>
+				<left>1320</left>
+				<top>581</top>
 				<height>84</height>
 				<width>700</width>
 				<font>homemenu3</font>
@@ -179,8 +179,8 @@
 			<effect type="slide" start="0" end="-764" time="390" delay="0" tween="sine" easing="inout" />
 		</animation>		
 		<control type="list" id="3010">
-            <posx>500r</posx>
-            <posy>410r</posy>
+            <left>500r</left>
+            <top>410r</top>
             <width>484</width>
             <height>416</height>
             <onleft>640</onleft>
@@ -211,8 +211,8 @@
             <visible>Container(540).HasFocus(2) | Container(540).HasFocus(14)</visible>
             <itemlayout height="102" width="484">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -220,8 +220,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>20</posx>
-                    <posy>12</posy>
+                    <left>20</left>
+                    <top>12</top>
                     <width>130</width>
                     <height>75</height>
                     <aspectratio>stretch</aspectratio>
@@ -229,16 +229,16 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
 				<control type="image">
-					<posx>12</posx>
-					<posy>4</posy>
+					<left>12</left>
+					<top>4</top>
 					<width>147</width>
 					<height>91</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>grid/fanborder.png</texture>
 				</control>
                 <control type="label">
-                    <posx>160</posx>
-                    <posy>12</posy>
+                    <left>160</left>
+                    <top>12</top>
                     <width>314</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -248,8 +248,8 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>35</posy>
+                    <left>161</left>
+                    <top>35</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -259,8 +259,8 @@
 					<visible>Skin.HasSetting(HomeRecentlyAddedMovies)</visible>
                 </control>
 				<control type="label">
-                    <posx>161</posx>
-                    <posy>35</posy>
+                    <left>161</left>
+                    <top>35</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -270,8 +270,8 @@
 					<visible>Skin.HasSetting(HomeWatchlistMovies)</visible>	
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>55</posy>
+                    <left>161</left>
+                    <top>55</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -282,8 +282,8 @@
             </itemlayout>
             <focusedlayout height="102" width="484">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -291,8 +291,8 @@
                     <colordiffuse>10ffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -302,8 +302,8 @@
                     <visible>Control.HasFocus(3010)</visible>
                 </control>
                 <control type="image">
-                    <posx>20</posx>
-                    <posy>12</posy>
+                    <left>20</left>
+                    <top>12</top>
                     <width>130</width>
                     <height>75</height>
                     <aspectratio>stretch</aspectratio>
@@ -311,16 +311,16 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
 				<control type="image">
-					<posx>12</posx>
-					<posy>4</posy>
+					<left>12</left>
+					<top>4</top>
 					<width>147</width>
 					<height>91</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>grid/fanborder.png</texture>
 				</control>
                 <control type="label">
-                    <posx>160</posx>
-                    <posy>12</posy>
+                    <left>160</left>
+                    <top>12</top>
                     <width>310</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -330,8 +330,8 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>35</posy>
+                    <left>161</left>
+                    <top>35</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -341,8 +341,8 @@
 					<visible>Skin.HasSetting(HomeRecentlyAddedMovies)</visible>
                 </control>
 				<control type="label">
-                    <posx>161</posx>
-                    <posy>35</posy>
+                    <left>161</left>
+                    <top>35</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -352,8 +352,8 @@
 					<visible>Skin.HasSetting(HomeWatchlistMovies)</visible>	
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>55</posy>
+                    <left>161</left>
+                    <top>55</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -619,8 +619,8 @@
         </control>
 		<!-- FEATURED MOVIE -->
         <control type="image">
-            <posx>0</posx>
-            <posy>249</posy>
+            <left>0</left>
+            <top>249</top>
             <width>491</width>
             <height>379</height>
             <aspectratio>stretch</aspectratio>
@@ -636,8 +636,8 @@
             <animation effect="fade" start="0" end="100" time="900" delay="800">WindowOpen</animation>
         </control>
 			<control type="list" id="3011">
-				<posx>17</posx>
-				<posy>307</posy>
+				<left>17</left>
+				<top>307</top>
 				<width>479</width>
 				<height>275</height>
 				<onleft>540</onleft>
@@ -668,8 +668,8 @@
 				</itemlayout>
 				<focusedlayout height="275" width="479">	
 				  <control type="image">
-					  <posx>0</posx>
-					  <posy>0</posy>
+					  <left>0</left>
+					  <top>0</top>
 					  <width>479</width>
 					  <height>275</height>
 					  <aspectratio>stretch</aspectratio>
@@ -677,8 +677,8 @@
 					  <colordiffuse>ffffffff</colordiffuse>				
 				  </control>
 				  <control type="image">
-					  <posx>-1</posx>
-					  <posy>194</posy>
+					  <left>-1</left>
+					  <top>194</top>
 					  <width>480</width>
 					  <height>31</height>
 					  <aspectratio>stretch</aspectratio>
@@ -689,8 +689,8 @@
 				</animation>			
 				  </control>					
 				  <control type="label">
-					  <posx>10</posx>
-					  <posy>191</posy>
+					  <left>10</left>
+					  <top>191</top>
 					  <width>455</width>
 					  <height>35</height>
 					  <font>homemenu3</font>
@@ -710,8 +710,8 @@
 					</content>
 				</control>
         <control type="image">
-            <posx>180</posx>
-            <posy>338</posy>
+            <left>180</left>
+            <top>338</top>
             <width>137</width>
             <height>137</height>
             <aspectratio>stretch</aspectratio>
@@ -734,8 +734,8 @@
     <include name="RecentlyAddedMoviePlaylist1">
         <control type="list" id="3030">
 		<visible>Skin.HasSetting(HomeLatestPlaylist1)</visible>
-            <posx>500r</posx>
-            <posy>410r</posy>
+            <left>500r</left>
+            <top>410r</top>
             <width>484</width>
             <height>416</height>
             <onleft>3031</onleft>
@@ -765,8 +765,8 @@
             <visible>Container(540).HasFocus(30)</visible>
             <itemlayout height="100" width="484">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -774,8 +774,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>20</posx>
-                    <posy>12</posy>
+                    <left>20</left>
+                    <top>12</top>
                     <width>130</width>
                     <height>75</height>
                     <aspectratio>stretch</aspectratio>
@@ -783,16 +783,16 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
 				<control type="image">
-					<posx>12</posx>
-					<posy>4</posy>
+					<left>12</left>
+					<top>4</top>
 					<width>147</width>
 					<height>91</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>grid/fanborder.png</texture>
 				</control>
                 <control type="label">
-                    <posx>160</posx>
-                    <posy>12</posy>
+                    <left>160</left>
+                    <top>12</top>
                     <width>314</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -802,8 +802,8 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>35</posy>
+                    <left>161</left>
+                    <top>35</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -812,8 +812,8 @@
                     <label>$INFO[ListItem.Label2,, minutes]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>55</posy>
+                    <left>161</left>
+                    <top>55</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -824,8 +824,8 @@
             </itemlayout>
             <focusedlayout height="100" width="484">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -833,8 +833,8 @@
                     <colordiffuse>10ffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -844,8 +844,8 @@
                     <visible>Control.HasFocus(3030)</visible>
                 </control>
                 <control type="image">
-                    <posx>20</posx>
-                    <posy>12</posy>
+                    <left>20</left>
+                    <top>12</top>
                     <width>130</width>
                     <height>75</height>
                     <aspectratio>stretch</aspectratio>
@@ -853,16 +853,16 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
 				<control type="image">
-					<posx>12</posx>
-					<posy>4</posy>
+					<left>12</left>
+					<top>4</top>
 					<width>147</width>
 					<height>91</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>grid/fanborder.png</texture>
 				</control>
                 <control type="label">
-                    <posx>160</posx>
-                    <posy>12</posy>
+                    <left>160</left>
+                    <top>12</top>
                     <width>310</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -872,8 +872,8 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>35</posy>
+                    <left>161</left>
+                    <top>35</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -882,8 +882,8 @@
                     <label>$INFO[ListItem.Label2,, minutes]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>55</posy>
+                    <left>161</left>
+                    <top>55</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -927,8 +927,8 @@
 		<!-- FEATURED MOVIE PLAYLIST 1-->
 		
         <control type="image">
-            <posx>0</posx>
-            <posy>249</posy>
+            <left>0</left>
+            <top>249</top>
             <width>491</width>
             <height>379</height>
             <aspectratio>stretch</aspectratio>
@@ -944,8 +944,8 @@
             <animation effect="fade" start="0" end="100" time="900" delay="800">WindowOpen</animation>
         </control>
 			<control type="list" id="3031">
-				<posx>17</posx>
-				<posy>307</posy>
+				<left>17</left>
+				<top>307</top>
 				<width>479</width>
 				<height>275</height>
 				<onleft>3030</onleft>
@@ -976,8 +976,8 @@
 				</itemlayout>
 				<focusedlayout height="275" width="479">	
 				  <control type="image">
-					  <posx>0</posx>
-					  <posy>0</posy>
+					  <left>0</left>
+					  <top>0</top>
 					  <width>479</width>
 					  <height>275</height>
 					  <aspectratio>stretch</aspectratio>
@@ -985,8 +985,8 @@
 					  <colordiffuse>ffffffff</colordiffuse>				
 				  </control>
 				  <control type="image">
-					  <posx>-1</posx>
-					  <posy>194</posy>
+					  <left>-1</left>
+					  <top>194</top>
 					  <width>480</width>
 					  <height>31</height>
 					  <aspectratio>stretch</aspectratio>
@@ -997,8 +997,8 @@
 				</animation>			
 				  </control>					
 				  <control type="label">
-					  <posx>10</posx>
-					  <posy>191</posy>
+					  <left>10</left>
+					  <top>191</top>
 					  <width>455</width>
 					  <height>35</height>
 					  <font>homemenu3</font>
@@ -1018,8 +1018,8 @@
 					</content>
 				</control>
         <control type="image">
-            <posx>180</posx>
-            <posy>338</posy>
+            <left>180</left>
+            <top>338</top>
             <width>137</width>
             <height>137</height>
             <aspectratio>stretch</aspectratio>
@@ -1042,8 +1042,8 @@
     <include name="RecentlyAddedMoviePlaylist2">
         <control type="list" id="3032">
 		<visible>Skin.HasSetting(HomeLatestPlaylist2)</visible>
-            <posx>500r</posx>
-            <posy>410r</posy>
+            <left>500r</left>
+            <top>410r</top>
             <width>484</width>
             <height>416</height>
             <onleft>3033</onleft>
@@ -1073,8 +1073,8 @@
             <visible>Container(540).HasFocus(31)</visible>
             <itemlayout height="100" width="484">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -1082,8 +1082,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>20</posx>
-                    <posy>12</posy>
+                    <left>20</left>
+                    <top>12</top>
                     <width>130</width>
                     <height>75</height>
                     <aspectratio>stretch</aspectratio>
@@ -1091,16 +1091,16 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
 				<control type="image">
-					<posx>12</posx>
-					<posy>4</posy>
+					<left>12</left>
+					<top>4</top>
 					<width>147</width>
 					<height>91</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>grid/fanborder.png</texture>
 				</control>
                 <control type="label">
-                    <posx>160</posx>
-                    <posy>12</posy>
+                    <left>160</left>
+                    <top>12</top>
                     <width>314</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -1110,8 +1110,8 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>35</posy>
+                    <left>161</left>
+                    <top>35</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -1120,8 +1120,8 @@
                     <label>$INFO[ListItem.Label2,, minutes]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>55</posy>
+                    <left>161</left>
+                    <top>55</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -1132,8 +1132,8 @@
             </itemlayout>
             <focusedlayout height="100" width="484">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -1141,8 +1141,8 @@
                     <colordiffuse>10ffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -1152,8 +1152,8 @@
                     <visible>Control.HasFocus(3032)</visible>
                 </control>
                 <control type="image">
-                    <posx>20</posx>
-                    <posy>12</posy>
+                    <left>20</left>
+                    <top>12</top>
                     <width>130</width>
                     <height>75</height>
                     <aspectratio>stretch</aspectratio>
@@ -1161,16 +1161,16 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
 				<control type="image">
-					<posx>12</posx>
-					<posy>4</posy>
+					<left>12</left>
+					<top>4</top>
 					<width>147</width>
 					<height>91</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>grid/fanborder.png</texture>
 				</control>
                 <control type="label">
-                    <posx>160</posx>
-                    <posy>12</posy>
+                    <left>160</left>
+                    <top>12</top>
                     <width>310</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -1180,8 +1180,8 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>35</posy>
+                    <left>161</left>
+                    <top>35</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -1190,8 +1190,8 @@
                     <label>$INFO[ListItem.Label2,, minutes]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>55</posy>
+                    <left>161</left>
+                    <top>55</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -1235,8 +1235,8 @@
 		<!-- FEATURED MOVIE Playlist 2 -->
 		
         <control type="image">
-            <posx>0</posx>
-            <posy>249</posy>
+            <left>0</left>
+            <top>249</top>
             <width>491</width>
             <height>379</height>
             <aspectratio>stretch</aspectratio>
@@ -1252,8 +1252,8 @@
             <animation effect="fade" start="0" end="100" time="900" delay="800">WindowOpen</animation>
         </control>
 			<control type="list" id="3033">
-				<posx>17</posx>
-				<posy>307</posy>
+				<left>17</left>
+				<top>307</top>
 				<width>479</width>
 				<height>275</height>
 				<onleft>3032</onleft>
@@ -1284,8 +1284,8 @@
 				</itemlayout>
 				<focusedlayout height="275" width="479">	
 				  <control type="image">
-					  <posx>0</posx>
-					  <posy>0</posy>
+					  <left>0</left>
+					  <top>0</top>
 					  <width>479</width>
 					  <height>275</height>
 					  <aspectratio>stretch</aspectratio>
@@ -1293,8 +1293,8 @@
 					  <colordiffuse>ffffffff</colordiffuse>				
 				  </control>
 				  <control type="image">
-					  <posx>-1</posx>
-					  <posy>194</posy>
+					  <left>-1</left>
+					  <top>194</top>
 					  <width>480</width>
 					  <height>31</height>
 					  <aspectratio>stretch</aspectratio>
@@ -1305,8 +1305,8 @@
 				</animation>			
 				  </control>					
 				  <control type="label">
-					  <posx>10</posx>
-					  <posy>191</posy>
+					  <left>10</left>
+					  <top>191</top>
 					  <width>455</width>
 					  <height>35</height>
 					  <font>homemenu3</font>
@@ -1326,8 +1326,8 @@
 					</content>
 				</control>
         <control type="image">
-            <posx>180</posx>
-            <posy>338</posy>
+            <left>180</left>
+            <top>338</top>
             <width>137</width>
             <height>137</height>
             <aspectratio>stretch</aspectratio>
@@ -1350,8 +1350,8 @@
     <include name="RecentlyAddedMoviePlaylist3">
         <control type="list" id="3034">
 		<visible>Skin.HasSetting(HomeLatestPlaylist3)</visible>
-            <posx>500r</posx>
-            <posy>410r</posy>
+            <left>500r</left>
+            <top>410r</top>
             <width>484</width>
             <height>416</height>
             <onleft>3035</onleft>
@@ -1381,8 +1381,8 @@
             <visible>Container(540).HasFocus(32)</visible>
             <itemlayout height="100" width="484">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -1390,8 +1390,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>20</posx>
-                    <posy>12</posy>
+                    <left>20</left>
+                    <top>12</top>
                     <width>130</width>
                     <height>75</height>
                     <aspectratio>stretch</aspectratio>
@@ -1399,16 +1399,16 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
 				<control type="image">
-					<posx>12</posx>
-					<posy>4</posy>
+					<left>12</left>
+					<top>4</top>
 					<width>147</width>
 					<height>91</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>grid/fanborder.png</texture>
 				</control>
                 <control type="label">
-                    <posx>160</posx>
-                    <posy>12</posy>
+                    <left>160</left>
+                    <top>12</top>
                     <width>314</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -1418,8 +1418,8 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>35</posy>
+                    <left>161</left>
+                    <top>35</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -1428,8 +1428,8 @@
                     <label>$INFO[ListItem.Label2,, minutes]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>55</posy>
+                    <left>161</left>
+                    <top>55</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -1440,8 +1440,8 @@
             </itemlayout>
             <focusedlayout height="100" width="484">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -1449,8 +1449,8 @@
                     <colordiffuse>10ffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -1460,8 +1460,8 @@
                     <visible>Control.HasFocus(3034)</visible>
                 </control>
                 <control type="image">
-                    <posx>20</posx>
-                    <posy>12</posy>
+                    <left>20</left>
+                    <top>12</top>
                     <width>130</width>
                     <height>75</height>
                     <aspectratio>stretch</aspectratio>
@@ -1469,16 +1469,16 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
 				<control type="image">
-					<posx>12</posx>
-					<posy>4</posy>
+					<left>12</left>
+					<top>4</top>
 					<width>147</width>
 					<height>91</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>grid/fanborder.png</texture>
 				</control>
                 <control type="label">
-                    <posx>160</posx>
-                    <posy>12</posy>
+                    <left>160</left>
+                    <top>12</top>
                     <width>310</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -1488,8 +1488,8 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>35</posy>
+                    <left>161</left>
+                    <top>35</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -1498,8 +1498,8 @@
                     <label>$INFO[ListItem.Label2,, minutes]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>55</posy>
+                    <left>161</left>
+                    <top>55</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -1543,8 +1543,8 @@
 		<!-- FEATURED MOVIE Playlist 3 -->
 		
         <control type="image">
-            <posx>0</posx>
-            <posy>249</posy>
+            <left>0</left>
+            <top>249</top>
             <width>491</width>
             <height>379</height>
             <aspectratio>stretch</aspectratio>
@@ -1560,8 +1560,8 @@
             <animation effect="fade" start="0" end="100" time="900" delay="800">WindowOpen</animation>
         </control>
 			<control type="list" id="3035">
-				<posx>17</posx>
-				<posy>307</posy>
+				<left>17</left>
+				<top>307</top>
 				<width>479</width>
 				<height>275</height>
 				<onleft>3034</onleft>
@@ -1592,8 +1592,8 @@
 				</itemlayout>
 				<focusedlayout height="275" width="479">	
 				  <control type="image">
-					  <posx>0</posx>
-					  <posy>0</posy>
+					  <left>0</left>
+					  <top>0</top>
 					  <width>479</width>
 					  <height>275</height>
 					  <aspectratio>stretch</aspectratio>
@@ -1601,8 +1601,8 @@
 					  <colordiffuse>ffffffff</colordiffuse>				
 				  </control>
 				  <control type="image">
-					  <posx>-1</posx>
-					  <posy>194</posy>
+					  <left>-1</left>
+					  <top>194</top>
 					  <width>480</width>
 					  <height>31</height>
 					  <aspectratio>stretch</aspectratio>
@@ -1613,8 +1613,8 @@
 				</animation>			
 				  </control>					
 				  <control type="label">
-					  <posx>10</posx>
-					  <posy>191</posy>
+					  <left>10</left>
+					  <top>191</top>
 					  <width>455</width>
 					  <height>35</height>
 					  <font>homemenu3</font>
@@ -1634,8 +1634,8 @@
 					</content>
 				</control>
         <control type="image">
-            <posx>180</posx>
-            <posy>338</posy>
+            <left>180</left>
+            <top>338</top>
             <width>137</width>
             <height>137</height>
             <aspectratio>stretch</aspectratio>
@@ -1657,8 +1657,8 @@
 	
     <include name="RecentlyAddedEpisodes">
         <control type="list" id="3012">
-            <posx>500r</posx>
-            <posy>410r</posy>
+            <left>500r</left>
+            <top>410r</top>
             <width>484</width>
             <height>416</height>
             <onleft>642</onleft>
@@ -1686,8 +1686,8 @@
             
             <itemlayout height="102" width="484">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -1695,8 +1695,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>20</posx>
-                    <posy>12</posy>
+                    <left>20</left>
+                    <top>12</top>
                     <width>130</width>
                     <height>75</height>
                     <aspectratio>scale</aspectratio>
@@ -1704,16 +1704,16 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
 				<control type="image">
-					<posx>12</posx>
-					<posy>4</posy>
+					<left>12</left>
+					<top>4</top>
 					<width>147</width>
 					<height>91</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>grid/fanborder.png</texture>
 				</control>
                 <control type="label">
-                    <posx>160</posx>
-                    <posy>12</posy>
+                    <left>160</left>
+                    <top>12</top>
                     <width>314</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -1723,8 +1723,8 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>35</posy>
+                    <left>161</left>
+                    <top>35</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -1733,8 +1733,8 @@
                     <label>$INFO[ListItem.Label2]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>55</posy>
+                    <left>161</left>
+                    <top>55</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -1745,8 +1745,8 @@
             </itemlayout>
             <focusedlayout height="102" width="484">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -1754,8 +1754,8 @@
                     <colordiffuse>10ffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -1765,8 +1765,8 @@
                     <animation effect="fade" start="8" end="100" time="200">Visible</animation>
                 </control>
                 <control type="image">
-                    <posx>20</posx>
-                    <posy>12</posy>
+                    <left>20</left>
+                    <top>12</top>
                     <width>130</width>
                     <height>75</height>
                     <aspectratio>scale</aspectratio>
@@ -1774,16 +1774,16 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
 				<control type="image">
-					<posx>12</posx>
-					<posy>4</posy>
+					<left>12</left>
+					<top>4</top>
 					<width>147</width>
 					<height>91</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>grid/fanborder.png</texture>
 				</control>
                 <control type="label">
-                    <posx>160</posx>
-                    <posy>12</posy>
+                    <left>160</left>
+                    <top>12</top>
                     <width>314</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -1793,8 +1793,8 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>35</posy>
+                    <left>161</left>
+                    <top>35</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -1803,8 +1803,8 @@
                     <label>$INFO[ListItem.Label2]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>55</posy>
+                    <left>161</left>
+                    <top>55</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -2045,8 +2045,8 @@
 		<!-- FEATURED EPISODE -->
 		
         <control type="image">
-            <posx>0</posx>
-            <posy>249</posy>
+            <left>0</left>
+            <top>249</top>
             <width>491</width>
             <height>379</height>
             <aspectratio>stretch</aspectratio>
@@ -2065,8 +2065,8 @@
            <effect type="slide" start="0" end="-764" time="400" delay="0" tween="sine" easing="inout" />
         </animation>
         <control type="list" id="3013">
-            <posx>17</posx>
-            <posy>307</posy>
+            <left>17</left>
+            <top>307</top>
             <width>479</width>
             <height>275</height>
             <onleft>540</onleft>
@@ -2092,8 +2092,8 @@
             <itemlayout height="275" width="479"></itemlayout>
             <focusedlayout height="275" width="479">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>479</width>
                     <height>275</height>
                     <aspectratio scalediffuse="false">scale</aspectratio>
@@ -2101,8 +2101,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>-1</posx>
-                    <posy>194</posy>
+                    <left>-1</left>
+                    <top>194</top>
                     <width>480</width>
                     <height>31</height>
                     <aspectratio>stretch</aspectratio>
@@ -2113,8 +2113,8 @@
                     </animation>
                 </control>
                 <control type="label">
-                    <posx>10</posx>
-                    <posy>191</posy>
+                    <left>10</left>
+                    <top>191</top>
                     <width>455</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -2134,8 +2134,8 @@
             </content>
         </control>
         <control type="image">
-            <posx>180</posx>
-            <posy>338</posy>
+            <left>180</left>
+            <top>338</top>
             <width>137</width>
             <height>137</height>
             <aspectratio>stretch</aspectratio>
@@ -2158,8 +2158,8 @@
     <include name="RecentlyAddedTVPlaylist1">
         <control type="list" id="3036">
 		<visible>Skin.HasSetting(HomeLatestTVPlaylist1)</visible>
-            <posx>500r</posx>
-            <posy>410r</posy>
+            <left>500r</left>
+            <top>410r</top>
             <width>484</width>
             <height>416</height>
             <onleft>3037</onleft>
@@ -2185,8 +2185,8 @@
             </animation>
             <itemlayout height="100" width="484">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -2194,8 +2194,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>20</posx>
-                    <posy>12</posy>
+                    <left>20</left>
+                    <top>12</top>
                     <width>130</width>
                     <height>75</height>
                     <aspectratio>scale</aspectratio>
@@ -2203,16 +2203,16 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
 				<control type="image">
-					<posx>12</posx>
-					<posy>4</posy>
+					<left>12</left>
+					<top>4</top>
 					<width>147</width>
 					<height>91</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>grid/fanborder.png</texture>
 				</control>
                 <control type="label">
-                    <posx>160</posx>
-                    <posy>12</posy>
+                    <left>160</left>
+                    <top>12</top>
                     <width>314</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -2222,8 +2222,8 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>35</posy>
+                    <left>161</left>
+                    <top>35</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -2232,8 +2232,8 @@
                     <label>$INFO[ListItem.Label2]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>55</posy>
+                    <left>161</left>
+                    <top>55</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -2244,8 +2244,8 @@
             </itemlayout>
             <focusedlayout height="100" width="484">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -2253,8 +2253,8 @@
                     <colordiffuse>10ffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -2264,8 +2264,8 @@
                     <animation effect="fade" start="8" end="100" time="200">Visible</animation>
                 </control>
                 <control type="image">
-                    <posx>20</posx>
-                    <posy>12</posy>
+                    <left>20</left>
+                    <top>12</top>
                     <width>130</width>
                     <height>75</height>
                     <aspectratio>scale</aspectratio>
@@ -2273,16 +2273,16 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
 				<control type="image">
-					<posx>12</posx>
-					<posy>4</posy>
+					<left>12</left>
+					<top>4</top>
 					<width>147</width>
 					<height>91</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>grid/fanborder.png</texture>
 				</control>
                 <control type="label">
-                    <posx>160</posx>
-                    <posy>12</posy>
+                    <left>160</left>
+                    <top>12</top>
                     <width>314</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -2292,8 +2292,8 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>35</posy>
+                    <left>161</left>
+                    <top>35</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -2302,8 +2302,8 @@
                     <label>$INFO[ListItem.Label2]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>55</posy>
+                    <left>161</left>
+                    <top>55</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -2345,8 +2345,8 @@
         </control>
 		<!-- FEATURED EPISODE -->
         <control type="image">
-            <posx>0</posx>
-            <posy>249</posy>
+            <left>0</left>
+            <top>249</top>
             <width>491</width>
             <height>379</height>
             <aspectratio>stretch</aspectratio>
@@ -2362,8 +2362,8 @@
             <animation effect="fade" start="0" end="100" time="900" delay="800">WindowOpen</animation>
         </control>
         <control type="list" id="3037">
-            <posx>17</posx>
-            <posy>307</posy>
+            <left>17</left>
+            <top>307</top>
             <width>479</width>
             <height>275</height>
             <onleft>3036</onleft>
@@ -2389,8 +2389,8 @@
             <itemlayout height="275" width="479"></itemlayout>
             <focusedlayout height="275" width="479">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>479</width>
                     <height>275</height>
                     <aspectratio scalediffuse="false">scale</aspectratio>
@@ -2398,8 +2398,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>-1</posx>
-                    <posy>194</posy>
+                    <left>-1</left>
+                    <top>194</top>
                     <width>480</width>
                     <height>31</height>
                     <aspectratio>stretch</aspectratio>
@@ -2410,8 +2410,8 @@
                     </animation>
                 </control>
                 <control type="label">
-                    <posx>10</posx>
-                    <posy>191</posy>
+                    <left>10</left>
+                    <top>191</top>
                     <width>455</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -2431,8 +2431,8 @@
             </content>
         </control>
         <control type="image">
-            <posx>180</posx>
-            <posy>338</posy>
+            <left>180</left>
+            <top>338</top>
             <width>137</width>
             <height>137</height>
             <aspectratio>stretch</aspectratio>
@@ -2455,8 +2455,8 @@
     <include name="RecentlyAddedTVPlaylist2">
         <control type="list" id="3038">
 		<visible>Skin.HasSetting(HomeLatestTVPlaylist2)</visible>
-            <posx>500r</posx>
-            <posy>410r</posy>
+            <left>500r</left>
+            <top>410r</top>
             <width>484</width>
             <height>416</height>
             <onleft>3039</onleft>
@@ -2482,8 +2482,8 @@
             </animation>
             <itemlayout height="100" width="484">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -2491,8 +2491,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>20</posx>
-                    <posy>12</posy>
+                    <left>20</left>
+                    <top>12</top>
                     <width>130</width>
                     <height>75</height>
                     <aspectratio>scale</aspectratio>
@@ -2500,16 +2500,16 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
 				<control type="image">
-					<posx>12</posx>
-					<posy>4</posy>
+					<left>12</left>
+					<top>4</top>
 					<width>147</width>
 					<height>91</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>grid/fanborder.png</texture>
 				</control>
                 <control type="label">
-                    <posx>160</posx>
-                    <posy>12</posy>
+                    <left>160</left>
+                    <top>12</top>
                     <width>314</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -2519,8 +2519,8 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>35</posy>
+                    <left>161</left>
+                    <top>35</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -2529,8 +2529,8 @@
                     <label>$INFO[ListItem.Label2]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>55</posy>
+                    <left>161</left>
+                    <top>55</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -2541,8 +2541,8 @@
             </itemlayout>
             <focusedlayout height="100" width="484">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -2550,8 +2550,8 @@
                     <colordiffuse>10ffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -2561,8 +2561,8 @@
                     <animation effect="fade" start="8" end="100" time="200">Visible</animation>
                 </control>
                 <control type="image">
-                    <posx>20</posx>
-                    <posy>12</posy>
+                    <left>20</left>
+                    <top>12</top>
                     <width>130</width>
                     <height>75</height>
                     <aspectratio>scale</aspectratio>
@@ -2570,16 +2570,16 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
 				<control type="image">
-					<posx>12</posx>
-					<posy>4</posy>
+					<left>12</left>
+					<top>4</top>
 					<width>147</width>
 					<height>91</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>grid/fanborder.png</texture>
 				</control>
                 <control type="label">
-                    <posx>160</posx>
-                    <posy>12</posy>
+                    <left>160</left>
+                    <top>12</top>
                     <width>314</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -2589,8 +2589,8 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>35</posy>
+                    <left>161</left>
+                    <top>35</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -2599,8 +2599,8 @@
                     <label>$INFO[ListItem.Label2]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>55</posy>
+                    <left>161</left>
+                    <top>55</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -2644,8 +2644,8 @@
 		<!-- FEATURED EPISODE TV Playlist 2 -->
 		
         <control type="image">
-            <posx>0</posx>
-            <posy>249</posy>
+            <left>0</left>
+            <top>249</top>
             <width>491</width>
             <height>379</height>
             <aspectratio>stretch</aspectratio>
@@ -2661,8 +2661,8 @@
             <animation effect="fade" start="0" end="100" time="900" delay="800">WindowOpen</animation>
         </control>
         <control type="list" id="3039">
-            <posx>17</posx>
-            <posy>307</posy>
+            <left>17</left>
+            <top>307</top>
             <width>479</width>
             <height>275</height>
             <onleft>3038</onleft>
@@ -2688,8 +2688,8 @@
             <itemlayout height="275" width="479"></itemlayout>
             <focusedlayout height="275" width="479">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>479</width>
                     <height>275</height>
                     <aspectratio scalediffuse="false">scale</aspectratio>
@@ -2697,8 +2697,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>-1</posx>
-                    <posy>194</posy>
+                    <left>-1</left>
+                    <top>194</top>
                     <width>480</width>
                     <height>31</height>
                     <aspectratio>stretch</aspectratio>
@@ -2709,8 +2709,8 @@
                     </animation>
                 </control>
                 <control type="label">
-                    <posx>10</posx>
-                    <posy>191</posy>
+                    <left>10</left>
+                    <top>191</top>
                     <width>455</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -2730,8 +2730,8 @@
             </content>
         </control>
         <control type="image">
-            <posx>180</posx>
-            <posy>338</posy>
+            <left>180</left>
+            <top>338</top>
             <width>137</width>
             <height>137</height>
             <aspectratio>stretch</aspectratio>
@@ -2754,8 +2754,8 @@
     <include name="RecentlyAddedTVPlaylist3">
         <control type="list" id="3040">
 		<visible>Skin.HasSetting(HomeLatestTVPlaylist3)</visible>
-            <posx>500r</posx>
-            <posy>410r</posy>
+            <left>500r</left>
+            <top>410r</top>
             <width>484</width>
             <height>416</height>
             <onleft>3041</onleft>
@@ -2781,8 +2781,8 @@
             </animation>
             <itemlayout height="100" width="484">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -2790,8 +2790,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>20</posx>
-                    <posy>12</posy>
+                    <left>20</left>
+                    <top>12</top>
                     <width>130</width>
                     <height>75</height>
                     <aspectratio>scale</aspectratio>
@@ -2799,16 +2799,16 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
 				<control type="image">
-					<posx>12</posx>
-					<posy>4</posy>
+					<left>12</left>
+					<top>4</top>
 					<width>147</width>
 					<height>91</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>grid/fanborder.png</texture>
 				</control>
                 <control type="label">
-                    <posx>160</posx>
-                    <posy>12</posy>
+                    <left>160</left>
+                    <top>12</top>
                     <width>314</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -2818,8 +2818,8 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>35</posy>
+                    <left>161</left>
+                    <top>35</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -2828,8 +2828,8 @@
                     <label>$INFO[ListItem.Label2]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>55</posy>
+                    <left>161</left>
+                    <top>55</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -2840,8 +2840,8 @@
             </itemlayout>
             <focusedlayout height="100" width="484">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -2849,8 +2849,8 @@
                     <colordiffuse>10ffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -2860,8 +2860,8 @@
                     <animation effect="fade" start="8" end="100" time="200">Visible</animation>
                 </control>
                 <control type="image">
-                    <posx>20</posx>
-                    <posy>12</posy>
+                    <left>20</left>
+                    <top>12</top>
                     <width>130</width>
                     <height>75</height>
                     <aspectratio>scale</aspectratio>
@@ -2869,16 +2869,16 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
 				<control type="image">
-					<posx>12</posx>
-					<posy>4</posy>
+					<left>12</left>
+					<top>4</top>
 					<width>147</width>
 					<height>91</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>grid/fanborder.png</texture>
 				</control>
                 <control type="label">
-                    <posx>160</posx>
-                    <posy>12</posy>
+                    <left>160</left>
+                    <top>12</top>
                     <width>314</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -2888,8 +2888,8 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>35</posy>
+                    <left>161</left>
+                    <top>35</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -2898,8 +2898,8 @@
                     <label>$INFO[ListItem.Label2]</label>
                 </control>
                 <control type="label">
-                    <posx>161</posx>
-                    <posy>55</posy>
+                    <left>161</left>
+                    <top>55</top>
                     <width>250</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -2943,8 +2943,8 @@
 		<!-- FEATURED EPISODE TV Playlist 3 -->
 		
         <control type="image">
-            <posx>0</posx>
-            <posy>249</posy>
+            <left>0</left>
+            <top>249</top>
             <width>491</width>
             <height>379</height>
             <aspectratio>stretch</aspectratio>
@@ -2960,8 +2960,8 @@
             <animation effect="fade" start="0" end="100" time="900" delay="800">WindowOpen</animation>
         </control>
         <control type="list" id="3041">
-            <posx>17</posx>
-            <posy>307</posy>
+            <left>17</left>
+            <top>307</top>
             <width>479</width>
             <height>275</height>
             <onleft>3040</onleft>
@@ -2987,8 +2987,8 @@
             <itemlayout height="275" width="479"></itemlayout>
             <focusedlayout height="275" width="479">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>479</width>
                     <height>275</height>
                     <aspectratio scalediffuse="false">scale</aspectratio>
@@ -2996,8 +2996,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>-1</posx>
-                    <posy>194</posy>
+                    <left>-1</left>
+                    <top>194</top>
                     <width>480</width>
                     <height>31</height>
                     <aspectratio>stretch</aspectratio>
@@ -3008,8 +3008,8 @@
                     </animation>
                 </control>
                 <control type="label">
-                    <posx>10</posx>
-                    <posy>191</posy>
+                    <left>10</left>
+                    <top>191</top>
                     <width>455</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -3029,8 +3029,8 @@
             </content>
         </control>
         <control type="image">
-            <posx>180</posx>
-            <posy>338</posy>
+            <left>180</left>
+            <top>338</top>
             <width>137</width>
             <height>137</height>
             <aspectratio>stretch</aspectratio>
@@ -3052,8 +3052,8 @@
 	
     <include name="RecentlyAddedAlbums">
         <control type="list" id="3014">
-            <posx>500r</posx>
-            <posy>410r</posy>
+            <left>500r</left>
+            <top>410r</top>
             <width>484</width>
             <height>416</height>
             <onleft>646</onleft>
@@ -3079,8 +3079,8 @@
             </animation>
             <itemlayout height="100" width="484">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -3088,8 +3088,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>19</posx>
-                    <posy>12</posy>
+                    <left>19</left>
+                    <top>12</top>
                     <width>75</width>
                     <height>75</height>
                     <aspectratio>stretch</aspectratio>
@@ -3097,8 +3097,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>8</posx>
-                    <posy>0</posy>
+                    <left>8</left>
+                    <top>0</top>
                     <width>98</width>
                     <height>98</height>
                     <aspectratio scalediffuse="false">stretch</aspectratio>
@@ -3106,8 +3106,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="label">
-                    <posx>105</posx>
-                    <posy>12</posy>
+                    <left>105</left>
+                    <top>12</top>
                     <width>350</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -3118,8 +3118,8 @@
 					<scroll>false</scroll>
                 </control>
                 <control type="label">
-                    <posx>106</posx>
-                    <posy>35</posy>
+                    <left>106</left>
+                    <top>35</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -3129,8 +3129,8 @@
                     <label>$INFO[ListItem.Label2]</label>
                 </control>
                 <control type="label">
-                    <posx>106</posx>
-                    <posy>55</posy>
+                    <left>106</left>
+                    <top>55</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -3142,8 +3142,8 @@
             </itemlayout>
             <focusedlayout height="100" width="484">
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -3151,8 +3151,8 @@
                     <colordiffuse>10ffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -3162,8 +3162,8 @@
                     <animation effect="fade" start="8" end="100" time="200">Visible</animation>
                 </control>
                 <control type="image">
-                    <posx>19</posx>
-                    <posy>12</posy>
+                    <left>19</left>
+                    <top>12</top>
                     <width>75</width>
                     <height>75</height>
                     <aspectratio scalediffuse="false">stretch</aspectratio>
@@ -3171,8 +3171,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>8</posx>
-                    <posy>0</posy>
+                    <left>8</left>
+                    <top>0</top>
                     <width>98</width>
                     <height>98</height>
                     <aspectratio scalediffuse="false">stretch</aspectratio>
@@ -3180,8 +3180,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="label">
-                    <posx>105</posx>
-                    <posy>12</posy>
+                    <left>105</left>
+                    <top>12</top>
                     <width>350</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -3191,8 +3191,8 @@
                     <label>$INFO[ListItem.Label]</label>
                 </control>
                 <control type="label">
-                    <posx>106</posx>
-                    <posy>35</posy>
+                    <left>106</left>
+                    <top>35</top>
                     <width>365</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -3202,8 +3202,8 @@
                     <label>$INFO[ListItem.Label2]</label>
                 </control>
                 <control type="label">
-                    <posx>106</posx>
-                    <posy>55</posy>
+                    <left>106</left>
+                    <top>55</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -3306,8 +3306,8 @@
 			<!-- FEATURED ALBUM -->
 			
 			<control type="image">
-				<posx>15</posx>
-				<posy>256</posy>
+				<left>15</left>
+				<top>256</top>
 				<width>491</width>
 				<height>370</height>
 				<aspectratio>stretch</aspectratio>
@@ -3323,8 +3323,8 @@
 				<animation effect="fade" start="0" end="100" time="900" delay="800">WindowOpen</animation>		
 			</control>
 			<control type="list" id="3015">
-				<posx>17</posx>
-				<posy>273</posy>
+				<left>17</left>
+				<top>273</top>
 				<width>479</width>
 				<height>275</height>
 				<onleft>540</onleft>
@@ -3351,8 +3351,8 @@
 				</itemlayout>
 				<focusedlayout height="275" width="479">
 				  <control type="image">
-					  <posx>0</posx>
-					  <posy>38</posy>
+					  <left>0</left>
+					  <top>38</top>
 					  <width>479</width>
 					  <height>222</height>
 					  <aspectratio>stretch</aspectratio>
@@ -3361,8 +3361,8 @@
 					  <visible>!Control.HasFocus(3015)</visible>	
 				  </control>
 				  <control type="image">
-					  <posx>0</posx>
-					  <posy>38</posy>
+					  <left>0</left>
+					  <top>38</top>
 					  <width>479</width>
 					  <height>222</height>
 					  <aspectratio>stretch</aspectratio>
@@ -3374,8 +3374,8 @@
 					  <visible>!Control.HasFocus(3014)</visible>
 				  </control>		
 				  <control type="image">
-					  <posx>10</posx>
-					  <posy>48</posy>
+					  <left>10</left>
+					  <top>48</top>
 					  <width>201</width>
 					  <height>201</height>
 					  <aspectratio>stretch</aspectratio>
@@ -3383,8 +3383,8 @@
 					  <colordiffuse>ffffffff</colordiffuse>				
 				  </control>				
 				  <control type="label">
-					  <posx>220</posx>
-					  <posy>178</posy>
+					  <left>220</left>
+					  <top>178</top>
 					  <width>300</width>
 					  <height>35</height>
 					  <font>homemenu3</font>
@@ -3395,8 +3395,8 @@
 					  <visible>!Control.HasFocus(3015)</visible>
 				  </control>	
 				  <control type="label">
-					  <posx>220</posx>
-					  <posy>178</posy>
+					  <left>220</left>
+					  <top>178</top>
 					  <width>300</width>
 					  <height>35</height>
 					  <font>homemenu3</font>
@@ -3410,8 +3410,8 @@
 					  <visible>!Control.HasFocus(3014)</visible>
 				  </control>
 				  <control type="label">
-					  <posx>220</posx>
-					  <posy>212</posy>
+					  <left>220</left>
+					  <top>212</top>
 					  <width>600</width>
 					  <height>35</height>
 					  <font>recent2</font>
@@ -3432,8 +3432,8 @@
 					</content>
 				</control>
 			<control type="image">
-				<posx>58</posx>
-				<posy>353</posy>
+				<left>58</left>
+				<top>353</top>
 				<width>137</width>
 				<height>137</height>
 				<aspectratio>stretch</aspectratio>
@@ -3458,8 +3458,8 @@
 			<!-- FEATURED ADDON -->
 			
 			<control type="image">
-				<posx>15</posx>
-				<posy>256</posy>
+				<left>15</left>
+				<top>256</top>
 				<width>491</width>
 				<height>370</height>
 				<aspectratio>stretch</aspectratio>
@@ -3475,8 +3475,8 @@
 				<animation effect="fade" start="0" end="100" time="900" delay="800">WindowOpen</animation>	
 			</control>
 			<control type="list" id="3017">
-				<posx>17</posx>
-				<posy>273</posy>
+				<left>17</left>
+				<top>273</top>
 				<width>479</width>
 				<height>275</height>
 				<onleft>540</onleft>
@@ -3503,8 +3503,8 @@
 				</itemlayout>
 				<focusedlayout height="275" width="479">
 				  <control type="image">
-					  <posx>0</posx>
-					  <posy>38</posy>
+					  <left>0</left>
+					  <top>38</top>
 					  <width>479</width>
 					  <height>222</height>
 					  <aspectratio>stretch</aspectratio>
@@ -3513,8 +3513,8 @@
 					  <visible>!Control.HasFocus(3017)</visible>	
 				  </control>
 				  <control type="image">
-					  <posx>0</posx>
-					  <posy>38</posy>
+					  <left>0</left>
+					  <top>38</top>
 					  <width>479</width>
 					  <height>222</height>
 					  <aspectratio>stretch</aspectratio>
@@ -3526,8 +3526,8 @@
 					  <visible>!Control.HasFocus(3014)</visible>
 				  </control>		
 				  <control type="image">
-					  <posx>10</posx>
-					  <posy>48</posy>
+					  <left>10</left>
+					  <top>48</top>
 					  <width>201</width>
 					  <height>201</height>
 					  <aspectratio>stretch</aspectratio>
@@ -3535,8 +3535,8 @@
 					  <colordiffuse>ffffffff</colordiffuse>				
 				  </control>				
 				  <control type="label">
-					  <posx>220</posx>
-					  <posy>178</posy>
+					  <left>220</left>
+					  <top>178</top>
 					  <width>260</width>
 					  <height>35</height>
 					  <font>homemenu3</font>
@@ -3547,8 +3547,8 @@
 					  <visible>!Control.HasFocus(3017)</visible>
 				  </control>	
 				  <control type="label">
-					  <posx>220</posx>
-					  <posy>178</posy>
+					  <left>220</left>
+					  <top>178</top>
 					  <width>260</width>
 					  <height>35</height>
 					  <font>homemenu3</font>
@@ -3560,8 +3560,8 @@
 					  <visible>Control.HasFocus(3017)</visible>
 				  </control>
 				  <control type="textbox">
-					  <posx>220</posx>
-					  <posy>208</posy>
+					  <left>220</left>
+					  <top>208</top>
 					  <width>248</width>
 					  <height>40</height>
 					  <font>recent2</font>

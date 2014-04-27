@@ -4,8 +4,8 @@
   
 <coordinates>
   <system>1</system>
-  <posx>100</posx>
-  <posy>80</posy>
+  <left>100</left>
+  <top>80</top>
 </coordinates>
 
 <controls>
@@ -14,8 +14,8 @@
 
 
   <control type="list" id="450">
-	  <posx>10</posx>
-	  <posy>40</posy>
+	  <left>10</left>
+	  <top>40</top>
 	  <width>520</width>
 	  <height>382</height>
 	  <onleft>450</onleft>
@@ -29,14 +29,14 @@
         <texture>ButtonNF.png</texture>
       </control>
       <control type="image">
-        <posy>2</posy>
+        <top>2</top>
         <width>26</width>
         <height>26</height>
         <info>ListItem.Icon</info>
         <texture>ButtonCDNF.png</texture>
       </control>
 		  <control type="label">
-			  <posx>30</posx>
+			  <left>30</left>
 			  <width>465</width>
         <height>30</height>
 			  <info>ListItem.Label</info>
@@ -50,14 +50,14 @@
 			  <texture>ButtonFo.png</texture>
 		  </control>
       <control type="image">
-        <posy>2</posy>
+        <top>2</top>
         <width>26</width>
         <height>26</height>
         <info>ListItem.Icon</info>
         <texture>ButtonCDNF.png</texture>
       </control>
 		  <control type="label">
-			  <posx>30</posx>
+			  <left>30</left>
 			  <width>465</width>
 			  <height>30</height>
         <textcolor>White</textcolor>

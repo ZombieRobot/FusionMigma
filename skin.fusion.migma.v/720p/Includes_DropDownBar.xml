@@ -2,8 +2,8 @@
 
 	<include name="DropDownBarImage">
 		<control type="image">
-			<posx>0</posx>
-			<posy>54</posy>
+			<left>0</left>
+			<top>54</top>
 			<width>1280</width>
 			<height>201</height>
 			<aspectratio>stretch</aspectratio>
@@ -13,8 +13,8 @@
 	</include>
 
 	<include name="DropDownBarLabel">
-		<posx>100</posx>
-		<posy>-2</posy>
+		<left>100</left>
+		<top>-2</top>
 		<width>230</width>
 		<height>55</height>
 		<align>center</align>
@@ -24,8 +24,8 @@
 		<visible>!Window.IsVisible(1122)</visible>
 	</include>
 	<include name="DropDownBarLabel2">
-		<posx>100</posx>
-		<posy>0</posy>
+		<left>100</left>
+		<top>0</top>
 		<width>230</width>
 		<height>55</height>
 		<align>center</align>
@@ -43,16 +43,14 @@
 			</control>	
 			<control type="radiobutton" id="6">
 			</control>	
-			<control type="radiobutton" id="7">
-			</control>
+			
 			<control type="radiobutton" id="9">
 			</control>
 			<control type="radiobutton" id="19">
 			</control>
 			<control type="radiobutton" id="14">
 			</control>
-			<control type="radiobutton" id="17">
-			</control>
+			
 			<control type="radiobutton" id="20">
 			</control>
 			<control type="radiobutton" id="21">
@@ -76,8 +74,8 @@
 			<include>DropDownBarImage</include>
 
 			<control type="wraplist" id="300">
-				<posx>40</posx>
-				<posy>45</posy>
+				<left>40</left>
+				<top>45</top>
 				<height>55</height>
 				<width>1200</width>
 				<onleft>300</onleft>
@@ -649,18 +647,7 @@
 				<onclick>SendClick(19)</onclick>
 				<visible>SubString(Control.GetLabel(19),$LOCALIZE[31756])</visible>
 			</item>
-			<item id="17">
-				<description>Flatten</description>
-				<label>[UPPERCASE]$LOCALIZE[20411] $LOCALIZE[351][/UPPERCASE]</label>
-				<onclick>SendClick(17)</onclick>
-				<visible>!SubString(Control.GetLabel(17),$LOCALIZE[31756])</visible>
-			</item>
-			<item id="17">
-				<description>Flatten</description>
-				<label>[UPPERCASE]$LOCALIZE[20411] $LOCALIZE[31757][/UPPERCASE]</label>
-				<onclick>SendClick(17)</onclick>
-				<visible>SubString(Control.GetLabel(17),$LOCALIZE[31756])</visible>
-			</item>
+			
 			<item id="18">
 				<description>Hide Labels</description>
 				<label>[UPPERCASE]$LOCALIZE[31736][/UPPERCASE]</label>

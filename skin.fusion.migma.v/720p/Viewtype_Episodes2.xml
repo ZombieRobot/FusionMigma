@@ -11,8 +11,8 @@
 		<include>Keyboard</include>
 		<control type="list" id="506">
 			<viewtype label="Episodes2">list</viewtype>
-			<posx>70</posx>
-			<posy>86</posy>
+			<left>70</left>
+			<top>86</top>
 			<width>1210</width>
 			<height>525</height>
 			<scrolltime>200</scrolltime>
@@ -32,8 +32,8 @@
 			<itemlayout width="633" height="175">
 			
 				<control type="image">
-					<posx>19</posx>
-					<posy>14</posy>
+					<left>19</left>
+					<top>14</top>
 					<width>259</width>
 					<height>145</height>
 					<texture background="true" diffuse="episodes/episodediffuse.png">$INFO[ListItem.Icon]</texture>
@@ -42,8 +42,8 @@
 					<visible>!Container.Content(Movies)</visible>
 				</control>
 				<control type="image">
-					<posx>13</posx>
-					<posy>14</posy>
+					<left>13</left>
+					<top>14</top>
 					<width>265</width>
 					<height>151</height>
 					<texture background="true" diffuse="episodes/episodediffuse.png">$INFO[ListItem.Icon]</texture>
@@ -53,8 +53,8 @@
 				</control>
 				
 				<control type="image">
-					<posx>19</posx>
-					<posy>14</posy>
+					<left>19</left>
+					<top>14</top>
 					<width>259</width>
 					<height>145</height>
 					<texture background="true" diffuse="episodes/episodediffuse.png" fallback="nofanart.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -63,8 +63,8 @@
 					<visible>Container.Content(Movies)</visible>
 				</control>
 				<control type="image">
-					<posx>13</posx>
-					<posy>14</posy>
+					<left>13</left>
+					<top>14</top>
 					<width>265</width>
 					<height>151</height>
 					<texture background="true" diffuse="episodes/episodediffuse.png" fallback="nofanart.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -74,8 +74,8 @@
 					<visible>Container.Content(Movies)</visible>
 				</control>
 				<control type="image">
-					<posx>13</posx>
-					<posy>14</posy>
+					<left>13</left>
+					<top>14</top>
 					<width>265</width>
 					<height>151</height>
 					<texture background="true" diffuse="episodes/episodediffuse.png" fallback="nofanart.png">$INFO[ListItem.Thumb]</texture>
@@ -87,8 +87,8 @@
 
 				
 					<control type="label">
-						<posx>292</posx>
-						<posy>22</posy>
+						<left>292</left>
+						<top>22</top>
 						<width>760</width>
 						<label>[UPPERCASE][COLOR=ff909090]$INFO[ListItem.Episode,,. ][/COLOR]$INFO[ListItem.Title][/UPPERCASE]</label>
 						<font>episodenumber2</font>
@@ -101,14 +101,14 @@
 					</control>	
 
 				<control type="group">
-					<posx>1062</posx>
-					<posy>22</posy>
+					<left>1062</left>
+					<top>22</top>
 					<include>MovieHDFlagsPoster</include>
 				</control>
 				
 					<control type="label">
-						<posx>294</posx>
-						<posy>56</posy>
+						<left>294</left>
+						<top>56</top>
 						<width>520</width>
 						<height>34</height>
 						<label>$INFO[ListItem.Year,, • ]$INFO[ListItem.Duration,, Minutes]</label>
@@ -122,8 +122,8 @@
 					</control>	
 							
 					<control type="label">
-						<posx>294</posx>
-						<posy>56</posy>
+						<left>294</left>
+						<top>56</top>
 						<width>520</width>
 						<height>34</height>
 						<label>$INFO[ListItem.Duration,, Minutes • ]$INFO[ListItem.Date,Aired: ]</label>
@@ -138,8 +138,8 @@
 					</control>	
 					
 					<control type="label">
-						<posx>294</posx>
-						<posy>56</posy>
+						<left>294</left>
+						<top>56</top>
 						<width>520</width>
 						<height>34</height>
 						<label>$INFO[ListItem.Duration,Runtime: ]</label>
@@ -152,8 +152,8 @@
 					</control>
 					
 					<control type="label">
-						<posx>294</posx>
-						<posy>56</posy>
+						<left>294</left>
+						<top>56</top>
 						<width>520</width>
 						<height>34</height>
 						<font>homemenu3</font>
@@ -168,8 +168,8 @@
 																			
 				<control type="image">
 					  <description>Rating Info</description>
-					  <posx>960</posx>
-					  <posy>-10</posy>
+					  <left>960</left>
+					  <top>-10</top>
 					  <width>165</width>
 					  <height>165</height>
 					  <info>ListItem.StarRating</info>
@@ -178,8 +178,8 @@
 				  </control>
 					
 					<control type="image">
-						<posy>128</posy>
-						<posx>238</posx>
+						<top>128</top>
+						<left>238</left>
 						<width>36</width>
 						<height>36</height>
 						<aspectratio>keep</aspectratio>
@@ -190,8 +190,8 @@
 
 					
 				<control type="textbox">
-					<posx>293</posx>
-					<posy>90</posy>
+					<left>293</left>
+					<top>90</top>
 					<width>828</width>
 					<height>75</height>
 					<align>justify</align>
@@ -206,8 +206,8 @@
 			
 			<focusedlayout width="633" height="175">
 				<control type="image">
-					<posx>3</posx>
-					<posy>5</posy>
+					<left>3</left>
+					<top>5</top>
 					<width>1140</width>
 					<height>170</height>
 					<texture border="12">whitepanel.png</texture>
@@ -216,8 +216,8 @@
 				</control>
 			
 				<control type="image">
-					<posx>19</posx>
-					<posy>14</posy>
+					<left>19</left>
+					<top>14</top>
 					<width>259</width>
 					<height>145</height>
 					<texture background="true" diffuse="episodes/episodediffuse.png">$INFO[ListItem.Icon]</texture>
@@ -226,8 +226,8 @@
 					<visible>!Container.Content(Movies)</visible>
 				</control>
 				<control type="image">
-					<posx>13</posx>
-					<posy>14</posy>
+					<left>13</left>
+					<top>14</top>
 					<width>265</width>
 					<height>151</height>
 					<texture background="true" diffuse="episodes/episodediffuse.png">$INFO[ListItem.Icon]</texture>
@@ -237,8 +237,8 @@
 				</control>
 				
 				<control type="image">
-					<posx>19</posx>
-					<posy>14</posy>
+					<left>19</left>
+					<top>14</top>
 					<width>259</width>
 					<height>145</height>
 					<texture background="true" diffuse="episodes/episodediffuse.png" fallback="nofanart.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -247,8 +247,8 @@
 					<visible>Container.Content(Movies)</visible>
 				</control>
 				<control type="image">
-					<posx>13</posx>
-					<posy>14</posy>
+					<left>13</left>
+					<top>14</top>
 					<width>265</width>
 					<height>151</height>
 					<texture background="true" diffuse="episodes/episodediffuse.png" fallback="nofanart.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
@@ -258,8 +258,8 @@
 					<visible>Container.Content(Movies)</visible>
 				</control>
 				<control type="image">
-					<posx>13</posx>
-					<posy>14</posy>
+					<left>13</left>
+					<top>14</top>
 					<width>265</width>
 					<height>151</height>
 					<texture background="true" diffuse="episodes/episodediffuse.png" fallback="nofanart.png">$INFO[ListItem.Thumb]</texture>
@@ -270,8 +270,8 @@
 				</control>
 				
 				<control type="label">
-					<posx>292</posx>
-					<posy>22</posy>
+					<left>292</left>
+					<top>22</top>
 					<width>760</width>
 					<label>[UPPERCASE][COLOR=ff909090]$INFO[ListItem.Episode,,. ][/COLOR]$INFO[ListItem.Title][/UPPERCASE]</label>
 					<font>episodenumber2</font>
@@ -284,14 +284,14 @@
 				</control>	
 
 				<control type="group">
-					<posx>1060</posx>
-					<posy>17</posy>
+					<left>1060</left>
+					<top>17</top>
 					<include>MovieHDFlags</include>
 				</control>
 					
 					<control type="label">
-						<posx>294</posx>
-						<posy>56</posy>
+						<left>294</left>
+						<top>56</top>
 						<width>520</width>
 						<height>34</height>
 						<label>$INFO[ListItem.Year,, • ]$INFO[ListItem.Duration,, Minutes]</label>
@@ -305,8 +305,8 @@
 					</control>
 					
 					<control type="label">
-						<posx>294</posx>
-						<posy>56</posy>
+						<left>294</left>
+						<top>56</top>
 						<width>520</width>
 						<height>34</height>
 						<font>homemenu3</font>
@@ -320,8 +320,8 @@
 					</control>
 										
 					<control type="label">
-						<posx>294</posx>
-						<posy>56</posy>
+						<left>294</left>
+						<top>56</top>
 						<width>520</width>
 						<height>34</height>
 						<label>$INFO[ListItem.Duration,, Minutes • ]$INFO[ListItem.Date,Aired: ]</label>
@@ -336,8 +336,8 @@
 					</control>	
 					
 					<control type="label">
-						<posx>294</posx>
-						<posy>56</posy>
+						<left>294</left>
+						<top>56</top>
 						<width>520</width>
 						<height>34</height>
 						<label>$INFO[ListItem.Duration,Runtime: ]</label>
@@ -349,8 +349,8 @@
 						<visible>substring(container.folderpath,plugin://plugin.video.hulu)</visible>					
 					</control>	
 				<control type="image">
-					<posx>285</posx>
-					<posy>54</posy>
+					<left>285</left>
+					<top>54</top>
 					<width>846</width>
 					<height>40</height>
 					<texture border="12">grey3.png</texture>
@@ -359,8 +359,8 @@
 				</control>									
 				  <control type="image">
 					  <description>Rating Info</description>
-					  <posx>960</posx>
-					  <posy>-5</posy>
+					  <left>960</left>
+					  <top>-5</top>
 					  <width>165</width>
 					  <height>165</height>
 					  <info>ListItem.StarRating</info>
@@ -369,8 +369,8 @@
 				  </control>
 					
 					<control type="image">
-						<posy>128</posy>
-						<posx>238</posx>
+						<top>128</top>
+						<left>238</left>
 						<width>36</width>
 						<height>36</height>
 						<aspectratio>keep</aspectratio>
@@ -380,8 +380,8 @@
 					</control>
 			
 				<control type="textbox">
-					<posx>293</posx>
-					<posy>90</posy>
+					<left>293</left>
+					<top>90</top>
 					<width>828</width>
 					<height>75</height>
 					<align>justify</align>
@@ -398,8 +398,8 @@
 		<!-- Scroll Bar -->
 
 		<control type="scrollbar" id="507">
-			<posx>1235</posx>
-			<posy>135</posy>
+			<left>1235</left>
+			<top>135</top>
 			<width>5</width>
 			<height>465</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(506) + Control.HasFocus(507)</visible>

@@ -4,8 +4,8 @@
   
 	<coordinates>
 		<system>1</system>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 	</coordinates>
 		<animation type="WindowOpen" reversible="false">
 			<effect type="fade" start="0" end="100" time="350" delay="0" />
@@ -18,8 +18,8 @@
 	<controls>
 
 		<control type="image">
-			<posx>180</posx>
-			<posy>111</posy>			
+			<left>180</left>
+			<top>111</top>			
 			<width>942</width>
 			<height>482</height>
 			<aspectratio>stretch</aspectratio>
@@ -29,8 +29,8 @@
 
 	<control type="label" id="411">
 		<description>Heading</description>
-			<posx>222</posx>
-			<posy>145</posy>
+			<left>222</left>
+			<top>145</top>
 			<width>530</width>
 			<height>37</height>
 			<font>heading</font>
@@ -41,8 +41,8 @@
 	</control>
 		<control type="label" id="412">
 			<description>Path</description>
-			<posx>222</posx>
-			<posy>520</posy>
+			<left>222</left>
+			<top>520</top>
 			<width>530</width>
 			<height>37</height>
 			<font>recent</font>
@@ -52,8 +52,8 @@
 			<haspath>true</haspath>
 		</control>
 		<control type="image">
-			<posx>911</posx>
-			<posy>382</posy>			
+			<left>911</left>
+			<top>382</top>			
 			<width>171</width>
 			<height>171</height>
 			<aspectratio>stretch</aspectratio>
@@ -62,8 +62,8 @@
 		</control>
 		<control type="image">
 			<description>Large Icon Image</description>
-			<posx>922</posx>
-			<posy>393</posy>
+			<left>922</left>
+			<top>393</top>
 			<width>150</width>
 			<height>150</height>
 			<info>ListItem.Icon</info>
@@ -72,8 +72,8 @@
 			<aspectratio align="center" aligny="center">keep</aspectratio>
 		</control>
 		<control type="list" id="450">
-			<posx>211</posx>
-			<posy>175</posy>
+			<left>211</left>
+			<top>175</top>
 			<width>689</width>
 			<height>341</height>
 			<onup>450</onup>
@@ -84,8 +84,8 @@
 			<itemlayout height="37">
 			
 				<control type="image">
-					<posx>0</posx>
-					<posy>10</posy>
+					<left>0</left>
+					<top>10</top>
 					<width>689</width>
 					<height>37</height>
 					<texture>list/listline.png</texture>
@@ -93,16 +93,16 @@
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posx>3</posx>
-					<posy>12</posy>
+					<left>3</left>
+					<top>12</top>
 					<width>32</width>
 					<height>32</height>
 					<texture>$INFO[ListItem.Icon]</texture>
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 				<control type="label">
-					<posx>45</posx>
-					<posy>10</posy>
+					<left>45</left>
+					<top>10</top>
 					<width>530</width>
 					<height>37</height>
 					<font>recent</font>
@@ -117,8 +117,8 @@
 			
 			<focusedlayout height="37">
 				<control type="image">
-					<posx>0</posx>
-					<posy>10</posy>
+					<left>0</left>
+					<top>10</top>
 					<width>689</width>
 					<height>37</height>
 					<texture>list/smalllistfo.png</texture>
@@ -127,16 +127,16 @@
 					<animation effect="fade" start="100" end="70" time="0" condition="!Control.HasFocus(450)">Conditional</animation>
 				</control>
 				<control type="image">
-					<posx>3</posx>
-					<posy>12</posy>
+					<left>3</left>
+					<top>12</top>
 					<width>32</width>
 					<height>32</height>
 					<texture>$INFO[ListItem.Icon]</texture>
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 				<control type="label">
-					<posx>45</posx>
-					<posy>10</posy>
+					<left>45</left>
+					<top>10</top>
 					<width>530</width>
 					<height>37</height>
 					<font>recent</font>
@@ -150,8 +150,8 @@
 
 
  		<control type="group" id="9000">
-			<posx>916</posx>
-			<posy>170</posy>
+			<left>916</left>
+			<top>170</top>
 			<control type="button" id="413">
 				<description>Browse Button</description>
 				<label>$LOCALIZE[186]</label>
@@ -175,7 +175,7 @@
 			</control>
 			<control type="button" id="414">
 				<description>Add Path Button</description>
-				<posy>55</posy>
+				<top>55</top>
 				<label>$LOCALIZE[222]</label>
 				<width>160</width>
 				<height>37</height>		
@@ -197,7 +197,7 @@
 			</control>
 			<control type="button" id="415">
 				<description>Remove Path Button</description>
-				<posy>110</posy>
+				<top>110</top>
 				<label>$LOCALIZE[119]</label>
 				<width>160</width>
 				<height>37</height>		

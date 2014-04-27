@@ -10,8 +10,8 @@
 	<control type="group">
 		<animation effect="slide" start="0,0" end="0,-760" time="1000" delay="0" reversible="false" condition="Window.IsVisible(12005)">Conditional</animation>
 		<control type="image">
-			<posx>-70</posx>
-			<posy>50</posy>
+			<left>-70</left>
+			<top>50</top>
 			<width>1440</width>
 			<height>82</height>
 			<aspectratio>stretch</aspectratio>
@@ -21,8 +21,8 @@
 		</control> 
 
 		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<width>1280</width>
 			<height>62</height>
 			<aspectratio>stretch</aspectratio>
@@ -32,8 +32,8 @@
 		
 <!--Breadcrumbs-->
 		<control type="grouplist">
-			<posx>20</posx>
-			<posy>0</posy>
+			<left>20</left>
+			<top>0</top>
 			<width>1000</width>
 			<align>left</align>
 			<orientation>horizontal</orientation>
@@ -41,8 +41,8 @@
 <!--First Set-->			
 			<control type="label">
 				<description>Home Label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="29" max="200">auto</width>
 				<height>53</height>	
 				<font>breadcrumb</font>
@@ -60,8 +60,8 @@
 			</control>	
 			<control type="label">
 				<description>Videos Label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="0" max="400">auto</width>
 				<height>53</height>		
 				<font>breadcrumb</font>
@@ -75,8 +75,8 @@
 			</control>	
 			<control type="label">
 				<description>Movies Label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="0" max="400">auto</width>
 				<height>53</height>		
 				<font>breadcrumb</font>
@@ -89,8 +89,8 @@
 			</control>
 			<control type="label">
 				<description>TV Shows Label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="0" max="400">auto</width>
 				<height>53</height>		
 				<font>breadcrumb</font>
@@ -104,8 +104,8 @@
 			</control>
 			<control type="label">
 				<description>Music Label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="0" max="400">auto</width>
 				<height>53</height>		
 				<font>breadcrumb</font>
@@ -119,8 +119,8 @@
 			</control>	
 			<control type="label">
 				<description>Pictures Label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="0" max="400">auto</width>
 				<height>53</height>		
 				<font>breadcrumb</font>
@@ -134,8 +134,8 @@
 			</control>
 			<control type="label">
 				<description>Programs Label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="0" max="400">auto</width>
 				<height>53</height>		
 				<font>breadcrumb</font>
@@ -150,8 +150,8 @@
 			</control>
 			<control type="label">
 				<description>Weather Label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="0" max="400">auto</width>
 				<height>53</height>		
 				<font>breadcrumb</font>
@@ -165,8 +165,8 @@
 			</control>
 			<control type="label">
 				<description>Settings Label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="0" max="400">auto</width>
 				<height>53</height>		
 				<font>breadcrumb</font>
@@ -179,8 +179,8 @@
 			</control>
 			<control type="label">
 				<description>Add-Ons Label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="0" max="400">auto</width>
 				<height>53</height>		
 				<font>breadcrumb</font>
@@ -193,8 +193,8 @@
 			</control>
 			<control type="label">
 				<description>File Manager</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="0" max="400">auto</width>
 				<height>53</height>		
 				<font>breadcrumb</font>
@@ -207,8 +207,8 @@
 			</control>	
 			<control type="label">
 				<description>System Info Label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="0" max="400">auto</width>
 				<height>53</height>		
 				<font>breadcrumb</font>
@@ -221,8 +221,8 @@
 			</control>	
 			<control type="label">
 				<description>About Label</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="0" max="400">auto</width>
 				<height>53</height>		
 				<font>breadcrumb</font>
@@ -235,8 +235,8 @@
 			</control>	
 			<control type="label">
 				<description>ADD-ONS ALA</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="0" max="400">auto</width>
 				<height>53</height>		
 				<font>breadcrumb</font>
@@ -249,8 +249,8 @@
 			</control>
 			<control type="image">
 				<description>Home only breadcrumb</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="53" max="53">auto</width>
 				<height>53</height>
 				<aspectratio>keep</aspectratio>
@@ -266,8 +266,8 @@
 			</control> 
 			<control type="image">
 				<description>Settings only breadcrumb</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="53" max="53">auto</width>
 				<height>53</height>
 				<aspectratio>keep</aspectratio>
@@ -277,8 +277,8 @@
 			</control>
 			<control type="image">
 				<description>Main breadcrumb</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="53" max="53">auto</width>
 				<height>53</height>
 				<aspectratio>keep</aspectratio>
@@ -296,8 +296,8 @@
 			</control>
 			<control type="image">
 				<description>Home only breadcrumb</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="53" max="53">auto</width>
 				<height>53</height>
 				<aspectratio>keep</aspectratio>
@@ -313,8 +313,8 @@
 			</control> 
 			<control type="image">
 				<description>Settings only breadcrumb</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="53" max="53">auto</width>
 				<height>53</height>
 				<aspectratio>keep</aspectratio>
@@ -324,8 +324,8 @@
 			</control>
 			<control type="image">
 				<description>Main breadcrumb</description>
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width min="53" max="53">auto</width>
 				<height>53</height>
 				<aspectratio>keep</aspectratio>
@@ -345,8 +345,8 @@
 <!--Second Set-->
 	<control type="label">
 		<description>FolderName</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="600">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -360,8 +360,8 @@
 	</control>
 	<control type="label">
 		<description>ArtistName</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="500">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -375,8 +375,8 @@
 	</control>
 	<control type="label">
 		<description>TVShowName</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="500">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -390,8 +390,8 @@
 	</control>
 	<control type="label">
 		<description>TVShow Networks</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="500">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -405,8 +405,8 @@
 	</control>
 	<control type="label">
 		<description>Add-On Settings</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="460">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -419,8 +419,8 @@
 	</control>
 	<control type="label">
 		<description>Add Source</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="360">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -433,8 +433,8 @@
 	</control>	
 	<control type="label">
 		<description>Weather Location Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="0" max="785">auto</width>
 		<height>53</height>		
 		<font>breadcrumb</font>
@@ -448,8 +448,8 @@
 	<!--HDMOVIES PLAYLISTS-->
 		<control type="label">
 		<description>HD Movies Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="200">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -463,8 +463,8 @@
 	</control>
 	<control type="label">
 		<description>Files Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="100">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -480,8 +480,8 @@
 	</control>	
 	<control type="label">
 		<description>Plugins Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="200">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -494,8 +494,8 @@
 	</control>
 	<control type="label">
 		<description>Photos / Video, Folder Name Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="785">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -509,8 +509,8 @@
 	</control>
 	<control type="label">
 		<description>Games Library Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="200">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -527,8 +527,8 @@
 	</control>
         <control type="label">
 		<description>Games Info Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="200">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -546,8 +546,8 @@
 	<!-- FUSION SETTINGS -->
 	<control type="label">
 		<description>Fusion Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="300">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -560,8 +560,8 @@
 	</control>
 	<control type="label">
 		<description>Fusion Home Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="300">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -574,8 +574,8 @@
 	</control>
 	<control type="label">
 		<description>Fusion Views Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="300">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -588,8 +588,8 @@
 	</control>
 	<control type="label">
 		<description>Fusion OSD Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="300">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -602,8 +602,8 @@
 	</control>
 	<control type="label">
 		<description>Fusion Extras Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="300">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -616,8 +616,8 @@
 	</control>
 	<control type="label">
 		<description>Profiles Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="300">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -630,8 +630,8 @@
 	</control>
 	<control type="label">
 		<description>Information Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="300">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -644,8 +644,8 @@
 	</control>	
 	<control type="label">
 		<description>Set Content Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="300">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -658,8 +658,8 @@
 	</control>		
 	<control type="label">
 		<description>Video Settings Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="200">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -672,8 +672,8 @@
 	</control>	
 	<control type="label">
 		<description>Audio Settings Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="200">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -686,8 +686,8 @@
 	</control>
 	<control type="label">
 		<description>Pictures Settings Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="200">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -700,8 +700,8 @@
 	</control>
 	<control type="label">
 		<description>Programs Settings Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="200">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -714,8 +714,8 @@
 	</control>
 	<control type="label">
 		<description>Weather Settings Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="200">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -728,8 +728,8 @@
 	</control>
 	<control type="label">
 		<description>Network Settings Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="200">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -742,8 +742,8 @@
 	</control>
 	<control type="label">
 		<description>System Settings Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="200">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -756,8 +756,8 @@
 	</control>
 	<control type="label">
 		<description>Appearance Settings Label</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="250">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -769,8 +769,8 @@
 		<include>BreadCrumb1</include>
 	</control>
 	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="53" max="53">auto</width>
 		<height>53</height>
 		<aspectratio>keep</aspectratio>
@@ -799,8 +799,8 @@
 		<animation effect="fade" start="100" end="0" time="450">Hidden</animation>
 	</control>
 	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="53" max="53">auto</width>
 		<height>53</height>
 		<aspectratio>keep</aspectratio>
@@ -834,8 +834,8 @@
 <!--Third Set-->
 	<control type="label">
 		<description>FolderName</description>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width min="29" max="600">auto</width>
 		<height>53</height>	
 		<font>breadcrumb</font>
@@ -854,8 +854,8 @@
 
 <!-- Time-->
 	<control type="label">
-		<posx>125r</posx>
-		<posy>12</posy>
+		<left>125r</left>
+		<top>12</top>
 		<width>125</width>
 		<font>time</font>
 		<align>center</align>
@@ -865,8 +865,8 @@
 		<visible>![substring(system.time,PM,right) | substring(system.time,AM,right)]</visible>
 	</control>
 	<control type="label">
-		<posx>125r</posx>
-		<posy>12</posy>
+		<left>125r</left>
+		<top>12</top>
 		<width>125</width>
 		<font>time</font>
 		<align>center</align>
@@ -877,8 +877,8 @@
 	</control>
 		
 	<control type="label">
-		<posx>125r</posx>
-		<posy>12</posy>
+		<left>125r</left>
+		<top>12</top>
 		<width>125</width>
 		<font>time</font>
 		<align>center</align>
@@ -893,8 +893,8 @@
 <control type="group">
 	<visible>System.HasNetwork + Weather.IsFetched</visible>
 	<control type="image">
-		<posx>270r</posx>
-		<posy>0</posy>
+		<left>270r</left>
+		<top>0</top>
 		<width>144</width>
 		<height>53</height>
 		<aspectratio>stretch</aspectratio>
@@ -902,8 +902,8 @@
 		<visible>!Skin.HasSetting(BlackNavBar)</visible>
 	</control> 
 	<control type="image">
-		<posx>270r</posx>
-		<posy>0</posy>
+		<left>270r</left>
+		<top>0</top>
 		<width>144</width>
 		<height>53</height>
 		<aspectratio>stretch</aspectratio>
@@ -911,8 +911,8 @@
 		<visible>Skin.HasSetting(BlackNavBar)</visible>
 	</control>	
 		<control type="label">
-		<posx>138r</posx>
-		<posy>12</posy>
+		<left>138r</left>
+		<top>12</top>
 		<width>95</width>
 		<font>weather</font>
 		<align>right</align>
@@ -922,8 +922,8 @@
 		<visible>Weather.IsFetched</visible>
 		</control>
 	<control type="image">
-		<posx>257r</posx>
-		<posy>0</posy>
+		<left>257r</left>
+		<top>0</top>
 		<width>46</width>
 		<height>53</height>
 		<aspectratio>keep</aspectratio>

@@ -4,16 +4,16 @@
 
 	<controls>
 		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<width>1280</width>
 			<height>720</height>
 			<aspectratio>stretch</aspectratio>
 			<texture>Home/bg2.png</texture>
 		</control>	
 		<control type="image">
-			<posx>0</posx>
-			<posy>0</posy>
+			<left>0</left>
+			<top>0</top>
 			<width>1280</width>
 			<height>720</height>
 			<aspectratio>stretch</aspectratio>
@@ -31,8 +31,8 @@
 				<effect type="fade" start="100" end="0" time="350" delay="0" />
 			</animation> 
 			<control type="image">
-				<posx>110</posx>
-				<posy>130</posy>
+				<left>110</left>
+				<top>130</top>
 				<width>1072</width>
 				<height>496</height>
 				<aspectratio>stretch</aspectratio>
@@ -45,8 +45,8 @@
 
 			<control type="list" id="9000">
 				<description>Button Area</description>
-				<posx>115</posx>
-				<posy>179</posy>
+				<left>115</left>
+				<top>179</top>
 				<width>250</width>
 				<height>480</height>
 				<itemgap>.5</itemgap>
@@ -121,8 +121,8 @@
 				<control type="grouplist" id="9001">
 					<description>Control Area</description>
 					<visible>Container(9000).Hasfocus(1)</visible>
-					<posx>366</posx>
-					<posy>179</posy>
+					<left>366</left>
+					<top>179</top>
 					<width>810</width>
 					<height>480</height>
 					<itemgap>.5</itemgap>
@@ -191,8 +191,8 @@
 				<control type="grouplist" id="9002">
 					<description>Control Area</description>
 					<visible>Container(9000).Hasfocus(2)</visible>
-					<posx>366</posx>
-					<posy>179</posy>
+					<left>366</left>
+					<top>179</top>
 					<width>810</width>
 					<height>440</height>
 					<itemgap>.5</itemgap>
@@ -251,8 +251,8 @@
 				<control type="grouplist" id="9003">
 					<description>Control Area</description>
 					<visible>Container(9000).Hasfocus(3)</visible>
-					<posx>366</posx>
-					<posy>179</posy>
+					<left>366</left>
+					<top>179</top>
 					<width>810</width>
 					<height>480</height>
 					<itemgap>.5</itemgap>
@@ -309,8 +309,8 @@
 				<control type="grouplist" id="9004">
 					<description>Control Area</description>
 					<visible>Container(9000).Hasfocus(4)</visible>
-					<posx>366</posx>
-					<posy>179</posy>
+					<left>366</left>
+					<top>179</top>
 					<width>810</width>
 					<height>440</height>
 					<itemgap>.5</itemgap>
@@ -438,8 +438,8 @@
 				<control type="grouplist" id="9005">
 					<description>Control Area</description>
 					<visible>Container(9000).Hasfocus(5)</visible>
-					<posx>366</posx>
-					<posy>179</posy>
+					<left>366</left>
+					<top>179</top>
 					<width>810</width>
 					<height>480</height>
 					<itemgap>.5</itemgap>
@@ -519,8 +519,8 @@
 				<control type="grouplist" id="9006">
 					<description>Control Area</description>
 					<visible>Container(9000).Hasfocus(6)</visible>
-					<posx>366</posx>
-					<posy>179</posy>
+					<left>366</left>
+					<top>179</top>
 					<width>810</width>
 					<height>480</height>
 					<itemgap>.5</itemgap>
@@ -614,8 +614,8 @@
 		<control type="group">
 			<visible>Player.HasMedia</visible>
 			<control type="image">
-				<posx>0</posx>
-				<posy>654</posy>
+				<left>0</left>
+				<top>654</top>
 				<width>1280</width>
 				<height>70</height>
 				<aspectratio>stretch</aspectratio>
@@ -624,8 +624,8 @@
 				<visible>!Control.IsVisible(52) + !Control.IsVisible(53)</visible>
 			</control>
 			<control type="image">
-				<posx>0</posx>
-				<posy>715</posy>
+				<left>0</left>
+				<top>715</top>
 				<width>1280</width>
 				<height>5</height>
 				<aspectratio>stretch</aspectratio>
@@ -634,8 +634,8 @@
 				<visible>!Skin.HasSetting(ZBar)</visible>
 			</control>
 			<control type="image">
-				<posx>0</posx>
-				<posy>715</posy>
+				<left>0</left>
+				<top>715</top>
 				<width>1280</width>
 				<height>5</height>
 				<aspectratio>stretch</aspectratio>
@@ -645,8 +645,8 @@
 				<animation effect="fade" start="0" end="100" time="1600" condition="true" pulse="true">Conditional</animation>
 			</control>
 			<control type="image">
-				<posx>0</posx>
-				<posy>654</posy>
+				<left>0</left>
+				<top>654</top>
 				<width>1280</width>
 				<height>1</height>
 				<aspectratio>stretch</aspectratio>

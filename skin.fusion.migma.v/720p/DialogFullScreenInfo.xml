@@ -3,8 +3,8 @@
     <controls>
               <!-- Current Time -->
 				<control type="label">
-					<posx>30</posx>
-					<posy>20</posy>
+					<left>30</left>
+					<top>20</top>
 					<width>300</width>
 					<label>[B]$INFO[System.Time][/B]</label>
 					<textcolor>ff404040</textcolor>
@@ -21,13 +21,13 @@
 			
 			<control type="group">
 				<visible>VideoPlayer.Content(Files)</visible>
-				<posx>0</posx>
-				<posy>123r</posy>
+				<left>0</left>
+				<top>123r</top>
 			
 				<!-- BACKGROUND -->
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width>1280</width>
 					<height>250</height>
 					<texture>osd/infobg.png</texture>
@@ -35,8 +35,8 @@
 					<aspectratio>stretch</aspectratio>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width>1280</width>
 					<height>250</height>
 					<texture>osd/musicbg.png</texture>
@@ -46,14 +46,14 @@
 					
 				<!-- TITLE -->
 				<control type="grouplist">
-					<posx>300</posx>
-					<posy>15</posy>
+					<left>300</left>
+					<top>15</top>
 					<width>946</width>
 					<itemgap>0</itemgap>
 					<orientation>horizontal</orientation>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="5" max="887">auto</width>
 						<font>movietitle6</font>
 						<label>[UPPERCASE]$INFO[VideoPlayer.Title][/UPPERCASE]</label>
@@ -68,14 +68,14 @@
 				<!-- MOVIE INFO -->
 				<control type="grouplist">
 					<visible>VideoPlayer.Content(Movies)</visible>
-					<posx>300</posx>
-					<posy>45</posy>
+					<left>300</left>
+					<top>45</top>
 					<width>946</width>
 					<itemgap>0</itemgap>
 					<orientation>horizontal</orientation>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="100">auto</width>
 						<font>aired</font>
 						<label>[UPPERCASE]$INFO[VideoPlayer.Year][/UPPERCASE]</label>
@@ -84,8 +84,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
 						<label>31618</label>
@@ -95,8 +95,8 @@
 						<visible>!IsEmpty(VideoPlayer.Year) + !IsEmpty(VideoPlayer.Genre)</visible>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="751">auto</width>
 						<font>aired</font>
 						<label>[UPPERCASE]$INFO[VideoPlayer.Genre][/UPPERCASE]</label>
@@ -105,8 +105,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
 						<label>31618</label>
@@ -116,8 +116,8 @@
 						<visible>!IsEmpty(VideoPlayer.Rating) + [!IsEmpty(VideoPlayer.Year) | !IsEmpty(VideoPlayer.Genre)]</visible>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="300">auto</width>
 						<font>aired</font>
 						<label>[UPPERCASE]$INFO[VideoPlayer.Rating,$LOCALIZE[31652] ,][/UPPERCASE]</label>
@@ -130,14 +130,14 @@
 				<!-- EPISODE INFO -->
 				<control type="grouplist">
 					<visible>VideoPlayer.Content(Episodes)</visible>
-					<posx>300</posx>
-					<posy>45</posy>
+					<left>300</left>
+					<top>45</top>
 					<width>685</width>
 					<itemgap>0</itemgap>
 					<orientation>horizontal</orientation>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="400">auto</width>
 						<font>aired</font>
 						<label>[UPPERCASE]$INFO[VideoPlayer.TVShowTitle][/UPPERCASE]</label>
@@ -146,8 +146,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
 						<label>31618</label>
@@ -157,8 +157,8 @@
 						<visible>!IsEmpty(VideoPlayer.TVShowTitle) + !IsEmpty(VideoPlayer.Season)</visible>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="200">auto</width>
 						<font>aired</font>
 						<label>[UPPERCASE]$INFO[VideoPlayer.Season,$LOCALIZE[31633] ][/UPPERCASE]</label>
@@ -167,8 +167,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
 						<label>31618</label>
@@ -178,8 +178,8 @@
 						<visible>!IsEmpty(VideoPlayer.Episode) + [!IsEmpty(VideoPlayer.TVShowTitle) | !IsEmpty(VideoPlayer.Season)]</visible>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="200">auto</width>
 						<font>aired</font>
 						<label>[UPPERCASE]$INFO[VideoPlayer.Episode,$LOCALIZE[31634] ,][/UPPERCASE]</label>
@@ -193,13 +193,13 @@
 			</control>
 			<control type="group">
 				<visible>VideoPlayer.Content(Movies) | VideoPlayer.Content(episodes)</visible>
-				<posx>0</posx>
-				<posy>235r</posy>
+				<left>0</left>
+				<top>235r</top>
 			
 				<!-- BACKGROUND -->
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width>1280</width>
 					<height>350</height>
 					<texture>osd/infobg.png</texture>
@@ -207,8 +207,8 @@
 					<aspectratio>stretch</aspectratio>
 				</control>
 				<control type="image">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width>1280</width>
 					<height>350</height>
 					<texture>osd/musicbg.png</texture>
@@ -219,14 +219,14 @@
 					
 				<!-- TITLE -->
 				<control type="grouplist">
-					<posx>300</posx>
-					<posy>15</posy>
+					<left>300</left>
+					<top>15</top>
 					<width>946</width>
 					<itemgap>0</itemgap>
 					<orientation>horizontal</orientation>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="5" max="887">auto</width>
 						<font>movietitle6</font>
 						<label>[UPPERCASE]$INFO[VideoPlayer.Title][/UPPERCASE]</label>
@@ -241,14 +241,14 @@
 				<!-- MOVIE INFO -->
 				<control type="grouplist">
 					<visible>VideoPlayer.Content(Movies)</visible>
-					<posx>300</posx>
-					<posy>45</posy>
+					<left>300</left>
+					<top>45</top>
 					<width>946</width>
 					<itemgap>0</itemgap>
 					<orientation>horizontal</orientation>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="100">auto</width>
 						<font>aired</font>
 						<label>[UPPERCASE]$INFO[VideoPlayer.Year][/UPPERCASE]</label>
@@ -257,8 +257,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
 						<label>31618</label>
@@ -268,8 +268,8 @@
 						<visible>!IsEmpty(VideoPlayer.Year) + !IsEmpty(VideoPlayer.Genre)</visible>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="751">auto</width>
 						<font>aired</font>
 						<label>[UPPERCASE]$INFO[VideoPlayer.Genre][/UPPERCASE]</label>
@@ -278,8 +278,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
 						<label>31618</label>
@@ -289,8 +289,8 @@
 						<visible>!IsEmpty(VideoPlayer.Rating) + [!IsEmpty(VideoPlayer.Year) | !IsEmpty(VideoPlayer.Genre)]</visible>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="300">auto</width>
 						<font>aired</font>
 						<label>[UPPERCASE]$INFO[VideoPlayer.Rating,$LOCALIZE[31652] ,][/UPPERCASE]</label>
@@ -301,14 +301,14 @@
 				</control>
 				<control type="grouplist">
 					<visible>VideoPlayer.Content(Movies)</visible>
-					<posx>300</posx>
-					<posy>65</posy>
+					<left>300</left>
+					<top>65</top>
 					<width>946</width>
 					<itemgap>0</itemgap>
 					<orientation>horizontal</orientation>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="946">auto</width>
 						<font>aired</font>
 						<label>[UPPERCASE]$INFO[VideoPlayer.Director,[COLOR=movietitleb2]$LOCALIZE[31651] [/COLOR],][/UPPERCASE]</label>
@@ -321,14 +321,14 @@
 				<!-- EPISODE INFO -->
 				<control type="grouplist">
 					<visible>VideoPlayer.Content(Episodes)</visible>
-					<posx>300</posx>
-					<posy>45</posy>
+					<left>300</left>
+					<top>45</top>
 					<width>685</width>
 					<itemgap>0</itemgap>
 					<orientation>horizontal</orientation>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="400">auto</width>
 						<font>aired</font>
 						<label>[UPPERCASE]$INFO[VideoPlayer.TVShowTitle][/UPPERCASE]</label>
@@ -337,8 +337,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
 						<label>31618</label>
@@ -348,8 +348,8 @@
 						<visible>!IsEmpty(VideoPlayer.TVShowTitle) + !IsEmpty(VideoPlayer.Season)</visible>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="200">auto</width>
 						<font>aired</font>
 						<label>[UPPERCASE]$INFO[VideoPlayer.Season,$LOCALIZE[31633] ][/UPPERCASE]</label>
@@ -358,8 +358,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
 						<label>31618</label>
@@ -369,8 +369,8 @@
 						<visible>!IsEmpty(VideoPlayer.Episode) + [!IsEmpty(VideoPlayer.TVShowTitle) | !IsEmpty(VideoPlayer.Season)]</visible>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="200">auto</width>
 						<font>aired</font>
 						<label>[UPPERCASE]$INFO[VideoPlayer.Episode,$LOCALIZE[31634] ,][/UPPERCASE]</label>
@@ -381,14 +381,14 @@
 				</control>
 				<control type="grouplist">
 					<visible>VideoPlayer.Content(Episodes)</visible>
-					<posx>300</posx>
-					<posy>65</posy>
+					<left>300</left>
+					<top>65</top>
 					<width>946</width>
 					<itemgap>0</itemgap>
 					<orientation>horizontal</orientation>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="661">auto</width>
 						<font>aired</font>
 						<label>[UPPERCASE]$INFO[VideoPlayer.Studio][/UPPERCASE]</label>
@@ -397,8 +397,8 @@
 						<scroll>false</scroll>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="30">auto</width>
 						<font>aired</font>
 						<label>31618</label>
@@ -408,8 +408,8 @@
 						<visible>!IsEmpty(VideoPlayer.Studio) + !IsEmpty(VideoPlayer.Premiered)</visible>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="0" max="250">auto</width>
 						<font>aired</font>
 						<label>[UPPERCASE]$INFO[VideoPlayer.Premiered,$LOCALIZE[31653] ,][/UPPERCASE]</label>
@@ -421,8 +421,8 @@
 				
 				<!-- PLOT -->
 				<control type="textbox">
-					<posx>300</posx>
-					<posy>100</posy>
+					<left>300</left>
+					<top>100</top>
 					<width>946</width>
 					<height>71</height><!-- 48 / 71 / 94-->
 					<label>$INFO[VideoPlayer.Plot]</label>
@@ -439,8 +439,8 @@
 			
 			<!-- Z-BAR -->
 			<control type="image">
-				<posx>0</posx>
-				<posy>715</posy>
+				<left>0</left>
+				<top>715</top>
 				<width>1280</width>
 				<height>5</height>
 				<aspectratio>stretch</aspectratio>
@@ -451,8 +451,8 @@
 				<animation effect="slide" start="0,0" end="0,15" delay="0" time="600" reversable="false">WindowClose</animation>
 			</control>
 			<control type="image">
-				<posx>0</posx>
-				<posy>715</posy>
+				<left>0</left>
+				<top>715</top>
 				<width>1280</width>
 				<height>5</height>
 				<aspectratio>stretch</aspectratio>
@@ -466,8 +466,8 @@
 	
 			<!-- PROGRESS BAR -->
 			<control type="progress" id="23">
-				<posx>300</posx>
-				<posy>41r</posy>
+				<left>300</left>
+				<top>41r</top>
 				<width>946</width>
 				<height>4</height>
 				<info>Player.Progress</info>
@@ -480,12 +480,12 @@
 
 			<!-- TIMINGS -->
 			<control type="group">
-				<posy>34r</posy>
+				<top>34r</top>
 
 				<!-- POSITION TIME -->
 				<control type="label">
-					<posx>300</posx>
-					<posy>0</posy>
+					<left>300</left>
+					<top>0</top>
 					<width min="50" max="250">auto</width>
 					<height>25</height>
 					<label>[B]$INFO[VideoPlayer.Time][/B]</label>
@@ -497,13 +497,13 @@
 				<!-- FINISH TIME -->
  				<control type="grouplist">
 					<visible>Player.Playing</visible>
-					<posx>600</posx>
+					<left>600</left>
 					<width>346</width>
 					<orientation>horizontal</orientation>
 					<align>center</align>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="5" max="250">auto</width>
 						<height>25</height>
 						<label>[B]$LOCALIZE[31605][/B]</label>
@@ -512,8 +512,8 @@
 						<align>left</align>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="5" max="250">auto</width>
 						<height>25</height>
 						<label>[B]$INFO[Player.FinishTime][/B]</label>
@@ -526,8 +526,8 @@
 
 				<!-- RUNTIME TIME -->
 				<control type="label">
-					<posx>34r</posx>
-					<posy>0</posy>
+					<left>34r</left>
+					<top>0</top>
 					<align>right</align>
 					<width>250</width>
 					<height>25</height>
@@ -540,11 +540,11 @@
 				<!-- PAUSED -->
 				<control type="group">
                     <visible>Player.Paused</visible>
-					<posx>600</posx>
+					<left>600</left>
 					<width>346</width>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>300</width>
 						<height>25</height>
 						<label>[B]$LOCALIZE[31607][/B]</label>
@@ -557,11 +557,11 @@
 				<!-- REWIND -->
 				<control type="group">
                     <visible>Player.Rewinding2x</visible>
-					<posx>600</posx>
+					<left>600</left>
 					<width>346</width>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>300</width>
 						<height>25</height>
 						<label>[B]$LOCALIZE[31608][/B]</label>
@@ -572,11 +572,11 @@
 				</control>
 				<control type="group">
                     <visible>Player.Rewinding4x</visible>
-					<posx>600</posx>
+					<left>600</left>
 					<width>346</width>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>300</width>
 						<height>25</height>
 						<label>[B]$LOCALIZE[31609][/B]</label>
@@ -587,11 +587,11 @@
 				</control>
 				<control type="group">
                     <visible>Player.Rewinding8x</visible>
-					<posx>600</posx>
+					<left>600</left>
 					<width>346</width>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>300</width>
 						<height>25</height>
 						<label>[B]$LOCALIZE[31610][/B]</label>
@@ -602,11 +602,11 @@
 				</control>
 				<control type="group">
                     <visible>Player.Rewinding16x</visible>
-					<posx>600</posx>
+					<left>600</left>
 					<width>346</width>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>300</width>
 						<height>25</height>
 						<label>[B]$LOCALIZE[31611][/B]</label>
@@ -617,11 +617,11 @@
 				</control>
 				<control type="group">
                     <visible>Player.Rewinding32x</visible>
-					<posx>600</posx>
+					<left>600</left>
 					<width>346</width>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>300</width>
 						<height>25</height>
 						<label>[B]$LOCALIZE[31612][/B]</label>
@@ -634,11 +634,11 @@
 				<!-- FORWARD -->
 				<control type="group">
                     <visible>Player.Forwarding2x</visible>
-					<posx>600</posx>
+					<left>600</left>
 					<width>346</width>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>300</width>
 						<height>25</height>
 						<label>[B]$LOCALIZE[31613][/B]</label>
@@ -649,11 +649,11 @@
 				</control>
 				<control type="group">
                     <visible>Player.Forwarding4x</visible>
-					<posx>600</posx>
+					<left>600</left>
 					<width>346</width>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>300</width>
 						<height>25</height>
 						<label>[B]$LOCALIZE[31614][/B]</label>
@@ -664,11 +664,11 @@
 				</control>
 				<control type="group">
                     <visible>Player.Forwarding8x</visible>
-					<posx>600</posx>
+					<left>600</left>
 					<width>346</width>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>300</width>
 						<height>25</height>
 						<label>[B]$LOCALIZE[31615][/B]</label>
@@ -679,11 +679,11 @@
 				</control>
 				<control type="group">
                     <visible>Player.Forwarding16x</visible>
-					<posx>600</posx>
+					<left>600</left>
 					<width>346</width>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>300</width>
 						<height>25</height>
 						<label>[B]$LOCALIZE[31616][/B]</label>
@@ -694,11 +694,11 @@
 				</control>
 				<control type="group">
                     <visible>Player.Forwarding32x</visible>
-					<posx>600</posx>
+					<left>600</left>
 					<width>346</width>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>300</width>
 						<height>25</height>
 						<label>[B]$LOCALIZE[31617][/B]</label>
@@ -716,12 +716,12 @@
 				<animation effect="fade" start="0" end="100" delay="0" time="250" reversable="false">WindowOpen</animation>
 				<animation effect="fade" start="100" end="0" delay="50" time="200" reversable="false">WindowClose</animation>
 				<visible>VideoPlayer.Content(movies)</visible>
-				<posx>40</posx>
-				<posy>340r</posy>
+				<left>40</left>
+				<top>340r</top>
 				<control type="image">
 					<description>Poster</description>
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width>220</width>
 					<height>320</height>
 					<align>center</align>
@@ -729,8 +729,8 @@
 					<aspectratio>scale</aspectratio>
 				</control>
 				<control type="image">
-					<posx>-8</posx>
-					<posy>-10</posy>
+					<left>-8</left>
+					<top>-10</top>
 					<width>245</width>
 					<height>348</height>
 					<align>center</align>
@@ -744,12 +744,12 @@
 				<animation effect="fade" start="0" end="100" delay="0" time="300" reversable="false">WindowOpen</animation>
 				<animation effect="fade" start="100" end="0" delay="200" time="300" reversable="false">WindowClose</animation>
 				<visible>VideoPlayer.Content(episodes) | VideoPlayer.Content(files)</visible>
-				<posx>40</posx>
-				<posy>160r</posy>
+				<left>40</left>
+				<top>160r</top>
 				<control type="image">
 					<description>thumb</description>
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width>220</width>
 					<height>140</height>
 					<align>center</align>
@@ -757,8 +757,8 @@
 					<aspectratio>scale</aspectratio>
 				</control>
 				<control type="image">
-					<posx>-22</posx>
-					<posy>-26</posy>
+					<left>-22</left>
+					<top>-26</top>
 					<width>264</width>
 					<height>192</height>
 					<align>center</align>
@@ -771,8 +771,8 @@
 			<control type ="image">
 				<animation effect="fade" start="100" end="0" delay="200" time="300" reversable="false">WindowClose</animation>
 				<visible>VideoPlayer.Content(Episodes)</visible>
-				<posx>40</posx>     
-				<posy>255r</posy>    
+				<left>40</left>     
+				<top>255r</top>    
 				<width>220</width>
 				<height>80</height>
 				<align>center</align>
@@ -794,8 +794,8 @@
             <control type="group">
 
 				<control type="image">
-					<posx>0</posx>
-					<posy>290r</posy>
+					<left>0</left>
+					<top>290r</top>
 					<width>1280</width>
 					<height>320</height>
 					<texture>osd/infobg.png</texture>
@@ -804,8 +804,8 @@
 				</control>			
 			
 				<control type="image">
-					<posx>40</posx>
-					<posy>120r</posy>
+					<left>40</left>
+					<top>120r</top>
 					<width>1200</width>
 					<height>122</height>
 					<aspectratio>keep</aspectratio>
@@ -814,8 +814,8 @@
 				</control>
 				
 				<control type="progress" id="23">
-					<posx>95</posx>
-					<posy>62r</posy>
+					<left>95</left>
+					<top>62r</top>
 					<width>820</width>
 					<height>10</height>
 					<info>Player.Progress</info>
@@ -827,8 +827,8 @@
 				</control>
 				
 				<control type="label">
-					<posx>95</posx>
-					<posy>50r</posy>
+					<left>95</left>
+					<top>50r</top>
 					<width>500</width>
 					<label>[B][UPPERCASE]$INFO[VideoPlayer.Time][/UPPERCASE] / [COLOR=gray]$INFO[VideoPlayer.Duration][/COLOR][/B]</label>
 					<font>duration</font>
@@ -837,12 +837,12 @@
 				
 				<!-- FINISH TIME -->
 				<control type="grouplist">
-					<posx>570</posx>
-					<posy>50r</posy>
+					<left>570</left>
+					<top>50r</top>
 					<orientation>horizontal</orientation>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="50" max="250">auto</width>
 						<height>25</height>
 						<label>[B]$LOCALIZE[31606][/B]</label>
@@ -851,8 +851,8 @@
 						<align>right</align>
 					</control>
 					<control type="label">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width min="50" max="250">auto</width>
 						<height>25</height>
 						<label>[B]$INFO[Player.FinishTime][/B]</label>
@@ -863,12 +863,12 @@
 				</control>
 				<!-- Current TIME -->
 			<control type="grouplist">
-				<posx>660</posx>
-				<posy>90r</posy>
+				<left>660</left>
+				<top>90r</top>
 				<orientation>horizontal</orientation>
 				<control type="label">
-					<posx>0</posx>
-					<posy>0</posy>
+					<left>0</left>
+					<top>0</top>
 					<width min="50" max="250">auto</width>
 					<height>25</height>
 					<label>[B]$INFO[System.Time][/B]</label>
@@ -880,12 +880,12 @@
 				
 				<!-- poster + border -->
 				<control type="group">
-					<posx>317r</posx>
-					<posy>355r</posy>
+					<left>317r</left>
+					<top>355r</top>
 					<control type="image">
 						<description>Poster</description>
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>220</width>
 						<height>320</height>
 						<align>center</align>
@@ -895,8 +895,8 @@
 					</control>
 					<control type="image">
 						<description>Poster</description>
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>220</width>
 						<height>320</height>
 						<align>center</align>
@@ -905,8 +905,8 @@
 						<visible>VideoPlayer.Content(Episodes)</visible>
 					</control>
 					<control type="image">
-						<posx>-8</posx>
-						<posy>-10</posy>
+						<left>-8</left>
+						<top>-10</top>
 						<width>245</width>
 						<height>348</height>
 						<align>center</align>
@@ -917,8 +917,8 @@
 				
 				<!-- title -->
 				<control type="label">
-					<posx>95</posx>
-					<posy>280r</posy>
+					<left>95</left>
+					<top>280r</top>
 					<width>820</width>
 					<font>homemenu3</font>
 					<label>[B]$INFO[VideoPlayer.Title][/B]</label>
@@ -928,8 +928,8 @@
 				</control>
 				<!-- plot -->
 				<control type="textbox">
-					<posx>95</posx>
-					<posy>190r</posy>
+					<left>95</left>
+					<top>190r</top>
 					<width>820</width>
 					<height>75</height>
 					<label>$INFO[VideoPlayer.Plot]</label>
@@ -946,8 +946,8 @@
 					<visible>VideoPlayer.Content(Movies)</visible>
 					<!-- Year / Genre Label -->
 					<control type="label">
-						<posx>95</posx>
-						<posy>250r</posy>
+						<left>95</left>
+						<top>250r</top>
 						<width>820</width>
 						<font>about</font>
 						<label>$INFO[VideoPlayer.Year] • $INFO[VideoPlayer.Genre]</label>
@@ -958,8 +958,8 @@
 					</control>
 					<!-- Studio Label -->
 					<control type="label">
-						<posx>95</posx>
-						<posy>225r</posy>
+						<left>95</left>
+						<top>225r</top>
 						<width>820</width>
 						<font>about</font>
 						<label>$INFO[VideoPlayer.Studio]</label>
@@ -973,15 +973,15 @@
 				<control type="group">
 					<visible>VideoPlayer.Content(Episodes)</visible>
 					<control type="grouplist"> <!-- New coded way for doing labels next each other -->
-						<posx>95</posx>
-						<posy>250r</posy>
+						<left>95</left>
+						<top>250r</top>
 						<width>820</width>
 						<align>left</align>
 						<orientation>horizontal</orientation>
 						<!-- Episode Label -->
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width min="10" max="530">auto</width>
 							<font>about</font>
 							<label>$INFO[VideoPlayer.TVShowTitle]: </label>
@@ -990,8 +990,8 @@
 							<scroll>false</scroll>
 						</control>
 						<control type="label">
-							<posx>0</posx>
-							<posy>0</posy>
+							<left>0</left>
+							<top>0</top>
 							<width min="80" max="530">auto</width>
 							<font>about</font>
 							<label>[COLOR=ffc0c0c0]$LOCALIZE[31633] $INFO[VideoPlayer.Season,, /][/COLOR]</label>
@@ -1000,8 +1000,8 @@
 							<scroll>false</scroll>
 						</control>
 						<control type="label">
-							<posx>115</posx>
-							<posy>0</posy>
+							<left>115</left>
+							<top>0</top>
 							<width min="10" max="530">auto</width>
 							<font>about</font>
 							<label>[COLOR=ffc0c0c0]$LOCALIZE[31634] $INFO[VideoPlayer.Episode][/COLOR]</label>
@@ -1012,8 +1012,8 @@
 					</control>
 					<!-- first aired Label -->
 					<control type="label">
-						<posx>95</posx>
-						<posy>225r</posy>
+						<left>95</left>
+						<top>225r</top>
 						<width>820</width>
 						<label>$LOCALIZE[31635] [COLOR=ffa0a0a0]$INFO[VideoPlayer.Premiered][/COLOR]</label>
 						<font>about</font>

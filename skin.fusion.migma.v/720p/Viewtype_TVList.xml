@@ -2,7 +2,7 @@
 	<include name="TVList">
     <description>List View</description>
 	  <control type="group">
-		<posy>-23</posy>
+		<top>-23</top>
 		<include>InfoOpenClose</include>
 		<include>MusicInfoOpenClose</include>	
 		<include>AddSource</include>
@@ -11,10 +11,10 @@
 		<include>Keyboard</include>	
 		
 <control type="group">	
-	<posy>30</posy>		
+	<top>30</top>		
 	  <control type="image">
-		<posx>55</posx>
-		<posy>120</posy>
+		<left>55</left>
+		<top>120</top>
 		<width>1175</width>
 		<height>446</height>
 		<aspectratio>stretch</aspectratio>
@@ -23,8 +23,8 @@
 	  </control>	
 	
 	  <control type="image">
-		<posx>568</posx>
-		<posy>150</posy>
+		<left>568</left>
+		<top>150</top>
 		<width>638</width>
 		<height>39</height>
 		<aspectratio scalediffuse="false">stretch</aspectratio>	
@@ -34,8 +34,8 @@
 	  </control>
 				  
 		<control type="list" id="51">
-			<posx>568</posx>
-			<posy>188</posy>
+			<left>568</left>
+			<top>188</top>
 			<width>638</width>
 			<height>351</height>
 			<onleft>300</onleft>
@@ -61,13 +61,13 @@
 					<aspectratio>stretch</aspectratio>
 				  </control>
 				  <control type="group">
-					  <posy>0</posy> 
-					  <posx>630</posx>
+					  <top>0</top> 
+					  <left>630</left>
 				   <include>MovieHDFlagsListView</include> 
 				  </control>		
 				  <control type="image">
-					<posy>5</posy>
-					<posx>11</posx>
+					<top>5</top>
+					<left>11</left>
 					<width>30</width>
 					<height>35</height>
 					<aspectratio>keep</aspectratio>
@@ -76,8 +76,8 @@
 					<visible>Container.Content(Movies) | Container.Content(Episodes)</visible>
 				  </control>
 				  <control type="image">
-					<posy>5</posy>
-					<posx>4</posx>
+					<top>5</top>
+					<left>4</left>
 					<width>41</width>
 					<height>35</height>
 					<aspectratio>keep</aspectratio>
@@ -86,8 +86,8 @@
 					<visible>Container.Content(Movies) | Container.Content(Episodes)</visible>
 				  </control>
 				  <control type="label">
-					<posy>-3</posy>
-					<posx>62</posx>
+					<top>-3</top>
+					<left>62</left>
 					<width>618</width>
 					<height>39</height>
 					<scroll>false</scroll>
@@ -97,8 +97,8 @@
 					<font>movietitle2</font>
 				  </control>		
 				  <control type="label">
-					<posy>-3</posy>
-					<posx>800</posx>
+					<top>-3</top>
+					<left>800</left>
 					<width>106</width>
 					<height>39</height>
 					<align>right</align>
@@ -113,7 +113,7 @@
 					  
       <focusedlayout height="39">
         <control type="image">
-		  <posy>-1</posy>
+		  <top>-1</top>
           <width>808</width>
           <height>39</height>
           <texture>list/smalllistfo.png</texture>
@@ -121,13 +121,13 @@
 				<animation effect="slide" start="0,-30" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(51).OnNext">focus</animation>
         </control>
 		<control type="group">
-			<posy>-1</posy> 
-			<posx>630</posx>
+			<top>-1</top> 
+			<left>630</left>
 		 <include>MovieHDFlagsListViewFocus</include>
 		</control>
         <control type="image">
-		  <posy>5</posy>
-          <posx>11</posx>
+		  <top>5</top>
+          <left>11</left>
           <width>30</width>
           <height>35</height>
 		  <aspectratio>keep</aspectratio>
@@ -138,8 +138,8 @@
 		  <visible>Container.Content(Movies) | Container.Content(Episodes)</visible>		
         </control>
         <control type="image">
-		  <posy>5</posy>
-          <posx>4</posx>
+		  <top>5</top>
+          <left>4</left>
           <width>41</width>
           <height>35</height>
 		  <aspectratio>keep</aspectratio>
@@ -150,8 +150,8 @@
 		  <visible>Container.Content(Movies) | Container.Content(Episodes)</visible>	
         </control>
         <control type="label">
-		  <posy>-3</posy>
-          <posx>62</posx>
+		  <top>-3</top>
+          <left>62</left>
           <width>618</width>
           <height>39</height>
           <textcolor>itemdetail</textcolor>
@@ -169,8 +169,8 @@
 		<visible>Control.IsVisible(51)</visible>
 		
 			<control type="label">
-				<posx>580</posx>
-				<posy>149</posy>
+				<left>580</left>
+				<top>149</top>
 				<width>340</width>
 				<height>94</height>
 				<align>left</align>
@@ -181,8 +181,8 @@
 				<scroll>false</scroll>
 			</control>
 			<control type="image">
-				<posx>85</posx>
-				<posy>150</posy>
+				<left>85</left>
+				<top>150</top>
 				<width>475</width>
 				<height>268</height>
 				<texture background="true" diffuse="list/epdiff.png">$INFO[ListItem.Icon]</texture>
@@ -192,8 +192,8 @@
 			</control>
 			
 			<control type="textbox">
-				<posx>88</posx>
-				<posy>420</posy>
+				<left>88</left>
+				<top>420</top>
 				<width>468</width>
 				<height>115</height>
 				<font>tvplot2</font>
@@ -209,8 +209,8 @@
 		<!-- Scroll Bar -->
 
 		<control type="scrollbar" id="77">
-			<posx>1220</posx>
-			<posy>170</posy>
+			<left>1220</left>
+			<top>170</top>
 			<width>8</width>
 			<height>350</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(51) + Control.HasFocus(77)</visible>

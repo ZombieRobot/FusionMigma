@@ -1,8 +1,6 @@
 <includes>
   
   <default type="label">
-    <posx>0</posx>
-    <posy>0</posy>
     <height>30</height>
     <align>left</align>
     <aligny>center</aligny>
@@ -15,16 +13,16 @@
   </default>
 
   <default type="image">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <align>center</align>
     <aligny>center</aligny>
     <aspectratio>keep</aspectratio>
   </default>
 
   <default type="button">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <width>150</width>
     <height>48</height>
     <align>center</align>
@@ -37,8 +35,8 @@
   </default>
 
   <default type="togglebutton">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <width>150</width>
     <height>48</height>
     <font>button</font>
@@ -55,8 +53,8 @@
   </default>
 
   <default type="radiobutton">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <width>660</width>
     <height>37</height>
     <align>left</align>
@@ -75,8 +73,8 @@
   </default>
 
   <default type="spincontrolex">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <width>150</width>
     <height>48</height>
     <font>button</font>
@@ -99,8 +97,8 @@
   </default>
   
   <default type="spincontrol">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <height>15</height>
     <width>15</width>
     <textureup>ArrowUpNF.png</textureup>
@@ -119,8 +117,8 @@
   </default>
 
   <default type="sliderex">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <height>17</height>
     <width>167</width>
     <texturefocus>ButtonInputFo.png</texturefocus>
@@ -139,8 +137,8 @@
   </default>
   
   <default type="progress">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <width>280</width>
     <height>15</height>
     <texturebg>ProgressBack.png</texturebg>
@@ -151,8 +149,8 @@
   </default>
 
   <default type="slider">
-    <posx>0</posx>
-    <posy>0</posy>
+    <left>0</left>
+    <top>0</top>
     <width>280</width>
     <height>15</height>
     <texturesliderbar>ProgressBack.png</texturesliderbar>

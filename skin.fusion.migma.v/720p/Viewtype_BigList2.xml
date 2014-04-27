@@ -3,7 +3,7 @@
 		<description>Big List2 View</description>
 
 		<control type="group">
-			<posy>-32</posy>
+			<top>-32</top>
 			<include>MusicInfoOpenClose</include>	
 			<include>AddSource</include>
 			<include>Keyboard</include>
@@ -19,8 +19,8 @@
 			<animation effect="fade" start="0" end="100" time="500" delay="0" reversible="false" condition="!Window.IsVisible(2003)">Conditional</animation>
 			<include>ContextFade</include>
 			<control type="image">
-				<posx>0</posx>
-				<posy>106</posy>
+				<left>0</left>
+				<top>106</top>
 				<width>1280</width>
 				<height>595</height>
 				<aspectratio>stretch</aspectratio>
@@ -35,8 +35,8 @@
 					<visible>!Window.IsVisible(24)</visible>
 
 					<control type="image">
-						<posy>123</posy>
-						<posx>453</posx>
+						<top>123</top>
+						<left>453</left>
 						<width>1</width>
 						<height>557</height>
 						<aspectratio>stretch</aspectratio>
@@ -45,8 +45,8 @@
 					</control>
 
 					<control type="image">
-						<posy>123</posy>
-						<posx>945</posx>
+						<top>123</top>
+						<left>945</left>
 						<width>1</width>
 						<height>557</height>
 						<aspectratio>stretch</aspectratio>
@@ -55,8 +55,8 @@
 					</control>
 
 					<control type="image">
-						<posy>123</posy>
-						<posx>1063</posx>
+						<top>123</top>
+						<left>1063</left>
 						<width>1</width>
 						<height>557</height>
 						<aspectratio>stretch</aspectratio>
@@ -65,8 +65,8 @@
 					</control>
 
 					<control type="image">
-						<posy>123</posy>
-						<posx>1128</posx>
+						<top>123</top>
+						<left>1128</left>
 						<width>1</width>
 						<height>557</height>
 						<aspectratio>stretch</aspectratio>
@@ -75,8 +75,8 @@
 					</control>
 
 					<control type="image">
-						<posy>123</posy>
-						<posx>1185</posx>
+						<top>123</top>
+						<left>1185</left>
 						<width>1</width>
 						<height>557</height>
 						<aspectratio>stretch</aspectratio>
@@ -88,8 +88,8 @@
 				<control type="group">
 					<visible>Window.IsVisible(24)</visible>				
 					<control type="image">
-						<posy>123</posy>
-						<posx>70</posx>
+						<top>123</top>
+						<left>70</left>
 						<width>1</width>
 						<height>557</height>
 						<aspectratio>stretch</aspectratio>
@@ -98,8 +98,8 @@
 					</control>
 
 					<control type="image">
-						<posy>123</posy>
-						<posx>1145</posx>
+						<top>123</top>
+						<left>1145</left>
 						<width>1</width>
 						<height>557</height>
 						<aspectratio>stretch</aspectratio>
@@ -111,8 +111,8 @@
 
 			</control>
 			<control type="list" id="53">
-				<posx>372</posx>
-				<posy>123</posy>
+				<left>372</left>
+				<top>123</top>
 				<width>1280</width>
 				<height>560</height>
 				<onleft>300</onleft>
@@ -140,7 +140,7 @@
 						<colordiffuse>10ffffff</colordiffuse>
 					</control>
 					<control type="image">
-						<posy>0</posy>
+						<top>0</top>
 						<width>908</width>
 						<height>43</height>
 						<texture>grey2.png</texture>
@@ -150,7 +150,7 @@
 						<visible>Container.Content(Movies) | Container.Content(Episodes)</visible>
 					</control>
 					<control type="image">
-						<posy>0</posy>
+						<top>0</top>
 						<width>908</width>
 						<height>21</height>
 						<texture>white.png</texture>
@@ -160,8 +160,8 @@
 						<visible>Container.Content(Movies) | Container.Content(Episodes)</visible>
 					</control>
 					<control type="image">
-						<posx>17</posx>
-						<posy>3</posy>
+						<left>17</left>
+						<top>3</top>
 						<width>36</width>
 						<height>36</height>
 						<texture background="true">$INFO[listitem.icon]</texture>
@@ -172,8 +172,8 @@
 						<animation effect="fade" start="10" end="100" time="500" delay="100" reversible="false" condition="Container(52).OnNext">focus</animation>
 					</control>	  
 					<control type="image">
-						<posy>11</posy>
-						<posx>30</posx>
+						<top>11</top>
+						<left>30</left>
 						<width>25</width>
 						<height>18</height>
 						<aspectratio>keep</aspectratio>
@@ -183,10 +183,10 @@
 					</control>
 
 				<control type="group">
-					<posx>-372</posx>
+					<left>-372</left>
 					<control type="image">
-						<posy>7</posy>
-						<posx>1185</posx>
+						<top>7</top>
+						<left>1185</left>
 						<width>78</width>
 						<height>28</height>
 						<aspectratio>keep</aspectratio>
@@ -196,8 +196,8 @@
 						<visible>!ListItem.IsFolder</visible>
 					</control>
 					<control type="label">
-						<posy>1</posy>
-						<posx>993</posx>
+						<top>1</top>
+						<left>993</left>
 						<width>618</width>
 						<height>39</height>
 						<label>MOVIE COLLECTION</label>
@@ -211,8 +211,8 @@
 					</control>
 				</control>
 					<control type="label">
-						<posy>0</posy>
-						<posx>20</posx>
+						<top>0</top>
+						<left>20</left>
 						<width>200</width>
 						<height>39</height>
 						<textcolor>list</textcolor>
@@ -222,12 +222,12 @@
 						<visible>!Skin.HasSetting(biglist_hide_year)</visible>
 					</control>
 				<control type="group">
-					<posx>-372</posx>
+					<left>-372</left>
 				<control type="group">
-					<posx>124</posx>
+					<left>124</left>
 					<control type="label">
-						<posy>0</posy>
-						<posx>920</posx>
+						<top>0</top>
+						<left>920</left>
 						<width>200</width>
 						<height>39</height>
 						<textcolor>list</textcolor>
@@ -243,14 +243,14 @@
 					</control>
 
 					<control type="group">
-						<posy>0</posy> 
-						<posx>953</posx>
+						<top>0</top> 
+						<left>953</left>
 						<include>MovieHDFlagsBigList</include>
 					</control>
 
 					<control type="image">
-						<posy>7</posy>
-						<posx>1019</posx>
+						<top>7</top>
+						<left>1019</left>
 						<width>30</width>
 						<height>35</height>
 						<aspectratio>keep</aspectratio>
@@ -263,8 +263,8 @@
 					</control>
 					<control type="label">
 						<description>Rating Info</description>
-						<posx>1230</posx>
-						<posy>0</posy>
+						<left>1230</left>
+						<top>0</top>
 						<width>165</width>
 						<height>39</height>
 						<scroll>false</scroll>
@@ -275,8 +275,8 @@
 						<visible>Control.IsVisible(53) + !IsEmpty(ListItem.foldername) + !substring(Container.Listitem.Label,..,left)</visible>
 					</control>
 					<control type="image">
-						<posy>2</posy>
-						<posx>1235</posx>
+						<top>2</top>
+						<left>1235</left>
 						<width>30</width>
 						<height>41</height>
 						<aspectratio>keep</aspectratio>
@@ -285,8 +285,8 @@
 						<visible>Control.IsVisible(53) + !IsEmpty(ListItem.foldername) + !substring(Container.Listitem.Label,..,left)</visible>
 					</control>
 					<control type="image">
-						<posy>7</posy>
-						<posx>1100</posx>
+						<top>7</top>
+						<left>1100</left>
 						<width>30</width>
 						<height>35</height>
 						<aspectratio>keep</aspectratio>
@@ -296,8 +296,8 @@
 					</control>
 				</control>
 					<control type="label">
-						<posy>0</posy>
-						<posx>96</posx>
+						<top>0</top>
+						<left>96</left>
 						<width>430</width>
 						<height>39</height>
 						<info>ListItem.Label</info>
@@ -309,8 +309,8 @@
 						<animation effect="slide" end="-80,0" condition="Skin.HasSetting(biglist_hide_year) | Container.Content(Seasons)">Conditional</animation>
 					</control>
 					<control type="label">
-						<posy>0</posy>
-						<posx>96</posx>
+						<top>0</top>
+						<left>96</left>
 						<width>1020</width>
 						<height>39</height>
 						<info>ListItem.Label</info>
@@ -321,8 +321,8 @@
 						<visible>Window.IsVisible(24)</visible>
 					</control>		
 					<control type="label">
-						<posy>0</posy>
-						<posx>1265</posx>
+						<top>0</top>
+						<left>1265</left>
 						<width>106</width>
 						<height>39</height>
 						<align>right</align>
@@ -337,7 +337,7 @@
 
 				<focusedlayout height="43">
 					<control type="image">
-						<posy>0</posy>
+						<top>0</top>
 						<width>908</width>
 						<height>43</height>
 						<texture>blue.png</texture>
@@ -346,7 +346,7 @@
 						<animation effect="slide" start="0,-20" end="0,0" time="200" reversible="false" tween="back" easing="out" condition="Container(53).OnNext">focus</animation>
 					</control>
 					<control type="image">
-						<posy>0</posy>
+						<top>0</top>
 						<width>908</width>
 						<height>21</height>
 						<texture>white.png</texture>
@@ -356,8 +356,8 @@
 						<animation effect="slide" start="0,-20" end="0,0" time="200" reversible="false" tween="back" easing="out" condition="Container(53).OnNext">focus</animation>
 					</control>
 					<control type="image">
-						<posy>11</posy>
-						<posx>30</posx>
+						<top>11</top>
+						<left>30</left>
 						<width>25</width>
 						<height>18</height>
 						<aspectratio>keep</aspectratio>
@@ -367,10 +367,10 @@
 						<visible>Container.Content(Movies) | Container.Content(Episodes)</visible>
 					</control>
 				<control type="group">
-					<posx>-372</posx>					
+					<left>-372</left>					
 					<control type="image">
-						<posy>7</posy>
-						<posx>1185</posx>
+						<top>7</top>
+						<left>1185</left>
 						<width>78</width>
 						<height>28</height>
 						<aspectratio>keep</aspectratio>
@@ -381,8 +381,8 @@
 						<visible>!ListItem.IsFolder</visible>
 					</control>
 					<control type="label">
-						<posy>1</posy>
-						<posx>993</posx>
+						<top>1</top>
+						<left>993</left>
 						<width>618</width>
 						<height>39</height>
 						<label>MOVIE COLLECTION</label>
@@ -398,10 +398,10 @@
 
 					
 				<control type="group">
-					<posx>124</posx>
+					<left>124</left>
 					<control type="label">
-						<posy>0</posy>
-						<posx>920</posx>
+						<top>0</top>
+						<left>920</left>
 						<width>200</width>
 						<height>39</height>
 						<textcolor>white</textcolor>
@@ -417,14 +417,14 @@
 					</control>
 
 					<control type="group">
-						<posy>0</posy> 
-						<posx>953</posx>
+						<top>0</top> 
+						<left>953</left>
 						<include>MovieHDFlagsBigListFo</include>
 					</control>
 
 					<control type="image">
-						<posy>7</posy>
-						<posx>1019</posx>
+						<top>7</top>
+						<left>1019</left>
 						<width>30</width>
 						<height>35</height>
 						<aspectratio>keep</aspectratio>
@@ -438,8 +438,8 @@
 					
 					<control type="label">
 						<description>Rating Info</description>
-						<posx>1230</posx>
-						<posy>0</posy>
+						<left>1230</left>
+						<top>0</top>
 						<width>165</width>
 						<height>39</height>
 						<scroll>false</scroll>
@@ -451,8 +451,8 @@
 					</control>
 					
 					<control type="image">
-						<posy>2</posy>
-						<posx>1235</posx>
+						<top>2</top>
+						<left>1235</left>
 						<width>30</width>
 						<height>41</height>
 						<aspectratio>keep</aspectratio>
@@ -462,8 +462,8 @@
 					</control>
 					
 					<control type="image">
-						<posy>7</posy>
-						<posx>1100</posx>
+						<top>7</top>
+						<left>1100</left>
 						<width>30</width>
 						<height>35</height>
 						<aspectratio>keep</aspectratio>
@@ -474,8 +474,8 @@
 				</control>
 				
 					<control type="label">
-						<posy>0</posy>
-						<posx>96</posx>
+						<top>0</top>
+						<left>96</left>
 						<width>430</width>
 						<height>39</height>
 						<info>ListItem.Label</info>
@@ -488,8 +488,8 @@
 						<animation effect="slide" end="-80,0" condition="Skin.HasSetting(biglist_hide_year) | Container.Content(Seasons)">Conditional</animation>
 					</control>
 					<control type="label">
-						<posy>0</posy>
-						<posx>96</posx>
+						<top>0</top>
+						<left>96</left>
 						<width>1020</width>
 						<height>39</height>
 						<info>ListItem.Label</info>
@@ -501,8 +501,8 @@
 						<visible>Window.IsVisible(24)</visible>
 					</control>				  
 					<control type="label">
-						<posy>0</posy>
-						<posx>20</posx>
+						<top>0</top>
+						<left>20</left>
 						<width>200</width>
 						<height>39</height>
 						<textcolor>white</textcolor>
@@ -514,8 +514,8 @@
 					</control>
 
 					<control type="label">
-						<posy>2</posy>
-						<posx>920</posx>
+						<top>2</top>
+						<left>920</left>
 						<width>200</width>
 						<height>39</height>
 						<textcolor>ff111188</textcolor>
@@ -531,8 +531,8 @@
 						<visible>!Skin.HasSetting(biglist_hide_duration)</visible>
 					</control>
 					<control type="label">
-						<posy>0</posy>
-						<posx>920</posx>
+						<top>0</top>
+						<left>920</left>
 						<width>200</width>
 						<height>39</height>
 						<textcolor>white</textcolor>
@@ -549,8 +549,8 @@
 					</control>
 
 					<control type="label">
-						<posy>0</posy>
-						<posx>1265</posx>
+						<top>0</top>
+						<left>1265</left>
 						<width>106</width>
 						<height>39</height>
 						<align>right</align>
@@ -566,16 +566,16 @@
 <control type="group">
 <visible>Control.IsVisible(53)</visible>
 <control type="image">
-	  <posy>123</posy>
-	  <posx>372</posx>
+	  <top>123</top>
+	  <left>372</left>
 	  <width>19</width>
 	  <height>558</height>
 	  <texture>biglist/postershadow.png</texture>
 	  <aspectratio>scale</aspectratio>
 </control>
 <control type="image">
-	  <posy>123</posy>
-	  <posx>0</posx>
+	  <top>123</top>
+	  <left>0</left>
 	  <width>372</width>
 	  <height>558</height>
 	  <texture>$INFO[ListItem.Icon]</texture>
@@ -583,8 +583,8 @@
 	  <aspectratio>scale</aspectratio>
 </control>
 <control type="image">
-	  <posy>123</posy>
-	  <posx>0</posx>
+	  <top>123</top>
+	  <left>0</left>
 	  <width>372</width>
 	  <height>558</height>
 	  <texture>biglist/posteroverlay.png</texture>
@@ -594,8 +594,8 @@
 			<!-- Scroll Bar -->
 
 			<control type="scrollbar" id="75">
-				<posx>1266</posx>
-				<posy>126</posy>
+				<left>1266</left>
+				<top>126</top>
 				<width>6</width>
 				<height>550</height>
 				<visible allowhiddenfocus="true">Control.IsVisible(53) + Control.HasFocus(75)</visible>

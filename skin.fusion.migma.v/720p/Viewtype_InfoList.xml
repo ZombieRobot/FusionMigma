@@ -2,14 +2,14 @@
 	<include name="InfoList">
     <description>Info List View</description>
 	<control type="group">
-		<posy>-5</posy>
+		<top>-5</top>
 		<include>InfoOpenClose</include>
 		<include>ViewWindowOC</include>
 		<include>ContextFade</include>
 		<include>Keyboard</include>
 		<control type="image">
-			<posx>398</posx>
-			<posy>150</posy>
+			<left>398</left>
+			<top>150</top>
 			<width>808</width>
 			<height>398</height>
 			<aspectratio>stretch</aspectratio>
@@ -18,8 +18,8 @@
 		</control>
 			
 		<control type="list" id="512">
-			<posx>398</posx>
-			<posy>154</posy>
+			<left>398</left>
+			<top>154</top>
 			<width>808</width>
 			<height>390</height>
 			<onleft>300</onleft>
@@ -48,7 +48,7 @@
 				  <texture>list/listline.png</texture>
 			  </control>
 			  <control type="image">
-				  <posy>0</posy>
+				  <top>0</top>
 				  <width>808</width>
 				  <height>38</height>
 				  <texture>list/collection.png</texture>
@@ -58,8 +58,8 @@
 				  <visible>!ListItem.IsFolder</visible>
 			  </control>
 			  <control type="image">
-				  <posy>5</posy>
-				  <posx>11</posx>
+				  <top>5</top>
+				  <left>11</left>
 				  <width>30</width>
 				  <height>35</height>
 				  <aspectratio>keep</aspectratio>
@@ -69,8 +69,8 @@
 				  <visible>Container.Content(Movies) | Container.Content(Episodes)</visible>
 			  </control>
 			  <control type="image">
-				  <posy>5</posy>
-				  <posx>4</posx>
+				  <top>5</top>
+				  <left>4</left>
 				  <width>41</width>
 				  <height>35</height>
 				  <aspectratio>keep</aspectratio>
@@ -79,13 +79,13 @@
 				  <visible>Container.Content(Movies) | Container.Content(Episodes)</visible>
 			  </control>
 			  <control type="group">
-				  <posy>0</posy> 
-				  <posx>630</posx>
+				  <top>0</top> 
+				  <left>630</left>
 			   <include>MovieHDFlagsListView</include>
 			  </control>
 			  <control type="label">
-				  <posy>-3</posy>
-				  <posx>62</posx>
+				  <top>-3</top>
+				  <left>62</left>
 				  <width>652</width>
 				  <height>39</height>
 				  <info>ListItem.Label</info>
@@ -94,8 +94,8 @@
 				  <scroll>false</scroll>
 			  </control>
 			  <control type="label">
-				  <posy>-3</posy>
-				  <posx>730</posx>
+				  <top>-3</top>
+				  <left>730</left>
 				  <width>200</width>
 				  <height>39</height>
 				  <textcolor>list</textcolor>
@@ -106,7 +106,7 @@
 	  
 			<focusedlayout height="117">
 			  <control type="image">
-				  <posy>-1</posy>
+				  <top>-1</top>
 				  <width>808</width>
 				  <height>117</height>
 				  <texture>list/listfo.png</texture>
@@ -114,8 +114,8 @@
 				  <animation effect="slide" start="0,-30" end="0,0" time="300" reversible="false" tween="back" easing="out" condition="Container(512).OnNext">focus</animation>
 			  </control>
 			  <control type="image">
-				  <posy>5</posy>
-				  <posx>11</posx>
+				  <top>5</top>
+				  <left>11</left>
 				  <width>30</width>
 				  <height>35</height>
 				  <aspectratio>keep</aspectratio>
@@ -127,8 +127,8 @@
 				  <visible>Container.Content(Movies) | Container.Content(Episodes)</visible>		
 			  </control>
 			  <control type="image">
-				  <posy>5</posy>
-				  <posx>4</posx>
+				  <top>5</top>
+				  <left>4</left>
 				  <width>41</width>
 				  <height>35</height>
 				  <aspectratio>keep</aspectratio>
@@ -139,8 +139,8 @@
 				  <visible>Container.Content(Movies) | Container.Content(Episodes)</visible>	
 			  </control>
 			  <control type="image">
-				<posy>9.5</posy>
-				<posx>12</posx>
+				<top>9.5</top>
+				<left>12</left>
 				<width>25</width>
 				<height>18</height>
 				<aspectratio>keep</aspectratio>
@@ -151,8 +151,8 @@
 				<visible>Container.Content(Movies) | Container.Content(Episodes)</visible>	
 			  </control>
 			  <control type="image">
-				<posy>4</posy>
-				<posx>712</posx>
+				<top>4</top>
+				<left>712</left>
 				<width>78</width>
 				<height>28</height>
 				<aspectratio>keep</aspectratio>
@@ -164,13 +164,13 @@
 				<visible>!ListItem.IsFolder</visible>
 			  </control>
 			  <control type="group">
-				  <posy>-1</posy> 
-				  <posx>630</posx>
+				  <top>-1</top> 
+				  <left>630</left>
 			   <include>MovieHDFlagsListViewFocus</include>
 			  </control>
 			  <control type="image">
-				  <posy>43</posy>
-				  <posx>14</posx>
+				  <top>43</top>
+				  <left>14</left>
 				  <width>22</width>
 				  <height>29</height>
 				  <aspectratio>keep</aspectratio>
@@ -181,8 +181,8 @@
 				  <visible>!IsEmpty(ListItem.foldername)</visible>		
 			  </control>
 			  <control type="image">
-				  <posy>82</posy>
-				  <posx>18</posx>
+				  <top>82</top>
+				  <left>18</left>
 				  <width>15</width>
 				  <height>25</height>
 				  <aspectratio>keep</aspectratio>
@@ -193,8 +193,8 @@
 				  <visible>!IsEmpty(ListItem.foldername)</visible>		
 			  </control>	
 			  <control type="label">
-				  <posy>-3</posy>
-				  <posx>62</posx>
+				  <top>-3</top>
+				  <left>62</left>
 				  <width>652</width>
 				  <height>39</height>
 				  <textcolor>itemdetail</textcolor>
@@ -204,8 +204,8 @@
 				  <animation effect="fade" start="10" end="100" time="500" delay="100" reversible="false" condition="Container(512).OnNext">focus</animation>
 			  </control>
 			  <control type="label">
-				  <posy>-3</posy>
-				  <posx>730</posx>
+				  <top>-3</top>
+				  <left>730</left>
 				  <width>200</width>
 				  <height>39</height>
 				  <textcolor>itemdetail</textcolor>
@@ -215,8 +215,8 @@
 				  <animation effect="fade" start="10" end="100" time="500" delay="100" reversible="false" condition="Container(512).OnNext">focus</animation>
 			  </control>
 			  <control type="label">
-				  <posy>56</posy>
-				  <posx>62</posx>
+				  <top>56</top>
+				  <left>62</left>
 				  <width>370</width>
 				  <height>39</height>
 				  <textcolor>itemdetail2</textcolor>
@@ -228,8 +228,8 @@
 				  <visible>!ListItem.IsFolder</visible>
 			  </control>		
 			  <control type="label">
-				  <posy>37</posy>
-				  <posx>60</posx>
+				  <top>37</top>
+				  <left>60</left>
 				  <width>520</width>
 				  <height>39</height>
 				  <textcolor>itemdetail2</textcolor>
@@ -239,8 +239,8 @@
 				  <animation effect="fade" start="10" end="100" time="500" delay="100" reversible="false" condition="Container(512).OnNext">focus</animation>
 			  </control>
 			  <control type="label">
-				  <posy>73</posy>
-				  <posx>60</posx>
+				  <top>73</top>
+				  <left>60</left>
 				  <width>520</width>
 				  <height>39</height>
 				  <textcolor>itemdetail2</textcolor>
@@ -257,8 +257,8 @@
 		<!--Start Posters/Icons-->
 	
 		<control type="image">
-			<posx>380</posx>
-			<posy>132</posy>
+			<left>380</left>
+			<top>132</top>
 			<width>844</width>
 			<height>434</height>
 			<aspectratio>stretch</aspectratio>
@@ -266,8 +266,8 @@
 			<visible>Control.IsVisible(512)</visible>
 		</control>
 		<control type="image">
-			<posx>15</posx>
-			<posy>175</posy>
+			<left>15</left>
+			<top>175</top>
 			<width>102</width>
 			<height>202</height>
 			<aspectratio>stretch</aspectratio>
@@ -283,8 +283,8 @@
 			</animation>
 		</control>		
 		<control type="image">
-			<posx>15</posx>
-			<posy>250</posy>
+			<left>15</left>
+			<top>250</top>
 			<width>102</width>
 			<height>202</height>
 			<aspectratio>stretch</aspectratio>
@@ -300,8 +300,8 @@
 			</animation>
 		</control>
 		<control type="image">
-			<posx>15</posx>
-			<posy>325</posy>
+			<left>15</left>
+			<top>325</top>
 			<width>102</width>
 			<height>202</height>
 			<aspectratio>stretch</aspectratio>
@@ -318,12 +318,12 @@
 		</control>
 			
 		<control type="group">
-			<posx>75</posx>
-			<posy>147</posy>
+			<left>75</left>
+			<top>147</top>
 			<visible>Control.IsVisible(512)</visible>		
 				<control type="image">
-					<posx>11</posx>
-					<posy>7</posy>
+					<left>11</left>
+					<top>7</top>
 					<width>259</width>
 					<height>389</height>
 					<aspectratio scalediffuse="false">scale</aspectratio>
@@ -333,8 +333,8 @@
 					<animation reversible="false" effect="zoom" end="10,74,164,245" start="20,20,259,389" time="200">unfocus</animation>
 				</control>
 				<control type="image">
-					<posx>1</posx>
-					<posy>-6</posy>
+					<left>1</left>
+					<top>-6</top>
 					<width>289</width>
 					<height>424</height>
 					<aspectratio>stretch</aspectratio>
@@ -345,8 +345,8 @@
 		</control>	
 						
 		<control type="label">
-			<posy>550</posy>
-			<posx>80</posx>
+			<top>550</top>
+			<left>80</left>
 			<width>270</width>
 			<height>39</height>
 			<align>center</align>
@@ -363,8 +363,8 @@
 		<!-- Scroll Bar -->
 
 		<control type="scrollbar" id="61">
-			<posx>1220</posx>
-			<posy>170</posy>
+			<left>1220</left>
+			<top>170</top>
 			<width>5</width>
 			<height>350</height>
 			<visible allowhiddenfocus="true">Control.IsVisible(512) + Control.HasFocus(61)</visible>

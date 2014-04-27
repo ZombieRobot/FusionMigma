@@ -4,8 +4,8 @@
 
 <coordinates>
 		<system>1</system>
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 </coordinates>
 		<animation type="WindowOpen" reversible="false">
 			<effect type="fade" start="0" end="100" time="350" delay="0" />
@@ -18,8 +18,8 @@
 <controls>
     
 		<control type="image">
-			<posx>180</posx>
-			<posy>111</posy>			
+			<left>180</left>
+			<top>111</top>			
 			<width>942</width>
 			<height>482</height>
 			<aspectratio>stretch</aspectratio>
@@ -27,8 +27,8 @@
 		</control>
 	<control type="label" id="20">
 		<description>Heading</description>
-			<posx>222</posx>
-			<posy>145</posy>
+			<left>222</left>
+			<top>145</top>
 			<width>530</width>
 			<height>37</height>
 			<font>heading</font>
@@ -38,8 +38,8 @@
 			<label>$LOCALIZE[1007]</label>
 	</control>
  				<control type="image">
-					<posx>211</posx>
-					<posy>147</posy>
+					<left>211</left>
+					<top>147</top>
 					<width>689</width>
 					<height>37</height>
 					<aspectratio>stretch</aspectratio>
@@ -47,8 +47,8 @@
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posx>211</posx>
-					<posy>184</posy>
+					<left>211</left>
+					<top>184</top>
 					<width>689</width>
 					<height>37</height>
 					<aspectratio>stretch</aspectratio>
@@ -56,8 +56,8 @@
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posx>211</posx>
-					<posy>221</posy>
+					<left>211</left>
+					<top>221</top>
 					<width>689</width>
 					<height>37</height>
 					<aspectratio>stretch</aspectratio>
@@ -65,8 +65,8 @@
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posx>211</posx>
-					<posy>258</posy>
+					<left>211</left>
+					<top>258</top>
 					<width>689</width>
 					<height>37</height>
 					<aspectratio>stretch</aspectratio>
@@ -74,8 +74,8 @@
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posx>211</posx>
-					<posy>295</posy>
+					<left>211</left>
+					<top>295</top>
 					<width>689</width>
 					<height>37</height>
 					<aspectratio>stretch</aspectratio>
@@ -83,8 +83,8 @@
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posx>211</posx>
-					<posy>332</posy>
+					<left>211</left>
+					<top>332</top>
 					<width>689</width>
 					<height>37</height>
 					<aspectratio>stretch</aspectratio>
@@ -92,8 +92,8 @@
 					<colordiffuse>FFFFFFFF</colordiffuse>
 				</control>
 				<control type="image">
-					<posx>211</posx>
-					<posy>369</posy>
+					<left>211</left>
+					<top>369</top>
 					<width>689</width>
 					<height>37</height>
 					<aspectratio>stretch</aspectratio>
@@ -102,8 +102,8 @@
 				</control>  
 	<control type="spincontrolex" id="10">
 		<description>Protocol</description>
-			<posx>211</posx>
-			<posy>182</posy>
+			<left>211</left>
+			<top>182</top>
 			<width>689</width>
 			<height>37</height>
 			<font>recent</font>
@@ -124,8 +124,8 @@
 	</control>
 	<control type="button" id="11">
 		<description>Server Address</description>
-			<posx>211</posx>
-			<posy>219</posy>
+			<left>211</left>
+			<top>219</top>
 			<width>530</width>
 			<height>37</height>
 			<font>recent</font>
@@ -142,8 +142,8 @@
 	</control>
 	<control type="button" id="12">
 		<description>Server Browse</description>
-		<posx>741</posx>
-		<posy>219</posy>
+		<left>741</left>
+		<top>219</top>
    		<width>159</width>
 		<height>37</height>
 		<font>recent</font>
@@ -157,8 +157,8 @@
 	</control>
 	<control type="button" id="16">
 		<description>Remote</description>
-		<posx>211</posx>
-		<posy>256</posy>
+		<left>211</left>
+		<top>256</top>
 		<width>689</width>
 		<height>37</height>
 		<font>recent</font>
@@ -175,8 +175,8 @@
 	</control>
 	<control type="button" id="13">
 		<description>Port</description>
-		<posx>211</posx>
-		<posy>293</posy>
+		<left>211</left>
+		<top>293</top>
 		<width>689</width>
 		<height>37</height>
 		<font>recent</font>
@@ -194,8 +194,8 @@
 	</control>
 	<control type="button" id="14">
 		<description>Username</description>
-		<posx>211</posx>
-		<posy>330</posy>
+		<left>211</left>
+		<top>330</top>
 		<width>689</width>
 		<height>37</height>
 		<font>recent</font>
@@ -213,8 +213,8 @@
 	</control>
 	<control type="button" id="15">
 		<description>password</description>
-		<posx>211</posx>
-		<posy>367</posy>
+		<left>211</left>
+		<top>367</top>
 		<width>689</width>
 		<height>37</height>
 		<font>recent</font>
@@ -232,8 +232,8 @@
 	</control>
   
 		<control type="group" id="9001">
-			<posx>916</posx>
-			<posy>170</posy>
+			<left>916</left>
+			<top>170</top>
 			<control type="button" id="18">
 				<description>Ok Button</description>
 				<label>186</label>
@@ -257,7 +257,7 @@
 			</control>
 			<control type="button" id="19">
 				<description>Cancel Button</description>
-				<posy>55</posy>
+				<top>55</top>
 				<label>222</label>
 				<width>160</width>
 				<height>37</height>	

@@ -4,8 +4,8 @@
   
 <coordinates>
   <system>1</system>
-  <posx>0</posx>
-  <posy>0</posy>
+  <left>0</left>
+  <top>0</top>
 </coordinates>
   
 <controls>
@@ -19,8 +19,8 @@
 			<effect type="slide" start="0,500" end="0,0" time="450" delay="0" tween="back" easing="out" />
 		</animation>
 		  <control type="image">
-			  <posx>264</posx>
-			  <posy>94</posy>
+			  <left>264</left>
+			  <top>94</top>
 			  <width>750</width>
 			  <height>512</height>
 			  <texture border="12">whitepanel.png</texture>
@@ -28,8 +28,8 @@
 			  <colordiffuse>33ffffff</colordiffuse>
 		  </control>
 		  <control type="image">
-			  <posx>270</posx>
-			  <posy>100</posy>
+			  <left>270</left>
+			  <top>100</top>
 			  <width>740</width>
 			  <height>500</height>
 			  <texture border="12">whitepanel2.png</texture>
@@ -37,8 +37,8 @@
 		  </control>
  
   <control type="list" id="5">
-	  <posx>280</posx>
-	  <posy>110</posy>
+	  <left>280</left>
+	  <top>110</top>
 	  <width>720</width>
 	  <height>480</height>
 	  <onleft>450</onleft>
@@ -53,7 +53,7 @@
 			  <texture>list/listline.png</texture>
 		  </control>
 		  <control type="label">
-			  <posx>10</posx>
+			  <left>10</left>
 			  <width>320</width>
 			  <height>48</height>
 			  <info>ListItem.Label</info>
@@ -62,7 +62,7 @@
 			  <scroll>false</scroll>
 		  </control>
 		  <control type="label">
-			  <posx>710</posx>
+			  <left>710</left>
 			  <width>520</width>
 			  <height>48</height>
 			  <align>right</align>
@@ -80,7 +80,7 @@
 			  <texture>grey.png</texture>
 		  </control>
 		  <control type="label">
-			  <posx>5</posx>
+			  <left>5</left>
 			  <width>465</width>
 			  <height>48</height>
 			  <font>homemenu3</font>
@@ -88,7 +88,7 @@
 			  <info>ListItem.Label</info>
 		  </control>
 		  <control type="label">
-			  <posx>710</posx>
+			  <left>710</left>
 			  <width>520</width>
 			  <height>48</height>
 			  <align>right</align>

@@ -18,8 +18,8 @@
 				
 			<control type="image">
                 <description>Rating Info</description>
-                <posx>170r</posx>
-                <posy>130r</posy>
+                <left>170r</left>
+                <top>130r</top>
                 <width>165</width>
                 <height>165</height>
                 <info>ListItem.StarRating</info>
@@ -30,8 +30,8 @@
             </control>		
 			<control type="image">
                 <description>Rating Info</description>
-                <posx>170r</posx>
-                <posy>130r</posy>
+                <left>170r</left>
+                <top>130r</top>
                 <width>165</width>
                 <height>165</height>
                 <info>ListItem.StarRating</info>
@@ -43,8 +43,8 @@
             </control>
 			<control type="image">
                 <description>Rating Info</description>
-                <posx>170r</posx>
-                <posy>158r</posy>
+                <left>170r</left>
+                <top>158r</top>
                 <width>165</width>
                 <height>165</height>
                 <info>ListItem.StarRating</info>
@@ -57,8 +57,8 @@
             </control>
 			<control type="image">
                 <description>Rating Info</description>
-                <posx>170r</posx>
-                <posy>158r</posy>
+                <left>170r</left>
+                <top>158r</top>
                 <width>165</width>
                 <height>165</height>
                 <info>ListItem.StarRating</info>
@@ -68,8 +68,8 @@
 				<visible>!IsEmpty(ListItem.foldername) + !substring(Container.Listitem.Label,..,left)</visible>				
             </control>
 			<control type="label">
-				<posx>15r</posx>
-				<posy>66r</posy>
+				<left>15r</left>
+				<top>66r</top>
 				<width>600</width>
 				<height>39</height>
 				<textcolor>ffababab</textcolor>
@@ -82,8 +82,8 @@
 				<scroll>false</scroll>
 			</control>
 			<control type="label">
-				<posx>15r</posx>
-				<posy>66r</posy>
+				<left>15r</left>
+				<top>66r</top>
 				<width>300</width>
 				<height>39</height>
 				<textcolor>ffababab</textcolor>
@@ -95,8 +95,8 @@
 				<scroll>false</scroll>
 			</control>
 			<control type="label">
-				<posx>15r</posx>
-				<posy>66r</posy>
+				<left>15r</left>
+				<top>66r</top>
 				<width>1280</width>
 				<height>35</height>
 				<font>homemenu3</font>
@@ -110,8 +110,8 @@
 				<visible>!Control.IsVisible(569)</visible>	
 			</control>
 			<control type="label">
-				<posx>15r</posx>
-				<posy>66r</posy>
+				<left>15r</left>
+				<top>66r</top>
 				<width>1280</width>
 				<height>35</height>
 				<font>homemenu3</font>
@@ -124,8 +124,8 @@
 				<visible>!Window.IsVisible(2003)</visible>
 			</control>			
 			<control type="label">
-				<posx>15r</posx>
-				<posy>66r</posy>
+				<left>15r</left>
+				<top>66r</top>
 				<width>1280</width>
 				<height>35</height>
 				<font>homemenu3</font>
@@ -137,8 +137,8 @@
 				<visible>substring(container.folderpath,plugin://plugin.program.advanced.launcher) + !SubString(Container.Viewmode,Coverwrap)</visible>
 			</control>	
 			<control type="label">
-				<posx>15r</posx>
-				<posy>66r</posy>
+				<left>15r</left>
+				<top>66r</top>
 				<width>1280</width>
 				<height>35</height>
 				<font>homemenu3</font>
@@ -150,8 +150,8 @@
 				<visible>substring(container.folderpath,plugin://plugin.program.advanced.launcher) + SubString(Container.Viewmode,Coverwrap)</visible>
 			</control>	
 			<control type="label">
-				<posx>15r</posx>
-				<posy>40r</posy>
+				<left>15r</left>
+				<top>40r</top>
 				<width>360</width>
 				<height>35</height>
 				<font>recent2</font>
@@ -163,8 +163,8 @@
 				<visible>!Window.IsVisible(2003) + IsEmpty(Container().Totaltime)</visible>
 			</control>
 			<control type="label">
-				<posx>15r</posx>
-				<posy>40r</posy>
+				<left>15r</left>
+				<top>40r</top>
 				<width>360</width>
 				<height>35</height>
 				<font>recent2</font>

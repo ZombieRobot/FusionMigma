@@ -3,8 +3,8 @@
 	<allowoverlay>no</allowoverlay>
 	<controls>
   	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1280</width>
 		<height>720</height>
 		<aspectratio>stretch</aspectratio>
@@ -12,8 +12,8 @@
 		<colordiffuse>FFCCCCCF</colordiffuse>
 	</control>
 	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1280</width>
 		<height>720</height>
 		<aspectratio>stretch</aspectratio>
@@ -22,8 +22,8 @@
 	</control>	
 		
 		<control type="button" id="10">
-			<posx>-20</posx>
-			<posy>-20</posy>
+			<left>-20</left>
+			<top>-20</top>
 			<width>1</width>
 			<height>1</height>
 			<texturenofocus>-</texturenofocus>

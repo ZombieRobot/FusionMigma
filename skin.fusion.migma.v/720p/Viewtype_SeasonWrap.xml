@@ -10,13 +10,13 @@
 		<include>Keyboard</include>
 		<control type="group">
 			<visible>Control.IsVisible(525)</visible>
-			<posx>0</posx>
-			<posy>100</posy>
+			<left>0</left>
+			<top>100</top>
 			
 			
 			<control type="image">
-				<posx>180</posx>
-				<posy>362</posy>
+				<left>180</left>
+				<top>362</top>
 				<width>34</width>
 				<height>34</height>
 				<aspectratio>stretch</aspectratio>
@@ -26,8 +26,8 @@
 				<visible>!Container(525).OnPrevious</visible>					
 			</control>
 			<control type="image">
-				<posx>180</posx>
-				<posy>362</posy>
+				<left>180</left>
+				<top>362</top>
 				<width>34</width>
 				<height>34</height>
 				<aspectratio>stretch</aspectratio>
@@ -43,8 +43,8 @@
 			
 			
 			<control type="image">
-				<posx>1064</posx>
-				<posy>362</posy>
+				<left>1064</left>
+				<top>362</top>
 				<width>34</width>
 				<height>34</height>
 				<aspectratio>stretch</aspectratio>
@@ -54,8 +54,8 @@
 				<visible>!Container(525).OnNext</visible>				
 			</control>
 			<control type="image">
-				<posx>1064</posx>
-				<posy>362</posy>
+				<left>1064</left>
+				<top>362</top>
 				<width>34</width>
 				<height>34</height>
 				<aspectratio>stretch</aspectratio>
@@ -71,13 +71,13 @@
 
 		<control type="group">
 			<visible>Control.IsVisible(525)</visible>
-			<posx>0</posx>
-			<posy>80</posy>
+			<left>0</left>
+			<top>80</top>
 			<control type="wraplist" id="525">
 				<visible>Container.Content(Seasons) | Container.Content(Albums)</visible>
 				<visible>!Skin.HasSetting(HideSeasonWrap)</visible>
-				<posx>232</posx>
-				<posy>120</posy>
+				<left>232</left>
+				<top>120</top>
 				<width>820</width>
 				<height>560</height>
 				<onleft>57</onleft>
@@ -92,8 +92,8 @@
 				
 				<itemlayout height="310" width="170">
 					<control type="image">
-						<posx>0</posx>
-						<posy>83</posy>
+						<left>0</left>
+						<top>83</top>
 						<width>120</width>
 						<height>180</height>
 						<bordersize>2</bordersize>
@@ -101,8 +101,8 @@
 						<texture background="true" diffuse="poster/posterdiffusesmall.png">$INFO[ListItem.Icon]</texture>
 					</control>
 					<control type="image">
-						<posx>0</posx>
-						<posy>222</posy>
+						<left>0</left>
+						<top>222</top>
 						<width>120</width>
 						<height>180</height>
 						<bordersize>2</bordersize>
@@ -114,8 +114,8 @@
 				
 				<focusedlayout height="310" width="186">
 					<control type="image">
-						<posx>0</posx>
-						<posy>83</posy>
+						<left>0</left>
+						<top>83</top>
 						<width>129</width>
 						<height>180</height>
 						<bordersize>2</bordersize>
@@ -125,8 +125,8 @@
 						<animation reversible="false" effect="zoom" start="130" end="100" center="50,95" time="250">unfocus</animation>
 					</control>
 					<control type="image">
-						<posx>-33</posx>
-						<posy>62</posy>
+						<left>-33</left>
+						<top>62</top>
 						<width>204</width>
 						<height>269</height>
 						<aspectratio>stretch</aspectratio>
@@ -139,8 +139,8 @@
 				
 			</control>	
 			<control type="label">
-				<posx>0</posx>
-				<posy>439</posy>
+				<left>0</left>
+				<top>439</top>
 				<width>1280</width>
 				<height>35</height>
 				<font>tvtitle2</font>
