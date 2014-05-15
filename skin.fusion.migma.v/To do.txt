@@ -1,0 +1,15 @@
+
+To do gotham 
+
+-post 11
+-post 14
+-post 21 3d stuff
+-post 23 new aspect ratio flags to be made
+-post 28
+-post 44
+-need to finish post 45 and 48
+
+Helix
+
+-DialogPeripheralSettings.xml missing
+-Dialogmediafilter.xml missing

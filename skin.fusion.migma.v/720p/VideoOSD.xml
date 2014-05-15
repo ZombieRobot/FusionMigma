@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <window id="2901">
 	<defaultcontrol always="true">4</defaultcontrol>
 	<allowoverlay>yes</allowoverlay>
@@ -675,6 +676,7 @@
 					<height>30</height>
 					<texturefocus border="1">button2fo.png</texturefocus>
 					<texturenofocus border="1">-</texturenofocus>
+					<onup>401</onup>
 					<onclick>ActivateWindow(SubtitleSearch)</onclick>
 				</control>
 				<control type="button" id="13">
@@ -688,6 +690,7 @@
 					<visible>System.HasMediaDVD</visible>
 				</control>
 			</control>
+
 			<control type="group" id="20">
 			        <animation effect="slide" start="0,0" end="0,-760" time="450" delay="0" reversible="false" condition="!Control.HasFocus(11)">Conditional</animation>
 					<animation effect="slide" start="0,-760" end="0,0" time="450" delay="0" reversible="false" condition="Control.HasFocus(11)">Conditional</animation>
@@ -715,8 +718,115 @@
 			<textcolor>ff404040</textcolor>
 		</control>
 		</control> 
+				<control type="grouplist" id="400">
+			<visible>![Window.IsVisible(SliderDialog) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks)]</visible>
+			<animation effect="fade" time="200">VisibleChange</animation>
+			<animation effect="slide" start="0,0" end="0,80" time="0" condition="![VideoPlayer.HasSubtitles + VideoPlayer.SubtitlesEnabled]">Conditional</animation>
+			<animation effect="slide" start="0,0" end="0,40" time="0" condition="!VideoPlayer.HasSubtitles">Conditional</animation>
+			<right>145</right>
+			<bottom>45</bottom>
+			<width>256</width>
+			<height>260</height>
+			<itemgap>0</itemgap>
+			<onleft>400</onleft>
+			<onright>400</onright>
+			<onup>250</onup>
+			<ondown>250</ondown>
+			<orientation>vertical</orientation>
+			<visible>Control.HasFocus(12)</visible>
+			<include>VisibleFadeEffect</include>
+			<control type="group">
+				<description>Header</description>
+				<width>256</width>
+				<height>40</height>
+				<control type="image">
+					<description>Header</description>
+					<left>0</left>
+					<top>0</top>
+					<width>256</width>
+					<height>40</height>
+					<texture border="20,18,20,0">SubMenuBack-Header.png</texture>
+				</control>
+				<control type="label" id="">
+					<left>30</left>
+					<top>20</top>
+					<width>196</width>
+					<height>15</height>
+					<font>duration</font>
+					<label>24012</label>
+					<textcolor>white</textcolor>
+					<align>center</align>
+					<aligny>center</aligny>
+				</control>
+			</control>
+			<control type="togglebutton" id="401">
+				<description>Download with Subtitles script</description>
+				<height>40</height>
+				<width>256</width>
+				<font>font13</font>
+				<label>33003</label>
+				<font>-</font>
+				<textoffsetx>30</textoffsetx>
+				<aligny>center</aligny>
+				<texturefocus border="25,5,25,5">SubMenuBack-MiddleFO.png</texturefocus>
+				<texturenofocus border="25,5,25,5">SubMenuBack-MiddleNF.png</texturenofocus>
+				<alttexturefocus border="25,5,25,5">SubMenuBack-MiddleFO.png</alttexturefocus>
+				<alttexturenofocus border="25,5,25,5">SubMenuBack-MiddleNF.png</alttexturenofocus>
+				<onclick>Close</onclick>
+				<onclick>Dialog.Close(VideoOSD)</onclick>
+				<onclick>ActivateWindow(SubtitleSearch)</onclick>
+			</control>
+			<control type="button" id="402">
+				<height>40</height>
+				<width>256</width>
+				<aligny>center</aligny>
+				<font>duration</font>
+				<textoffsetx>30</textoffsetx>
+				<texturefocus border="25,5,25,5">SubMenuBack-MiddleFO.png</texturefocus>
+				<texturenofocus border="25,5,25,5">SubMenuBack-MiddleNF.png</texturenofocus>
+				<pulseonselect>false</pulseonselect>
+				<label>22006</label>
+				<onclick>SubtitleDelay</onclick>
+				<visible>VideoPlayer.HasSubtitles + VideoPlayer.SubtitlesEnabled</visible>
+			</control>
+			<control type="button" id="403">
+				<height>40</height>
+				<width>256</width>
+				<aligny>center</aligny>
+				<font>duration</font>
+				<textoffsetx>30</textoffsetx>
+				<texturefocus border="25,5,25,5">SubMenuBack-MiddleFO.png</texturefocus>
+				<texturenofocus border="25,5,25,5">SubMenuBack-MiddleNF.png</texturenofocus>
+				<pulseonselect>false</pulseonselect>
+				<label>209</label>
+				<onclick>NextSubtitle</onclick>
+				<visible>VideoPlayer.HasSubtitles + VideoPlayer.SubtitlesEnabled</visible>
+			</control>
+			<control type="radiobutton" id="404">
+				<height>40</height>
+				<width>256</width>
+				<textoffsetx>30</textoffsetx>
+				<aligny>center</aligny>
+				<font>duration</font>
+				<label>449</label>
+				<radioposx>200</radioposx>
+				<texturefocus border="25,5,25,5">SubMenuBack-MiddleFO.png</texturefocus>
+				<texturenofocus border="25,5,25,5">SubMenuBack-MiddleNF.png</texturenofocus>
+				<onclick>ShowSubtitles</onclick>
+				<selected>VideoPlayer.SubtitlesEnabled</selected>
+				<visible>VideoPlayer.HasSubtitles</visible>
+				<pulseonselect>false</pulseonselect>
+			</control>
+			<control type="image" id="440">
+				<description>Footer</description>
+				<width>256</width>
+				<height>52</height>
+				<texture border="20,0,20,50">SubMenuBack-Footer.png</texture>
+			</control>
+		</control>
 		</control> 
-		
+					
+
 		 <!-- OLD OSD-->
 		
 <control type="group">

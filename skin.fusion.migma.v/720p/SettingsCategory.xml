@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <window id="12">
 <defaultcontrol always="true">3</defaultcontrol>
 <allowoverlay>yes</allowoverlay>
@@ -42,7 +43,18 @@
 			<effect type="fade" start="0" end="100" time="200" delay="0" />
 		</animation>
 	</control> 
-			
+			<control type="image">
+		<left>364</left>
+		<top>530</top>
+		<width>812</width>
+		<height>91</height>
+		<aspectratio>stretch</aspectratio>
+		<texture>black.png</texture>
+		<colordiffuse>FFFFFFFF</colordiffuse>
+		<animation type="WindowOpen" reversible="false">
+			<effect type="fade" start="0" end="100" time="200" delay="0" />
+		</animation>
+	</control> 	
 	<control type="grouplist" id="3">
 		<description>Button Area</description>
 		<left>115</left>
@@ -53,16 +65,49 @@
 		<onleft>5</onleft>
 		<onright>5</onright>
 		<onup>3</onup>
-		<ondown>3</ondown>
+		<ondown>20</ondown>
 		<orientation>vertical</orientation>
 	</control>
-  
+  	<control type="button" id="20">
+		<description>Setting level button</description>
+		<left>116</left>
+		<top>561</top>
+		<height>60</height>
+		<width>248</width>
+		<label>10037</label>
+		<textoffsetx>20</textoffsetx>
+		<textoffsety>28</textoffsety>
+		<align>left</align>
+		<aligny>left</aligny>
+		<font>recent</font>
+		<textcolor>white</textcolor>
+		<focusedcolor>Orange</focusedcolor>
+		<texturefocus>-</texturefocus>
+		<texturenofocus>-</texturenofocus>
+		<pulseonselect>false</pulseonselect>
+		<onleft>5</onleft>
+		<onright>5</onright>
+		<onup>3</onup>
+		<ondown>3</ondown>
+		<onclick>SettingsLevelChange</onclick>
+	</control>
+	<control type="label">
+				<left>135</left>
+				<top>565</top>
+				<height>25</height>
+				<width>230</width> 
+				<label>317806</label> 
+				<font>recent</font>
+				<textcolor>ampm</textcolor>
+				<align>left</align> 
+				<aligny>left</aligny>
+			</control>
 	<control type="grouplist" id="5">
 		<description>Control Area</description>
 		<left>366</left>
 		<top>179</top>
 		<width>810</width>
-		<height>400</height>
+		<height>300</height>
 		<itemgap>.5</itemgap>
 		<onleft>3</onleft>
 		<onright>3</onright>
@@ -127,7 +172,34 @@
 		<colordiffuse>1FFFFFFF</colordiffuse>
 	</control>
 </control>
-
+<control type="textbox" id="6">
+	<description>description area</description>
+	<left>380</left>
+	<top>540</top>
+	<width>736</width>
+	<height>85</height>
+	<font>recent</font>
+	<align>justify</align>
+	<textcolor>white</textcolor>
+	<autoscroll time="3000" delay="4000" repeat="5000">true</autoscroll>
+	<animation type="Conditional" condition="Window.IsVisible(126) | Window.IsVisible(2000)">
+			<effect type="fade" start="100" end="0" time="200" />
+		</animation>
+		<animation type="WindowClose" reversible="false">
+			<effect type="fade" start="100" end="0" time="200" delay="0" />
+		</animation> 
+</control>
+<control type="sliderex" id="13">
+	<height>30</height>
+	<align>left</align>
+	<font>button</font>
+	<textcolor>FF9F9F9F</textcolor>
+	<focusedcolor>FFFFFFFF</focusedcolor>
+	<disabledcolor>33FFFFFF</disabledcolor>
+	<textoffsetx>10</textoffsetx>
+	<texturefocus border="1">button2fo.png</texturefocus>
+	<texturenofocus border="1">-</texturenofocus>
+</control>
 <control type="group">
 	<visible>Player.HasMedia</visible>
 	<control type="image">

@@ -1,3 +1,31 @@
+Changelog: 0.1.7 (12.05.2014)
+
+- unification of control IDs across all dialogs/windows which contain settings changed (helix)
+- xbmc.gui version to 5.0.2 (Helix)
+
+Changelog: 0.1.6 (28.04.2014)
+
+- Added settingscatergory description textbox (Gotham)
+- Added new button in SettingsCategory.xml to adjust the different settings levels (Gotham)
+- Fixed codec info linebreaks in VideoFullScreen.xml (Gotham)
+- Added auto login options to settingsprofile.xml (Gotham)
+
+Changelog: 0.1.6 (27.04.2014)
+
+- Fixed startup.xml (Gotham)
+- Added correct header to all your XML files (Gotham)
+- Added update library to dropdown menu (Gotham)
+- Removed the stack and flatten buttons (id="7" / id="17") from MyVideoNav.xml (Gotham)
+- Added and changed everything needed for subtitles to work with Gotham
+- Changed all skin <posx> and <posy> to new control positioning method (Gotham)
+- Changed DialogYesNo.xml separate labels to textbox id="9 (Gotham)
+- Changed DialogOK.xml separate labels to textbox id="9 (Gotham)
+
+Changelog: 0.1.6 (26.04.2014)
+
+- Started work on new horizontal home menu (based off the original fusion beta build)
+- Changed network settings string to services
+
 Changelog: 0.1.5 (20.05.2013)
 
 - Added disc art to 4 more views (added option to toggle on and off off by default)

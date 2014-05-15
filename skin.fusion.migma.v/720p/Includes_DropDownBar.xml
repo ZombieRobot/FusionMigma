@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <includes>
 
 	<include name="DropDownBarImage">
@@ -119,6 +120,11 @@
 
 	<include name="MusicPlaylistItems">
 		<content>
+			<item id="17">
+				<description>Update Library</description>
+				<label>[UPPERCASE]$LOCALIZE[653][/UPPERCASE]</label>
+				<onclick>UpdateLibrary(video)</onclick>
+			</item>
 			<item id="1">
 				<description>Sort By</description>
 				<label>[UPPERCASE]$LOCALIZE[31734] $INFO[Container.SortMethod][/UPPERCASE]</label>
@@ -169,6 +175,11 @@
 
 	<include name="VideoPlaylistItems">
 		<content>
+			<item id="17">
+				<description>Update Library</description>
+				<label>[UPPERCASE]$LOCALIZE[653][/UPPERCASE]</label>
+				<onclick>UpdateLibrary(video)</onclick>
+			</item>
 			<item id="1">
 				<description>Sort By</description>
 				<label>[UPPERCASE]$LOCALIZE[31734] $INFO[Container.SortMethod][/UPPERCASE]</label>
@@ -299,6 +310,11 @@
 
 	<include name="PicturesItems">
 		<content>
+			<item id="17">
+				<description>Update Library</description>
+				<label>[UPPERCASE]$LOCALIZE[653][/UPPERCASE]</label>
+				<onclick>UpdateLibrary(video)</onclick>
+			</item>
 			<item id="1">
 				<description>Sort By</description>
 				<label>[UPPERCASE]$LOCALIZE[31734] $INFO[Container.SortMethod][/UPPERCASE]</label>
@@ -355,6 +371,11 @@
 
 	<include name="VideoLibraryItems">
 		<content>
+			<item id="17">
+				<description>Update Library</description>
+				<label>[UPPERCASE]$LOCALIZE[653][/UPPERCASE]</label>
+				<onclick>UpdateLibrary(video)</onclick>
+			</item>
 			<item id="1">
 				<description>Sort By</description>
 				<label>[UPPERCASE]$LOCALIZE[31734] $INFO[Container.SortMethod][/UPPERCASE]</label>
@@ -684,11 +705,17 @@
 				<onclick>Skin.ToggleSetting(HideLabelWrapViews)</onclick>
 				<visible>Skin.HasSetting(HideLabelWrapViews) + Control.IsVisible(598)</visible>
 			</item>
+			
 		</content>
 	</include>
 
 	<include name="VideoFilesItems">
 		<content>
+			<item id="17">
+				<description>Update Library</description>
+				<label>[UPPERCASE]$LOCALIZE[653][/UPPERCASE]</label>
+				<onclick>UpdateLibrary(video)</onclick>
+			</item>
 			<item id="1">
 				<description>Sort By</description>
 				<label>[UPPERCASE]$LOCALIZE[31734] $INFO[Container.SortMethod][/UPPERCASE]</label>
@@ -845,6 +872,11 @@
 
 	<include name="MusicLibraryItems">
 		<content>
+			<item id="17">
+				<description>Update Library</description>
+				<label>[UPPERCASE]$LOCALIZE[653][/UPPERCASE]</label>
+				<onclick>UpdateLibrary(music)</onclick>
+			</item>
 			<item id="1">
 				<description>Sort By</description>
 				<label>[UPPERCASE]$LOCALIZE[31734] $INFO[Container.SortMethod][/UPPERCASE]</label>
@@ -1059,6 +1091,11 @@
 
 	<include name="MusicFilesItems">
 		<content>
+			<item id="17">
+				<description>Update Library</description>
+				<label>[UPPERCASE]$LOCALIZE[653][/UPPERCASE]</label>
+				<onclick>UpdateLibrary(music)</onclick>
+			</item>
 			<item id="1">
 				<description>Sort By</description>
 				<label>[UPPERCASE]$LOCALIZE[31734] $INFO[Container.SortMethod][/UPPERCASE]</label>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <window id="34">
 <defaultcontrol always="true">4</defaultcontrol>
 <allowoverlay>yes</allowoverlay>
@@ -61,29 +62,49 @@
 		<top>40</top>
 		<width>660</width>
 		<label>Use $LOCALIZE[20096]?</label>
-    <align>left</align>
+		<align>left</align>
 		<onright>2</onright>
 		<onleft>2</onleft>
     <onup>2</onup>
-    <ondown>2</ondown>
+    <ondown>5</ondown>
 	</control>
-  
+	<control type="image">
+		<left>20</left>
+		<top>79</top>
+		<width>660</width>
+		<height>39</height>
+		<texture>list/smalllistfo.png</texture>
+		<animation effect="fade" start="100" end="0" time="150" condition="!Control.HasFocus(5)">Conditional</animation>
+	</control>	
+	<control type="button" id="5">
+		<visible>System.HasLoginScreen</visible>
+		<description>auto login</description>
+		<left>50</left>
+		<top>75</top>
+		<width>600</width>
+		<font>recent</font>
+		<label>33084</label>
+		<label2>$INFO[System.ProfileAutoLogin]</label2>
+		<textcolor>black</textcolor>
+		<align>left</align>
+		<onright>2</onright>
+		<onleft>2</onleft>
+		<onup>4</onup>
+		<ondown>2</ondown>
+	</control>
+
   <control type="list" id="2">
 	  <left>20</left>
-	  <top>80</top>
+	  <top>120</top>
 	  <width>660</width>
 	  <height>382</height>
 	  <onleft>4</onleft>
 	  <onright>4</onright>
-	  <onup>4</onup>
+	  <onup>5</onup>
 	  <ondown>4</ondown>
-	  
+	  <visible>System.HasLoginScreen</visible>
 	  <itemlayout height="39">
-		<control type="image">
-			<width>660</width>
-			<height>39</height>
-			<texture>list/listline.png</texture>
-		</control>
+
 		<control type="label">
 			<left>30</left>
 			<width>650</width>
@@ -100,7 +121,15 @@
 			<width>660</width>
 			<height>39</height>
 			<texture>list/smalllistfo.png</texture>
-					<animation effect="fade" start="100" end="50" time="150" condition="Control.HasFocus(4)">Conditional</animation>
+			<visible>!Control.HasFocus(4) + !Control.HasFocus(5)</visible>
+		</control>
+		<control type="label">
+			<left>30</left>
+			<width>650</width>
+			<height>39</height>
+			<font>recent</font>
+			<textcolor>black</textcolor>
+			<info>ListItem.Label</info>
 		</control>
 		<control type="label">
 			<left>30</left>
@@ -109,7 +138,9 @@
 			<font>recent</font>
 			<textcolor>White</textcolor>
 			<info>ListItem.Label</info>
+			<visible>!Control.HasFocus(4) + !Control.HasFocus(5)</visible>
 		</control>
+		
 	  </focusedlayout>
   </control>
  </control> 

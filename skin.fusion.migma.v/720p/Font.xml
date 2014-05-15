@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <fonts>
 <fontset id="default" unicode="true">
   
@@ -94,6 +95,12 @@
 		<name>songinfononbold</name>
 		<filename>fusionrss.ttf</filename>
 		<size>24</size>
+	</font>
+	<font>
+		<name>rss1</name>
+		<filename>fusionrss.ttf</filename>
+		<size>19</size>
+		<style>bold</style>
 	</font>
 	<font>
 		<name>rss</name>

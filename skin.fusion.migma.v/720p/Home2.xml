@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <window id="0">
 <defaultcontrol always="true">540</defaultcontrol>
 
@@ -24,8 +25,8 @@
 <controls>
 <control type="group" id="12">
 	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1280</width>
 		<height>720</height>
 		<aspectratio>stretch</aspectratio>
@@ -33,8 +34,8 @@
 		<colordiffuse>FFCCCCCF</colordiffuse>
 	</control> 
 	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1280</width>
 		<height>720</height>
 		<aspectratio>stretch</aspectratio>
@@ -53,8 +54,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -78,10 +79,10 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>77</top>
 		<width>1280</width>
-		<height>590</height>
+		<height>720</height>
 		<aspectratio>scale</aspectratio>
 		<timeperimage>5000</timeperimage>
 		<fadetime>1000</fadetime>
@@ -103,8 +104,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -128,8 +129,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -153,8 +154,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -178,8 +179,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -203,8 +204,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -228,8 +229,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -253,8 +254,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -281,8 +282,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -305,8 +306,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -327,8 +328,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -353,8 +354,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -380,8 +381,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -407,8 +408,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -431,8 +432,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -458,8 +459,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -482,8 +483,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -509,8 +510,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -533,8 +534,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -560,8 +561,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -584,8 +585,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -611,8 +612,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -635,8 +636,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -662,8 +663,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -686,8 +687,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -713,8 +714,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -737,8 +738,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -764,8 +765,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -789,8 +790,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -816,8 +817,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -840,8 +841,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -867,8 +868,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -891,8 +892,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -918,8 +919,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -942,8 +943,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -969,8 +970,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -993,8 +994,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -1020,8 +1021,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -1044,8 +1045,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -1071,8 +1072,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -1095,8 +1096,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -1122,8 +1123,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -1146,8 +1147,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -1173,8 +1174,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -1197,8 +1198,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -1224,8 +1225,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -1248,8 +1249,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -1275,8 +1276,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -1299,8 +1300,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -1326,8 +1327,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -1350,8 +1351,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -1377,8 +1378,8 @@
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
-		<posx>0</posx>
-		<posy>260</posy>
+		<left>0</left>
+		<top>260</top>
 		<width>1280</width>
 		<height>590</height>
 		<aspectratio>scale</aspectratio>
@@ -1392,21 +1393,45 @@
 	
 <!--  END CUSTOM BACKGROUNDS -->
 	<include>FusionStyles</include>	
+	
 	<control type="image">
-		<posx>0</posx>
-		<posy>0</posy>
+		<left>0</left>
+		<top>0</top>
 		<width>1280</width>
 		<height>720</height>
 		<aspectratio>stretch</aspectratio>
 		<texture>black.png</texture>
 		<colordiffuse>50FFFFFF</colordiffuse>
 	</control>
-
+	<control type="group">
+		<animation effect="slide" start="0,300" end="0,0" time="350" delay="400" tween="circle" easing="out">WindowOpen</animation>
+		<animation type="WindowClose" reversible="false">
+			<effect type="fade" start="100" end="0" time="200" />
+		</animation>	
+		<control type="image">
+			<left>0</left>
+			<top>556</top>
+			<width>1280</width>
+			<height>190</height>
+			<aspectratio>stretch</aspectratio>
+			<texture>bg2.png</texture>
+			<colordiffuse>FFCCCCCF</colordiffuse>
+		</control> 
+			<control type="image">
+				<left>0</left>
+				<top>556</top>
+				<width>1280</width>
+				<height>190</height>
+				<aspectratio>stretch</aspectratio>
+				<texture>black.png</texture>
+				<colordiffuse>70FFFFFF</colordiffuse>
+			</control>
+		</control>
 	<control type="image">
-		<posx>472</posx>
-		<posy>262</posy>
+		<left>472</left>
+		<top>32</top>
 		<width>336</width>
-		<height>458</height>
+		<height>484</height>
 		<aspectratio>stretch</aspectratio>
 		<texture>Home/middle.png</texture>
 		<colordiffuse>AFFFFFFF</colordiffuse>
@@ -1431,15 +1456,15 @@
 </control>
 
 	<control type="group">
-		<posy>-420</posy>
+		<top>-420</top>
 		<animation effect="slide" start="0,300" end="0,0" time="350" delay="400" tween="circle" easing="out">WindowOpen</animation>
 		<animation type="WindowClose" reversible="false">
 			<effect type="fade" start="100" end="0" time="200" />
 		</animation>
 			
 		<control type="image">
-			<posx>-5</posx>
-			<posy>625</posy>
+			<left>-5</left>
+			<top>920</top>
 			<width>1280</width>
 			<height>159</height>
 			<aspectratio>stretch</aspectratio>
@@ -1447,8 +1472,8 @@
 			<colordiffuse>FFFFFFFF</colordiffuse>				
 		</control>
 		<control type="wraplist" id="540">
-			<posx>-110</posx>
-			<posy>505</posy>
+			<left>-110</left>
+			<bottom>-325</bottom>
 			<width>1600</width>
 			<height>500</height>
 			<onleft>540</onleft>
@@ -1463,8 +1488,8 @@
 			<animation effect="fade" start="0" end="100" time="800" delay="300">WindowOpen</animation>	
 			<itemlayout height="240" width="250">
 				<control type="image">
-					<posx>-48</posx>
-					<posy>20</posy>
+					<left>-48</left>
+					<top>20</top>
 					<width>96</width>
 					<height>96</height>
 					<fadetime>400</fadetime>
@@ -1474,8 +1499,8 @@
 					<animation effect="fade" start="100" end="0" time="300">WindowClose</animation>	
 				</control>	
 				<control type="label">
-					<posx>0</posx>
-					<posy>120</posy>
+					<left>0</left>
+					<top>120</top>
 					<width>250</width>
 					<height>35</height>
 					<font>homemenu2</font>
@@ -1489,10 +1514,10 @@
 
 			<focusedlayout height="240" width="250">
 				<control type="image">
-					<posx>-68</posx>
-					<posy>48</posy>
+					<left>-68</left>
+					<top>52</top>
 					<width>137</width>
-					<height>97</height>
+					<height>94</height>
 					<aspectratio>stretch</aspectratio>
 					<texture>Home/menufo2.png</texture>
 					<colordiffuse>CFFFFFFF</colordiffuse>
@@ -1510,8 +1535,8 @@
 					</animation>		
 				</control>
 					<control type="image">
-						<posx>-48</posx>
-						<posy>20</posy>
+						<left>-48</left>
+						<top>20</top>
 						<width>96</width>
 						<height>96</height>
 						<fadetime>400</fadetime>
@@ -1521,8 +1546,8 @@
 						<animation effect="fade" start="100" end="0" time="300">WindowClose</animation>
 					</control>		
 					<control type="label">
-						<posx>0</posx>
-						<posy>120</posy>
+						<left>0</left>
+						<top>120</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu2</font>
@@ -1891,8 +1916,8 @@
 				<visible>Skin.HasSetting(HomeTotals)</visible>
 				<visible>!Container(540).HasFocus(7)</visible>
 			<control type="image">
-				<posx>15</posx>
-				<posy>961</posy>
+				<left>15</left>
+				<top>961</top>
 				<width>32</width>
 				<height>32</height>
 				<aspectratio>stretch</aspectratio>
@@ -1900,8 +1925,8 @@
 				<colordiffuse>ffffffff</colordiffuse>
 			</control>	
 			<control type="label">
-				<posx>55</posx>
-				<posy>968</posy>
+				<left>55</left>
+				<top>968</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -1910,8 +1935,8 @@
 				<label fallback="-">library totals</label>
 			</control>
 			<control type="image">
-				<posx>15</posx>
-				<posy>994</posy>
+				<left>15</left>
+				<top>994</top>
 				<width>484</width>
 				<height>136</height>
 				<aspectratio>stretch</aspectratio>
@@ -1919,8 +1944,8 @@
 				<colordiffuse>0effffff</colordiffuse>
 			</control>	
 			<control type="image">
-				<posx>260</posx>
-				<posy>1007</posy>
+				<left>260</left>
+				<top>1007</top>
 				<width>1</width>
 				<height>110</height>
 				<aspectratio>stretch</aspectratio>
@@ -1928,12 +1953,12 @@
 				<colordiffuse>24ffffff</colordiffuse>
 			</control>	
 			<control type="group">
-				<posx>45</posx>
-				<posy>32</posy>
+				<left>45</left>
+				<top>32</top>
 				<visible>!Container(540).HasFocus(7)</visible>
 			<control type="label">
-				<posx>7</posx>
-				<posy>990</posy>
+				<left>7</left>
+				<top>990</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -1944,8 +1969,8 @@
 			</control>
 			<!--  Labels Movie Playlist Count -->
 				<control type="label">
-				<posx>7</posx>
-				<posy>990</posy>
+				<left>7</left>
+				<top>990</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -1955,8 +1980,8 @@
 				<visible>!Player.HasMedia + Container(540).HasFocus(30)</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>990</posy>
+				<left>7</left>
+				<top>990</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -1966,8 +1991,8 @@
 				<visible>!Player.HasMedia + Container(540).HasFocus(31)</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>990</posy>
+				<left>7</left>
+				<top>990</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -1977,8 +2002,8 @@
 				<visible>!Player.HasMedia + Container(540).HasFocus(32)</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>1020</posy>
+				<left>7</left>
+				<top>1020</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -1989,8 +2014,8 @@
 			</control>
 			<!--  Labels Movie Playlist watched -->
 			<control type="label">
-				<posx>7</posx>
-				<posy>1020</posy>
+				<left>7</left>
+				<top>1020</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2000,8 +2025,8 @@
 				<visible>!Player.HasMedia + Container(540).HasFocus(30)</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>1020</posy>
+				<left>7</left>
+				<top>1020</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2011,8 +2036,8 @@
 				<visible>!Player.HasMedia + Container(540).HasFocus(31)</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>1020</posy>
+				<left>7</left>
+				<top>1020</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2022,8 +2047,8 @@
 				<visible>!Player.HasMedia + Container(540).HasFocus(32)</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>1050</posy>
+				<left>7</left>
+				<top>1050</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2034,8 +2059,8 @@
 			</control>
 			<!--  Labels Movie Playlist Unwatched -->
 			<control type="label">
-				<posx>7</posx>
-				<posy>1050</posy>
+				<left>7</left>
+				<top>1050</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2045,8 +2070,8 @@
 				<visible>!Player.HasMedia + Container(540).HasFocus(30)</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>1050</posy>
+				<left>7</left>
+				<top>1050</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2056,8 +2081,8 @@
 				<visible>!Player.HasMedia + Container(540).HasFocus(31)</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>1050</posy>
+				<left>7</left>
+				<top>1050</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2067,8 +2092,8 @@
 				<visible>!Player.HasMedia + Container(540).HasFocus(32)</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>990</posy>
+				<left>7</left>
+				<top>990</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2079,8 +2104,8 @@
 			</control>
 			<!--  Labels TV Shows Playlist 1 Count -->
 			 <control type="label">
-				<posx>7</posx>
-				<posy>990</posy>
+				<left>7</left>
+				<top>990</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2090,8 +2115,8 @@
 				<visible>!Player.HasMedia + Container(540).HasFocus(33)</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>990</posy>
+				<left>7</left>
+				<top>990</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2101,8 +2126,8 @@
 				<visible>!Player.HasMedia + Container(540).HasFocus(34)</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>990</posy>
+				<left>7</left>
+				<top>990</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2113,8 +2138,8 @@
 			</control>
 			
 			<control type="label">
-				<posx>7</posx>
-				<posy>1020</posy>
+				<left>7</left>
+				<top>1020</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2125,8 +2150,8 @@
 			</control>
 			<!-- Lables TVShows Playlist Count Episodes -->
 			<control type="label">
-				<posx>7</posx>
-				<posy>1020</posy>
+				<left>7</left>
+				<top>1020</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2136,8 +2161,8 @@
 				<visible>!Player.HasMedia + Container(540).HasFocus(33)</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>1020</posy>
+				<left>7</left>
+				<top>1020</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2147,8 +2172,8 @@
 				<visible>!Player.HasMedia + Container(540).HasFocus(34)</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>1020</posy>
+				<left>7</left>
+				<top>1020</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2159,8 +2184,8 @@
 			</control>
 			
 			<control type="label">
-				<posx>7</posx>
-				<posy>1050</posy>
+				<left>7</left>
+				<top>1050</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2171,8 +2196,8 @@
 			</control>
 			<!-- Lables TVShows Playlist Unwatched Episodes -->
 			<control type="label">
-				<posx>7</posx>
-				<posy>1050</posy>
+				<left>7</left>
+				<top>1050</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2182,8 +2207,8 @@
 				<visible>!Player.HasMedia + Container(540).HasFocus(33)</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>1050</posy>
+				<left>7</left>
+				<top>1050</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2193,8 +2218,8 @@
 				<visible>!Player.HasMedia + Container(540).HasFocus(34)</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>1050</posy>
+				<left>7</left>
+				<top>1050</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2205,8 +2230,8 @@
 			</control>
 			
 			<control type="label">
-				<posx>7</posx>
-				<posy>990</posy>
+				<left>7</left>
+				<top>990</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2216,8 +2241,8 @@
 				<visible>!Player.HasMedia + [Container(540).HasFocus(4) | Container(540).HasFocus(9)]</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>1020</posy>
+				<left>7</left>
+				<top>1020</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2227,8 +2252,8 @@
 				<visible>!Player.HasMedia + [Container(540).HasFocus(4) | Container(540).HasFocus(9)]</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>1050</posy>
+				<left>7</left>
+				<top>1050</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2238,8 +2263,8 @@
 				<visible>!Player.HasMedia + [Container(540).HasFocus(4) | Container(540).HasFocus(9)]</visible>
 			</control>
 			<control type="label">
-				<posx>250</posx>
-				<posy>990</posy>
+				<left>250</left>
+				<top>990</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2249,8 +2274,8 @@
 				<visible>!Player.HasMedia</visible>
 			</control>
 			<control type="label">
-				<posx>250</posx>
-				<posy>1020</posy>
+				<left>250</left>
+				<top>1020</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2260,8 +2285,8 @@
 				<visible>!Player.HasMedia</visible>
 			</control>	
 			<control type="label">
-				<posx>250</posx>
-				<posy>1050</posy>
+				<left>250</left>
+				<top>1050</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2293,8 +2318,8 @@
 				<visible>!Player.HasMedia</visible>	
 				<visible>Skin.HasSetting(HomeTotals)</visible>	
 			<control type="image">
-				<posx>15</posx>
-				<posy>961</posy>
+				<left>15</left>
+				<top>961</top>
 				<width>32</width>
 				<height>32</height>
 				<aspectratio>stretch</aspectratio>
@@ -2302,8 +2327,8 @@
 				<colordiffuse>ffffffff</colordiffuse>
 			</control>	
 			<control type="label">
-				<posx>55</posx>
-				<posy>968</posy>
+				<left>55</left>
+				<top>968</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2312,8 +2337,8 @@
 				<label fallback="-">weather info</label>
 			</control>
 			<control type="image">
-				<posx>15</posx>
-				<posy>993</posy>
+				<left>15</left>
+				<top>993</top>
 				<width>484</width>
 				<height>132</height>
 				<aspectratio>stretch</aspectratio>
@@ -2321,11 +2346,11 @@
 				<colordiffuse>0effffff</colordiffuse>
 			</control>
 			<control type="group">
-				<posx>45</posx>
-				<posy>28</posy>		
+				<left>45</left>
+				<top>28</top>		
 			<control type="label">
-				<posx>7</posx>
-				<posy>990</posy>
+				<left>7</left>
+				<top>990</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2335,8 +2360,8 @@
 				<visible>!Player.HasMedia + Container(540).HasFocus(7)</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>1020</posy>
+				<left>7</left>
+				<top>1020</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2346,8 +2371,8 @@
 				<visible>!Player.HasMedia + Container(540).HasFocus(7)</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>1050</posy>
+				<left>7</left>
+				<top>1050</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2357,8 +2382,8 @@
 				<visible>!Player.HasMedia + Container(540).HasFocus(7) + !system.hasaddon(weather.weatherplus)</visible>
 			</control>
 			<control type="label">
-				<posx>7</posx>
-				<posy>1050</posy>
+				<left>7</left>
+				<top>1050</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -2376,8 +2401,8 @@
                 <effect type="slide" start="0" end="-764" time="400" delay="0" tween="sine" easing="inout" />
             </animation>				
 			<control type="list" id="640">
-				<posx>515</posx>
-				<posy>700</posy>
+				<left>515</left>
+				<top>700</top>
 				<width>250</width>
 				<height>410</height>
 				<onleft>3011</onleft>
@@ -2399,8 +2424,8 @@
 				<animation effect="fade" start="0" end="100" time="600" delay="600">WindowOpen</animation>	
 				<itemlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -2414,8 +2439,8 @@
 				
 				<focusedlayout height="47" width="250">	
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>250</width>
 						<height>47</height>
 						<aspectratio>stretch</aspectratio>
@@ -2427,8 +2452,8 @@
 						<animation effect="slide" start="0,-14" end="0,0" time="250" reversible="false" tween="back" easing="out" condition="Container(640).OnNext">Focus</animation>			
 					</control>				
 					<control type="label">
-						<posx>30</posx>
-						<posy>2</posy>
+						<left>30</left>
+						<top>2</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -2445,8 +2470,8 @@
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>		
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -2529,8 +2554,8 @@
 			<!-- TV SHOWS -->					
 			<control type="list" id="642">
 				
-				<posx>515</posx>
-				<posy>700</posy>
+				<left>515</left>
+				<top>700</top>
 				<width>250</width>
 				<height>500</height>
 				<onleft>3013</onleft>
@@ -2552,8 +2577,8 @@
 				<animation effect="fade" start="0" end="100" time="600" delay="600">WindowOpen</animation>	
 				<itemlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -2567,8 +2592,8 @@
 				
 				<focusedlayout height="47" width="250">	
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>250</width>
 						<height>47</height>
 						<aspectratio>stretch</aspectratio>
@@ -2580,8 +2605,8 @@
 						<animation effect="slide" start="0,-14" end="0,0" time="250" reversible="false" tween="back" easing="out" condition="Container(642).OnNext">Focus</animation>					
 					</control>			
 					<control type="label">
-						<posx>30</posx>
-						<posy>2</posy>
+						<left>30</left>
+						<top>2</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -2598,8 +2623,8 @@
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>		
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -2671,8 +2696,8 @@
 				
 			<!-- VIDEOS -->					
 			<control type="list" id="644">
-				<posx>515</posx>
-				<posy>700</posy>
+				<left>515</left>
+				<top>700</top>
 				<width>250</width>
 				<height>500</height>
 				<onleft>540</onleft>
@@ -2694,8 +2719,8 @@
 				<animation effect="fade" start="0" end="100" time="600" delay="600">WindowOpen</animation>		
 				<itemlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -2709,8 +2734,8 @@
 			
 				<focusedlayout height="47" width="250">	
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>250</width>
 						<height>47</height>
 						<aspectratio>stretch</aspectratio>
@@ -2722,8 +2747,8 @@
 						<animation effect="slide" start="0,-14" end="0,0" time="250" reversible="false" tween="back" easing="out" condition="Container(644).OnNext">Focus</animation>				
 					</control>
 					<control type="label">
-						<posx>30</posx>
-						<posy>2</posy>
+						<left>30</left>
+						<top>2</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -2738,8 +2763,8 @@
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>		
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -2781,8 +2806,8 @@
 				
 			<!-- MUSIC -->		
 			<control type="list" id="646">
-				<posx>515</posx>
-				<posy>700</posy>
+				<left>515</left>
+				<top>700</top>
 				<width>250</width>
 				<height>430</height>
 				<onleft>3015</onleft>
@@ -2804,8 +2829,8 @@
 				<animation effect="fade" start="0" end="100" time="600" delay="600">WindowOpen</animation>	
 				<itemlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -2818,8 +2843,8 @@
 				</itemlayout>
 				<focusedlayout height="47" width="250">	
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>250</width>
 						<height>47</height>
 						<aspectratio>stretch</aspectratio>
@@ -2831,8 +2856,8 @@
 						<animation effect="slide" start="0,-14" end="0,0" time="250" reversible="false" tween="back" easing="out" condition="Container(646).OnNext">Focus</animation>			
 					</control>			
 					<control type="label">
-						<posx>30</posx>
-						<posy>2</posy>
+						<left>30</left>
+						<top>2</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -2849,8 +2874,8 @@
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>		
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -2933,8 +2958,8 @@
 
 			<!-- Settings -->		
 			<control type="list" id="648">
-				<posx>515</posx>
-				<posy>700</posy>
+				<left>515</left>
+				<top>700</top>
 				<width>250</width>
 				<height>430</height>
 				<onleft>540</onleft>
@@ -2956,8 +2981,8 @@
 				<animation effect="fade" start="0" end="100" time="600" delay="600">WindowOpen</animation>	
 				<itemlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -2970,8 +2995,8 @@
 				</itemlayout>
 				<focusedlayout height="47" width="250">	
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>250</width>
 						<height>47</height>
 						<aspectratio>stretch</aspectratio>
@@ -2983,8 +3008,8 @@
 						<animation effect="slide" start="0,-14" end="0,0" time="250" reversible="false" tween="back" easing="out" condition="Container(648).OnNext">Focus</animation>			
 					</control>			
 					<control type="label">
-						<posx>30</posx>
-						<posy>2</posy>
+						<left>30</left>
+						<top>2</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -2999,8 +3024,8 @@
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>		
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3064,8 +3089,8 @@
 				
 			<!-- WEATHER -->					
 			<control type="list" id="650">
-				<posx>515</posx>
-				<posy>700</posy>
+				<left>515</left>
+				<top>700</top>
 				<width>250</width>
 				<height>500</height>
 				<onleft>540</onleft>
@@ -3087,8 +3112,8 @@
 				<animation effect="fade" start="0" end="100" time="600" delay="600">WindowOpen</animation>
 				<itemlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3102,8 +3127,8 @@
 			
 				<focusedlayout height="47" width="250">	
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>250</width>
 						<height>47</height>
 						<aspectratio>stretch</aspectratio>
@@ -3115,8 +3140,8 @@
 						<animation effect="slide" start="0,-14" end="0,0" time="250" reversible="false" tween="back" easing="out" condition="Container(650).OnNext">Focus</animation>					
 					</control>
 					<control type="label">
-						<posx>30</posx>
-						<posy>2</posy>
+						<left>30</left>
+						<top>2</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3131,8 +3156,8 @@
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>		
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3169,8 +3194,8 @@
 				
 			<!-- ADDONS -->					
 			<control type="list" id="652">
-				<posx>515</posx>
-				<posy>700</posy>
+				<left>515</left>
+				<top>700</top>
 				<width>250</width>
 				<height>500</height>
 				<onleft>3017</onleft>
@@ -3192,8 +3217,8 @@
 				<animation effect="fade" start="0" end="100" time="600" delay="600">WindowOpen</animation>	
 				<itemlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3207,8 +3232,8 @@
 			
 				<focusedlayout height="47" width="250">	
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>250</width>
 						<height>47</height>
 						<aspectratio>stretch</aspectratio>
@@ -3220,8 +3245,8 @@
 						<animation effect="slide" start="0,-14" end="0,0" time="250" reversible="false" tween="back" easing="out" condition="Container(652).OnNext">focus</animation>			
 					</control>				
 					<control type="label">
-						<posx>30</posx>
-						<posy>2</posy>
+						<left>30</left>
+						<top>2</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3238,8 +3263,8 @@
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>		
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3274,8 +3299,8 @@
 			<!-- EXTRA -->
 			<!-- HD MOVIES -->					
 			<control type="list" id="640">
-				<posx>515</posx>
-				<posy>700</posy>
+				<left>515</left>
+				<top>700</top>
 				<width>250</width>
 				<height>500</height>
 				<onleft>3011</onleft>
@@ -3297,8 +3322,8 @@
 				<animation effect="fade" start="0" end="100" time="600" delay="600">WindowOpen</animation>	
 				<itemlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3312,8 +3337,8 @@
 				
 				<focusedlayout height="47" width="250">	
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>250</width>
 						<height>47</height>
 						<aspectratio>stretch</aspectratio>
@@ -3325,8 +3350,8 @@
 						<animation effect="slide" start="0,-14" end="0,0" time="250" reversible="false" tween="back" easing="out" condition="Container(640).OnNext">Focus</animation>			
 					</control>				
 					<control type="label">
-						<posx>30</posx>
-						<posy>2</posy>
+						<left>30</left>
+						<top>2</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3343,8 +3368,8 @@
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>		
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3397,8 +3422,8 @@
 				
 					<!-- POWER -->					
 			<control type="list" id="655">
-				<posx>515</posx>
-				<posy>700</posy>
+				<left>515</left>
+				<top>700</top>
 				<width>250</width>
 				<height>500</height>
 				<onleft>3011</onleft>
@@ -3420,8 +3445,8 @@
 				<animation effect="fade" start="0" end="100" time="600" delay="600">WindowOpen</animation>	
 				<itemlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3435,8 +3460,8 @@
 				
 				<focusedlayout height="47" width="250">	
 					<control type="image">
-						<posx>0</posx>
-						<posy>0</posy>
+						<left>0</left>
+						<top>0</top>
 						<width>250</width>
 						<height>47</height>
 						<aspectratio>stretch</aspectratio>
@@ -3448,8 +3473,8 @@
 						<animation effect="slide" start="0,-14" end="0,0" time="250" reversible="false" tween="back" easing="out" condition="Container(655).OnNext">Focus</animation>			
 					</control>				
 					<control type="label">
-						<posx>30</posx>
-						<posy>2</posy>
+						<left>30</left>
+						<top>2</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3466,8 +3491,8 @@
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>		
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3546,8 +3571,8 @@
 				
 				<!-- Recently Added Movie Playlist 1 -->					
 			<control type="list" id="657">
-				<posx>515</posx>
-				<posy>700</posy>
+				<left>515</left>
+				<top>700</top>
 				<width>250</width>
 				<height>500</height>
 				<onleft>540</onleft>
@@ -3569,8 +3594,8 @@
 				<animation effect="fade" start="0" end="100" time="600" delay="600">WindowOpen</animation>	
 				<itemlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3584,8 +3609,8 @@
 				
 				<focusedlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>2</posy>
+						<left>30</left>
+						<top>2</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3602,8 +3627,8 @@
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>		
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3630,8 +3655,8 @@
 				
 					<!-- Recently Added Movie Playlist 2 -->					
 			<control type="list" id="658">
-				<posx>515</posx>
-				<posy>700</posy>
+				<left>515</left>
+				<top>700</top>
 				<width>250</width>
 				<height>500</height>
 				<onleft>540</onleft>
@@ -3653,8 +3678,8 @@
 				<animation effect="fade" start="0" end="100" time="600" delay="600">WindowOpen</animation>	
 				<itemlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3668,8 +3693,8 @@
 				
 				<focusedlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>2</posy>
+						<left>30</left>
+						<top>2</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3686,8 +3711,8 @@
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>		
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3714,8 +3739,8 @@
 				
 				<!-- Recently Added Movie Playlist 3 -->					
 			<control type="list" id="659">
-				<posx>515</posx>
-				<posy>700</posy>
+				<left>515</left>
+				<top>700</top>
 				<width>250</width>
 				<height>500</height>
 				<onleft>540</onleft>
@@ -3737,8 +3762,8 @@
 				<animation effect="fade" start="0" end="100" time="600" delay="600">WindowOpen</animation>	
 				<itemlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3752,8 +3777,8 @@
 				
 				<focusedlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>2</posy>
+						<left>30</left>
+						<top>2</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3770,8 +3795,8 @@
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>		
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3798,8 +3823,8 @@
 				
 				<!-- Recently Added TV Playlist 1 -->					
 			<control type="list" id="660">
-				<posx>515</posx>
-				<posy>700</posy>
+				<left>515</left>
+				<top>700</top>
 				<width>250</width>
 				<height>500</height>
 				<onleft>540</onleft>
@@ -3821,8 +3846,8 @@
 				<animation effect="fade" start="0" end="100" time="600" delay="600">WindowOpen</animation>	
 				<itemlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3836,8 +3861,8 @@
 				
 				<focusedlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>2</posy>
+						<left>30</left>
+						<top>2</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3854,8 +3879,8 @@
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>		
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3882,8 +3907,8 @@
 				
 				<!-- Recently Added TV Playlist 2 -->					
 			<control type="list" id="661">
-				<posx>515</posx>
-				<posy>700</posy>
+				<left>515</left>
+				<top>700</top>
 				<width>250</width>
 				<height>500</height>
 				<onleft>540</onleft>
@@ -3905,8 +3930,8 @@
 				<animation effect="fade" start="0" end="100" time="600" delay="600">WindowOpen</animation>	
 				<itemlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3920,8 +3945,8 @@
 				
 				<focusedlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>2</posy>
+						<left>30</left>
+						<top>2</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3938,8 +3963,8 @@
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>		
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -3965,8 +3990,8 @@
 				
            <!-- Recently Added TV Playlist 3 -->					
 			<control type="list" id="662">
-				<posx>515</posx>
-				<posy>700</posy>
+				<left>515</left>
+				<top>700</top>
 				<width>250</width>
 				<height>500</height>
 				<onleft>540</onleft>
@@ -3988,8 +4013,8 @@
 				<animation effect="fade" start="0" end="100" time="600" delay="600">WindowOpen</animation>	
 				<itemlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -4003,8 +4028,8 @@
 				
 				<focusedlayout height="47" width="250">	
 					<control type="label">
-						<posx>30</posx>
-						<posy>2</posy>
+						<left>30</left>
+						<top>2</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -4021,8 +4046,8 @@
 						<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>
 					</control>		
 					<control type="label">
-						<posx>30</posx>
-						<posy>1</posy>
+						<left>30</left>
+						<top>1</top>
 						<width>250</width>
 						<height>35</height>
 						<font>homemenu3</font>
@@ -4051,8 +4076,8 @@
 			<!--  ADDONS VOD -->
 			
 			<control type="list" id="654">
-				<posx>17</posx>
-				<posy>674</posy>
+				<left>17</left>
+				<top>674</top>
 				<width>1280</width>
 				<height>262</height>
 				<onleft>654</onleft>
@@ -4077,8 +4102,8 @@
 				<visible>Container(540).HasFocus(13)</visible>
 				<itemlayout height="256" width="256">	
 				  <control type="image">
-					  <posx>0</posx>
-					  <posy>38</posy>
+					  <left>0</left>
+					  <top>38</top>
 					  <width>222</width>
 					  <height>222</height>
 					  <aspectratio>stretch</aspectratio>
@@ -4086,8 +4111,8 @@
 					  <colordiffuse>10ffffff</colordiffuse>
 				  </control>
 				  <control type="image">
-					  <posx>10</posx>
-					  <posy>48</posy>
+					  <left>10</left>
+					  <top>48</top>
 					  <width>201</width>
 					  <height>201</height>
 					  <aspectratio>stretch</aspectratio>
@@ -4097,8 +4122,8 @@
 				</itemlayout>
 				<focusedlayout height="256" width="256">
 				  <control type="image">
-					  <posx>0</posx>
-					  <posy>38</posy>
+					  <left>0</left>
+					  <top>38</top>
 					  <width>222</width>
 					  <height>222</height>
 					  <aspectratio>stretch</aspectratio>
@@ -4106,8 +4131,8 @@
 					  <colordiffuse>10ffffff</colordiffuse>
 				  </control>
 				  <control type="image">
-					  <posx>0</posx>
-					  <posy>38</posy>
+					  <left>0</left>
+					  <top>38</top>
 					  <width>222</width>
 					  <height>222</height>
 					  <aspectratio>stretch</aspectratio>
@@ -4117,8 +4142,8 @@
 					  <visible>Control.HasFocus(654)</visible>
 				  </control>	
 				  <control type="image">
-					  <posx>-12</posx>
-					  <posy>26</posy>
+					  <left>-12</left>
+					  <top>26</top>
 					  <width>245</width>
 					  <height>245</height>
 					  <aspectratio>stretch</aspectratio>
@@ -4128,8 +4153,8 @@
 					  <visible>Control.HasFocus(654)</visible>
 				  </control>
 				  <control type="image">
-					  <posx>10</posx>
-					  <posy>48</posy>
+					  <left>10</left>
+					  <top>48</top>
 					  <width>201</width>
 					  <height>201</height>
 					  <aspectratio>stretch</aspectratio>
@@ -4174,28 +4199,29 @@
 		</control>
 </control>
 			<control type="image">
-				<posx>-20</posx>
-				<posy>90</posy>
-				<width>80</width>
+				<left>-20</left>
+				<top>556</top>
+				<width>70</width>
 				<height>171</height>
 				<aspectratio>stretch</aspectratio>
-				<texture>Home/iconfade.png</texture>
-				<colordiffuse>FFFFFFFF</colordiffuse>	
-				<animation effect="fade" start="0" end="100" time="500" delay="1900">WindowOpen</animation>
-				<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>		
+				<texture flipy="true" >Home/iconfade.png</texture>
+				<colordiffuse>FFDDDDDD</colordiffuse>	
+				<animation effect="fade" start="0" end="93" time="500" delay="1900">WindowOpen</animation>
+				<animation effect="fade" start="93" end="0" time="300" delay="0">WindowClose</animation>		
 			</control>
 			<control type="image">
-				<posx>60r</posx>
-				<posy>90</posy>
-				<width>80</width>
+				<left>60r</left>
+				<top>556</top>
+				<width>70</width>
 				<height>171</height>
 				<aspectratio>stretch</aspectratio>
-				<texture flipx="true">Home/iconfade.png</texture>
-				<colordiffuse>FFDDDDDD</colordiffuse>	
-				<animation effect="fade" start="0" end="100" time="500" delay="1900">WindowOpen</animation>
-				<animation effect="fade" start="100" end="0" time="300" delay="0">WindowClose</animation>		
+				<texture flipx="true" flipy="true" >Home/iconfade.png</texture>
+				<colordiffuse>FFFFFFFF</colordiffuse>	
+				<animation effect="fade" start="0" end="93" time="500" delay="1900">WindowOpen</animation>
+				<animation effect="fade" start="93" end="0" time="300" delay="0">WindowClose</animation>		
 			</control>
 		<control type="group">
+		<top>475</top>
 		<animation type="WindowOpen" reversible="false">
 			<effect type="fade" start="0" end="100" time="450" delay="600" />
 			<effect type="slide" start="-60,0" end="0,0" time="200" delay="600" />			
@@ -4205,8 +4231,8 @@
 			<effect type="slide" start="0,0" end="-60,0" time="200" delay="0" />			
 		</animation>
 			<control type="image">
-				<posx>10</posx>
-				<posy>150</posy>
+				<left>10</left>
+				<top>150</top>
 				<width>34</width>
 				<height>34</height>
 				<aspectratio>stretch</aspectratio>
@@ -4216,8 +4242,8 @@
 				<visible>!Container(540).OnPrevious</visible>					
 			</control>
 			<control type="image">
-				<posx>10</posx>
-				<posy>150</posy>
+				<left>10</left>
+				<top>150</top>
 				<width>34</width>
 				<height>34</height>
 				<aspectratio>stretch</aspectratio>
@@ -4232,6 +4258,7 @@
 			</control>			
 		</control>			
 		<control type="group">
+		<top>475</top>
 		<animation type="WindowOpen" reversible="false">
 			<effect type="fade" start="0" end="100" time="450" delay="600" />
 			<effect type="slide" start="60,0" end="0,0" time="200" delay="600" />			
@@ -4241,8 +4268,8 @@
 			<effect type="slide" start="0,0" end="60,0" time="200" delay="0" />			
 		</animation>		
 			<control type="image">
-				<posx>1235</posx>
-				<posy>150</posy>
+				<left>1235</left>
+				<top>150</top>
 				<width>34</width>
 				<height>34</height>
 				<aspectratio>stretch</aspectratio>
@@ -4252,8 +4279,8 @@
 				<visible>!Container(540).OnNext</visible>				
 			</control>
 			<control type="image">
-				<posx>1235</posx>
-				<posy>150</posy>
+				<left>1235</left>
+				<top>150</top>
 				<width>34</width>
 				<height>34</height>
 				<aspectratio>stretch</aspectratio>
@@ -4269,8 +4296,8 @@
 		</control>
 			
 		<control type="image">
-			<posx>630</posx>
-			<posy>260</posy>
+			<left>630</left>
+			<top>260</top>
 			<width>20</width>
 			<height>12</height>
 			<aspectratio>stretch</aspectratio>
@@ -4302,8 +4329,8 @@
                <!-- recently added icon and text -->	
 			   
 				  <control type="image">
-					  <posx>500r</posx>
-					  <posy>451r</posy>
+					  <left>500r</left>
+					  <top>451r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -4325,8 +4352,8 @@
 				  <!-- recently added movies text -->	
 				  
 				  <control type="label">
-					  <posx>460r</posx>
-					  <posy>451r</posy>
+					  <left>460r</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -4348,8 +4375,8 @@
 				  </control>
 				  <!-- watchlist movies text -->		
 				  <control type="label">
-					  <posx>460r</posx>
-					  <posy>451r</posy>
+					  <left>460r</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -4373,8 +4400,8 @@
 				  <!-- recently added episodes text -->	
 				  
 				  <control type="label">
-					  <posx>460r</posx>
-					  <posy>451r</posy>
+					  <left>460r</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -4398,8 +4425,8 @@
 				   <!-- watchlist episodes text -->	
 				   
 				  <control type="label">
-					  <posx>460r</posx>
-					  <posy>451r</posy>
+					  <left>460r</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -4422,8 +4449,8 @@
 				  
 				  <!-- recently added albums text -->	
 				  <control type="label">
-					  <posx>460r</posx>
-					  <posy>451r</posy>
+					  <left>460r</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -4446,8 +4473,8 @@
 				  
 				   <!-- watchlist albums text -->	
 				  <!--  <control type="label">
-					  <posx>460r</posx>
-					  <posy>451r</posy>
+					  <left>460r</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -4469,8 +4496,8 @@
 				  </control> -->
 				  <!-- 
 				  <control type="label">
-					  <posx>460r</posx>
-					  <posy>451r</posy>
+					  <left>460r</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -4493,8 +4520,8 @@
 				  
                  <!-- featured icon and text -->			  
 				  <control type="image">
-					  <posx>15</posx>
-					  <posy>452r</posy>
+					  <left>15</left>
+					  <top>452r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -4514,8 +4541,8 @@
 				  </control>
 				  
 				  <control type="label">
-					  <posx>55</posx>
-					  <posy>451r</posy>
+					  <left>55</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -4536,8 +4563,8 @@
 				  </control>
 				  
 				  <control type="label">
-					  <posx>55</posx>
-					  <posy>451r</posy>
+					  <left>55</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -4558,8 +4585,8 @@
 				  </control>
 				  
 				  <control type="label">
-					  <posx>55</posx>
-					  <posy>451r</posy>
+					  <left>55</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -4580,8 +4607,8 @@
 				  </control>
 				  
 				  <control type="label">
-					  <posx>55</posx>
-					  <posy>451r</posy>
+					  <left>55</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -4613,8 +4640,8 @@
 <!-- Recently Added and Featured Items --> 				  				  			
 				
 <control type="image">
-	<posx>500</posx>
-	<posy>500</posy>
+	<left>500</left>
+	<top>500</top>
 	<width>320</width>
 	<height>180</height>
 	<texture background="true">$INFO[Container(1).ListItem.Property(FanartImage)]</texture>
@@ -4627,8 +4654,8 @@
 				
 <!-- recently added icon and text -->			
 				  <control type="image">
-					  <posx>500r</posx>
-					  <posy>451r</posy>
+					  <left>500r</left>
+					  <top>451r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -4648,8 +4675,8 @@
 				  </control>	
 				  <!-- recently added movies text -->	
 				  <control type="label">
-					  <posx>460r</posx>
-					  <posy>451r</posy>
+					  <left>460r</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -4670,8 +4697,8 @@
 				  </control>
 <!-- featured icon and text -->			  
 				  <control type="image">
-					  <posx>15</posx>
-					  <posy>452r</posy>
+					  <left>15</left>
+					  <top>452r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -4691,8 +4718,8 @@
 				  </control>
 				  
 				  <control type="label">
-					  <posx>55</posx>
-					  <posy>451r</posy>
+					  <left>55</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -4714,8 +4741,8 @@
 <!-- Recently Added and Featured Items --> 				  				  			
 				
 <control type="image">
-	<posx>500</posx>
-	<posy>500</posy>
+	<left>500</left>
+	<top>500</top>
 	<width>320</width>
 	<height>180</height>
 	<texture background="true">$INFO[Container(1).ListItem.Property(FanartImage)]</texture>
@@ -4729,8 +4756,8 @@
 				
 <!-- recently added icon and text -->			
 				  <control type="image">
-					  <posx>500r</posx>
-					  <posy>451r</posy>
+					  <left>500r</left>
+					  <top>451r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -4750,8 +4777,8 @@
 				  </control>	
 				  <!-- recently added movies text -->	
 				  <control type="label">
-					  <posx>460r</posx>
-					  <posy>451r</posy>
+					  <left>460r</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -4772,8 +4799,8 @@
 				  </control>
 <!-- featured icon and text -->			  
 				  <control type="image">
-					  <posx>15</posx>
-					  <posy>452r</posy>
+					  <left>15</left>
+					  <top>452r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -4793,8 +4820,8 @@
 				  </control>
 				  
 				  <control type="label">
-					  <posx>55</posx>
-					  <posy>451r</posy>
+					  <left>55</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -4816,8 +4843,8 @@
 <!-- Recently Added and Featured Items --> 				  				  			
 			
 <control type="image">
-	<posx>500</posx>
-	<posy>500</posy>
+	<left>500</left>
+	<top>500</top>
 	<width>320</width>
 	<height>180</height>
 	<texture background="true">$INFO[Container(1).ListItem.Property(FanartImage)]</texture>
@@ -4832,8 +4859,8 @@
 				
 <!-- recently added icon and text -->			
 				  <control type="image">
-					  <posx>500r</posx>
-					  <posy>451r</posy>
+					  <left>500r</left>
+					  <top>451r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -4853,8 +4880,8 @@
 				  </control>	
 				  <!-- recently added movies text -->	
 				  <control type="label">
-					  <posx>460r</posx>
-					  <posy>451r</posy>
+					  <left>460r</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -4875,8 +4902,8 @@
 				  </control>
 <!-- featured icon and text -->			  
 				  <control type="image">
-					  <posx>15</posx>
-					  <posy>452r</posy>
+					  <left>15</left>
+					  <top>452r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -4896,8 +4923,8 @@
 				  </control>
 				  
 				  <control type="label">
-					  <posx>55</posx>
-					  <posy>451r</posy>
+					  <left>55</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -4919,8 +4946,8 @@
 <!-- Recently Added and Featured Items --> 				  				  			
 				
 <control type="image">
-	<posx>500</posx>
-	<posy>500</posy>
+	<left>500</left>
+	<top>500</top>
 	<width>320</width>
 	<height>180</height>
 	<texture background="true">$INFO[Container(1).ListItem.Property(FanartImage)]</texture>
@@ -4934,8 +4961,8 @@
 				
 <!-- recently added icon and text -->			
 				  <control type="image">
-					  <posx>500r</posx>
-					  <posy>451r</posy>
+					  <left>500r</left>
+					  <top>451r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -4955,8 +4982,8 @@
 				  </control>	
 				  <!-- recently added movies text -->	
 				  <control type="label">
-					  <posx>460r</posx>
-					  <posy>451r</posy>
+					  <left>460r</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -4977,8 +5004,8 @@
 				  </control>
 <!-- featured icon and text -->			  
 				  <control type="image">
-					  <posx>15</posx>
-					  <posy>452r</posy>
+					  <left>15</left>
+					  <top>452r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -4998,8 +5025,8 @@
 				  </control>
 				  
 				  <control type="label">
-					  <posx>55</posx>
-					  <posy>451r</posy>
+					  <left>55</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -5021,8 +5048,8 @@
 <!-- Recently Added and Featured Items --> 				  				  			
 				
 <control type="image">
-	<posx>500</posx>
-	<posy>500</posy>
+	<left>500</left>
+	<top>500</top>
 	<width>320</width>
 	<height>180</height>
 	<texture background="true">$INFO[Container(1).ListItem.Property(FanartImage)]</texture>
@@ -5036,8 +5063,8 @@
 				
 <!-- recently added icon and text -->			
 				  <control type="image">
-					  <posx>500r</posx>
-					  <posy>451r</posy>
+					  <left>500r</left>
+					  <top>451r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -5057,8 +5084,8 @@
 				  </control>	
 				  <!-- recently added movies text -->	
 				  <control type="label">
-					  <posx>460r</posx>
-					  <posy>451r</posy>
+					  <left>460r</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -5079,8 +5106,8 @@
 				  </control>
 <!-- featured icon and text -->			  
 				  <control type="image">
-					  <posx>15</posx>
-					  <posy>452r</posy>
+					  <left>15</left>
+					  <top>452r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -5100,8 +5127,8 @@
 				  </control>
 				  
 				  <control type="label">
-					  <posx>55</posx>
-					  <posy>451r</posy>
+					  <left>55</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -5123,8 +5150,8 @@
 <!-- Recently Added and Featured Items --> 				  				  			
 				
 <control type="image">
-	<posx>500</posx>
-	<posy>500</posy>
+	<left>500</left>
+	<top>500</top>
 	<width>320</width>
 	<height>180</height>
 	<texture background="true">$INFO[Container(1).ListItem.Property(FanartImage)]</texture>
@@ -5138,8 +5165,8 @@
 				
 <!-- recently added icon and text -->			
 				  <control type="image">
-					  <posx>500r</posx>
-					  <posy>451r</posy>
+					  <left>500r</left>
+					  <top>451r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -5159,8 +5186,8 @@
 				  </control>	
 				  <!-- recently added movies text -->	
 				  <control type="label">
-					  <posx>460r</posx>
-					  <posy>451r</posy>
+					  <left>460r</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -5181,8 +5208,8 @@
 				  </control>
 <!-- featured icon and text -->			  
 				  <control type="image">
-					  <posx>15</posx>
-					  <posy>452r</posy>
+					  <left>15</left>
+					  <top>452r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -5202,8 +5229,8 @@
 				  </control>
 				  
 				  <control type="label">
-					  <posx>55</posx>
-					  <posy>451r</posy>
+					  <left>55</left>
+					  <top>451r</top>
 					  <width>250</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -5225,8 +5252,8 @@
 <!-- Recently Added and Featured Items --> 				  				  			
 				
 <control type="image">
-	<posx>500</posx>
-	<posy>500</posy>
+	<left>500</left>
+	<top>500</top>
 	<width>320</width>
 	<height>180</height>
 	<texture background="true">$INFO[Container(1).ListItem.Property(Icon)]</texture>
@@ -5242,8 +5269,8 @@
 <control type="group">
 				<visible>Skin.HasSetting(HomeSystemInfo)</visible>
 				  <control type="image">
-					  <posx>500r</posx>
-					  <posy>451r</posy>
+					  <left>500r</left>
+					  <top>451r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -5263,8 +5290,8 @@
 				  </control>
 				  
 				  <control type="label">
-					  <posx>460r</posx>
-					  <posy>451r</posy>
+					  <left>460r</left>
+					  <top>451r</top>
 					  <width>200</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -5285,8 +5312,8 @@
 				  </control>
 				  
 		<control type="group">
-				<posx>800</posx>
-				<posy>326</posy>
+				<left>800</left>
+				<top>326</top>
 				<animation type="Visible" condition="Container(540).HasFocus(9)" reversible="false">
 					<effect type="fade" start="0" end="100" time="250" />
 				</animation>
@@ -5300,8 +5327,8 @@
 				<visible>Container(540).HasFocus(9)</visible>
 		
 			<control type="image">
-				<posx>-20</posx>
-				<posy>-17</posy>
+				<left>-20</left>
+				<top>-17</top>
 				<width>484</width>
 				<height>338</height>
 				<aspectratio>stretch</aspectratio>
@@ -5310,8 +5337,8 @@
 			</control>			
 		
 			<control type="label">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>460</width>
 				<height>20</height>
 				<align>left</align>
@@ -5322,8 +5349,8 @@
 				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31700][/COLOR] $INFO[System.Date][/LOWERCASE]</label>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>40</posy>
+				<left>0</left>
+				<top>40</top>
 				<width>460</width>
 				<height>20</height>
 				<align>left</align>
@@ -5334,8 +5361,8 @@
 				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31701][/COLOR] $INFO[System.Uptime][/LOWERCASE]</label>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>80</posy>
+				<left>0</left>
+				<top>80</top>
 				<width>460</width>
 				<height>20</height>
 				<align>left</align>
@@ -5346,8 +5373,8 @@
 				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31702][/COLOR] $LOCALIZE[31703][/LOWERCASE]</label>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>80</posy>
+				<left>0</left>
+				<top>80</top>
 				<width>460</width>
 				<height>20</height>
 				<align>left</align>
@@ -5358,8 +5385,8 @@
 				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31702][/COLOR] $LOCALIZE[31704][/LOWERCASE]</label>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>80</posy>
+				<left>0</left>
+				<top>80</top>
 				<width>460</width>
 				<height>20</height>
 				<align>left</align>
@@ -5370,8 +5397,8 @@
 				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31702][/COLOR] [COLOR red]$LOCALIZE[31705][/COLOR] $INFO[System.ScreenWidth]x$INFO[System.ScreenHeight][/LOWERCASE]</label>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>120</posy>
+				<left>0</left>
+				<top>120</top>
 				<width>460</width>
 				<height>20</height>
 				<align>left</align>
@@ -5382,8 +5409,8 @@
 				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31706][/COLOR] $INFO[System.FPS][/LOWERCASE]</label>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>160</posy>
+				<left>0</left>
+				<top>160</top>
 				<width>460</width>
 				<height>20</height>
 				<align>left</align>
@@ -5394,8 +5421,8 @@
 				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31707][/COLOR] $INFO[System.CpuFrequency][/LOWERCASE]</label>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>200</posy>
+				<left>0</left>
+				<top>200</top>
 				<width>460</width>
 				<height>20</height>
 				<align>left</align>
@@ -5406,8 +5433,8 @@
 				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31708][/COLOR] $INFO[System.FreeMemory][/LOWERCASE]</label>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>240</posy>
+				<left>0</left>
+				<top>240</top>
 				<width>460</width>
 				<height>20</height>
 				<align>left</align>
@@ -5418,8 +5445,8 @@
 				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31709][/COLOR] $INFO[System.BuildVersion][/LOWERCASE]</label>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>280</posy>
+				<left>0</left>
+				<top>280</top>
 				<width>360</width>
 				<height>20</height>
 				<align>left</align>
@@ -5430,8 +5457,8 @@
 				<label fallback="-">[LOWERCASE][COLOR=ffa0a0a0]$LOCALIZE[31710][/COLOR][/LOWERCASE]</label>
 			</control>
 			<control type="label">
-				<posx>90</posx>
-				<posy>280</posy>
+				<left>90</left>
+				<top>280</top>
 				<width>360</width>
 				<height>20</height>
 				<align>left</align>
@@ -5447,8 +5474,8 @@
 
 <!-- Storage Space Info on Settings Home -->	
 				  <control type="image">
-					  <posx>15</posx>
-					  <posy>451r</posy>
+					  <left>15</left>
+					  <top>451r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -5468,8 +5495,8 @@
 				  </control>
 				  
 				  <control type="label">
-					  <posx>55</posx>
-					  <posy>451r</posy>
+					  <left>55</left>
+					  <top>451r</top>
 					  <width>200</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -5490,8 +5517,8 @@
 				  </control>
 
 		<control type="group">
-				<posx>35</posx>
-				<posy>326</posy>
+				<left>35</left>
+				<top>326</top>
 				<animation type="Conditional" condition="Container(540).HasFocus(9)" reversible="false">
 					<effect type="fade" start="0" end="100" time="250" />
 				</animation>
@@ -5505,8 +5532,8 @@
 				<visible>Container(540).HasFocus(9)</visible>
 				
 			<control type="image">
-				<posx>-20</posx>
-				<posy>-17</posy>
+				<left>-20</left>
+				<top>-17</top>
 				<width>484</width>
 				<height>220</height>
 				<aspectratio>stretch</aspectratio>
@@ -5515,8 +5542,8 @@
 			</control>
 				
 			<control type="label">
-				<posx>0</posx>
-				<posy>0</posy>
+				<left>0</left>
+				<top>0</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -5526,8 +5553,8 @@
 				<label fallback="-">$LOCALIZE[31618] [LOWERCASE]$INFO[System.UsedSpacePercent][/LOWERCASE]</label>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>40</posy>
+				<left>0</left>
+				<top>40</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -5537,8 +5564,8 @@
 				<label fallback="-">$LOCALIZE[31618] [LOWERCASE]$INFO[System.FreeSpacePercent][/LOWERCASE]</label>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>80</posy>
+				<left>0</left>
+				<top>80</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -5548,8 +5575,8 @@
 				<label fallback="-">$LOCALIZE[31618] [LOWERCASE]$INFO[System.TotalSpace][/LOWERCASE]</label>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>120</posy>
+				<left>0</left>
+				<top>120</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -5559,8 +5586,8 @@
 				<label fallback="-">$LOCALIZE[31618] [LOWERCASE]$INFO[System.UsedSpace][/LOWERCASE]</label>
 			</control>
 			<control type="label">
-				<posx>0</posx>
-				<posy>160</posy>
+				<left>0</left>
+				<top>160</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -5576,8 +5603,8 @@
 <control type="group">
 				<visible>Skin.HasSetting(HomeWeatherInfo)</visible>
 				  <control type="image">
-					  <posx>15</posx>
-					  <posy>451r</posy>
+					  <left>15</left>
+					  <top>451r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -5597,8 +5624,8 @@
 				  </control>
 				  
 				  <control type="label">
-					  <posx>55</posx>
-					  <posy>451r</posy>
+					  <left>55</left>
+					  <top>451r</top>
 					  <width>200</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -5619,8 +5646,8 @@
 				  </control>
 
 		<control type="group">
-				<posx>35</posx>
-				<posy>323</posy>
+				<left>35</left>
+				<top>323</top>
 				<animation type="Conditional" condition="Container(540).HasFocus(7)" reversible="false">
 					<effect type="fade" start="0" end="100" time="250" />
 				</animation>
@@ -5634,8 +5661,8 @@
 				<visible>Container(540).HasFocus(7)</visible>
 				
 			<control type="image">
-				<posx>-20</posx>
-				<posy>-17</posy>
+				<left>-20</left>
+				<top>-17</top>
 				<width>484</width>
 				<height>220</height>
 				<aspectratio>stretch</aspectratio>
@@ -5645,8 +5672,8 @@
 			
 			<control type="image">
 				<description>current weather icon</description>
-				<posx>10</posx>
-				<posy>5</posy>
+				<left>10</left>
+				<top>5</top>
 				<height>180</height>
 				<width>180</width>
 				<texture>$INFO[Window(Weather).Property(Current.ConditionIcon)]</texture>
@@ -5654,8 +5681,8 @@
 			</control>
 			<control type="label">
 				<description>current temp value</description>
-				<posx>220</posx>
-				<posy>25</posy>
+				<left>220</left>
+				<top>25</top>
 				<width>300</width>
 				<height>30</height>
 				<font>weatherlarge</font>
@@ -5666,8 +5693,8 @@
 			</control>	
 			<control type="label">
 				<description>conditions label</description>
-				<posx>220</posx>
-				<posy>85</posy>
+				<left>220</left>
+				<top>85</top>
 				<width>250</width>
 				<info>Window(Weather).Property(Day0.Outlook)</info>
 				<font>context</font>
@@ -5676,8 +5703,8 @@
 			</control>	
 			
 			<control type="label">
-				<posx>220</posx>
-				<posy>130</posy>
+				<left>220</left>
+				<top>130</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -5686,8 +5713,8 @@
 				<label fallback="-">[COLOR=BBE0E0E0]$LOCALIZE[31713][/COLOR] $INFO[Window(Weather).Property(Current.FeelsLike)] $INFO[System.TemperatureUnits]</label>
 			</control>
 			<control type="label">
-				<posx>220</posx>
-				<posy>160</posy>
+				<left>220</left>
+				<top>160</top>
 				<width>500</width>
 				<height>20</height>
 				<align>left</align>
@@ -5699,8 +5726,8 @@
 			
 <!-- Future Weather Info on Weather Home -->	
 				  <control type="image">
-					  <posx>500r</posx>
-					  <posy>451r</posy>
+					  <left>500r</left>
+					  <top>451r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -5720,8 +5747,8 @@
 				  </control>
 				  
 				  <control type="label">
-					  <posx>460r</posx>
-					  <posy>451r</posy>
+					  <left>460r</left>
+					  <top>451r</top>
 					  <width>260</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -5743,8 +5770,8 @@
 				  
 		<control type="group">
 		<describtion>Day 0 Info</describtion>
-				<posx>780</posx>
-				<posy>310</posy>
+				<left>780</left>
+				<top>310</top>
 				<animation type="Conditional" condition="Container(540).HasFocus(7)" reversible="false">
 					<effect type="fade" start="0" end="100" time="250" />
 				</animation>
@@ -5758,8 +5785,8 @@
 				<visible>Container(540).HasFocus(7)</visible>
 		
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -5767,8 +5794,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>19</posx>
-                    <posy>12</posy>
+                    <left>19</left>
+                    <top>12</top>
                     <width>75</width>
                     <height>75</height>
                     <aspectratio>stretch</aspectratio>
@@ -5776,8 +5803,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="label">
-                    <posx>105</posx>
-                    <posy>12</posy>
+                    <left>105</left>
+                    <top>12</top>
                     <width>350</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -5787,8 +5814,8 @@
 					<scroll>false</scroll>
                 </control>
                 <control type="label">
-                    <posx>106</posx>
-                    <posy>35</posy>
+                    <left>106</left>
+                    <top>35</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -5797,8 +5824,8 @@
                     <label>$LOCALIZE[31716] [COLOR=White]$INFO[Window(Weather).Property(Day0.LowTemp)] $INFO[System.TemperatureUnits][/COLOR] $LOCALIZE[31717] [COLOR=White]$INFO[Window(Weather).Property(Day0.HighTemp)] $INFO[System.TemperatureUnits][/COLOR]</label>
                 </control>
                 <control type="label">
-                    <posx>106</posx>
-                    <posy>55</posy>
+                    <left>106</left>
+                    <top>55</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -5810,8 +5837,8 @@
 			
 		<control type="group">
 		<describtion>Day 1 Info</describtion>
-				<posx>780</posx>
-				<posy>410</posy>
+				<left>780</left>
+				<top>410</top>
 				<animation type="Conditional" condition="Container(540).HasFocus(7)" reversible="false">
 					<effect type="fade" start="0" end="100" time="250" />
 				</animation>
@@ -5825,8 +5852,8 @@
 				<visible>Container(540).HasFocus(7)</visible>
 		
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -5834,8 +5861,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>19</posx>
-                    <posy>12</posy>
+                    <left>19</left>
+                    <top>12</top>
                     <width>75</width>
                     <height>75</height>
                     <aspectratio>stretch</aspectratio>
@@ -5843,8 +5870,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="label">
-                    <posx>105</posx>
-                    <posy>12</posy>
+                    <left>105</left>
+                    <top>12</top>
                     <width>350</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -5854,8 +5881,8 @@
 					<scroll>false</scroll>
                 </control>
                 <control type="label">
-                    <posx>106</posx>
-                    <posy>35</posy>
+                    <left>106</left>
+                    <top>35</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -5864,8 +5891,8 @@
                     <label>$LOCALIZE[31716] [COLOR=White]$INFO[Window(Weather).Property(Day1.LowTemp)] $INFO[System.TemperatureUnits][/COLOR] $LOCALIZE[31717] [COLOR=White]$INFO[Window(Weather).Property(Day1.HighTemp)] $INFO[System.TemperatureUnits][/COLOR]</label>
                 </control>
                 <control type="label">
-                    <posx>106</posx>
-                    <posy>55</posy>
+                    <left>106</left>
+                    <top>55</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -5877,8 +5904,8 @@
 			
 		<control type="group">
 		<describtion>Day 2 Info</describtion>
-				<posx>780</posx>
-				<posy>510</posy>
+				<left>780</left>
+				<top>510</top>
 				<animation type="Conditional" condition="Container(540).HasFocus(7)" reversible="false">
 					<effect type="fade" start="0" end="100" time="250" />
 				</animation>
@@ -5892,8 +5919,8 @@
 				<visible>Container(540).HasFocus(7)</visible>
 		
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -5901,8 +5928,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>19</posx>
-                    <posy>12</posy>
+                    <left>19</left>
+                    <top>12</top>
                     <width>75</width>
                     <height>75</height>
                     <aspectratio>stretch</aspectratio>
@@ -5910,8 +5937,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="label">
-                    <posx>105</posx>
-                    <posy>12</posy>
+                    <left>105</left>
+                    <top>12</top>
                     <width>350</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -5921,8 +5948,8 @@
 					<scroll>false</scroll>
                 </control>
                 <control type="label">
-                    <posx>106</posx>
-                    <posy>35</posy>
+                    <left>106</left>
+                    <top>35</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -5931,8 +5958,8 @@
                     <label>$LOCALIZE[31716] [COLOR=White]$INFO[Window(Weather).Property(Day2.LowTemp)] $INFO[System.TemperatureUnits][/COLOR] $LOCALIZE[31717] [COLOR=White]$INFO[Window(Weather).Property(Day2.HighTemp)] $INFO[System.TemperatureUnits][/COLOR]</label>
                 </control>
                 <control type="label">
-                    <posx>106</posx>
-                    <posy>55</posy>
+                    <left>106</left>
+                    <top>55</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -5944,8 +5971,8 @@
 			
 		<control type="group">
 		<describtion>Day 3 Info</describtion>
-				<posx>780</posx>
-				<posy>610</posy>
+				<left>780</left>
+				<top>610</top>
 				<animation type="Conditional" condition="Container(540).HasFocus(7)" reversible="false">
 					<effect type="fade" start="0" end="100" time="250" />
 				</animation>
@@ -5959,8 +5986,8 @@
 				<visible>Container(540).HasFocus(7)</visible>
 		
                 <control type="image">
-                    <posx>0</posx>
-                    <posy>0</posy>
+                    <left>0</left>
+                    <top>0</top>
                     <width>484</width>
                     <height>104</height>
                     <aspectratio>stretch</aspectratio>
@@ -5968,8 +5995,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="image">
-                    <posx>19</posx>
-                    <posy>12</posy>
+                    <left>19</left>
+                    <top>12</top>
                     <width>75</width>
                     <height>75</height>
                     <aspectratio>stretch</aspectratio>
@@ -5977,8 +6004,8 @@
                     <colordiffuse>ffffffff</colordiffuse>
                 </control>
                 <control type="label">
-                    <posx>105</posx>
-                    <posy>12</posy>
+                    <left>105</left>
+                    <top>12</top>
                     <width>350</width>
                     <height>35</height>
                     <font>homemenu3</font>
@@ -5988,8 +6015,8 @@
 					<scroll>false</scroll>
                 </control>
                 <control type="label">
-                    <posx>106</posx>
-                    <posy>35</posy>
+                    <left>106</left>
+                    <top>35</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -5998,8 +6025,8 @@
                     <label>$LOCALIZE[31716] [COLOR=White]$INFO[Window(Weather).Property(Day3.LowTemp)] $INFO[System.TemperatureUnits][/COLOR] $LOCALIZE[31717] [COLOR=White]$INFO[Window(Weather).Property(Day3.HighTemp)] $INFO[System.TemperatureUnits][/COLOR]</label>
                 </control>
                 <control type="label">
-                    <posx>106</posx>
-                    <posy>55</posy>
+                    <left>106</left>
+                    <top>55</top>
                     <width>350</width>
                     <height>35</height>
                     <font>recent2</font>
@@ -6024,8 +6051,8 @@
 				<animation type="WindowClose" reversible="false">
 				<effect type="fade" start="100" end="0" time="200" />
 				</animation>
-				<posx>0</posx>
-				<posy>460</posy>
+				<left>0</left>
+				<top>460</top>
 				<width>1280</width>
 				<height>159</height>
 				<aspectratio>stretch</aspectratio>
@@ -6046,8 +6073,8 @@
 				<animation type="WindowClose" reversible="false">
 				<effect type="fade" start="100" end="0" time="200" />
 				</animation>
-				<posx>0</posx>
-				<posy>300</posy>
+				<left>0</left>
+				<top>300</top>
 				<width>1280</width>
 				<height>159</height>
 				<aspectratio>stretch</aspectratio>
@@ -6068,8 +6095,8 @@
 				<animation type="WindowClose" reversible="false">
 				<effect type="fade" start="100" end="0" time="200" />
 				</animation>
-				<posx>0</posx>
-				<posy>450</posy>
+				<left>0</left>
+				<top>450</top>
 				<width>1280</width>
 				<height>20</height>
 				<align>center</align>
@@ -6081,8 +6108,8 @@
 				  
 <!-- now playing icon and text -->		
 				  <control type="image">
-					  <posx>15</posx>
-					  <posy>179r</posy>
+					  <left>15</left>
+					  <top>179r</top>
 					  <width>32</width>
 					  <height>32</height>
 					  <aspectratio>stretch</aspectratio>
@@ -6103,8 +6130,8 @@
 				  </control>
 				
 				  <control type="label">
-					  <posx>55</posx>
-					  <posy>179r</posy>
+					  <left>55</left>
+					  <top>179r</top>
 					  <width>200</width>
 					  <height>32</height>
 					  <font>recent</font>
@@ -6129,10 +6156,10 @@
 
 <!-- RSS -->
  	<control type="image">
-		<posx>0</posx>
-		<posy>53</posy>
+		<left>0</left>
+		<top>53</top>
 		<width>1280</width>
-		<height>45</height>
+		<height>35</height>
 		<aspectratio>stretch</aspectratio>
 		<texture>Home/rssbar.png</texture>
 		<animation type="WindowClose" reversible="false">
@@ -6146,10 +6173,10 @@
 	</control> 
 	<control type="rss">
 		<description>RSS Feed</description>
-		<posx>0</posx>
-		<posy>55.5</posy>
+		<left>0</left>
+		<top>55.5</top>
 		<width>1280</width>
-		<font>rss</font>
+		<font>rss1</font>
 		<urlset>1</urlset>
 		<titlecolor>RSStitle</titlecolor>
 		<headlinecolor>RSStext2</headlinecolor>
@@ -6164,8 +6191,8 @@
 		</animation>
 	</control>
 	<control type="image">
-		<posx>0</posx>
-		<posy>715</posy>
+		<left>0</left>
+		<top>715</top>
 		<width>1280</width>
 		<height>5</height>
 		<aspectratio>stretch</aspectratio>
@@ -6176,8 +6203,8 @@
 		<animation effect="slide" start="0,0" end="0,15" delay="0" time="600" reversable="false">WindowClose</animation>
 	</control>
 	<control type="image">
-		<posx>0</posx>
-		<posy>715</posy>
+		<left>0</left>
+		<top>715</top>
 		<width>1280</width>
 		<height>5</height>
 		<aspectratio>stretch</aspectratio>

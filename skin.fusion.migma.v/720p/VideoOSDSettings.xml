@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <window id="123">
 <defaultcontrol always="true">5</defaultcontrol>
 <allowoverlay>yes</allowoverlay>
@@ -88,7 +89,7 @@
 		<texturenofocus border="1">-</texturenofocus>
 	</control>
 	
-	<control type="sliderex" id="10">
+	<control type="sliderex" id="13">
 		<height>30</height>
 		<align>left</align>
 		<font>button</font>
